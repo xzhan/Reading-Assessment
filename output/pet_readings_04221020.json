@@ -1,0 +1,654 @@
+{
+  "source_pdf": "/Users/aistudio/PET/PET全.pdf",
+  "batch_id": "04221020",
+  "generated_at": "2026-04-22T10:39:51",
+  "start_page": 1,
+  "end_page": 2,
+  "total_readings": 2,
+  "readings": [
+    {
+      "passage": "Last week, our school went on an exciting ski trip to the Alpine Resort. Before the trip, students had to select their own snowboards from the school's equipment room. Each person was allowed to bring only one piece of luggage, so packing was important. I brought a soft cushion for the bus journey to make it more comfortable. The resort was fantastic, with well-maintained pavements in the village area. We learned about health tips, such as drinking plenty of water, and we were given passwords for the online trip diary. During our stay, we had lessons from professional instructors who taught us how to snowboard safely. The resort offered many activities, and we had free time to explore. Exactly fifteen students participated, and the experience was so memorable that we hope to go again forever. It was a great adventure that everyone enjoyed.",
+      "passage_word_count": 143,
+      "questions": [
+        {
+          "number": 1,
+          "question": "What is the main topic of this school newsletter article?",
+          "options": {
+            "A": "A school ski trip to a resort",
+            "B": "How to snowboard safely",
+            "C": "The importance of packing luggage",
+            "D": "A party at school after the trip"
+          },
+          "answer": "A"
+        },
+        {
+          "number": 2,
+          "question": "How many students went on the ski trip?",
+          "options": {
+            "A": "Ten",
+            "B": "Fifteen",
+            "C": "Twelve",
+            "D": "Twenty"
+          },
+          "answer": "B"
+        },
+        {
+          "number": 3,
+          "question": "Why did the writer bring a cushion on the trip?",
+          "options": {
+            "A": "To sit on while skiing",
+            "B": "For comfort during the bus journey",
+            "C": "To use as a snowboard accessory",
+            "D": "To give to a friend at the resort"
+          },
+          "answer": "B"
+        },
+        {
+          "number": 4,
+          "question": "What can be inferred about the students' feelings towards the trip?",
+          "options": {
+            "A": "They found it boring and too long",
+            "B": "They did not enjoy the resort activities",
+            "C": "They thought it was enjoyable and memorable",
+            "D": "They were disappointed with the snowboarding lessons"
+          },
+          "answer": "C"
+        },
+        {
+          "number": 5,
+          "question": "What does the word 'exactly' mean in the sentence 'Exactly fifteen students participated'?",
+          "options": {
+            "A": "Approximately",
+            "B": "Precisely",
+            "C": "Almost",
+            "D": "Very"
+          },
+          "answer": "B"
+        }
+      ],
+      "answers": [
+        {
+          "number": 1,
+          "answer": "A"
+        },
+        {
+          "number": 2,
+          "answer": "B"
+        },
+        {
+          "number": 3,
+          "answer": "B"
+        },
+        {
+          "number": 4,
+          "answer": "C"
+        },
+        {
+          "number": 5,
+          "answer": "B"
+        }
+      ],
+      "used_vocab": [
+        "forever",
+        "cushion",
+        "snowboard",
+        "select",
+        "luggage",
+        "health",
+        "exactly",
+        "resort"
+      ],
+      "difficulty_notes": "The passage uses clear, everyday language suitable for B1 level, with context clues for vocabulary.",
+      "title": "Reading Quest: PET全_Page_1_04221020",
+      "page_number": 1,
+      "lesson_number": 1,
+      "focus_words": [
+        {
+          "term": "forever",
+          "gloss": "永远"
+        },
+        {
+          "term": "cushion",
+          "gloss": "软垫"
+        },
+        {
+          "term": "password",
+          "gloss": "又令 , 密码"
+        },
+        {
+          "term": "snowboard",
+          "gloss": "滑雪板"
+        },
+        {
+          "term": "pavement",
+          "gloss": "人行道"
+        },
+        {
+          "term": "select",
+          "gloss": "选择"
+        },
+        {
+          "term": "luggage",
+          "gloss": "行李"
+        },
+        {
+          "term": "health",
+          "gloss": "健康;卫生"
+        },
+        {
+          "term": "exactly",
+          "gloss": "精确地"
+        },
+        {
+          "term": "resort",
+          "gloss": "旅游胜地"
+        }
+      ],
+      "source_words": [
+        {
+          "term": "forever",
+          "gloss": "永远"
+        },
+        {
+          "term": "cushion",
+          "gloss": "软垫"
+        },
+        {
+          "term": "sock",
+          "gloss": "短袜"
+        },
+        {
+          "term": "password",
+          "gloss": "又令 , 密码"
+        },
+        {
+          "term": "snowboard",
+          "gloss": "滑雪板"
+        },
+        {
+          "term": "pavement",
+          "gloss": "人行道"
+        },
+        {
+          "term": "select",
+          "gloss": "选择"
+        },
+        {
+          "term": "luggage",
+          "gloss": "行李"
+        },
+        {
+          "term": "health",
+          "gloss": "健康;卫生"
+        },
+        {
+          "term": "exactly",
+          "gloss": "精确地"
+        },
+        {
+          "term": "resort",
+          "gloss": "旅游胜地"
+        },
+        {
+          "term": "cartoon",
+          "gloss": "动画片"
+        },
+        {
+          "term": "eighty",
+          "gloss": "八十"
+        },
+        {
+          "term": "injure",
+          "gloss": "伤害"
+        },
+        {
+          "term": "biscuit",
+          "gloss": "饼干 ( 英式 )"
+        },
+        {
+          "term": "unit",
+          "gloss": "单元"
+        },
+        {
+          "term": "comment",
+          "gloss": "评论"
+        },
+        {
+          "term": "homework",
+          "gloss": "家庭作业"
+        },
+        {
+          "term": "which",
+          "gloss": "哪一个"
+        },
+        {
+          "term": "real",
+          "gloss": "实际的 , 真的"
+        },
+        {
+          "term": "disease",
+          "gloss": "疾病"
+        },
+        {
+          "term": "kangaroo",
+          "gloss": "袋鼠"
+        },
+        {
+          "term": "earn",
+          "gloss": "赚得 , 获得"
+        },
+        {
+          "term": "tiny",
+          "gloss": "极小的"
+        },
+        {
+          "term": "crash",
+          "gloss": "碰撞"
+        },
+        {
+          "term": "fully",
+          "gloss": "完全地"
+        },
+        {
+          "term": "Tuesday",
+          "gloss": "星期二"
+        },
+        {
+          "term": "photographer",
+          "gloss": "摄影师"
+        },
+        {
+          "term": "pocket",
+          "gloss": "又袋 , 钱袋"
+        },
+        {
+          "term": "convince",
+          "gloss": "使确信"
+        },
+        {
+          "term": "party",
+          "gloss": "聚会 ; 党派"
+        },
+        {
+          "term": "confident",
+          "gloss": "自信的"
+        },
+        {
+          "term": "further",
+          "gloss": "深一层的"
+        },
+        {
+          "term": "smart",
+          "gloss": "聪明的"
+        },
+        {
+          "term": "hat",
+          "gloss": "帽子"
+        },
+        {
+          "term": "cool",
+          "gloss": "凉爽的 ; 冷静的"
+        },
+        {
+          "term": "closed",
+          "gloss": "关着的"
+        },
+        {
+          "term": "think",
+          "gloss": "想 , 认为"
+        },
+        {
+          "term": "law",
+          "gloss": "法律"
+        },
+        {
+          "term": "useful",
+          "gloss": "有用的"
+        },
+        {
+          "term": "attractive",
+          "gloss": "吸引人的"
+        },
+        {
+          "term": "efficient",
+          "gloss": "效率高的"
+        },
+        {
+          "term": "cafeteria",
+          "gloss": "自助餐厅"
+        },
+        {
+          "term": "chess",
+          "gloss": "国际象棋"
+        },
+        {
+          "term": "ambulance",
+          "gloss": "救护车"
+        }
+      ]
+    },
+    {
+      "passage": "Subject: My Summer Adventure Hi Alex, Hope you're doing well. I wanted to share my summer job experience at the local wildlife park. It's been terrific! I'm working full-time during the school holidays, which is rather demanding, but I've developed a positive attitude towards hard work. I really prefer being outside with the animals. Last Tuesday, we had a group of school children visiting, and I showed them the bird sanctuary. They were amazed by the colourful parrots. The park has modern buildings, and the toilet facilities are always clean, which is important. After my shift, my colleague and I often play baseball with a soft ball. It's not a real game, just for fun. My ambition is to become a wildlife conservationist one day. What about you? Any exciting plans? Write back soon, Sam",
+      "passage_word_count": 135,
+      "questions": [
+        {
+          "number": 1,
+          "question": "What is the main topic of Sam's email?",
+          "options": {
+            "A": "His school subjects and exams",
+            "B": "His summer job and personal interests",
+            "C": "Alex's summer holiday plans",
+            "D": "A professional baseball match"
+          },
+          "answer": "B"
+        },
+        {
+          "number": 2,
+          "question": "What does Sam do after finishing work at the park?",
+          "options": {
+            "A": "He cleans the toilet facilities",
+            "B": "He plays baseball with a colleague",
+            "C": "He studies at the university library",
+            "D": "He writes emails to his family"
+          },
+          "answer": "B"
+        },
+        {
+          "number": 3,
+          "question": "Why does Sam mention the clean toilet facilities?",
+          "options": {
+            "A": "To complain about the park's maintenance",
+            "B": "To highlight that the park is modern and well-kept",
+            "C": "To encourage Alex to apply for a job there",
+            "D": "To describe a problem he faced at work"
+          },
+          "answer": "B"
+        },
+        {
+          "number": 4,
+          "question": "What can we infer about Sam's attitude from the email?",
+          "options": {
+            "A": "He is unhappy with his job.",
+            "B": "He has become more positive about working hard.",
+            "C": "He is lazy and avoids responsibilities.",
+            "D": "He prefers indoor activities over outdoor ones."
+          },
+          "answer": "B"
+        },
+        {
+          "number": 5,
+          "question": "What does the word 'terrific' mean in the context of the email?",
+          "options": {
+            "A": "Very bad or unpleasant",
+            "B": "Quite good but not excellent",
+            "C": "Extremely good or wonderful",
+            "D": "Rather boring and uninteresting"
+          },
+          "answer": "C"
+        }
+      ],
+      "answers": [
+        {
+          "number": 1,
+          "answer": "B"
+        },
+        {
+          "number": 2,
+          "answer": "B"
+        },
+        {
+          "number": 3,
+          "answer": "B"
+        },
+        {
+          "number": 4,
+          "answer": "B"
+        },
+        {
+          "number": 5,
+          "answer": "C"
+        }
+      ],
+      "used_vocab": [
+        "full-time",
+        "attitude",
+        "terrific",
+        "rather",
+        "ambition",
+        "prefer",
+        "wildlife",
+        "toilet",
+        "modern",
+        "baseball"
+      ],
+      "difficulty_notes": "The passage uses everyday vocabulary and simple sentence structures suitable for upper A2 to B1 learners.",
+      "title": "Reading Quest: PET全_Page_2_04221020",
+      "page_number": 2,
+      "lesson_number": 2,
+      "focus_words": [
+        {
+          "term": "full-time",
+          "gloss": "全职的"
+        },
+        {
+          "term": "attitude",
+          "gloss": "态度"
+        },
+        {
+          "term": "terrific",
+          "gloss": "极好的"
+        },
+        {
+          "term": "rather",
+          "gloss": "相当"
+        },
+        {
+          "term": "ambition",
+          "gloss": "野心 , 志向"
+        },
+        {
+          "term": "prefer",
+          "gloss": "更喜欢 , 宁愿"
+        },
+        {
+          "term": "wildlife",
+          "gloss": "野生动物"
+        },
+        {
+          "term": "toilet",
+          "gloss": "厕所 , 盥洗室"
+        },
+        {
+          "term": "modern",
+          "gloss": "现代的"
+        },
+        {
+          "term": "baseball",
+          "gloss": "棒球"
+        }
+      ],
+      "source_words": [
+        {
+          "term": "twelfth",
+          "gloss": "第十二"
+        },
+        {
+          "term": "tower",
+          "gloss": "塔"
+        },
+        {
+          "term": "attitude",
+          "gloss": "态度"
+        },
+        {
+          "term": "terrific",
+          "gloss": "极好的"
+        },
+        {
+          "term": "pet",
+          "gloss": "宠物"
+        },
+        {
+          "term": "full-time",
+          "gloss": "全职的"
+        },
+        {
+          "term": "rather",
+          "gloss": "相当"
+        },
+        {
+          "term": "never",
+          "gloss": "从不"
+        },
+        {
+          "term": "music",
+          "gloss": "音乐"
+        },
+        {
+          "term": "crowd",
+          "gloss": "群众 , 一伙"
+        },
+        {
+          "term": "ambition",
+          "gloss": "野心 , 志向"
+        },
+        {
+          "term": "prefer",
+          "gloss": "更喜欢 , 宁愿"
+        },
+        {
+          "term": "thirty",
+          "gloss": "三十"
+        },
+        {
+          "term": "nine",
+          "gloss": "九"
+        },
+        {
+          "term": "wildlife",
+          "gloss": "野生动物"
+        },
+        {
+          "term": "toilet",
+          "gloss": "厕所 , 盥洗室"
+        },
+        {
+          "term": "silly",
+          "gloss": "傻的"
+        },
+        {
+          "term": "among",
+          "gloss": "在 ... 之中"
+        },
+        {
+          "term": "modern",
+          "gloss": "现代的"
+        },
+        {
+          "term": "hurry",
+          "gloss": "匆忙 , 赶快"
+        },
+        {
+          "term": "baseball",
+          "gloss": "棒球"
+        },
+        {
+          "term": "underpants",
+          "gloss": "内衣裤"
+        },
+        {
+          "term": "right",
+          "gloss": "正确的 , 合适的"
+        },
+        {
+          "term": "rope",
+          "gloss": "绳子"
+        },
+        {
+          "term": "position",
+          "gloss": "位置"
+        },
+        {
+          "term": "grandfather",
+          "gloss": "外 ) 祖父"
+        },
+        {
+          "term": "uninterested",
+          "gloss": "不感兴趣的"
+        },
+        {
+          "term": "fine",
+          "gloss": "晴朗的 , 健康的"
+        },
+        {
+          "term": "printer",
+          "gloss": "打印机"
+        },
+        {
+          "term": "grape",
+          "gloss": "葡萄"
+        },
+        {
+          "term": "bear",
+          "gloss": "熊"
+        },
+        {
+          "term": "unnecessary",
+          "gloss": "不必要的"
+        },
+        {
+          "term": "statue",
+          "gloss": "雕像"
+        },
+        {
+          "term": "come",
+          "gloss": "来"
+        },
+        {
+          "term": "bottle",
+          "gloss": "瓶子"
+        },
+        {
+          "term": "house",
+          "gloss": "房子 , 住宅"
+        },
+        {
+          "term": "fourteenth",
+          "gloss": "第十四"
+        },
+        {
+          "term": "disco",
+          "gloss": "迪斯科舞厅"
+        },
+        {
+          "term": "princess",
+          "gloss": "公主"
+        },
+        {
+          "term": "one",
+          "gloss": "一 , 一个"
+        },
+        {
+          "term": "cloudy",
+          "gloss": "多云的"
+        },
+        {
+          "term": "amazing",
+          "gloss": "令人惊讶的"
+        },
+        {
+          "term": "choose",
+          "gloss": "选择"
+        },
+        {
+          "term": "perfectly",
+          "gloss": "完美地"
+        },
+        {
+          "term": "afterwards",
+          "gloss": "以后 , 后来"
+        }
+      ]
+    }
+  ]
+}

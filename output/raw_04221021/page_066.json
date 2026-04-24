@@ -1,0 +1,129 @@
+{
+  "passage": "A bright new vegetarian cafe has opened beside the library, and the owner is looking to employ one weekend helper. The lady who runs the place says she wants a student who can smile at customers, clear tables quickly and learn simple tasks in the kitchen. I visited yesterday with my sister, and the room felt sunny and welcoming, with plants on every shelf. The menu was short but delicious: soup, salad, sandwiches and fruit drinks. Although I am not vegetarian, I enjoyed the food and the calm atmosphere. The owner explained that the job is only for Saturday mornings, so it would not affect schoolwork. She also said experience is useful but not necessary if the person is polite and reliable. It sounds like a good first job for someone who likes working with people.",
+  "passage_word_count": 136,
+  "questions": [
+    {
+      "number": 1,
+      "question": "Where is the new cafe?",
+      "options": {
+        "A": "Beside the library",
+        "B": "Next to the station",
+        "C": "Inside the school",
+        "D": "Near the beach"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 2,
+      "question": "What kind of helper does the lady want?",
+      "options": {
+        "A": "Someone who can cook full meals",
+        "B": "A person with years of experience",
+        "C": "A polite student who can help customers",
+        "D": "A musician for Saturday evenings"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 3,
+      "question": "Why is the job suitable for a student?",
+      "options": {
+        "A": "It includes free books",
+        "B": "It is only on Saturday mornings",
+        "C": "It is close to the beach",
+        "D": "It pays for all school costs"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 4,
+      "question": "What did the writer think of the cafe?",
+      "options": {
+        "A": "Too small and dark",
+        "B": "Expensive but quiet",
+        "C": "Only good for vegetarians",
+        "D": "Sunny, welcoming and tasty"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 5,
+      "question": "Who runs the cafe?",
+      "options": {
+        "A": "A lady owner",
+        "B": "The local library",
+        "C": "Two school students",
+        "D": "A sports coach"
+      },
+      "answer": "A"
+    }
+  ],
+  "answers": [
+    {
+      "number": 1,
+      "answer": "A"
+    },
+    {
+      "number": 2,
+      "answer": "C"
+    },
+    {
+      "number": 3,
+      "answer": "B"
+    },
+    {
+      "number": 4,
+      "answer": "D"
+    },
+    {
+      "number": 5,
+      "answer": "A"
+    }
+  ],
+  "used_vocab": [
+    "bright",
+    "vegetarian",
+    "employ",
+    "lady"
+  ],
+  "difficulty_notes": "A simple job and café text with very direct factual questions.",
+  "title": "Reading Quest: PET全_Page_66_04221021",
+  "page_number": 66,
+  "lesson_number": 66,
+  "focus_words": [
+    {
+      "term": "bright",
+      "gloss": "明亮的"
+    },
+    {
+      "term": "vegetarian",
+      "gloss": "素食者"
+    },
+    {
+      "term": "employ",
+      "gloss": "雇用"
+    },
+    {
+      "term": "lady",
+      "gloss": "女士"
+    }
+  ],
+  "source_words": [
+    {
+      "term": "lady",
+      "gloss": "女士"
+    },
+    {
+      "term": "bright",
+      "gloss": "明亮的"
+    },
+    {
+      "term": "vegetarian",
+      "gloss": "素食者"
+    },
+    {
+      "term": "employ",
+      "gloss": "雇用"
+    }
+  ]
+}

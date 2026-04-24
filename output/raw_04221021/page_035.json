@@ -1,0 +1,312 @@
+{
+  "passage": "Last November, I decided to take a short holiday to the seaside town of Brightling. It was the furthest I had ever traveled on my own, so I felt both nervous and thrilled. My primary object for the trip was complete relaxation, as I had been studying hard for exams. The hotel I booked had a modern design, which was surprising for such an old town. On my first attempt to explore, I walked to the historic pier, but it started raining badly. I quickly went to a cosy café and treated myself to a warm cup of tea and a large chocolate cookie. I definitely deserved it after the long journey! The next day, the weather was clear, and I spent the day in a nearby forest, which was perfect for unwinding. Overall, it was a refreshing break that I needed.",
+  "passage_word_count": 142,
+  "questions": [
+    {
+      "number": 1,
+      "question": "What is the main idea of the blog?",
+      "options": {
+        "A": "To describe a school exam.",
+        "B": "To recommend a seaside town.",
+        "C": "To share a personal holiday experience.",
+        "D": "To explain how to design a hotel."
+      },
+      "answer": "C"
+    },
+    {
+      "number": 2,
+      "question": "What was the weather like on the first day of exploration?",
+      "options": {
+        "A": "Sunny and warm.",
+        "B": "Windy and cold.",
+        "C": "Rainy.",
+        "D": "Clear and fine."
+      },
+      "answer": "C"
+    },
+    {
+      "number": 3,
+      "question": "Why did the writer go to Brightling?",
+      "options": {
+        "A": "To visit family.",
+        "B": "To study for exams.",
+        "C": "To relax after studying.",
+        "D": "To work as a designer."
+      },
+      "answer": "C"
+    },
+    {
+      "number": 4,
+      "question": "How might the writer describe the trip at the end?",
+      "options": {
+        "A": "A waste of time.",
+        "B": "A challenging adventure.",
+        "C": "A rejuvenating experience.",
+        "D": "A boring stay."
+      },
+      "answer": "C"
+    },
+    {
+      "number": 5,
+      "question": "What does 'object' mean in the sentence 'My primary object for the trip was complete relaxation'?",
+      "options": {
+        "A": "A goal or purpose.",
+        "B": "A physical item.",
+        "C": "A type of building.",
+        "D": "A criticism."
+      },
+      "answer": "A"
+    }
+  ],
+  "answers": [
+    {
+      "number": 1,
+      "answer": "C"
+    },
+    {
+      "number": 2,
+      "answer": "C"
+    },
+    {
+      "number": 3,
+      "answer": "C"
+    },
+    {
+      "number": 4,
+      "answer": "C"
+    },
+    {
+      "number": 5,
+      "answer": "A"
+    }
+  ],
+  "used_vocab": [
+    "furthest",
+    "design",
+    "November",
+    "cookie",
+    "object",
+    "relaxation",
+    "attempt"
+  ],
+  "difficulty_notes": "The passage uses simple past tense and everyday vocabulary suitable for B1 learners.",
+  "title": "Reading Quest: PET全_Page_35_04221021",
+  "page_number": 35,
+  "lesson_number": 35,
+  "focus_words": [
+    {
+      "term": "furthest",
+      "gloss": "最大限度地"
+    },
+    {
+      "term": "design",
+      "gloss": "设计"
+    },
+    {
+      "term": "November",
+      "gloss": "十一月"
+    },
+    {
+      "term": "deserve",
+      "gloss": "应得"
+    },
+    {
+      "term": "cookie",
+      "gloss": "饼干 ( 美式 )"
+    },
+    {
+      "term": "object",
+      "gloss": "目标"
+    },
+    {
+      "term": "relaxation",
+      "gloss": "使放松"
+    },
+    {
+      "term": "attempt",
+      "gloss": "尝试"
+    }
+  ],
+  "source_words": [
+    {
+      "term": "furthest",
+      "gloss": "最大限度地"
+    },
+    {
+      "term": "badly",
+      "gloss": "非常 ; 恶劣地"
+    },
+    {
+      "term": "design",
+      "gloss": "设计"
+    },
+    {
+      "term": "November",
+      "gloss": "十一月"
+    },
+    {
+      "term": "deserve",
+      "gloss": "应得"
+    },
+    {
+      "term": "cookie",
+      "gloss": "饼干 ( 美式 )"
+    },
+    {
+      "term": "pin",
+      "gloss": "大头针"
+    },
+    {
+      "term": "object",
+      "gloss": "目标"
+    },
+    {
+      "term": "relaxation",
+      "gloss": "使放松"
+    },
+    {
+      "term": "first",
+      "gloss": "首先 , 第一"
+    },
+    {
+      "term": "attempt",
+      "gloss": "尝试"
+    },
+    {
+      "term": "cheat",
+      "gloss": "欺骗"
+    },
+    {
+      "term": "grandmother",
+      "gloss": "外 ) 祖母"
+    },
+    {
+      "term": "scary",
+      "gloss": "使人惊慌的"
+    },
+    {
+      "term": "clear",
+      "gloss": "清楚明确的"
+    },
+    {
+      "term": "cousin",
+      "gloss": "堂 ( 或表 ) 兄弟 ( 姐妹 )"
+    },
+    {
+      "term": "appointment",
+      "gloss": "约会 , 预约"
+    },
+    {
+      "term": "firework",
+      "gloss": "烟花"
+    },
+    {
+      "term": "hate",
+      "gloss": "憎恨 , 憎恶"
+    },
+    {
+      "term": "till",
+      "gloss": "直到"
+    },
+    {
+      "term": "quality",
+      "gloss": "质量"
+    },
+    {
+      "term": "worst",
+      "gloss": "最坏的"
+    },
+    {
+      "term": "correct",
+      "gloss": "正确的"
+    },
+    {
+      "term": "engineer",
+      "gloss": "工程师"
+    },
+    {
+      "term": "five",
+      "gloss": "五"
+    },
+    {
+      "term": "four",
+      "gloss": "四"
+    },
+    {
+      "term": "mountain",
+      "gloss": "山"
+    },
+    {
+      "term": "role",
+      "gloss": "角色"
+    },
+    {
+      "term": "channel",
+      "gloss": "通道 ; 渠道"
+    },
+    {
+      "term": "alone",
+      "gloss": "单独的"
+    },
+    {
+      "term": "limit",
+      "gloss": "限度"
+    },
+    {
+      "term": "ride",
+      "gloss": "乘坐 , 短途旅程"
+    },
+    {
+      "term": "incorrect",
+      "gloss": "不正确的"
+    },
+    {
+      "term": "do",
+      "gloss": "干 , 做"
+    },
+    {
+      "term": "salt",
+      "gloss": "盐"
+    },
+    {
+      "term": "toe",
+      "gloss": "脚趾"
+    },
+    {
+      "term": "pull",
+      "gloss": "拔 , 拉 , 拖"
+    },
+    {
+      "term": "autumn",
+      "gloss": "秋季"
+    },
+    {
+      "term": "historic",
+      "gloss": "有历史意义的"
+    },
+    {
+      "term": "forest",
+      "gloss": "森林"
+    },
+    {
+      "term": "brain",
+      "gloss": "大脑 ; 智力"
+    },
+    {
+      "term": "election",
+      "gloss": "选举"
+    },
+    {
+      "term": "tomorrow",
+      "gloss": "明天"
+    },
+    {
+      "term": "dial",
+      "gloss": "拨号"
+    },
+    {
+      "term": "attach",
+      "gloss": "使依附"
+    }
+  ]
+}

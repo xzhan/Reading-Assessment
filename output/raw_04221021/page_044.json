@@ -1,0 +1,312 @@
+{
+  "passage": "Dear Community Members, We are excited to announce the Meadowbrook School Circus, taking place on Saturday, 15th June. The event will start at twelve o'clock in the school hall and finish by four p.m. Following the main show, you can enjoy various activities, including face painting, which requires make-up provided by our art club. If you encounter any trouble during the event, please look for volunteers in blue shirts or send a message to the school office. For food and drinks, we accept all major currencies, but tokens are recommended for faster service. The circus will feature amazing acts from our students, including juggling, acrobatics, and animal shows with cute puppies. Bring your family for a day of fun and laughter! Remember, entry is free, but donations are welcome to support our school's new library. The following classes will perform: Class 5A will do a magic show, and Class 6B will present a dance routine. If you need any assistance, don't hesitate to ask. We look forward to seeing you there!",
+  "passage_word_count": 172,
+  "questions": [
+    {
+      "number": 1,
+      "question": "What is the main purpose of the notice?",
+      "options": {
+        "A": "To invite people to a school circus event.",
+        "B": "To explain how to apply for a job at the circus.",
+        "C": "To sell tickets for a professional show.",
+        "D": "To teach students about different currencies."
+      },
+      "answer": "A"
+    },
+    {
+      "number": 2,
+      "question": "When will the circus finish?",
+      "options": {
+        "A": "At twelve noon.",
+        "B": "By four p.m.",
+        "C": "After three hours.",
+        "D": "In the early evening."
+      },
+      "answer": "B"
+    },
+    {
+      "number": 3,
+      "question": "Why does the notice mention currency?",
+      "options": {
+        "A": "To tell people to bring only cash.",
+        "B": "To explain payment options for food.",
+        "C": "To teach about foreign money.",
+        "D": "To show that tokens are not accepted."
+      },
+      "answer": "B"
+    },
+    {
+      "number": 4,
+      "question": "What can be inferred about the event?",
+      "options": {
+        "A": "It is only for school students.",
+        "B": "It will include animal performances.",
+        "C": "It requires advance booking.",
+        "D": "It is held in a park."
+      },
+      "answer": "B"
+    },
+    {
+      "number": 5,
+      "question": "What does 'encounter' mean in the notice?",
+      "options": {
+        "A": "To find something lost.",
+        "B": "To meet a friend.",
+        "C": "To experience a problem.",
+        "D": "To avoid a situation."
+      },
+      "answer": "C"
+    }
+  ],
+  "answers": [
+    {
+      "number": 1,
+      "answer": "A"
+    },
+    {
+      "number": 2,
+      "answer": "B"
+    },
+    {
+      "number": 3,
+      "answer": "B"
+    },
+    {
+      "number": 4,
+      "answer": "B"
+    },
+    {
+      "number": 5,
+      "answer": "C"
+    }
+  ],
+  "used_vocab": [
+    "make-up",
+    "circus",
+    "twelve",
+    "finish",
+    "following",
+    "message",
+    "trouble"
+  ],
+  "difficulty_notes": "The passage uses clear, everyday language with a mix of simple and compound sentences suitable for B1 learners.",
+  "title": "Reading Quest: PET全_Page_44_04221021",
+  "page_number": 44,
+  "lesson_number": 44,
+  "focus_words": [
+    {
+      "term": "make-up",
+      "gloss": "化妆 ; 化妆品"
+    },
+    {
+      "term": "circus",
+      "gloss": "马戏团"
+    },
+    {
+      "term": "twelve",
+      "gloss": "十二"
+    },
+    {
+      "term": "finish",
+      "gloss": "完成 , 结束"
+    },
+    {
+      "term": "following",
+      "gloss": "下列的"
+    },
+    {
+      "term": "currency",
+      "gloss": "货币"
+    },
+    {
+      "term": "message",
+      "gloss": "又信 , 信息"
+    },
+    {
+      "term": "trouble",
+      "gloss": "麻烦 , 困难"
+    }
+  ],
+  "source_words": [
+    {
+      "term": "way",
+      "gloss": "方法 , 道路"
+    },
+    {
+      "term": "puppy",
+      "gloss": "小狗"
+    },
+    {
+      "term": "snake",
+      "gloss": "蛇"
+    },
+    {
+      "term": "circus",
+      "gloss": "马戏团"
+    },
+    {
+      "term": "boot",
+      "gloss": "靴子 , 行李箱"
+    },
+    {
+      "term": "twelve",
+      "gloss": "十二"
+    },
+    {
+      "term": "finish",
+      "gloss": "完成 , 结束"
+    },
+    {
+      "term": "following",
+      "gloss": "下列的"
+    },
+    {
+      "term": "currency",
+      "gloss": "货币"
+    },
+    {
+      "term": "poet",
+      "gloss": "诗人"
+    },
+    {
+      "term": "sign",
+      "gloss": "迹象 ; 符号"
+    },
+    {
+      "term": "tap",
+      "gloss": "水龙头"
+    },
+    {
+      "term": "such",
+      "gloss": "如此的"
+    },
+    {
+      "term": "message",
+      "gloss": "又信 , 信息"
+    },
+    {
+      "term": "jar",
+      "gloss": "罐子"
+    },
+    {
+      "term": "trouble",
+      "gloss": "麻烦 , 困难"
+    },
+    {
+      "term": "eight",
+      "gloss": "八"
+    },
+    {
+      "term": "read",
+      "gloss": "阅读"
+    },
+    {
+      "term": "load",
+      "gloss": "负载"
+    },
+    {
+      "term": "flavour",
+      "gloss": "味道"
+    },
+    {
+      "term": "translate",
+      "gloss": "翻译"
+    },
+    {
+      "term": "operator",
+      "gloss": "电话接线员"
+    },
+    {
+      "term": "dislike",
+      "gloss": "不喜爱"
+    },
+    {
+      "term": "swimsuit",
+      "gloss": "泳装"
+    },
+    {
+      "term": "picture",
+      "gloss": "图画 , 照片"
+    },
+    {
+      "term": "tooth",
+      "gloss": "牙齿"
+    },
+    {
+      "term": "swim",
+      "gloss": "游泳"
+    },
+    {
+      "term": "powerful",
+      "gloss": "有影响力的"
+    },
+    {
+      "term": "cute",
+      "gloss": "可爱的"
+    },
+    {
+      "term": "postcard",
+      "gloss": "明信片"
+    },
+    {
+      "term": "rob",
+      "gloss": "抢劫"
+    },
+    {
+      "term": "make-up",
+      "gloss": "化妆 ; 化妆品"
+    },
+    {
+      "term": "steep",
+      "gloss": "陡峭的"
+    },
+    {
+      "term": "duty",
+      "gloss": "责任"
+    },
+    {
+      "term": "borrow",
+      "gloss": "借用"
+    },
+    {
+      "term": "lead",
+      "gloss": "带领 , 导向"
+    },
+    {
+      "term": "port",
+      "gloss": "港又"
+    },
+    {
+      "term": "extraordinary",
+      "gloss": "非凡的"
+    },
+    {
+      "term": "pardon",
+      "gloss": "原谅 , 赦免"
+    },
+    {
+      "term": "notice",
+      "gloss": "通知 , 注意到"
+    },
+    {
+      "term": "against",
+      "gloss": "与 ... 比赛 , 反对 , 靠"
+    },
+    {
+      "term": "step",
+      "gloss": "脚步,台阶"
+    },
+    {
+      "term": "flu",
+      "gloss": "流感"
+    },
+    {
+      "term": "peak",
+      "gloss": "顶峰"
+    },
+    {
+      "term": "positive",
+      "gloss": "正向的"
+    }
+  ]
+}

@@ -1,0 +1,313 @@
+{
+  "passage": "Last weekend, my family stayed at a well-known guest-house on the coast. The place was run by a friendly woman who used to work as a theatre director, so every room had a different style. Ours had a blue wall, a small fridge and posters in the background showing old plays. On Saturday evening, a young guitar player came to the dining room to perform for the guests. We wanted to stay until the end, but my little brother was already exhausted after a day of surfing lessons. The owner said we could listen from our room unless the rain became too loud on the roof. Luckily, the weather stayed calm. The guest-house was comfortable without trying too hard to be fashionable, and that made it feel warm and honest.",
+  "passage_word_count": 130,
+  "questions": [
+    {
+      "number": 1,
+      "question": "What is the passage mainly about?",
+      "options": {
+        "A": "A school drama lesson",
+        "B": "A family stay at a coastal guest-house",
+        "C": "A music competition",
+        "D": "A job in a hotel kitchen"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 2,
+      "question": "What was special about the rooms?",
+      "options": {
+        "A": "Each one had a different style",
+        "B": "They were all painted black",
+        "C": "They had no windows",
+        "D": "They were only for actors"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 3,
+      "question": "Why did the family leave the dining room early?",
+      "options": {
+        "A": "The music was too loud",
+        "B": "The player stopped performing",
+        "C": "The little brother was exhausted",
+        "D": "The rain came inside"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 4,
+      "question": "When could the family keep listening from their room?",
+      "options": {
+        "A": "After the director arrived",
+        "B": "Unless the rain became too loud",
+        "C": "Only if the fridge was moved",
+        "D": "When the guests had gone home"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 5,
+      "question": "How did the writer feel about the guest-house?",
+      "options": {
+        "A": "It was cold and disappointing",
+        "B": "It was too modern to relax in",
+        "C": "It was expensive but beautiful",
+        "D": "It felt comfortable and welcoming"
+      },
+      "answer": "D"
+    }
+  ],
+  "answers": [
+    {
+      "number": 1,
+      "answer": "B"
+    },
+    {
+      "number": 2,
+      "answer": "A"
+    },
+    {
+      "number": 3,
+      "answer": "C"
+    },
+    {
+      "number": 4,
+      "answer": "B"
+    },
+    {
+      "number": 5,
+      "answer": "D"
+    }
+  ],
+  "used_vocab": [
+    "guest-house",
+    "well-known",
+    "director",
+    "player",
+    "perform",
+    "fridge",
+    "exhausted",
+    "unless"
+  ],
+  "difficulty_notes": "A short travel review with familiar accommodation details and simple inference.",
+  "title": "Reading Quest: PET全_Page_21_04221021",
+  "page_number": 21,
+  "lesson_number": 21,
+  "focus_words": [
+    {
+      "term": "guest-house",
+      "gloss": "招待所"
+    },
+    {
+      "term": "well-known",
+      "gloss": "著名的"
+    },
+    {
+      "term": "director",
+      "gloss": "导演"
+    },
+    {
+      "term": "player",
+      "gloss": "运动员"
+    },
+    {
+      "term": "perform",
+      "gloss": "执行"
+    },
+    {
+      "term": "fridge",
+      "gloss": "电冰箱"
+    },
+    {
+      "term": "exhausted",
+      "gloss": "筋疲力尽的"
+    },
+    {
+      "term": "unless",
+      "gloss": "除非"
+    }
+  ],
+  "source_words": [
+    {
+      "term": "director",
+      "gloss": "导演"
+    },
+    {
+      "term": "body",
+      "gloss": "身体 ; 主体"
+    },
+    {
+      "term": "car",
+      "gloss": "小汽车"
+    },
+    {
+      "term": "guest-house",
+      "gloss": "招待所"
+    },
+    {
+      "term": "player",
+      "gloss": "运动员"
+    },
+    {
+      "term": "perform",
+      "gloss": "执行"
+    },
+    {
+      "term": "far",
+      "gloss": "远地 ; 遥远地"
+    },
+    {
+      "term": "least",
+      "gloss": "最小 ; 最少"
+    },
+    {
+      "term": "surf",
+      "gloss": "冲浪"
+    },
+    {
+      "term": "fridge",
+      "gloss": "电冰箱"
+    },
+    {
+      "term": "exhausted",
+      "gloss": "筋疲力尽的"
+    },
+    {
+      "term": "unless",
+      "gloss": "除非"
+    },
+    {
+      "term": "well-known",
+      "gloss": "著名的"
+    },
+    {
+      "term": "fall",
+      "gloss": "下降 ; 秋天 ; 坠落"
+    },
+    {
+      "term": "background",
+      "gloss": "背景"
+    },
+    {
+      "term": "weak",
+      "gloss": "虚弱的"
+    },
+    {
+      "term": "lost",
+      "gloss": "输掉的 ; 丢失的"
+    },
+    {
+      "term": "if",
+      "gloss": "如果"
+    },
+    {
+      "term": "ready",
+      "gloss": "准备好"
+    },
+    {
+      "term": "stylish",
+      "gloss": "时髦的"
+    },
+    {
+      "term": "competitor",
+      "gloss": "对手"
+    },
+    {
+      "term": "occasion",
+      "gloss": "时机 ; 场合"
+    },
+    {
+      "term": "sixtieth",
+      "gloss": "第六十"
+    },
+    {
+      "term": "blood",
+      "gloss": "血液"
+    },
+    {
+      "term": "say",
+      "gloss": "说 , 讲"
+    },
+    {
+      "term": "deposit",
+      "gloss": "存款"
+    },
+    {
+      "term": "level",
+      "gloss": "级别 , 水平面"
+    },
+    {
+      "term": "vote",
+      "gloss": "选票"
+    },
+    {
+      "term": "marriage",
+      "gloss": "婚姻"
+    },
+    {
+      "term": "restaurant",
+      "gloss": "餐馆"
+    },
+    {
+      "term": "shampoo",
+      "gloss": "洗头水"
+    },
+    {
+      "term": "plate",
+      "gloss": "盘 , 金属板"
+    },
+    {
+      "term": "many",
+      "gloss": "许多"
+    },
+    {
+      "term": "ladder",
+      "gloss": "梯子"
+    },
+    {
+      "term": "luckily",
+      "gloss": "幸运地"
+    },
+    {
+      "term": "challenging",
+      "gloss": "具有挑战性的"
+    },
+    {
+      "term": "fiftieth",
+      "gloss": "第五十"
+    },
+    {
+      "term": "dirty",
+      "gloss": "肮脏的"
+    },
+    {
+      "term": "barber",
+      "gloss": "理发师"
+    },
+    {
+      "term": "importance",
+      "gloss": "重要性"
+    },
+    {
+      "term": "jungle",
+      "gloss": "丛林"
+    },
+    {
+      "term": "here",
+      "gloss": "这里"
+    },
+    {
+      "term": "enquiry",
+      "gloss": "调查 , 询问"
+    },
+    {
+      "term": "monument",
+      "gloss": "纪念碑"
+    },
+    {
+      "term": "Australia",
+      "gloss": "澳大利亚"
+    }
+  ]
+}

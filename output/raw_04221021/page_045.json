@@ -1,0 +1,313 @@
+{
+  "passage": "Mrs. Brown, a 68-year-old retired housewife, had always been hopeful about traveling. Her grandchild, who lives in Canada, invited her for a visit. After saving for years, Mrs. Brown applied for a passport. The application took a long time, but she didn't give up. Finally, the day came when she could fly. Before leaving, she used an answerphone to leave a message for her son, ensuring him she was fine. The flight was exciting, and upon landing, her grandchild greeted her with a warm hug. They drove to a countryside area where a gentle stream flowed through the forest. Walking by the stream, Mrs. Brown shared stories from her youth. She felt it was important to give credit to her late husband, who had always supported her dreams. Later, her grandchild helped her set up a small exhibition of old family photos in the local community centre. It was a joyful reunion full of new memories.",
+  "passage_word_count": 156,
+  "questions": [
+    {
+      "number": 1,
+      "question": "What is the main idea of the story?",
+      "options": {
+        "A": "A grandmother's travel adventure.",
+        "B": "The difficulties of getting a passport.",
+        "C": "A family gathering in Canada.",
+        "D": "How to set up a photo display."
+      },
+      "answer": "A"
+    },
+    {
+      "number": 2,
+      "question": "What did Mrs. Brown do before her flight?",
+      "options": {
+        "A": "She called her son on the phone.",
+        "B": "She recorded a message on an answerphone.",
+        "C": "She visited a stream near her home.",
+        "D": "She organised an exhibition."
+      },
+      "answer": "B"
+    },
+    {
+      "number": 3,
+      "question": "Why did Mrs. Brown give credit to her late husband?",
+      "options": {
+        "A": "He funded her trip to Canada.",
+        "B": "He encouraged her to follow her dreams.",
+        "C": "He was a professional photographer.",
+        "D": "He lived in Canada with her grandchild."
+      },
+      "answer": "B"
+    },
+    {
+      "number": 4,
+      "question": "How did Mrs. Brown feel during her visit?",
+      "options": {
+        "A": "Worried about flying alone.",
+        "B": "Disappointed with the exhibition.",
+        "C": "Happy and satisfied.",
+        "D": "Nostalgic for her housewife life."
+      },
+      "answer": "C"
+    },
+    {
+      "number": 5,
+      "question": "What does the word 'exhibition' mean in the story?",
+      "options": {
+        "A": "A public display of items.",
+        "B": "A type of travel document.",
+        "C": "A journey by airplane.",
+        "D": "A recorded phone message."
+      },
+      "answer": "A"
+    }
+  ],
+  "answers": [
+    {
+      "number": 1,
+      "answer": "A"
+    },
+    {
+      "number": 2,
+      "answer": "B"
+    },
+    {
+      "number": 3,
+      "answer": "B"
+    },
+    {
+      "number": 4,
+      "answer": "C"
+    },
+    {
+      "number": 5,
+      "answer": "A"
+    }
+  ],
+  "used_vocab": [
+    "grandchild",
+    "housewife",
+    "exhibition",
+    "hopeful",
+    "passport",
+    "answerphone",
+    "stream",
+    "credit"
+  ],
+  "difficulty_notes": "The passage uses simple past tense and everyday vocabulary, appropriate for B1 learners.",
+  "title": "Reading Quest: PET全_Page_45_04221021",
+  "page_number": 45,
+  "lesson_number": 45,
+  "focus_words": [
+    {
+      "term": "grandchild",
+      "gloss": "外 ) 孙子女"
+    },
+    {
+      "term": "housewife",
+      "gloss": "家庭主妇"
+    },
+    {
+      "term": "exhibition",
+      "gloss": "展览会"
+    },
+    {
+      "term": "hopeful",
+      "gloss": "有希望的"
+    },
+    {
+      "term": "passport",
+      "gloss": "护照"
+    },
+    {
+      "term": "answerphone",
+      "gloss": "电话答录机"
+    },
+    {
+      "term": "stream",
+      "gloss": "小河 ; 溪"
+    },
+    {
+      "term": "credit",
+      "gloss": "信用"
+    }
+  ],
+  "source_words": [
+    {
+      "term": "grandchild",
+      "gloss": "外 ) 孙子女"
+    },
+    {
+      "term": "housewife",
+      "gloss": "家庭主妇"
+    },
+    {
+      "term": "hotel",
+      "gloss": "旅馆 , 酒店"
+    },
+    {
+      "term": "exhibition",
+      "gloss": "展览会"
+    },
+    {
+      "term": "long",
+      "gloss": "长的 , 时间久的"
+    },
+    {
+      "term": "hopeful",
+      "gloss": "有希望的"
+    },
+    {
+      "term": "passport",
+      "gloss": "护照"
+    },
+    {
+      "term": "answerphone",
+      "gloss": "电话答录机"
+    },
+    {
+      "term": "stream",
+      "gloss": "小河 ; 溪"
+    },
+    {
+      "term": "fresh",
+      "gloss": "新鲜的"
+    },
+    {
+      "term": "credit",
+      "gloss": "信用"
+    },
+    {
+      "term": "unkind",
+      "gloss": "不友善的"
+    },
+    {
+      "term": "imagine",
+      "gloss": "想象"
+    },
+    {
+      "term": "dangerous",
+      "gloss": "危险的"
+    },
+    {
+      "term": "west",
+      "gloss": "西方"
+    },
+    {
+      "term": "eighth",
+      "gloss": "第八"
+    },
+    {
+      "term": "festival",
+      "gloss": "节日"
+    },
+    {
+      "term": "rugby",
+      "gloss": "橄榄球"
+    },
+    {
+      "term": "mile",
+      "gloss": "英里"
+    },
+    {
+      "term": "possible",
+      "gloss": "可能的"
+    },
+    {
+      "term": "support",
+      "gloss": "支持"
+    },
+    {
+      "term": "how",
+      "gloss": "如何 ; 多少 ; 多么"
+    },
+    {
+      "term": "s",
+      "gloss": "数学"
+    },
+    {
+      "term": "share",
+      "gloss": "分享"
+    },
+    {
+      "term": "wheelchair",
+      "gloss": "轮椅"
+    },
+    {
+      "term": "toothpaste",
+      "gloss": "牙膏"
+    },
+    {
+      "term": "often",
+      "gloss": "经常"
+    },
+    {
+      "term": "volume",
+      "gloss": "体积 ; 容积"
+    },
+    {
+      "term": "normally",
+      "gloss": "通常地"
+    },
+    {
+      "term": "ruler",
+      "gloss": "尺子 , 统治者"
+    },
+    {
+      "term": "March",
+      "gloss": "三月"
+    },
+    {
+      "term": "chatroom",
+      "gloss": "聊天室"
+    },
+    {
+      "term": "habit",
+      "gloss": "习惯"
+    },
+    {
+      "term": "schoolchild",
+      "gloss": "小学生"
+    },
+    {
+      "term": "promote",
+      "gloss": "促进"
+    },
+    {
+      "term": "recipe",
+      "gloss": "食谱"
+    },
+    {
+      "term": "fail",
+      "gloss": "失败 , 不及格"
+    },
+    {
+      "term": "accident",
+      "gloss": "意外事故"
+    },
+    {
+      "term": "hear",
+      "gloss": "听到 , 听说"
+    },
+    {
+      "term": "value",
+      "gloss": "价值"
+    },
+    {
+      "term": "uncle",
+      "gloss": "叔叔 , 伯父"
+    },
+    {
+      "term": "rice",
+      "gloss": "大米"
+    },
+    {
+      "term": "eighteen",
+      "gloss": "十八"
+    },
+    {
+      "term": "able",
+      "gloss": "能干的"
+    },
+    {
+      "term": "print",
+      "gloss": "打印 ; 印刷"
+    }
+  ]
+}

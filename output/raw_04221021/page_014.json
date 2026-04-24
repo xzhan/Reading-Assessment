@@ -1,0 +1,313 @@
+{
+  "passage": "Dear Diary, Yesterday was the annual school sports day, and it was so much fun! I participated in the running race, and although I didn't win, it was a pleasure to cheer for my friends. The traffic to the stadium was busy in the morning, but we arrived on time. During lunch, we had a big dinner at school – I mean, it was more like a late lunch, but they called it dinner. It was obvious that everyone was tired after all the activities. I saw a small creature, like a hedgehog, near the field, which was exciting. Thinking about the environment, I'm glad our school promotes recycling. Also, I've been watching my weight lately because I want to stay fit for next year's sports day. It was a memorable day, and I'm already looking forward to the next annual event. From, Sam",
+  "passage_word_count": 143,
+  "questions": [
+    {
+      "number": 1,
+      "question": "What is the main idea of the diary entry?",
+      "options": {
+        "A": "A school trip to the countryside",
+        "B": "A school sports day event",
+        "C": "A family dinner celebration",
+        "D": "A nature walk with friends"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 2,
+      "question": "What did the writer see near the field?",
+      "options": {
+        "A": "A bird",
+        "B": "A hedgehog",
+        "C": "A dog",
+        "D": "A cat"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 3,
+      "question": "Why does the writer mention the environment?",
+      "options": {
+        "A": "To complain about pollution",
+        "B": "To show concern for nature",
+        "C": "To describe the weather",
+        "D": "To talk about school rules"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 4,
+      "question": "What can be inferred about the writer?",
+      "options": {
+        "A": "They are a teacher",
+        "B": "They enjoy sports",
+        "C": "They dislike traffic",
+        "D": "They are moving to a new country"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 5,
+      "question": "What does 'annual' mean in the diary?",
+      "options": {
+        "A": "Happening once a year",
+        "B": "Very exciting",
+        "C": "Extremely expensive",
+        "D": "Quite unusual"
+      },
+      "answer": "A"
+    }
+  ],
+  "answers": [
+    {
+      "number": 1,
+      "answer": "B"
+    },
+    {
+      "number": 2,
+      "answer": "B"
+    },
+    {
+      "number": 3,
+      "answer": "B"
+    },
+    {
+      "number": 4,
+      "answer": "B"
+    },
+    {
+      "number": 5,
+      "answer": "A"
+    }
+  ],
+  "used_vocab": [
+    "annual",
+    "traffic",
+    "pleasure",
+    "dinner",
+    "obvious",
+    "creature",
+    "environment",
+    "weight"
+  ],
+  "difficulty_notes": "The passage uses everyday vocabulary and simple sentence structures suitable for B1 level.",
+  "title": "Reading Quest: PET全_Page_14_04221021",
+  "page_number": 14,
+  "lesson_number": 14,
+  "focus_words": [
+    {
+      "term": "annual",
+      "gloss": "每年的"
+    },
+    {
+      "term": "traffic",
+      "gloss": "交通"
+    },
+    {
+      "term": "pleasure",
+      "gloss": "高兴"
+    },
+    {
+      "term": "dinner",
+      "gloss": "主餐 , 晚餐"
+    },
+    {
+      "term": "obvious",
+      "gloss": "明显的"
+    },
+    {
+      "term": "creature",
+      "gloss": "生物"
+    },
+    {
+      "term": "environment",
+      "gloss": "环境"
+    },
+    {
+      "term": "weight",
+      "gloss": "重量"
+    }
+  ],
+  "source_words": [
+    {
+      "term": "edge",
+      "gloss": "边缘"
+    },
+    {
+      "term": "annual",
+      "gloss": "每年的"
+    },
+    {
+      "term": "traffic",
+      "gloss": "交通"
+    },
+    {
+      "term": "tick",
+      "gloss": "标记号"
+    },
+    {
+      "term": "bomb",
+      "gloss": "炸弹"
+    },
+    {
+      "term": "pleasure",
+      "gloss": "高兴"
+    },
+    {
+      "term": "dinner",
+      "gloss": "主餐 , 晚餐"
+    },
+    {
+      "term": "obvious",
+      "gloss": "明显的"
+    },
+    {
+      "term": "suit",
+      "gloss": "西装 ; 适合"
+    },
+    {
+      "term": "creature",
+      "gloss": "生物"
+    },
+    {
+      "term": "hey",
+      "gloss": "喂 ; 你好 !"
+    },
+    {
+      "term": "last",
+      "gloss": "最后的 , 最近的"
+    },
+    {
+      "term": "environment",
+      "gloss": "环境"
+    },
+    {
+      "term": "weight",
+      "gloss": "重量"
+    },
+    {
+      "term": "frame",
+      "gloss": "框架"
+    },
+    {
+      "term": "torch",
+      "gloss": "手电筒"
+    },
+    {
+      "term": "bar",
+      "gloss": "酒吧"
+    },
+    {
+      "term": "number",
+      "gloss": "号码 , 数字"
+    },
+    {
+      "term": "snow",
+      "gloss": "雪 , 下雪"
+    },
+    {
+      "term": "tear",
+      "gloss": "眼泪 ; 撕裂"
+    },
+    {
+      "term": "marvellous",
+      "gloss": "不可思议的"
+    },
+    {
+      "term": "paragraph",
+      "gloss": "段落"
+    },
+    {
+      "term": "shoulder",
+      "gloss": "肩膀"
+    },
+    {
+      "term": "virus",
+      "gloss": "病毒"
+    },
+    {
+      "term": "painter",
+      "gloss": "画家 , 油漆匠"
+    },
+    {
+      "term": "blogger",
+      "gloss": "博客作者"
+    },
+    {
+      "term": "next",
+      "gloss": "下一个的,其次"
+    },
+    {
+      "term": "market",
+      "gloss": "市场"
+    },
+    {
+      "term": "bestseller",
+      "gloss": "畅销书"
+    },
+    {
+      "term": "sale",
+      "gloss": "销售"
+    },
+    {
+      "term": "his",
+      "gloss": "他的"
+    },
+    {
+      "term": "international",
+      "gloss": "国际的"
+    },
+    {
+      "term": "disturb",
+      "gloss": "打扰"
+    },
+    {
+      "term": "coach",
+      "gloss": "教练"
+    },
+    {
+      "term": "pleased",
+      "gloss": "高兴的"
+    },
+    {
+      "term": "elderly",
+      "gloss": "上了年纪的"
+    },
+    {
+      "term": "cricket",
+      "gloss": "板球"
+    },
+    {
+      "term": "of",
+      "gloss": "属于 )... 的"
+    },
+    {
+      "term": "politics",
+      "gloss": "政治学"
+    },
+    {
+      "term": "writer",
+      "gloss": "作家"
+    },
+    {
+      "term": "country",
+      "gloss": "国家"
+    },
+    {
+      "term": "suffer",
+      "gloss": "遭受"
+    },
+    {
+      "term": "district",
+      "gloss": "区域"
+    },
+    {
+      "term": "quit",
+      "gloss": "离开"
+    },
+    {
+      "term": "indoor",
+      "gloss": "室内的"
+    }
+  ]
+}

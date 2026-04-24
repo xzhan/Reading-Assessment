@@ -1,0 +1,310 @@
+{
+  "passage": "Riverside School is excited to announce its 40th Anniversary Community Fair this Saturday from 10 am to 4 pm. Despite the unpredictable British weather, all activities will proceed indoors if necessary. The event aims to entertain families and friends with a variety of attractions, including live music, craft stalls, and games. A highlight will be the costume contest, judged by our beloved history teacher, Mr. Jones, who is known for his impressive moustache. Students are encouraged to come with their classmates and enjoy the day. To manage crowds, we've introduced a new ticketing system at the entrance. For food lovers, try our special Irish coffee—be aware that its bitter taste might not suit everyone. Also, visit our café for refreshments served in charming saucers. Don't miss this opportunity to celebrate our school's history and community spirit!",
+  "passage_word_count": 135,
+  "questions": [
+    {
+      "number": 1,
+      "question": "What is the main purpose of this notice?",
+      "options": {
+        "A": "To advertise a new school system.",
+        "B": "To invite people to a community fair.",
+        "C": "To describe a history teacher's moustache.",
+        "D": "To warn about bad weather."
+      },
+      "answer": "B"
+    },
+    {
+      "number": 2,
+      "question": "What is Mr. Jones known for at the fair?",
+      "options": {
+        "A": "His singing ability.",
+        "B": "His judging skills.",
+        "C": "His moustache.",
+        "D": "His coffee preferences."
+      },
+      "answer": "C"
+    },
+    {
+      "number": 3,
+      "question": "Why was a new ticketing system introduced?",
+      "options": {
+        "A": "To sell more tickets.",
+        "B": "To control the number of people entering.",
+        "C": "To make the fair more entertaining.",
+        "D": "To improve the café service."
+      },
+      "answer": "B"
+    },
+    {
+      "number": 4,
+      "question": "What does the notice suggest about the Irish coffee?",
+      "options": {
+        "A": "It is very sweet.",
+        "B": "It is only for teachers.",
+        "C": "It might not be popular with all visitors.",
+        "D": "It is served in saucers."
+      },
+      "answer": "C"
+    },
+    {
+      "number": 5,
+      "question": "What does the word 'bitter' mean in the passage?",
+      "options": {
+        "A": "To make someone angry.",
+        "B": "Having a sharp, unpleasant taste.",
+        "C": "Feeling very cold.",
+        "D": "Being extremely expensive."
+      },
+      "answer": "B"
+    }
+  ],
+  "answers": [
+    {
+      "number": 1,
+      "answer": "B"
+    },
+    {
+      "number": 2,
+      "answer": "C"
+    },
+    {
+      "number": 3,
+      "answer": "B"
+    },
+    {
+      "number": 4,
+      "answer": "C"
+    },
+    {
+      "number": 5,
+      "answer": "B"
+    }
+  ],
+  "used_vocab": [
+    "entertain",
+    "despite",
+    "moustache",
+    "system",
+    "bitter"
+  ],
+  "difficulty_notes": "The passage uses everyday vocabulary and clear structure suitable for B1 learners.",
+  "title": "Reading Quest: PET全_Page_28_04221021",
+  "page_number": 28,
+  "lesson_number": 28,
+  "focus_words": [
+    {
+      "term": "entertain",
+      "gloss": "娱乐"
+    },
+    {
+      "term": "despite",
+      "gloss": "尽管"
+    },
+    {
+      "term": "moustache",
+      "gloss": "上唇的胡子"
+    },
+    {
+      "term": "classmate",
+      "gloss": "同班同学"
+    },
+    {
+      "term": "system",
+      "gloss": "系统"
+    },
+    {
+      "term": "fortieth",
+      "gloss": "第四十"
+    },
+    {
+      "term": "bitter",
+      "gloss": "使变苦"
+    },
+    {
+      "term": "saucer",
+      "gloss": "浅碟"
+    }
+  ],
+  "source_words": [
+    {
+      "term": "Irish",
+      "gloss": "爱尔兰的"
+    },
+    {
+      "term": "maybe",
+      "gloss": "可能 , 也许"
+    },
+    {
+      "term": "judge",
+      "gloss": "判断 , 法官"
+    },
+    {
+      "term": "main",
+      "gloss": "主要的"
+    },
+    {
+      "term": "east",
+      "gloss": "东方"
+    },
+    {
+      "term": "entertain",
+      "gloss": "娱乐"
+    },
+    {
+      "term": "despite",
+      "gloss": "尽管"
+    },
+    {
+      "term": "your",
+      "gloss": "你的,你们的"
+    },
+    {
+      "term": "win",
+      "gloss": "获胜"
+    },
+    {
+      "term": "moustache",
+      "gloss": "上唇的胡子"
+    },
+    {
+      "term": "classmate",
+      "gloss": "同班同学"
+    },
+    {
+      "term": "system",
+      "gloss": "系统"
+    },
+    {
+      "term": "fortieth",
+      "gloss": "第四十"
+    },
+    {
+      "term": "bitter",
+      "gloss": "使变苦"
+    },
+    {
+      "term": "saucer",
+      "gloss": "浅碟"
+    },
+    {
+      "term": "tennis",
+      "gloss": "网球"
+    },
+    {
+      "term": "punish",
+      "gloss": "惩罚"
+    },
+    {
+      "term": "thousand",
+      "gloss": "一千"
+    },
+    {
+      "term": "interesting",
+      "gloss": "有趣的"
+    },
+    {
+      "term": "pedestrian",
+      "gloss": "行人"
+    },
+    {
+      "term": "upset",
+      "gloss": "心烦的"
+    },
+    {
+      "term": "hundredth",
+      "gloss": "第一百个"
+    },
+    {
+      "term": "there",
+      "gloss": "在那里"
+    },
+    {
+      "term": "graphics",
+      "gloss": "图案"
+    },
+    {
+      "term": "machine",
+      "gloss": "机器"
+    },
+    {
+      "term": "unpack",
+      "gloss": "打开箱包"
+    },
+    {
+      "term": "drink",
+      "gloss": "饮料 ; 喝 , 喝酒"
+    },
+    {
+      "term": "singing",
+      "gloss": "歌唱"
+    },
+    {
+      "term": "loudly",
+      "gloss": "大声地"
+    },
+    {
+      "term": "rebuild",
+      "gloss": "重建"
+    },
+    {
+      "term": "protect",
+      "gloss": "保护"
+    },
+    {
+      "term": "pig",
+      "gloss": "猪"
+    },
+    {
+      "term": "nice",
+      "gloss": "美好的"
+    },
+    {
+      "term": "delay",
+      "gloss": "耽搁 ; 延迟"
+    },
+    {
+      "term": "thirsty",
+      "gloss": "又渴的 ; 渴望的"
+    },
+    {
+      "term": "unknown",
+      "gloss": "未知的"
+    },
+    {
+      "term": "exact",
+      "gloss": "精确的"
+    },
+    {
+      "term": "impossible",
+      "gloss": "不可能的"
+    },
+    {
+      "term": "twenty",
+      "gloss": "二十"
+    },
+    {
+      "term": "form",
+      "gloss": "形式 , 表格"
+    },
+    {
+      "term": "worker",
+      "gloss": "劳动者"
+    },
+    {
+      "term": "track",
+      "gloss": "跑道"
+    },
+    {
+      "term": "bicycle",
+      "gloss": "自行车"
+    },
+    {
+      "term": "predict",
+      "gloss": "预言"
+    },
+    {
+      "term": "towel",
+      "gloss": "毛巾"
+    }
+  ]
+}

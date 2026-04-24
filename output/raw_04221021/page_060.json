@@ -1,0 +1,312 @@
+{
+  "passage": "On Sunday, our running club met in the park at fourteen minutes past nine for a charity morning. Some members preferred jogging around the lake, while others helped set up tables for snacks and hot drinks. I arrived early with my camera because the organiser wanted a photograph of everyone before the race began. We covered one table with a bright table-cloth and placed cups in a straight line so the picture would look tidy. The weather was cold enough to freeze the grass in the shaded areas, but the sun soon warmed us up. Later, one parent asked if I was looking for employment as a sports photographer, which made me laugh. I am still a student, but it was nice to hear. The event was friendly, well organised and very reasonable for a small local club.",
+  "passage_word_count": 138,
+  "questions": [
+    {
+      "number": 1,
+      "question": "Why did the writer arrive early?",
+      "options": {
+        "A": "To start jogging first",
+        "B": "To take a photograph",
+        "C": "To sell hot drinks",
+        "D": "To clean the park"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 2,
+      "question": "What did the group put on the table?",
+      "options": {
+        "A": "A table-cloth and cups",
+        "B": "A heater and coats",
+        "C": "Medals and books",
+        "D": "A television and food"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 3,
+      "question": "What does the passage say about the weather?",
+      "options": {
+        "A": "It was hot all morning",
+        "B": "It stayed dark until midday",
+        "C": "The rain stopped the event",
+        "D": "The grass could freeze in the shade"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 4,
+      "question": "Why did a parent mention employment?",
+      "options": {
+        "A": "The writer was taking photos well",
+        "B": "The club needed a new coach",
+        "C": "The event cost too much",
+        "D": "The organiser was late"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 5,
+      "question": "How does the writer describe the event?",
+      "options": {
+        "A": "Friendly and reasonable",
+        "B": "Large and difficult",
+        "C": "Cold but boring",
+        "D": "Short and disappointing"
+      },
+      "answer": "A"
+    }
+  ],
+  "answers": [
+    {
+      "number": 1,
+      "answer": "B"
+    },
+    {
+      "number": 2,
+      "answer": "A"
+    },
+    {
+      "number": 3,
+      "answer": "D"
+    },
+    {
+      "number": 4,
+      "answer": "A"
+    },
+    {
+      "number": 5,
+      "answer": "A"
+    }
+  ],
+  "used_vocab": [
+    "table-cloth",
+    "freeze",
+    "photograph",
+    "employment",
+    "jogging",
+    "fourteen",
+    "reasonable"
+  ],
+  "difficulty_notes": "A simple community event text with clear physical details and one mild inference.",
+  "title": "Reading Quest: PET全_Page_60_04221021",
+  "page_number": 60,
+  "lesson_number": 60,
+  "focus_words": [
+    {
+      "term": "table-cloth",
+      "gloss": "台布"
+    },
+    {
+      "term": "freeze",
+      "gloss": "结冰"
+    },
+    {
+      "term": "photograph",
+      "gloss": "照片"
+    },
+    {
+      "term": "employment",
+      "gloss": "工作"
+    },
+    {
+      "term": "jogging",
+      "gloss": "慢跑"
+    },
+    {
+      "term": "fourteen",
+      "gloss": "十四"
+    },
+    {
+      "term": "arrive",
+      "gloss": "到达"
+    },
+    {
+      "term": "reasonable",
+      "gloss": "合理的"
+    }
+  ],
+  "source_words": [
+    {
+      "term": "freeze",
+      "gloss": "结冰"
+    },
+    {
+      "term": "photograph",
+      "gloss": "照片"
+    },
+    {
+      "term": "table-cloth",
+      "gloss": "台布"
+    },
+    {
+      "term": "employment",
+      "gloss": "工作"
+    },
+    {
+      "term": "jogging",
+      "gloss": "慢跑"
+    },
+    {
+      "term": "fourteen",
+      "gloss": "十四"
+    },
+    {
+      "term": "arrive",
+      "gloss": "到达"
+    },
+    {
+      "term": "reasonable",
+      "gloss": "合理的"
+    },
+    {
+      "term": "mark",
+      "gloss": "标记 ; 记号"
+    },
+    {
+      "term": "fool",
+      "gloss": "傻瓜"
+    },
+    {
+      "term": "straight",
+      "gloss": "直的 ; 直接地"
+    },
+    {
+      "term": "millimetre",
+      "gloss": "毫米"
+    },
+    {
+      "term": "pass",
+      "gloss": "经过 , 通过 , 传递"
+    },
+    {
+      "term": "waitress",
+      "gloss": "女服务员"
+    },
+    {
+      "term": "complicated",
+      "gloss": "复杂的"
+    },
+    {
+      "term": "curious",
+      "gloss": "好奇的"
+    },
+    {
+      "term": "brush",
+      "gloss": "刷子 ; 刷过"
+    },
+    {
+      "term": "typically",
+      "gloss": "通常"
+    },
+    {
+      "term": "fee",
+      "gloss": "费用"
+    },
+    {
+      "term": "unlucky",
+      "gloss": "不幸的"
+    },
+    {
+      "term": "campsite",
+      "gloss": "营地"
+    },
+    {
+      "term": "boyfriend",
+      "gloss": "男朋友"
+    },
+    {
+      "term": "discussion",
+      "gloss": "讨论"
+    },
+    {
+      "term": "rise",
+      "gloss": "上升"
+    },
+    {
+      "term": "quite",
+      "gloss": "很 , 相当"
+    },
+    {
+      "term": "wool",
+      "gloss": "羊毛"
+    },
+    {
+      "term": "shower",
+      "gloss": "阵雨 , 淋浴"
+    },
+    {
+      "term": "clap",
+      "gloss": "鼓掌"
+    },
+    {
+      "term": "set",
+      "gloss": "一套 ; 设置"
+    },
+    {
+      "term": "north",
+      "gloss": "北方"
+    },
+    {
+      "term": "leave",
+      "gloss": "离开 ; 留下"
+    },
+    {
+      "term": "cereal",
+      "gloss": "谷物"
+    },
+    {
+      "term": "quiz",
+      "gloss": "课堂测验"
+    },
+    {
+      "term": "approve",
+      "gloss": "批准"
+    },
+    {
+      "term": "persuade",
+      "gloss": "说服"
+    },
+    {
+      "term": "dead",
+      "gloss": "死的"
+    },
+    {
+      "term": "best",
+      "gloss": "最好的"
+    },
+    {
+      "term": "movie",
+      "gloss": "电影"
+    },
+    {
+      "term": "dustbin",
+      "gloss": "垃圾箱"
+    },
+    {
+      "term": "burn",
+      "gloss": "燃烧"
+    },
+    {
+      "term": "prohibited",
+      "gloss": "禁止的"
+    },
+    {
+      "term": "bike",
+      "gloss": "自行车"
+    },
+    {
+      "term": "depth",
+      "gloss": "深 ( 度 )"
+    },
+    {
+      "term": "lighter",
+      "gloss": "打火机"
+    },
+    {
+      "term": "fetch",
+      "gloss": "取来"
+    }
+  ]
+}

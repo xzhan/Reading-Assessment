@@ -1,0 +1,310 @@
+{
+  "passage": "Dear Students, Our school is organising an exciting winter sports trip to Snowdonia Resort from 10th to 14th February. This is a great chance to enjoy activities like skiing and snowboarding on real slopes. To participate, you must select your choices on the school's online portal. Use your unique password to log in and complete the registration. Packing wisely is key. Bring only necessary luggage to keep things manageable. We recommend warm layers, waterproof jackets, and sturdy boots. Health and safety are priorities; please inform us of any medical conditions. While walking on pavements in the resort area, stay alert and use designated paths. The resort provides comfortable accommodation with cushions on the beds for a good night's sleep. We aim to make this trip unforgettable, so that you can cherish the memories forever. If you have questions, see Mrs. Taylor in the PE department. Best regards, The School Trips Committee",
+  "passage_word_count": 151,
+  "questions": [
+    {
+      "number": 1,
+      "question": "What is the main purpose of this article?",
+      "options": {
+        "A": "To inform students about a school trip.",
+        "B": "To explain how to use the school portal.",
+        "C": "To describe winter sports activities.",
+        "D": "To advise on health and safety."
+      },
+      "answer": "A"
+    },
+    {
+      "number": 2,
+      "question": "What must students do to register for the trip?",
+      "options": {
+        "A": "Pay a fee online.",
+        "B": "Select activities and use a password.",
+        "C": "Contact Mrs. Taylor directly.",
+        "D": "Pack their luggage early."
+      },
+      "answer": "B"
+    },
+    {
+      "number": 3,
+      "question": "Why is the password mentioned in the article?",
+      "options": {
+        "A": "To keep the trip information secret.",
+        "B": "To ensure only students can register.",
+        "C": "To log in to the online portal for registration.",
+        "D": "To remember personal details."
+      },
+      "answer": "C"
+    },
+    {
+      "number": 4,
+      "question": "What can be inferred about the resort?",
+      "options": {
+        "A": "It is located in a city centre.",
+        "B": "It has safe walking areas.",
+        "C": "It provides all necessary equipment.",
+        "D": "It is only for experienced skiers."
+      },
+      "answer": "B"
+    },
+    {
+      "number": 5,
+      "question": "What does 'pavements' mean as used in the article?",
+      "options": {
+        "A": "Sidewalks for pedestrians.",
+        "B": "Snowy paths for skiing.",
+        "C": "Indoor walkways.",
+        "D": "Digital platforms."
+      },
+      "answer": "A"
+    }
+  ],
+  "answers": [
+    {
+      "number": 1,
+      "answer": "A"
+    },
+    {
+      "number": 2,
+      "answer": "B"
+    },
+    {
+      "number": 3,
+      "answer": "C"
+    },
+    {
+      "number": 4,
+      "answer": "B"
+    },
+    {
+      "number": 5,
+      "answer": "A"
+    }
+  ],
+  "used_vocab": [
+    "forever",
+    "password",
+    "select",
+    "luggage",
+    "health"
+  ],
+  "difficulty_notes": "Passage uses simple present and future tenses with clear context for B1 vocabulary.",
+  "title": "Reading Quest: PET全_Page_1_04221021",
+  "page_number": 1,
+  "lesson_number": 1,
+  "focus_words": [
+    {
+      "term": "forever",
+      "gloss": "永远"
+    },
+    {
+      "term": "cushion",
+      "gloss": "软垫"
+    },
+    {
+      "term": "password",
+      "gloss": "又令 , 密码"
+    },
+    {
+      "term": "snowboard",
+      "gloss": "滑雪板"
+    },
+    {
+      "term": "pavement",
+      "gloss": "人行道"
+    },
+    {
+      "term": "select",
+      "gloss": "选择"
+    },
+    {
+      "term": "luggage",
+      "gloss": "行李"
+    },
+    {
+      "term": "health",
+      "gloss": "健康;卫生"
+    }
+  ],
+  "source_words": [
+    {
+      "term": "forever",
+      "gloss": "永远"
+    },
+    {
+      "term": "cushion",
+      "gloss": "软垫"
+    },
+    {
+      "term": "sock",
+      "gloss": "短袜"
+    },
+    {
+      "term": "password",
+      "gloss": "又令 , 密码"
+    },
+    {
+      "term": "snowboard",
+      "gloss": "滑雪板"
+    },
+    {
+      "term": "pavement",
+      "gloss": "人行道"
+    },
+    {
+      "term": "select",
+      "gloss": "选择"
+    },
+    {
+      "term": "luggage",
+      "gloss": "行李"
+    },
+    {
+      "term": "health",
+      "gloss": "健康;卫生"
+    },
+    {
+      "term": "exactly",
+      "gloss": "精确地"
+    },
+    {
+      "term": "resort",
+      "gloss": "旅游胜地"
+    },
+    {
+      "term": "cartoon",
+      "gloss": "动画片"
+    },
+    {
+      "term": "eighty",
+      "gloss": "八十"
+    },
+    {
+      "term": "injure",
+      "gloss": "伤害"
+    },
+    {
+      "term": "biscuit",
+      "gloss": "饼干 ( 英式 )"
+    },
+    {
+      "term": "unit",
+      "gloss": "单元"
+    },
+    {
+      "term": "comment",
+      "gloss": "评论"
+    },
+    {
+      "term": "homework",
+      "gloss": "家庭作业"
+    },
+    {
+      "term": "which",
+      "gloss": "哪一个"
+    },
+    {
+      "term": "real",
+      "gloss": "实际的 , 真的"
+    },
+    {
+      "term": "disease",
+      "gloss": "疾病"
+    },
+    {
+      "term": "kangaroo",
+      "gloss": "袋鼠"
+    },
+    {
+      "term": "earn",
+      "gloss": "赚得 , 获得"
+    },
+    {
+      "term": "tiny",
+      "gloss": "极小的"
+    },
+    {
+      "term": "crash",
+      "gloss": "碰撞"
+    },
+    {
+      "term": "fully",
+      "gloss": "完全地"
+    },
+    {
+      "term": "Tuesday",
+      "gloss": "星期二"
+    },
+    {
+      "term": "photographer",
+      "gloss": "摄影师"
+    },
+    {
+      "term": "pocket",
+      "gloss": "又袋 , 钱袋"
+    },
+    {
+      "term": "convince",
+      "gloss": "使确信"
+    },
+    {
+      "term": "party",
+      "gloss": "聚会 ; 党派"
+    },
+    {
+      "term": "confident",
+      "gloss": "自信的"
+    },
+    {
+      "term": "further",
+      "gloss": "深一层的"
+    },
+    {
+      "term": "smart",
+      "gloss": "聪明的"
+    },
+    {
+      "term": "hat",
+      "gloss": "帽子"
+    },
+    {
+      "term": "cool",
+      "gloss": "凉爽的 ; 冷静的"
+    },
+    {
+      "term": "closed",
+      "gloss": "关着的"
+    },
+    {
+      "term": "think",
+      "gloss": "想 , 认为"
+    },
+    {
+      "term": "law",
+      "gloss": "法律"
+    },
+    {
+      "term": "useful",
+      "gloss": "有用的"
+    },
+    {
+      "term": "attractive",
+      "gloss": "吸引人的"
+    },
+    {
+      "term": "efficient",
+      "gloss": "效率高的"
+    },
+    {
+      "term": "cafeteria",
+      "gloss": "自助餐厅"
+    },
+    {
+      "term": "chess",
+      "gloss": "国际象棋"
+    },
+    {
+      "term": "ambulance",
+      "gloss": "救护车"
+    }
+  ]
+}

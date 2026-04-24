@@ -1,0 +1,311 @@
+{
+  "passage": "The Riverdale Community Summer Festival is back, and it's going to be more lively than ever! On Saturday, 15th July, from 10 am to 6 pm, join us at the Riverside Park for a day full of excitement. The highlight of the festival is the annual sailing contest, where participants can show off their skills on the lake. Whether you're a beginner or an experienced sailor, everyone is welcome to enter. Besides the contest, there will be numerous stalls offering delicious food, including a variety of frozen treats to keep you cool. For those who prefer land-based fun, we have hand-held game consoles set up for friendly competitions. Live music performances will add to the lively atmosphere, making it a perfect day out for families and friends. Registration for the sailing contest is free, but due to limited spaces, it's advisable to sign up early. You can register online or at the information booth on the day. Remember, it's unlikely that we'll have another event like this until next summer, so don't miss this opportunity!",
+  "passage_word_count": 173,
+  "questions": [
+    {
+      "number": 1,
+      "question": "What is the main purpose of the notice?",
+      "options": {
+        "A": "To advertise a sailing contest only.",
+        "B": "To invite people to a community festival.",
+        "C": "To explain how to register for an event.",
+        "D": "To describe food at a festival."
+      },
+      "answer": "B"
+    },
+    {
+      "number": 2,
+      "question": "When is the Riverdale Summer Festival?",
+      "options": {
+        "A": "On 10th June",
+        "B": "On 15th July",
+        "C": "On 6th August",
+        "D": "On 20th July"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 3,
+      "question": "Why does the notice mention that spaces for the sailing contest are limited?",
+      "options": {
+        "A": "To encourage people to register early.",
+        "B": "To suggest that the contest is difficult.",
+        "C": "To explain why the festival is expensive.",
+        "D": "To indicate that only experienced sailors can join."
+      },
+      "answer": "A"
+    },
+    {
+      "number": 4,
+      "question": "What can be inferred about the festival from the notice?",
+      "options": {
+        "A": "It is only for children.",
+        "B": "It will be held indoors.",
+        "C": "It offers activities for different interests.",
+        "D": "It is a new event in the community."
+      },
+      "answer": "C"
+    },
+    {
+      "number": 5,
+      "question": "What does the word 'lively' suggest about the festival?",
+      "options": {
+        "A": "It will be quiet and calm.",
+        "B": "It will be energetic and fun.",
+        "C": "It will be long and boring.",
+        "D": "It will be cold and wet."
+      },
+      "answer": "B"
+    }
+  ],
+  "answers": [
+    {
+      "number": 1,
+      "answer": "B"
+    },
+    {
+      "number": 2,
+      "answer": "B"
+    },
+    {
+      "number": 3,
+      "answer": "A"
+    },
+    {
+      "number": 4,
+      "answer": "C"
+    },
+    {
+      "number": 5,
+      "answer": "B"
+    }
+  ],
+  "used_vocab": [
+    "hand-held",
+    "frozen",
+    "contest",
+    "unlikely",
+    "lively",
+    "sailing"
+  ],
+  "difficulty_notes": "The passage uses clear, everyday language and a familiar community event theme, appropriate for B1 level readers.",
+  "title": "Reading Quest: PET全_Page_12_04221021",
+  "page_number": 12,
+  "lesson_number": 12,
+  "focus_words": [
+    {
+      "term": "hand-held",
+      "gloss": "便携式的"
+    },
+    {
+      "term": "frozen",
+      "gloss": "冷冻的"
+    },
+    {
+      "term": "contest",
+      "gloss": "比赛"
+    },
+    {
+      "term": "unlikely",
+      "gloss": "不太可能的"
+    },
+    {
+      "term": "tongue",
+      "gloss": "舌头"
+    },
+    {
+      "term": "banking",
+      "gloss": "银行业"
+    },
+    {
+      "term": "lively",
+      "gloss": "生动活泼的"
+    },
+    {
+      "term": "sailing",
+      "gloss": "航行"
+    }
+  ],
+  "source_words": [
+    {
+      "term": "frozen",
+      "gloss": "冷冻的"
+    },
+    {
+      "term": "contest",
+      "gloss": "比赛"
+    },
+    {
+      "term": "kind",
+      "gloss": "友善的 ; 种类"
+    },
+    {
+      "term": "unlikely",
+      "gloss": "不太可能的"
+    },
+    {
+      "term": "up",
+      "gloss": "在 ... 之上"
+    },
+    {
+      "term": "tongue",
+      "gloss": "舌头"
+    },
+    {
+      "term": "banking",
+      "gloss": "银行业"
+    },
+    {
+      "term": "lively",
+      "gloss": "生动活泼的"
+    },
+    {
+      "term": "sailing",
+      "gloss": "航行"
+    },
+    {
+      "term": "careful",
+      "gloss": "仔细的"
+    },
+    {
+      "term": "conference",
+      "gloss": "研讨会"
+    },
+    {
+      "term": "dictionary",
+      "gloss": "词典"
+    },
+    {
+      "term": "beyond",
+      "gloss": "超出"
+    },
+    {
+      "term": "afford",
+      "gloss": "承担得起"
+    },
+    {
+      "term": "common",
+      "gloss": "通常的"
+    },
+    {
+      "term": "goalkeeper",
+      "gloss": "守门员"
+    },
+    {
+      "term": "hand-held",
+      "gloss": "便携式的"
+    },
+    {
+      "term": "pilot",
+      "gloss": "飞行员"
+    },
+    {
+      "term": "pineapple",
+      "gloss": "菠萝"
+    },
+    {
+      "term": "cap",
+      "gloss": "盖 ; 帽子"
+    },
+    {
+      "term": "arrangement",
+      "gloss": "安排"
+    },
+    {
+      "term": "declare",
+      "gloss": "宣布"
+    },
+    {
+      "term": "enquire",
+      "gloss": "询问"
+    },
+    {
+      "term": "replace",
+      "gloss": "取代"
+    },
+    {
+      "term": "email",
+      "gloss": "电子邮件"
+    },
+    {
+      "term": "translation",
+      "gloss": "翻译"
+    },
+    {
+      "term": "perhaps",
+      "gloss": "也许 , 可能"
+    },
+    {
+      "term": "April",
+      "gloss": "四月"
+    },
+    {
+      "term": "clinic",
+      "gloss": "诊所"
+    },
+    {
+      "term": "discuss",
+      "gloss": "讨论"
+    },
+    {
+      "term": "sheep",
+      "gloss": "绵羊"
+    },
+    {
+      "term": "truck",
+      "gloss": "卡车 ( 美式 )"
+    },
+    {
+      "term": "national",
+      "gloss": "国家的 , 民族的"
+    },
+    {
+      "term": "basic",
+      "gloss": "基本的"
+    },
+    {
+      "term": "dollar",
+      "gloss": "美元"
+    },
+    {
+      "term": "lately",
+      "gloss": "最近"
+    },
+    {
+      "term": "envelope",
+      "gloss": "信封"
+    },
+    {
+      "term": "sister",
+      "gloss": "姐妹"
+    },
+    {
+      "term": "elementary",
+      "gloss": "初级的"
+    },
+    {
+      "term": "proud",
+      "gloss": "骄傲的"
+    },
+    {
+      "term": "rail",
+      "gloss": "铁轨"
+    },
+    {
+      "term": "salesman",
+      "gloss": "售货员"
+    },
+    {
+      "term": "forbidden",
+      "gloss": "禁止的"
+    },
+    {
+      "term": "painful",
+      "gloss": "痛苦的"
+    },
+    {
+      "term": "apology",
+      "gloss": "道歉"
+    }
+  ]
+}

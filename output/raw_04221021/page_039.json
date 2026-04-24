@@ -1,0 +1,313 @@
+{
+  "passage": "The annual Summer Science Fair at Riverside School was a big success this year. Over 100 students participated, and registration was smooth, with only a few slightly delayed forms. One highlight was the potato-growing competition, where students displayed their harvests and explained how they cared for their plants. Unfortunately, Sarah's entry was missing a key diagram that showed her experiment's results, so she couldn't complete her presentation fully. During the event, Tom, who had been feeling unwell earlier in the day, had to leave early to rest. Despite these minor issues, everyone enjoyed the hands-on activities, like building simple machines, and learned a lot about science and teamwork. The fair ended with prizes for the best projects, and teachers praised the students for their hard work. Plans are already underway for next year's event, which promises to be even bigger.",
+  "passage_word_count": 139,
+  "questions": [
+    {
+      "number": 1,
+      "question": "What is the report mainly about?",
+      "options": {
+        "A": "A school science competition",
+        "B": "The problems at a summer event",
+        "C": "A successful science fair",
+        "D": "Students' health issues"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 2,
+      "question": "Why couldn't Sarah complete her presentation?",
+      "options": {
+        "A": "She felt unwell",
+        "B": "A diagram was missing",
+        "C": "She didn't register on time",
+        "D": "Her potato plants died"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 3,
+      "question": "Why did Tom leave the event early?",
+      "options": {
+        "A": "He was bored",
+        "B": "He had to help with registration",
+        "C": "He was feeling unwell",
+        "D": "He wanted to buy a potato"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 4,
+      "question": "What can be inferred about the event?",
+      "options": {
+        "A": "It was poorly organised",
+        "B": "It was only for older students",
+        "C": "It was enjoyed by most participants",
+        "D": "It focused only on potato growing"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 5,
+      "question": "The word 'missing' in the passage means:",
+      "options": {
+        "A": "Lost or not present",
+        "B": "Slightly delayed",
+        "C": "Unwell",
+        "D": "Unusual"
+      },
+      "answer": "A"
+    }
+  ],
+  "answers": [
+    {
+      "number": 1,
+      "answer": "C"
+    },
+    {
+      "number": 2,
+      "answer": "B"
+    },
+    {
+      "number": 3,
+      "answer": "C"
+    },
+    {
+      "number": 4,
+      "answer": "C"
+    },
+    {
+      "number": 5,
+      "answer": "A"
+    }
+  ],
+  "used_vocab": [
+    "registration",
+    "slightly",
+    "missing",
+    "diagram",
+    "unwell",
+    "summer",
+    "science",
+    "potato"
+  ],
+  "difficulty_notes": "Passage uses simple past tense and everyday vocabulary, suitable for B1 learners.",
+  "title": "Reading Quest: PET全_Page_39_04221021",
+  "page_number": 39,
+  "lesson_number": 39,
+  "focus_words": [
+    {
+      "term": "registration",
+      "gloss": "登记"
+    },
+    {
+      "term": "slightly",
+      "gloss": "轻微地"
+    },
+    {
+      "term": "missing",
+      "gloss": "缺少的"
+    },
+    {
+      "term": "diagram",
+      "gloss": "图表"
+    },
+    {
+      "term": "unwell",
+      "gloss": "不适 ; 不舒服"
+    },
+    {
+      "term": "summer",
+      "gloss": "夏季"
+    },
+    {
+      "term": "science",
+      "gloss": "科学"
+    },
+    {
+      "term": "potato",
+      "gloss": "土豆"
+    }
+  ],
+  "source_words": [
+    {
+      "term": "registration",
+      "gloss": "登记"
+    },
+    {
+      "term": "tenth",
+      "gloss": "第十"
+    },
+    {
+      "term": "slightly",
+      "gloss": "轻微地"
+    },
+    {
+      "term": "just",
+      "gloss": "恰好 ; 刚才"
+    },
+    {
+      "term": "class",
+      "gloss": "班级 ; 阶级 ; 种类"
+    },
+    {
+      "term": "missing",
+      "gloss": "缺少的"
+    },
+    {
+      "term": "diagram",
+      "gloss": "图表"
+    },
+    {
+      "term": "unwell",
+      "gloss": "不适 ; 不舒服"
+    },
+    {
+      "term": "summer",
+      "gloss": "夏季"
+    },
+    {
+      "term": "science",
+      "gloss": "科学"
+    },
+    {
+      "term": "potato",
+      "gloss": "土豆"
+    },
+    {
+      "term": "girlfriend",
+      "gloss": "女朋友"
+    },
+    {
+      "term": "tiger",
+      "gloss": "老虎"
+    },
+    {
+      "term": "strawberry",
+      "gloss": "草莓"
+    },
+    {
+      "term": "sum",
+      "gloss": "总数"
+    },
+    {
+      "term": "shirt",
+      "gloss": "衬衫"
+    },
+    {
+      "term": "waterfall",
+      "gloss": "瀑布"
+    },
+    {
+      "term": "assistant",
+      "gloss": "助手 , 助理"
+    },
+    {
+      "term": "selfish",
+      "gloss": "自私的"
+    },
+    {
+      "term": "active",
+      "gloss": "活跃的"
+    },
+    {
+      "term": "except",
+      "gloss": "除 ... 之外"
+    },
+    {
+      "term": "seventeen",
+      "gloss": "十七"
+    },
+    {
+      "term": "comfortable",
+      "gloss": "舒适的"
+    },
+    {
+      "term": "their",
+      "gloss": "他 ( 她 , 它 ) 们的"
+    },
+    {
+      "term": "usually",
+      "gloss": "通常;一般"
+    },
+    {
+      "term": "scream",
+      "gloss": "尖叫声"
+    },
+    {
+      "term": "mango",
+      "gloss": "芒果"
+    },
+    {
+      "term": "lose",
+      "gloss": "失败 ; 遗失"
+    },
+    {
+      "term": "slide",
+      "gloss": "滑动"
+    },
+    {
+      "term": "checkout",
+      "gloss": "付款处"
+    },
+    {
+      "term": "route",
+      "gloss": "路线"
+    },
+    {
+      "term": "scared",
+      "gloss": "惊恐的"
+    },
+    {
+      "term": "competition",
+      "gloss": "比赛 , 竞争"
+    },
+    {
+      "term": "natural",
+      "gloss": "自然的"
+    },
+    {
+      "term": "unusual",
+      "gloss": "不寻常的"
+    },
+    {
+      "term": "indoors",
+      "gloss": "在室内"
+    },
+    {
+      "term": "twice",
+      "gloss": "两倍 , 两次"
+    },
+    {
+      "term": "boring",
+      "gloss": "令人厌烦的"
+    },
+    {
+      "term": "cashpoint",
+      "gloss": "自动取款机"
+    },
+    {
+      "term": "central",
+      "gloss": "中央的"
+    },
+    {
+      "term": "event",
+      "gloss": "事件 ; 运动项目"
+    },
+    {
+      "term": "cab",
+      "gloss": "计程车"
+    },
+    {
+      "term": "opinion",
+      "gloss": "意见"
+    },
+    {
+      "term": "brother",
+      "gloss": "兄弟"
+    },
+    {
+      "term": "card",
+      "gloss": "卡片"
+    }
+  ]
+}

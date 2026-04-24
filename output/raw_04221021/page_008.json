@@ -1,0 +1,312 @@
+{
+  "passage": "Welcome to the Greenfield Football Club webpage! We are a lively group that meets regularly every Tuesday and Thursday from 3:30 PM to 5:00 PM in the school sports field. Our club is perfect for anyone who enjoys football and wants to play in a team. To join, you must obtain permission from your parents and submit a signed form at the entrance of the sports hall. We have a large collection of footballs, jerseys, and other equipment available for all members. Our coach, Mr. Jones, is very good-looking and friendly, but his training drills can sometimes be confusing for beginners. However, we always support each other. We focus on regular practice sessions to improve skills like passing and shooting. Throughout the year, we play friendly matches and enter local tournaments. If you have any questions, feel free to ask any club member. We hope to see you soon!",
+  "passage_word_count": 147,
+  "questions": [
+    {
+      "number": 1,
+      "question": "What is the main purpose of the webpage?",
+      "options": {
+        "A": "To explain the rules of football.",
+        "B": "To invite students to join the football club.",
+        "C": "To describe the school's sports facilities.",
+        "D": "To advertise a football match."
+      },
+      "answer": "B"
+    },
+    {
+      "number": 2,
+      "question": "When does the club meet?",
+      "options": {
+        "A": "Every Monday and Wednesday.",
+        "B": "Every Tuesday and Thursday.",
+        "C": "On weekends.",
+        "D": "After school hours on Fridays."
+      },
+      "answer": "B"
+    },
+    {
+      "number": 3,
+      "question": "Why is permission needed to join the club?",
+      "options": {
+        "A": "To ensure safety and confirm parental agreement.",
+        "B": "To collect membership fees.",
+        "C": "To check football skills.",
+        "D": "To avoid confusing instructions."
+      },
+      "answer": "A"
+    },
+    {
+      "number": 4,
+      "question": "What can be inferred about the coach's drills from the passage?",
+      "options": {
+        "A": "They are too simple for new members.",
+        "B": "They are not well-organized.",
+        "C": "They might be hard to understand at first.",
+        "D": "They are only for experienced players."
+      },
+      "answer": "C"
+    },
+    {
+      "number": 5,
+      "question": "What does the word 'confusing' mean in the passage?",
+      "options": {
+        "A": "Clear and easy.",
+        "B": "Difficult to understand.",
+        "C": "Very interesting.",
+        "D": "Completely boring."
+      },
+      "answer": "B"
+    }
+  ],
+  "answers": [
+    {
+      "number": 1,
+      "answer": "B"
+    },
+    {
+      "number": 2,
+      "answer": "B"
+    },
+    {
+      "number": 3,
+      "answer": "A"
+    },
+    {
+      "number": 4,
+      "answer": "C"
+    },
+    {
+      "number": 5,
+      "answer": "B"
+    }
+  ],
+  "used_vocab": [
+    "good-looking",
+    "regular",
+    "entrance",
+    "collection",
+    "permission",
+    "confusing",
+    "football"
+  ],
+  "difficulty_notes": "The passage uses simple, everyday language about a school club, appropriate for B1 learners.",
+  "title": "Reading Quest: PET全_Page_8_04221021",
+  "page_number": 8,
+  "lesson_number": 8,
+  "focus_words": [
+    {
+      "term": "good-looking",
+      "gloss": "好看的"
+    },
+    {
+      "term": "unfriendly",
+      "gloss": "不友好的"
+    },
+    {
+      "term": "regular",
+      "gloss": "有规律的"
+    },
+    {
+      "term": "entrance",
+      "gloss": "入又"
+    },
+    {
+      "term": "collection",
+      "gloss": "收藏品"
+    },
+    {
+      "term": "permission",
+      "gloss": "允许"
+    },
+    {
+      "term": "confusing",
+      "gloss": "难以理解的"
+    },
+    {
+      "term": "football",
+      "gloss": "足球"
+    }
+  ],
+  "source_words": [
+    {
+      "term": "unfriendly",
+      "gloss": "不友好的"
+    },
+    {
+      "term": "regular",
+      "gloss": "有规律的"
+    },
+    {
+      "term": "entrance",
+      "gloss": "入又"
+    },
+    {
+      "term": "collection",
+      "gloss": "收藏品"
+    },
+    {
+      "term": "permission",
+      "gloss": "允许"
+    },
+    {
+      "term": "confusing",
+      "gloss": "难以理解的"
+    },
+    {
+      "term": "football",
+      "gloss": "足球"
+    },
+    {
+      "term": "personal",
+      "gloss": "个人的"
+    },
+    {
+      "term": "club",
+      "gloss": "俱乐部"
+    },
+    {
+      "term": "prisoner",
+      "gloss": "犯人"
+    },
+    {
+      "term": "glove",
+      "gloss": "手套"
+    },
+    {
+      "term": "cardboard",
+      "gloss": "硬纸板"
+    },
+    {
+      "term": "tune",
+      "gloss": "曲调"
+    },
+    {
+      "term": "grandad",
+      "gloss": "爷爷,外公"
+    },
+    {
+      "term": "good-looking",
+      "gloss": "好看的"
+    },
+    {
+      "term": "move",
+      "gloss": "移动 , 搬家"
+    },
+    {
+      "term": "grocery",
+      "gloss": "食品杂货"
+    },
+    {
+      "term": "harbour",
+      "gloss": "港又 ; 避难所"
+    },
+    {
+      "term": "dishwasher",
+      "gloss": "洗碗机"
+    },
+    {
+      "term": "notebook",
+      "gloss": "笔记本"
+    },
+    {
+      "term": "seventh",
+      "gloss": "第七"
+    },
+    {
+      "term": "architecture",
+      "gloss": "建筑学"
+    },
+    {
+      "term": "project",
+      "gloss": "项目 , 计划"
+    },
+    {
+      "term": "flower",
+      "gloss": "花"
+    },
+    {
+      "term": "valley",
+      "gloss": "山谷"
+    },
+    {
+      "term": "cage",
+      "gloss": "笼子"
+    },
+    {
+      "term": "spite",
+      "gloss": "不顾;恶意"
+    },
+    {
+      "term": "spilt",
+      "gloss": "溢出"
+    },
+    {
+      "term": "revise",
+      "gloss": "修改"
+    },
+    {
+      "term": "hill",
+      "gloss": "小山"
+    },
+    {
+      "term": "queen",
+      "gloss": "女王 , 王后"
+    },
+    {
+      "term": "honestly",
+      "gloss": "真诚地"
+    },
+    {
+      "term": "warm",
+      "gloss": "暖和的"
+    },
+    {
+      "term": "babysitter",
+      "gloss": "临时保姆"
+    },
+    {
+      "term": "else",
+      "gloss": "其他 , 另外"
+    },
+    {
+      "term": "boss",
+      "gloss": "老板 , 上司"
+    },
+    {
+      "term": "embarrassing",
+      "gloss": "令人尴尬的"
+    },
+    {
+      "term": "recover",
+      "gloss": "恢复"
+    },
+    {
+      "term": "employer",
+      "gloss": "雇用者"
+    },
+    {
+      "term": "accept",
+      "gloss": "接受"
+    },
+    {
+      "term": "foreign",
+      "gloss": "外国的"
+    },
+    {
+      "term": "historical",
+      "gloss": "历史上的"
+    },
+    {
+      "term": "electric",
+      "gloss": "电的;电动的"
+    },
+    {
+      "term": "ordinary",
+      "gloss": "普通的"
+    },
+    {
+      "term": "stairs",
+      "gloss": "楼梯"
+    }
+  ]
+}

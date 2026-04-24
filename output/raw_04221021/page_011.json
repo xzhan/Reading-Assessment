@@ -1,0 +1,311 @@
+{
+  "passage": "Last weekend, I went on a trip to Brighton with my family. The temperature was pleasantly warm, perfect for walking along the beach. We stayed in a hostel where our room was located downstairs, which was great because we didn't have to climb stairs with our heavy suitcases. On our first evening, we discovered a talented guitarist performing near the pier. His music was so relaxing that we stayed to listen for over an hour. For breakfast the next morning, we had boiled eggs and fresh fruit. I was willing to try surfing, an activity I'd never done before, but my brother was hesitant. This caused a brief argument about what to do that day. Eventually, we agreed to split up: I went to the surfing school, while he visited the local museum with our parents. Later, we all met up and shared our exciting stories. It was an enjoyable and memorable trip, teaching me the value of trying new things and compromising with family.",
+  "passage_word_count": 165,
+  "questions": [
+    {
+      "number": 1,
+      "question": "What is the main purpose of this blog entry?",
+      "options": {
+        "A": "To describe a family holiday in Brighton.",
+        "B": "To give advice on beach holidays.",
+        "C": "To compare surfing and museum visits.",
+        "D": "To explain how to avoid arguments on trips."
+      },
+      "answer": "A"
+    },
+    {
+      "number": 2,
+      "question": "Where was the family's room in the hostel?",
+      "options": {
+        "A": "On the top floor.",
+        "B": "Next to the beach.",
+        "C": "Downstairs.",
+        "D": "Near the pier."
+      },
+      "answer": "C"
+    },
+    {
+      "number": 3,
+      "question": "Why does the writer mention the guitarist?",
+      "options": {
+        "A": "To show that Brighton has good music scenes.",
+        "B": "To explain why they stayed near the pier.",
+        "C": "To describe an enjoyable part of the trip.",
+        "D": "To compare with the surfing lesson."
+      },
+      "answer": "C"
+    },
+    {
+      "number": 4,
+      "question": "What can be inferred about the writer's brother?",
+      "options": {
+        "A": "He preferred surfing to the museum.",
+        "B": "He was not willing to try new activities.",
+        "C": "He enjoyed the boiled eggs for breakfast.",
+        "D": "He liked the guitarist's music more than the writer."
+      },
+      "answer": "B"
+    },
+    {
+      "number": 5,
+      "question": "What does 'willing' mean in the sentence 'I was willing to try surfing'?",
+      "options": {
+        "A": "Happy.",
+        "B": "Ready or prepared to do something.",
+        "C": "Unwilling.",
+        "D": "Excited."
+      },
+      "answer": "B"
+    }
+  ],
+  "answers": [
+    {
+      "number": 1,
+      "answer": "A"
+    },
+    {
+      "number": 2,
+      "answer": "C"
+    },
+    {
+      "number": 3,
+      "answer": "C"
+    },
+    {
+      "number": 4,
+      "answer": "B"
+    },
+    {
+      "number": 5,
+      "answer": "B"
+    }
+  ],
+  "used_vocab": [
+    "willing",
+    "argument",
+    "temperature",
+    "guitarist",
+    "boiled",
+    "downstairs"
+  ],
+  "difficulty_notes": "The passage uses simple, everyday language with clear context for vocabulary, suitable for B1 learners.",
+  "title": "Reading Quest: PET全_Page_11_04221021",
+  "page_number": 11,
+  "lesson_number": 11,
+  "focus_words": [
+    {
+      "term": "willing",
+      "gloss": "乐意的"
+    },
+    {
+      "term": "argument",
+      "gloss": "论点"
+    },
+    {
+      "term": "temperature",
+      "gloss": "温度"
+    },
+    {
+      "term": "guitarist",
+      "gloss": "吉他弹奏者"
+    },
+    {
+      "term": "ironing",
+      "gloss": "熨烫"
+    },
+    {
+      "term": "boiled",
+      "gloss": "煮沸的"
+    },
+    {
+      "term": "downstairs",
+      "gloss": "在楼下"
+    },
+    {
+      "term": "calculator",
+      "gloss": "计算器"
+    }
+  ],
+  "source_words": [
+    {
+      "term": "open",
+      "gloss": "公开的 , 开放的"
+    },
+    {
+      "term": "willing",
+      "gloss": "乐意的"
+    },
+    {
+      "term": "argument",
+      "gloss": "论点"
+    },
+    {
+      "term": "temperature",
+      "gloss": "温度"
+    },
+    {
+      "term": "l",
+      "gloss": "我"
+    },
+    {
+      "term": "guitarist",
+      "gloss": "吉他弹奏者"
+    },
+    {
+      "term": "ironing",
+      "gloss": "熨烫"
+    },
+    {
+      "term": "cost",
+      "gloss": "价值 , 花费"
+    },
+    {
+      "term": "tax",
+      "gloss": "税 ; 税款"
+    },
+    {
+      "term": "apart",
+      "gloss": "分开地"
+    },
+    {
+      "term": "boiled",
+      "gloss": "煮沸的"
+    },
+    {
+      "term": "melon",
+      "gloss": "瓜"
+    },
+    {
+      "term": "downstairs",
+      "gloss": "在楼下"
+    },
+    {
+      "term": "crop",
+      "gloss": "庄稼"
+    },
+    {
+      "term": "day",
+      "gloss": "一天 ; 白天"
+    },
+    {
+      "term": "park",
+      "gloss": "公园 , 停车"
+    },
+    {
+      "term": "wear",
+      "gloss": "穿着 , 耗损"
+    },
+    {
+      "term": "calculator",
+      "gloss": "计算器"
+    },
+    {
+      "term": "stone",
+      "gloss": "石头"
+    },
+    {
+      "term": "feel",
+      "gloss": "感觉 , 触摸"
+    },
+    {
+      "term": "principal",
+      "gloss": "主要的"
+    },
+    {
+      "term": "locate",
+      "gloss": "位于"
+    },
+    {
+      "term": "somewhere",
+      "gloss": "在某处"
+    },
+    {
+      "term": "cheek",
+      "gloss": "面颊"
+    },
+    {
+      "term": "empty",
+      "gloss": "空的 ; 倒空"
+    },
+    {
+      "term": "technique",
+      "gloss": "技术"
+    },
+    {
+      "term": "lip",
+      "gloss": "嘴唇"
+    },
+    {
+      "term": "over",
+      "gloss": "在 ... 的上方 ; 结束"
+    },
+    {
+      "term": "guitar",
+      "gloss": "吉他"
+    },
+    {
+      "term": "enjoyable",
+      "gloss": "令人愉快的"
+    },
+    {
+      "term": "remove",
+      "gloss": "移除"
+    },
+    {
+      "term": "surfboard",
+      "gloss": "冲浪板"
+    },
+    {
+      "term": "us",
+      "gloss": "我们"
+    },
+    {
+      "term": "certainly",
+      "gloss": "当然 ; 一定"
+    },
+    {
+      "term": "abroad",
+      "gloss": "在国外"
+    },
+    {
+      "term": "foot",
+      "gloss": "脚 ; 英尺"
+    },
+    {
+      "term": "toothbrush",
+      "gloss": "牙刷"
+    },
+    {
+      "term": "professor",
+      "gloss": "教授"
+    },
+    {
+      "term": "proper",
+      "gloss": "适当的"
+    },
+    {
+      "term": "yes",
+      "gloss": "是的"
+    },
+    {
+      "term": "sunbathe",
+      "gloss": "日光浴"
+    },
+    {
+      "term": "act",
+      "gloss": "行为 , 演戏 , 一幕"
+    },
+    {
+      "term": "slim",
+      "gloss": "苗条的"
+    },
+    {
+      "term": "improvement",
+      "gloss": "改进"
+    },
+    {
+      "term": "destroy",
+      "gloss": "摧毁"
+    }
+  ]
+}

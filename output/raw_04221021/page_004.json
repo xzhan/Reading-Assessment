@@ -1,0 +1,311 @@
+{
+  "passage": "Join us for a fun weekend camping trip to Green Valley! This event is perfect for sociable teenagers who love the outdoors. We will meet at the school gate at 9 am on Saturday. Please bring your own snacks and a water bottle. For lunch, we will have a picnic, so make sure to bring sandwiches or something similar. The preparation is simple: just pack your bag with warm clothes and a torch. We will set up tents near the lake, and in the evening, we can chat around the campfire. It might be a bit stressful to set up the tent at first, but our leaders will help you. Don't forget to update your phone with the latest map before we go. Travel by aeroplane is not needed; we will go by bus. Remember to listen carefully to the safety instructions. See you there!",
+  "passage_word_count": 144,
+  "questions": [
+    {
+      "number": 1,
+      "question": "What is the main purpose of this notice?",
+      "options": {
+        "A": "To invite people to a camping trip.",
+        "B": "To explain how to set up a tent.",
+        "C": "To describe Green Valley.",
+        "D": "To sell camping equipment."
+      },
+      "answer": "A"
+    },
+    {
+      "number": 2,
+      "question": "What do participants need to bring for lunch?",
+      "options": {
+        "A": "A water bottle.",
+        "B": "Sandwiches.",
+        "C": "Snacks.",
+        "D": "A torch."
+      },
+      "answer": "B"
+    },
+    {
+      "number": 3,
+      "question": "Why is 'travel by aeroplane' mentioned in the notice?",
+      "options": {
+        "A": "To suggest flying to the destination.",
+        "B": "To explain that the trip is far away.",
+        "C": "To clarify that another transport will be used.",
+        "D": "To compare different ways of travelling."
+      },
+      "answer": "C"
+    },
+    {
+      "number": 4,
+      "question": "What can be inferred about the campfire activity?",
+      "options": {
+        "A": "It will be held in the morning.",
+        "B": "It is optional for participants.",
+        "C": "It is a time for socialising.",
+        "D": "It will involve playing musical instruments."
+      },
+      "answer": "C"
+    },
+    {
+      "number": 5,
+      "question": "What does 'sociable' mean in the passage?",
+      "options": {
+        "A": "Friendly and enjoys being with others.",
+        "B": "Good at outdoor activities.",
+        "C": "Interested in camping.",
+        "D": "Able to pack a bag quickly."
+      },
+      "answer": "A"
+    }
+  ],
+  "answers": [
+    {
+      "number": 1,
+      "answer": "A"
+    },
+    {
+      "number": 2,
+      "answer": "B"
+    },
+    {
+      "number": 3,
+      "answer": "C"
+    },
+    {
+      "number": 4,
+      "answer": "C"
+    },
+    {
+      "number": 5,
+      "answer": "A"
+    }
+  ],
+  "used_vocab": [
+    "sociable",
+    "preparation",
+    "stressful",
+    "update",
+    "carefully",
+    "aeroplane"
+  ],
+  "difficulty_notes": "A community notice with clear instructions and natural vocabulary use, suitable for B1 level.",
+  "title": "Reading Quest: PET全_Page_4_04221021",
+  "page_number": 4,
+  "lesson_number": 4,
+  "focus_words": [
+    {
+      "term": "sociable",
+      "gloss": "善于交际的"
+    },
+    {
+      "term": "preparation",
+      "gloss": "准备"
+    },
+    {
+      "term": "refrigerator",
+      "gloss": "冰箱"
+    },
+    {
+      "term": "stressful",
+      "gloss": "压力重的"
+    },
+    {
+      "term": "desert",
+      "gloss": "沙漠 ; 荒原"
+    },
+    {
+      "term": "update",
+      "gloss": "更新"
+    },
+    {
+      "term": "carefully",
+      "gloss": "仔细地"
+    },
+    {
+      "term": "aeroplane",
+      "gloss": "飞机"
+    }
+  ],
+  "source_words": [
+    {
+      "term": "per",
+      "gloss": "每一"
+    },
+    {
+      "term": "begin",
+      "gloss": "开始"
+    },
+    {
+      "term": "sociable",
+      "gloss": "善于交际的"
+    },
+    {
+      "term": "talk",
+      "gloss": "谈话 , 会谈"
+    },
+    {
+      "term": "bring",
+      "gloss": "带来"
+    },
+    {
+      "term": "preparation",
+      "gloss": "准备"
+    },
+    {
+      "term": "drum",
+      "gloss": "鼓 , 鼓声"
+    },
+    {
+      "term": "waste",
+      "gloss": "浪费"
+    },
+    {
+      "term": "refrigerator",
+      "gloss": "冰箱"
+    },
+    {
+      "term": "snack",
+      "gloss": "零食"
+    },
+    {
+      "term": "still",
+      "gloss": "仍然 , 静止地"
+    },
+    {
+      "term": "frog",
+      "gloss": "青蛙"
+    },
+    {
+      "term": "cosy",
+      "gloss": "温暖舒适的"
+    },
+    {
+      "term": "video",
+      "gloss": "视频"
+    },
+    {
+      "term": "stressful",
+      "gloss": "压力重的"
+    },
+    {
+      "term": "desert",
+      "gloss": "沙漠 ; 荒原"
+    },
+    {
+      "term": "in",
+      "gloss": "进入 ; 在里面"
+    },
+    {
+      "term": "update",
+      "gloss": "更新"
+    },
+    {
+      "term": "carefully",
+      "gloss": "仔细地"
+    },
+    {
+      "term": "aeroplane",
+      "gloss": "飞机"
+    },
+    {
+      "term": "gray",
+      "gloss": "灰色 ( 美式 )"
+    },
+    {
+      "term": "sweatshirt",
+      "gloss": "运动衫"
+    },
+    {
+      "term": "quick",
+      "gloss": "快速的"
+    },
+    {
+      "term": "delicious",
+      "gloss": "美味的"
+    },
+    {
+      "term": "direction",
+      "gloss": "方向 ; 指南"
+    },
+    {
+      "term": "invite",
+      "gloss": "邀请"
+    },
+    {
+      "term": "explanation",
+      "gloss": "解释"
+    },
+    {
+      "term": "countryside",
+      "gloss": "乡下 ; 农村"
+    },
+    {
+      "term": "chat",
+      "gloss": "聊天"
+    },
+    {
+      "term": "reservation",
+      "gloss": "预订"
+    },
+    {
+      "term": "bracelet",
+      "gloss": "手镯"
+    },
+    {
+      "term": "depart",
+      "gloss": "离开"
+    },
+    {
+      "term": "live",
+      "gloss": "活 , 居住 , 现场的"
+    },
+    {
+      "term": "kill",
+      "gloss": "杀"
+    },
+    {
+      "term": "lake",
+      "gloss": "湖"
+    },
+    {
+      "term": "sense",
+      "gloss": "感官"
+    },
+    {
+      "term": "leader",
+      "gloss": "领导"
+    },
+    {
+      "term": "so",
+      "gloss": "因此 , 如此"
+    },
+    {
+      "term": "curiously",
+      "gloss": "好奇地"
+    },
+    {
+      "term": "doll",
+      "gloss": "洋娃娃"
+    },
+    {
+      "term": "achievement",
+      "gloss": "成就"
+    },
+    {
+      "term": "comfort",
+      "gloss": "安慰"
+    },
+    {
+      "term": "suggest",
+      "gloss": "建议 ; 暗示"
+    },
+    {
+      "term": "bean",
+      "gloss": "豆子"
+    },
+    {
+      "term": "engineering",
+      "gloss": "工程学"
+    }
+  ]
+}

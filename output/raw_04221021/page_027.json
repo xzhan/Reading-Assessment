@@ -1,0 +1,310 @@
+{
+  "passage": "Last week, I travelled to a small village in the countryside for a holiday. It was a single journey with my parents, and we stayed in a cosy hotel. On the first day, we tried the local food, including a delicious chicken dish that was cooked in a special way. The weather was quite warm, so I packed light clothes like a cotton blouse with short sleeves. Unfortunately, I was unable to wear it because it was too hot, and I had to reduce my time outdoors. The village is famous for its history; it's said that a local farmer invented a clever tool for farming many years ago. The holiday involved lots of walking and visiting old buildings, which was tiring but fun. We also took many photos to remember the trip.",
+  "passage_word_count": 133,
+  "questions": [
+    {
+      "number": 1,
+      "question": "What is the main topic of this blog entry?",
+      "options": {
+        "A": "A holiday experience in the countryside",
+        "B": "A recipe for a chicken dish",
+        "C": "The history of a farming tool",
+        "D": "Packing for hot weather"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 2,
+      "question": "What type of clothes did the writer pack for the trip?",
+      "options": {
+        "A": "A heavy coat",
+        "B": "A cotton blouse",
+        "C": "A woollen jumper",
+        "D": "A sports top"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 3,
+      "question": "Why does the writer mention the farmer's invention?",
+      "options": {
+        "A": "To explain why the village is interesting",
+        "B": "To describe how to farm efficiently",
+        "C": "To complain about the hot weather",
+        "D": "To suggest a new hobby for visitors"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 4,
+      "question": "How does the writer feel about the holiday overall?",
+      "options": {
+        "A": "It was completely unpleasant.",
+        "B": "It was enjoyable despite some challenges.",
+        "C": "It was too short and boring.",
+        "D": "It was mostly disappointing."
+      },
+      "answer": "B"
+    },
+    {
+      "number": 5,
+      "question": "What does 'unable' mean in the sentence 'I was unable to wear it'?",
+      "options": {
+        "A": "Not allowed to",
+        "B": "Not able to",
+        "C": "Unhappy to",
+        "D": "Unwilling to"
+      },
+      "answer": "B"
+    }
+  ],
+  "answers": [
+    {
+      "number": 1,
+      "answer": "A"
+    },
+    {
+      "number": 2,
+      "answer": "B"
+    },
+    {
+      "number": 3,
+      "answer": "A"
+    },
+    {
+      "number": 4,
+      "answer": "B"
+    },
+    {
+      "number": 5,
+      "answer": "B"
+    }
+  ],
+  "used_vocab": [
+    "single",
+    "chicken",
+    "reduce",
+    "blouse",
+    "unable"
+  ],
+  "difficulty_notes": "Passage uses simple past tense and everyday vocabulary suitable for B1 learners.",
+  "title": "Reading Quest: PET全_Page_27_04221021",
+  "page_number": 27,
+  "lesson_number": 27,
+  "focus_words": [
+    {
+      "term": "single",
+      "gloss": "单一的"
+    },
+    {
+      "term": "chicken",
+      "gloss": "小鸡,鸡肉"
+    },
+    {
+      "term": "sleeve",
+      "gloss": "袖子"
+    },
+    {
+      "term": "reduce",
+      "gloss": "减少"
+    },
+    {
+      "term": "blouse",
+      "gloss": "女衬衫"
+    },
+    {
+      "term": "unable",
+      "gloss": "不能的"
+    },
+    {
+      "term": "invent",
+      "gloss": "发明"
+    },
+    {
+      "term": "involve",
+      "gloss": "牵涉"
+    }
+  ],
+  "source_words": [
+    {
+      "term": "single",
+      "gloss": "单一的"
+    },
+    {
+      "term": "chicken",
+      "gloss": "小鸡,鸡肉"
+    },
+    {
+      "term": "sleeve",
+      "gloss": "袖子"
+    },
+    {
+      "term": "dive",
+      "gloss": "跳水 ; 急剧下降"
+    },
+    {
+      "term": "reduce",
+      "gloss": "减少"
+    },
+    {
+      "term": "blouse",
+      "gloss": "女衬衫"
+    },
+    {
+      "term": "sail",
+      "gloss": "航行 ; 开船"
+    },
+    {
+      "term": "sleep",
+      "gloss": "睡觉"
+    },
+    {
+      "term": "unable",
+      "gloss": "不能的"
+    },
+    {
+      "term": "invent",
+      "gloss": "发明"
+    },
+    {
+      "term": "involve",
+      "gloss": "牵涉"
+    },
+    {
+      "term": "valuable",
+      "gloss": "很有用的"
+    },
+    {
+      "term": "smoking",
+      "gloss": "吸烟"
+    },
+    {
+      "term": "year",
+      "gloss": "年 , 年度"
+    },
+    {
+      "term": "race",
+      "gloss": "竞赛 ; 种族"
+    },
+    {
+      "term": "mouse",
+      "gloss": "老鼠 , 鼠标"
+    },
+    {
+      "term": "antique",
+      "gloss": "古董 , 古老的"
+    },
+    {
+      "term": "however",
+      "gloss": "然而 ; 不管怎样"
+    },
+    {
+      "term": "balcony",
+      "gloss": "阳台"
+    },
+    {
+      "term": "occasionally",
+      "gloss": "偶尔"
+    },
+    {
+      "term": "private",
+      "gloss": "私人的"
+    },
+    {
+      "term": "giraffe",
+      "gloss": "长颈鹿"
+    },
+    {
+      "term": "none",
+      "gloss": "没有的"
+    },
+    {
+      "term": "photo",
+      "gloss": "照片"
+    },
+    {
+      "term": "possibly",
+      "gloss": "可能地"
+    },
+    {
+      "term": "film",
+      "gloss": "电影"
+    },
+    {
+      "term": "lay",
+      "gloss": "放置"
+    },
+    {
+      "term": "nobody",
+      "gloss": "没有任何人"
+    },
+    {
+      "term": "situated",
+      "gloss": "位于 ... 的"
+    },
+    {
+      "term": "sparkling",
+      "gloss": "闪闪发光的"
+    },
+    {
+      "term": "snowboarding",
+      "gloss": "单板滑雪"
+    },
+    {
+      "term": "danger",
+      "gloss": "危险"
+    },
+    {
+      "term": "line",
+      "gloss": "行 ; 线"
+    },
+    {
+      "term": "ice",
+      "gloss": "冰"
+    },
+    {
+      "term": "calm",
+      "gloss": "冷静的"
+    },
+    {
+      "term": "puzzle",
+      "gloss": "拼图 ; 迷"
+    },
+    {
+      "term": "flatmate",
+      "gloss": "公寓室友"
+    },
+    {
+      "term": "guidebook",
+      "gloss": "旅行指南"
+    },
+    {
+      "term": "cabinet",
+      "gloss": "橱柜 ; 内阁"
+    },
+    {
+      "term": "takeaway",
+      "gloss": "外卖食物"
+    },
+    {
+      "term": "joke",
+      "gloss": "笑话"
+    },
+    {
+      "term": "zebra",
+      "gloss": "斑马"
+    },
+    {
+      "term": "thirteenth",
+      "gloss": "第十三"
+    },
+    {
+      "term": "item",
+      "gloss": "项目"
+    },
+    {
+      "term": "cattle",
+      "gloss": "牛"
+    }
+  ]
+}

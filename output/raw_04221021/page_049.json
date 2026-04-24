@@ -1,0 +1,312 @@
+{
+  "passage": "Greenfield High School's Science Week was a great success! On Monday, we had a workshop on weather. Students learned about thunderstorms and how lightning forms. Using a mobile weather station, we recorded data during a real thunderstorm that hit our town. It was uncomfortable to stand in the rain and wind, but the experience was valuable for our projects. On Tuesday, we focused on farming and sustainability. We discussed how a quarter of the world's food comes from small farms, and why it's important to support them. In biology class, we used textbooks to study marine life, and some students even tried diving in the school's new pool to see underwater plants. The week ended with a record attempt for the longest science experiment, which lasted three hours. Everyone agreed it was an excellent way to learn new things and have fun.",
+  "passage_word_count": 142,
+  "questions": [
+    {
+      "number": 1,
+      "question": "What is the main idea of the article?",
+      "options": {
+        "A": "A new school building project",
+        "B": "A successful Science Week at school",
+        "C": "A trip to a farming village",
+        "D": "A weather recording competition"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 2,
+      "question": "What did students do on Monday?",
+      "options": {
+        "A": "They went diving in the pool.",
+        "B": "They recorded a thunderstorm.",
+        "C": "They visited a farm.",
+        "D": "They read textbooks in class."
+      },
+      "answer": "B"
+    },
+    {
+      "number": 3,
+      "question": "Why is the school holding Science Week?",
+      "options": {
+        "A": "To improve students' grades in science.",
+        "B": "To learn about weather and farming in a practical way.",
+        "C": "To compete with other schools.",
+        "D": "To raise money for new equipment."
+      },
+      "answer": "B"
+    },
+    {
+      "number": 4,
+      "question": "How might students feel after Science Week?",
+      "options": {
+        "A": "Bored and tired",
+        "B": "Confused about science",
+        "C": "Happy and inspired",
+        "D": "Uncomfortable with the weather"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 5,
+      "question": "In the passage, what does 'uncomfortable' mean?",
+      "options": {
+        "A": "Not easy to use",
+        "B": "Causing physical discomfort",
+        "C": "Difficult to understand",
+        "D": "Too expensive"
+      },
+      "answer": "B"
+    }
+  ],
+  "answers": [
+    {
+      "number": 1,
+      "answer": "B"
+    },
+    {
+      "number": 2,
+      "answer": "B"
+    },
+    {
+      "number": 3,
+      "answer": "B"
+    },
+    {
+      "number": 4,
+      "answer": "C"
+    },
+    {
+      "number": 5,
+      "answer": "B"
+    }
+  ],
+  "used_vocab": [
+    "diving",
+    "farming",
+    "record",
+    "thunderstorm",
+    "quarter",
+    "lightning",
+    "uncomfortable"
+  ],
+  "difficulty_notes": "The passage uses familiar school topics with clear context for B1-level vocabulary.",
+  "title": "Reading Quest: PET全_Page_49_04221021",
+  "page_number": 49,
+  "lesson_number": 49,
+  "focus_words": [
+    {
+      "term": "diving",
+      "gloss": "潜水"
+    },
+    {
+      "term": "farming",
+      "gloss": "务农"
+    },
+    {
+      "term": "record",
+      "gloss": "记录 ; 录音"
+    },
+    {
+      "term": "thunderstorm",
+      "gloss": "雷暴雨"
+    },
+    {
+      "term": "quarter",
+      "gloss": "四分之一 ; 季度"
+    },
+    {
+      "term": "lightning",
+      "gloss": "闪电"
+    },
+    {
+      "term": "textbook",
+      "gloss": "教科书"
+    },
+    {
+      "term": "uncomfortable",
+      "gloss": "不舒服的"
+    }
+  ],
+  "source_words": [
+    {
+      "term": "inch",
+      "gloss": "英寸"
+    },
+    {
+      "term": "sunny",
+      "gloss": "睛朗的"
+    },
+    {
+      "term": "hide",
+      "gloss": "隐藏"
+    },
+    {
+      "term": "diving",
+      "gloss": "潜水"
+    },
+    {
+      "term": "farming",
+      "gloss": "务农"
+    },
+    {
+      "term": "then",
+      "gloss": "然后 , 那么"
+    },
+    {
+      "term": "record",
+      "gloss": "记录 ; 录音"
+    },
+    {
+      "term": "lots/a lot",
+      "gloss": "大量"
+    },
+    {
+      "term": "shame",
+      "gloss": "羞耻 , 羞愧"
+    },
+    {
+      "term": "thunderstorm",
+      "gloss": "雷暴雨"
+    },
+    {
+      "term": "quarter",
+      "gloss": "四分之一 ; 季度"
+    },
+    {
+      "term": "lightning",
+      "gloss": "闪电"
+    },
+    {
+      "term": "why",
+      "gloss": "为什么"
+    },
+    {
+      "term": "textbook",
+      "gloss": "教科书"
+    },
+    {
+      "term": "uncomfortable",
+      "gloss": "不舒服的"
+    },
+    {
+      "term": "mobile",
+      "gloss": "可移动的"
+    },
+    {
+      "term": "officer",
+      "gloss": "军官"
+    },
+    {
+      "term": "bug",
+      "gloss": "虫子 ; 故障"
+    },
+    {
+      "term": "actress",
+      "gloss": "女演员"
+    },
+    {
+      "term": "paint",
+      "gloss": "油漆 , 涂色"
+    },
+    {
+      "term": "m",
+      "gloss": "检查 , 考试"
+    },
+    {
+      "term": "anywhere",
+      "gloss": "任何地方"
+    },
+    {
+      "term": "kick",
+      "gloss": "踢"
+    },
+    {
+      "term": "balloon",
+      "gloss": "气球"
+    },
+    {
+      "term": "playground",
+      "gloss": "操场"
+    },
+    {
+      "term": "excellent",
+      "gloss": "极好的 , 优秀的"
+    },
+    {
+      "term": "increase",
+      "gloss": "增加"
+    },
+    {
+      "term": "complain",
+      "gloss": "抱怨"
+    },
+    {
+      "term": "gale",
+      "gloss": "强风"
+    },
+    {
+      "term": "detective",
+      "gloss": "侦探"
+    },
+    {
+      "term": "bit",
+      "gloss": "一点,少量"
+    },
+    {
+      "term": "camping",
+      "gloss": "野营度假"
+    },
+    {
+      "term": "fact",
+      "gloss": "事实 ; 真相"
+    },
+    {
+      "term": "gap",
+      "gloss": "缺又"
+    },
+    {
+      "term": "studio",
+      "gloss": "工作室"
+    },
+    {
+      "term": "ninetieth",
+      "gloss": "第九十"
+    },
+    {
+      "term": "litre",
+      "gloss": "升"
+    },
+    {
+      "term": "spare",
+      "gloss": "剩余的 ; 备用的"
+    },
+    {
+      "term": "telephone",
+      "gloss": "电话 , 打电话"
+    },
+    {
+      "term": "reliable",
+      "gloss": "可靠的"
+    },
+    {
+      "term": "confused",
+      "gloss": "迷惑的"
+    },
+    {
+      "term": "shade",
+      "gloss": "阴影 , 树荫"
+    },
+    {
+      "term": "prepare",
+      "gloss": "准备"
+    },
+    {
+      "term": "earache",
+      "gloss": "耳痛"
+    },
+    {
+      "term": "beat",
+      "gloss": "打败 ( 某人 )"
+    }
+  ]
+}

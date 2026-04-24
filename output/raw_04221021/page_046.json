@@ -1,0 +1,313 @@
+{
+  "passage": "Our school camping club will hold a winter sleepover on Friday evening, and I am writing to announce a few details. Everyone is welcome to arrive in ordinary clothes or in a funny costume. The teachers say either choice is OK/okay, as long as it is safe and warm. Because the hall can get cold after midnight, please do not forget your pyjamas and a small heater if your parents allow it. The oldest student helper is nineteen, and he is an expert at organising indoor games. He believes that people are more likely to enjoy the night if they bring snacks and join in. Last year, a few students made negative comments about the food, but most of us still had a great time. Remember to hand in your permission form by Wednesday so we know how many beds to prepare.",
+  "passage_word_count": 143,
+  "questions": [
+    {
+      "number": 1,
+      "question": "Why is the writer sending this message?",
+      "options": {
+        "A": "To complain about last year",
+        "B": "To invite parents to a meeting",
+        "C": "To announce details of a sleepover",
+        "D": "To ask for a new costume"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 2,
+      "question": "What may students wear?",
+      "options": {
+        "A": "Ordinary clothes or a costume",
+        "B": "Only pyjamas",
+        "C": "School uniform only",
+        "D": "Sports clothes only"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 3,
+      "question": "Why should students bring pyjamas and maybe a heater?",
+      "options": {
+        "A": "The games room is outside",
+        "B": "The club wants a fashion show",
+        "C": "Beds are not ready",
+        "D": "The hall can be cold at night"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 4,
+      "question": "What is special about the oldest student helper?",
+      "options": {
+        "A": "He cooks all the meals",
+        "B": "He is nineteen and good at organising games",
+        "C": "He works at the school office",
+        "D": "He dislikes the sleepover"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 5,
+      "question": "What must students do by Wednesday?",
+      "options": {
+        "A": "Choose a teacher",
+        "B": "Pay for a heater",
+        "C": "Hand in a permission form",
+        "D": "Write about last year"
+      },
+      "answer": "C"
+    }
+  ],
+  "answers": [
+    {
+      "number": 1,
+      "answer": "C"
+    },
+    {
+      "number": 2,
+      "answer": "A"
+    },
+    {
+      "number": 3,
+      "answer": "D"
+    },
+    {
+      "number": 4,
+      "answer": "B"
+    },
+    {
+      "number": 5,
+      "answer": "C"
+    }
+  ],
+  "used_vocab": [
+    "costume",
+    "likely",
+    "negative",
+    "remember",
+    "announce",
+    "pyjamas",
+    "OK/okay",
+    "nineteen"
+  ],
+  "difficulty_notes": "A practical school notice with clear rules and a simple deadline.",
+  "title": "Reading Quest: PET全_Page_46_04221021",
+  "page_number": 46,
+  "lesson_number": 46,
+  "focus_words": [
+    {
+      "term": "costume",
+      "gloss": "服装 ; 戏服"
+    },
+    {
+      "term": "likely",
+      "gloss": "可能的"
+    },
+    {
+      "term": "negative",
+      "gloss": "消极的"
+    },
+    {
+      "term": "remember",
+      "gloss": "记得"
+    },
+    {
+      "term": "announce",
+      "gloss": "宣布"
+    },
+    {
+      "term": "pyjamas",
+      "gloss": "一套 ) 睡衣裤"
+    },
+    {
+      "term": "OK/okay",
+      "gloss": "好的"
+    },
+    {
+      "term": "nineteen",
+      "gloss": "十九"
+    }
+  ],
+  "source_words": [
+    {
+      "term": "costume",
+      "gloss": "服装 ; 戏服"
+    },
+    {
+      "term": "likely",
+      "gloss": "可能的"
+    },
+    {
+      "term": "pay",
+      "gloss": "付款 , 付出代价"
+    },
+    {
+      "term": "negative",
+      "gloss": "消极的"
+    },
+    {
+      "term": "remember",
+      "gloss": "记得"
+    },
+    {
+      "term": "announce",
+      "gloss": "宣布"
+    },
+    {
+      "term": "angry",
+      "gloss": "生气的"
+    },
+    {
+      "term": "pipe",
+      "gloss": "管 ; 烟斗"
+    },
+    {
+      "term": "toast",
+      "gloss": "烤面包 , 干杯"
+    },
+    {
+      "term": "warn",
+      "gloss": "警告"
+    },
+    {
+      "term": "pray",
+      "gloss": "祈祷"
+    },
+    {
+      "term": "pyjamas",
+      "gloss": "一套 ) 睡衣裤"
+    },
+    {
+      "term": "news",
+      "gloss": "新闻"
+    },
+    {
+      "term": "OK/okay",
+      "gloss": "好的"
+    },
+    {
+      "term": "deal",
+      "gloss": "处理"
+    },
+    {
+      "term": "nineteen",
+      "gloss": "十九"
+    },
+    {
+      "term": "expert",
+      "gloss": "专家"
+    },
+    {
+      "term": "heater",
+      "gloss": "加热器"
+    },
+    {
+      "term": "friendship",
+      "gloss": "友谊"
+    },
+    {
+      "term": "economics",
+      "gloss": "经济学"
+    },
+    {
+      "term": "vegetable",
+      "gloss": "蔬菜"
+    },
+    {
+      "term": "tournament",
+      "gloss": "联赛"
+    },
+    {
+      "term": "charge",
+      "gloss": "收费"
+    },
+    {
+      "term": "impressed",
+      "gloss": "印象深刻的"
+    },
+    {
+      "term": "athlete",
+      "gloss": "运动员"
+    },
+    {
+      "term": "golden",
+      "gloss": "金色的 ; 珍贵的"
+    },
+    {
+      "term": "prayer",
+      "gloss": "祷告"
+    },
+    {
+      "term": "mend",
+      "gloss": "修理"
+    },
+    {
+      "term": "everywhere",
+      "gloss": "到处 , 无论何处"
+    },
+    {
+      "term": "lift",
+      "gloss": "便车 ; 举起 ; 电梯"
+    },
+    {
+      "term": "toward(s)",
+      "gloss": "朝向"
+    },
+    {
+      "term": "aged",
+      "gloss": "年老的"
+    },
+    {
+      "term": "follow",
+      "gloss": "跟随 , 遵守"
+    },
+    {
+      "term": "criminal",
+      "gloss": "罪犯"
+    },
+    {
+      "term": "size",
+      "gloss": "尺寸 , 大小"
+    },
+    {
+      "term": "method",
+      "gloss": "方法"
+    },
+    {
+      "term": "check",
+      "gloss": "检查 ; 制止"
+    },
+    {
+      "term": "pasta",
+      "gloss": "意大利面"
+    },
+    {
+      "term": "slow",
+      "gloss": "慢的"
+    },
+    {
+      "term": "material",
+      "gloss": "材料"
+    },
+    {
+      "term": "coconut",
+      "gloss": "椰子"
+    },
+    {
+      "term": "frequently",
+      "gloss": "频繁地"
+    },
+    {
+      "term": "location",
+      "gloss": "位置"
+    },
+    {
+      "term": "hunt",
+      "gloss": "打猎"
+    },
+    {
+      "term": "relative",
+      "gloss": "亲戚"
+    }
+  ]
+}

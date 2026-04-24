@@ -1,0 +1,311 @@
+{
+  "passage": "Riverside School's International Day was a vibrant event celebrating cultural diversity. Journalist Sarah from the City Times attended to report on the activities. She began with an announcement about the day's goals, stressing the need to understand different cultures. Stalls representing countries like Ireland offered packets of information on traditions and language. Interactive workshops taught basic phrases in various languages. The event highlighted the meaning of global community, fostering respect among students. Over 200 people participated, including parents and local officials. Students from various grades helped run the stalls, and there were performances featuring traditional dances and music. The school also organized a quiz where participants had to understand announcements in languages like French and Spanish. The Ireland stall provided green packets as souvenirs, which were a hit. In her article, Sarah noted how the event successfully promoted language learning and cultural appreciation. The principal emphasized that understanding different languages and customs is key to building a harmonious school community.",
+  "passage_word_count": 159,
+  "questions": [
+    {
+      "number": 1,
+      "question": "What is the main purpose of the report?",
+      "options": {
+        "A": "To describe a school's cultural event.",
+        "B": "To interview a journalist.",
+        "C": "To explain language learning methods.",
+        "D": "To announce future school activities."
+      },
+      "answer": "A"
+    },
+    {
+      "number": 2,
+      "question": "What did the Ireland stall provide to visitors?",
+      "options": {
+        "A": "Only food samples.",
+        "B": "Information packets and green souvenirs.",
+        "C": "Language courses.",
+        "D": "Musical performances."
+      },
+      "answer": "B"
+    },
+    {
+      "number": 3,
+      "question": "Why did the journalist make an announcement?",
+      "options": {
+        "A": "To start the event.",
+        "B": "To explain the event's goals.",
+        "C": "To conduct a quiz.",
+        "D": "To interview students."
+      },
+      "answer": "B"
+    },
+    {
+      "number": 4,
+      "question": "What can be inferred about the event?",
+      "options": {
+        "A": "It was only for students.",
+        "B": "It was successful in promoting cultural awareness.",
+        "C": "It focused solely on Irish culture.",
+        "D": "It was poorly organized."
+      },
+      "answer": "B"
+    },
+    {
+      "number": 5,
+      "question": "In the passage, 'meaning' refers to:",
+      "options": {
+        "A": "The definition of a word.",
+        "B": "The importance of global community.",
+        "C": "The purpose of the announcement.",
+        "D": "The reason for the quiz."
+      },
+      "answer": "B"
+    }
+  ],
+  "answers": [
+    {
+      "number": 1,
+      "answer": "A"
+    },
+    {
+      "number": 2,
+      "answer": "B"
+    },
+    {
+      "number": 3,
+      "answer": "B"
+    },
+    {
+      "number": 4,
+      "answer": "B"
+    },
+    {
+      "number": 5,
+      "answer": "B"
+    }
+  ],
+  "used_vocab": [
+    "Ireland",
+    "journalist",
+    "language",
+    "understand",
+    "announcement",
+    "meaning"
+  ],
+  "difficulty_notes": "The passage uses clear, everyday language suitable for B1 learners.",
+  "title": "Reading Quest: PET全_Page_15_04221021",
+  "page_number": 15,
+  "lesson_number": 15,
+  "focus_words": [
+    {
+      "term": "packet",
+      "gloss": "包装"
+    },
+    {
+      "term": "drawer",
+      "gloss": "抽屉 ; 开票人"
+    },
+    {
+      "term": "Ireland",
+      "gloss": "爱尔兰(岛)"
+    },
+    {
+      "term": "journalist",
+      "gloss": "记者"
+    },
+    {
+      "term": "language",
+      "gloss": "语言"
+    },
+    {
+      "term": "understand",
+      "gloss": "理解"
+    },
+    {
+      "term": "announcement",
+      "gloss": "公告"
+    },
+    {
+      "term": "meaning",
+      "gloss": "意义"
+    }
+  ],
+  "source_words": [
+    {
+      "term": "row",
+      "gloss": "排"
+    },
+    {
+      "term": "packet",
+      "gloss": "包装"
+    },
+    {
+      "term": "visa",
+      "gloss": "签证"
+    },
+    {
+      "term": "blog",
+      "gloss": "博客"
+    },
+    {
+      "term": "drawer",
+      "gloss": "抽屉 ; 开票人"
+    },
+    {
+      "term": "Ireland",
+      "gloss": "爱尔兰(岛)"
+    },
+    {
+      "term": "pick",
+      "gloss": "选择"
+    },
+    {
+      "term": "laugh",
+      "gloss": "笑"
+    },
+    {
+      "term": "owe",
+      "gloss": "欠"
+    },
+    {
+      "term": "green",
+      "gloss": "绿色的"
+    },
+    {
+      "term": "journalist",
+      "gloss": "记者"
+    },
+    {
+      "term": "sport",
+      "gloss": "运动"
+    },
+    {
+      "term": "language",
+      "gloss": "语言"
+    },
+    {
+      "term": "dark",
+      "gloss": "黑暗的 ; 阴影"
+    },
+    {
+      "term": "you",
+      "gloss": "你 , 你们"
+    },
+    {
+      "term": "menu",
+      "gloss": "菜单"
+    },
+    {
+      "term": "understand",
+      "gloss": "理解"
+    },
+    {
+      "term": "lamp",
+      "gloss": "灯"
+    },
+    {
+      "term": "tuna",
+      "gloss": "金枪鱼"
+    },
+    {
+      "term": "announcement",
+      "gloss": "公告"
+    },
+    {
+      "term": "war",
+      "gloss": "战争"
+    },
+    {
+      "term": "enemy",
+      "gloss": "敌人"
+    },
+    {
+      "term": "meaning",
+      "gloss": "意义"
+    },
+    {
+      "term": "equipment",
+      "gloss": "设备 ; 装配"
+    },
+    {
+      "term": "refuse",
+      "gloss": "拒绝"
+    },
+    {
+      "term": "area",
+      "gloss": "区域 , 地区"
+    },
+    {
+      "term": "grilled",
+      "gloss": "烤好的"
+    },
+    {
+      "term": "stall",
+      "gloss": "货摊"
+    },
+    {
+      "term": "farmland",
+      "gloss": "农田"
+    },
+    {
+      "term": "heat",
+      "gloss": "热度"
+    },
+    {
+      "term": "basketball",
+      "gloss": "篮球"
+    },
+    {
+      "term": "supermarket",
+      "gloss": "超市"
+    },
+    {
+      "term": "shelf",
+      "gloss": "货架"
+    },
+    {
+      "term": "worry",
+      "gloss": "担心"
+    },
+    {
+      "term": "mild",
+      "gloss": "温和的"
+    },
+    {
+      "term": "former",
+      "gloss": "以前的"
+    },
+    {
+      "term": "blue",
+      "gloss": "蓝色的"
+    },
+    {
+      "term": "spoil",
+      "gloss": "宠坏"
+    },
+    {
+      "term": "later",
+      "gloss": "稍后 ; 随后"
+    },
+    {
+      "term": "employee",
+      "gloss": "受雇者"
+    },
+    {
+      "term": "shy",
+      "gloss": "害羞的"
+    },
+    {
+      "term": "stress",
+      "gloss": "压力"
+    },
+    {
+      "term": "jump",
+      "gloss": "跳越 , 突升"
+    },
+    {
+      "term": "human",
+      "gloss": "人类"
+    },
+    {
+      "term": "armchair",
+      "gloss": "扶手椅"
+    }
+  ]
+}

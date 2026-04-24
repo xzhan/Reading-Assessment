@@ -1,0 +1,311 @@
+{
+  "passage": "Subject: My unexpected adventure! Hi Sam, How are you? I'm writing to tell you about my unexpected weekend. It all started when my cousin's arrival was delayed, so I decided to go on a last-minute trip to the seaside with my partner, Jamie. We met a lovely couple, Mr. and Mrs. Green, who were on their honeymoon. They introduced us to their friend, Captain Roberts, who owned a small boat. He offered to take us out for a sail, but we needed a permit from the harbour master. After some paperwork, we got the permit and set off. The trip was fantastic! We saw dolphins and even helped clean up some rubbish in the water. I have some great photos, but I accidentally deleted a few from my camera. Anyway, it was an amazing experience. Write back soon and tell me about your weekend. Best, Alex",
+  "passage_word_count": 146,
+  "questions": [
+    {
+      "number": 1,
+      "question": "What is the main purpose of the email?",
+      "options": {
+        "A": "To invite Sam on a trip.",
+        "B": "To describe an unexpected experience.",
+        "C": "To ask for advice about a permit.",
+        "D": "To introduce a new friend."
+      },
+      "answer": "B"
+    },
+    {
+      "number": 2,
+      "question": "Why did Alex go on the trip?",
+      "options": {
+        "A": "Because Sam suggested it.",
+        "B": "Because his cousin's arrival was delayed.",
+        "C": "Because he had a permit for the boat.",
+        "D": "Because he wanted to meet Captain Roberts."
+      },
+      "answer": "B"
+    },
+    {
+      "number": 3,
+      "question": "What does Alex ask Sam to do?",
+      "options": {
+        "A": "A permit for another trip.",
+        "B": "Photos from the weekend.",
+        "C": "A reply to his email.",
+        "D": "Help with deleting files."
+      },
+      "answer": "C"
+    },
+    {
+      "number": 4,
+      "question": "How does Alex feel about the trip?",
+      "options": {
+        "A": "Disappointed.",
+        "B": "Annoyed.",
+        "C": "Happy.",
+        "D": "Worried."
+      },
+      "answer": "C"
+    },
+    {
+      "number": 5,
+      "question": "What does the word 'permit' mean in the email?",
+      "options": {
+        "A": "A document that allows something.",
+        "B": "A type of boat.",
+        "C": "A person in charge.",
+        "D": "A kind of photo."
+      },
+      "answer": "A"
+    }
+  ],
+  "answers": [
+    {
+      "number": 1,
+      "answer": "B"
+    },
+    {
+      "number": 2,
+      "answer": "B"
+    },
+    {
+      "number": 3,
+      "answer": "C"
+    },
+    {
+      "number": 4,
+      "answer": "C"
+    },
+    {
+      "number": 5,
+      "answer": "A"
+    }
+  ],
+  "used_vocab": [
+    "unexpected",
+    "arrival",
+    "captain",
+    "partner",
+    "couple",
+    "permit"
+  ],
+  "difficulty_notes": "The passage uses everyday vocabulary and clear narrative suitable for B1 learners.",
+  "title": "Reading Quest: PET全_Page_42_04221021",
+  "page_number": 42,
+  "lesson_number": 42,
+  "focus_words": [
+    {
+      "term": "unexpected",
+      "gloss": "出乎意料的"
+    },
+    {
+      "term": "arrival",
+      "gloss": "到达"
+    },
+    {
+      "term": "captain",
+      "gloss": "船长"
+    },
+    {
+      "term": "partner",
+      "gloss": "合作伙伴"
+    },
+    {
+      "term": "introduce",
+      "gloss": "介绍"
+    },
+    {
+      "term": "couple",
+      "gloss": "夫妇"
+    },
+    {
+      "term": "delete",
+      "gloss": "删除"
+    },
+    {
+      "term": "permit",
+      "gloss": "允许"
+    }
+  ],
+  "source_words": [
+    {
+      "term": "unexpected",
+      "gloss": "出乎意料的"
+    },
+    {
+      "term": "under",
+      "gloss": "在 ... 之下"
+    },
+    {
+      "term": "busy",
+      "gloss": "忙碌的 ; 占用的"
+    },
+    {
+      "term": "arrival",
+      "gloss": "到达"
+    },
+    {
+      "term": "captain",
+      "gloss": "船长"
+    },
+    {
+      "term": "partner",
+      "gloss": "合作伙伴"
+    },
+    {
+      "term": "introduce",
+      "gloss": "介绍"
+    },
+    {
+      "term": "couple",
+      "gloss": "夫妇"
+    },
+    {
+      "term": "he",
+      "gloss": "他"
+    },
+    {
+      "term": "big",
+      "gloss": "大的"
+    },
+    {
+      "term": "delete",
+      "gloss": "删除"
+    },
+    {
+      "term": "worse",
+      "gloss": "更坏的"
+    },
+    {
+      "term": "permit",
+      "gloss": "允许"
+    },
+    {
+      "term": "rubber",
+      "gloss": "橡胶 ; 橡皮"
+    },
+    {
+      "term": "seaside",
+      "gloss": "海边"
+    },
+    {
+      "term": "cinema",
+      "gloss": "电影院"
+    },
+    {
+      "term": "ear",
+      "gloss": "耳朵"
+    },
+    {
+      "term": "fashionable",
+      "gloss": "时髦的"
+    },
+    {
+      "term": "himself",
+      "gloss": "他自己"
+    },
+    {
+      "term": "trainer",
+      "gloss": "培训师 ; 运动鞋"
+    },
+    {
+      "term": "she",
+      "gloss": "她"
+    },
+    {
+      "term": "always",
+      "gloss": "总是"
+    },
+    {
+      "term": "extra",
+      "gloss": "额外的"
+    },
+    {
+      "term": "p.m.",
+      "gloss": "下午"
+    },
+    {
+      "term": "information",
+      "gloss": "信息"
+    },
+    {
+      "term": "trip",
+      "gloss": "旅行"
+    },
+    {
+      "term": "cross",
+      "gloss": "十字架 , 交叉"
+    },
+    {
+      "term": "morning",
+      "gloss": "早晨 , 上午"
+    },
+    {
+      "term": "document",
+      "gloss": "文档"
+    },
+    {
+      "term": "train",
+      "gloss": "火车 ; 训练"
+    },
+    {
+      "term": "prepared",
+      "gloss": "准备好的"
+    },
+    {
+      "term": "but",
+      "gloss": "但是"
+    },
+    {
+      "term": "as",
+      "gloss": "因为 ; 如同 ; 作为"
+    },
+    {
+      "term": "section",
+      "gloss": "部分"
+    },
+    {
+      "term": "helicopter",
+      "gloss": "直升飞机"
+    },
+    {
+      "term": "silent",
+      "gloss": "无声的"
+    },
+    {
+      "term": "cable",
+      "gloss": "缆绳"
+    },
+    {
+      "term": "wind",
+      "gloss": "风"
+    },
+    {
+      "term": "float",
+      "gloss": "漂流"
+    },
+    {
+      "term": "clean",
+      "gloss": "干净的 , 打扫"
+    },
+    {
+      "term": "cod",
+      "gloss": "鳕鱼"
+    },
+    {
+      "term": "detail",
+      "gloss": "细节 ; 详细信息"
+    },
+    {
+      "term": "bill",
+      "gloss": "账单"
+    },
+    {
+      "term": "notepaper",
+      "gloss": "信纸 ; 便笺"
+    },
+    {
+      "term": "thriller",
+      "gloss": "惊险小说"
+    }
+  ]
+}

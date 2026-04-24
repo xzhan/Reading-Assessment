@@ -1,0 +1,311 @@
+{
+  "passage": "Hi Alex, I hope you're well. Last weekend, my family and I went to the new recycling centre outside town. We took some old items to recycle, like bottles and paper. On the way, we had to cross at a busy crossing near the motorway. My little brother was anxious, but he behaved really well, holding my hand the whole time. At the centre, we saw a middle-aged man organising everything. He was very helpful and showed us how to separate materials for recycling. Afterwards, we visited a charity shop where I found a broken bookcase for only £5. I bought it to fix up for my room. I'm looking forward to our trip to London next month. Have you booked the tickets yet? Let me know so we can plan the details. Best wishes, Sam",
+  "passage_word_count": 135,
+  "questions": [
+    {
+      "number": 1,
+      "question": "What is the main purpose of Sam's email?",
+      "options": {
+        "A": "To describe a weekend activity",
+        "B": "To ask for help with a project",
+        "C": "To invite Alex to a recycling centre",
+        "D": "To recommend a charity shop"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 2,
+      "question": "Why did Sam's brother behave well during the trip?",
+      "options": {
+        "A": "He was excited about the journey",
+        "B": "He was feeling anxious",
+        "C": "He was tired and sleepy",
+        "D": "He was happy to help"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 3,
+      "question": "What does Sam ask Alex about in the email?",
+      "options": {
+        "A": "Booking tickets for a trip",
+        "B": "Fixing a broken bookcase",
+        "C": "Visiting a recycling centre",
+        "D": "Organising a family event"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 4,
+      "question": "What can we infer about Sam from the email?",
+      "options": {
+        "A": "He enjoys repairing items",
+        "B": "He works at a charity shop",
+        "C": "He is moving to London",
+        "D": "He studies environmental science"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 5,
+      "question": "What does the phrase 'looking forward to' mean in the email?",
+      "options": {
+        "A": "Waiting patiently for",
+        "B": "Feeling excited about",
+        "C": "Thinking carefully about",
+        "D": "Planning details for"
+      },
+      "answer": "B"
+    }
+  ],
+  "answers": [
+    {
+      "number": 1,
+      "answer": "A"
+    },
+    {
+      "number": 2,
+      "answer": "B"
+    },
+    {
+      "number": 3,
+      "answer": "A"
+    },
+    {
+      "number": 4,
+      "answer": "A"
+    },
+    {
+      "number": 5,
+      "answer": "B"
+    }
+  ],
+  "used_vocab": [
+    "middle-aged",
+    "outside",
+    "recycle",
+    "broken",
+    "crossing",
+    "bookcase"
+  ],
+  "difficulty_notes": "This passage uses everyday topics and clear context suitable for B1 learners.",
+  "title": "Reading Quest: PET全_Page_50_04221021",
+  "page_number": 50,
+  "lesson_number": 50,
+  "focus_words": [
+    {
+      "term": "forward(s)",
+      "gloss": "前进"
+    },
+    {
+      "term": "middle-aged",
+      "gloss": "中年人"
+    },
+    {
+      "term": "outside",
+      "gloss": "在 ... 外面"
+    },
+    {
+      "term": "recycle",
+      "gloss": "回收利用"
+    },
+    {
+      "term": "behave",
+      "gloss": "表现"
+    },
+    {
+      "term": "broken",
+      "gloss": "破碎的"
+    },
+    {
+      "term": "crossing",
+      "gloss": "安全通行处"
+    },
+    {
+      "term": "bookcase",
+      "gloss": "书柜"
+    }
+  ],
+  "source_words": [
+    {
+      "term": "elbow",
+      "gloss": "肘"
+    },
+    {
+      "term": "outside",
+      "gloss": "在 ... 外面"
+    },
+    {
+      "term": "work",
+      "gloss": "工作"
+    },
+    {
+      "term": "recycle",
+      "gloss": "回收利用"
+    },
+    {
+      "term": "behave",
+      "gloss": "表现"
+    },
+    {
+      "term": "below",
+      "gloss": "在 ... 下面"
+    },
+    {
+      "term": "baby",
+      "gloss": "婴儿"
+    },
+    {
+      "term": "broken",
+      "gloss": "破碎的"
+    },
+    {
+      "term": "site",
+      "gloss": "地点 ; 位置"
+    },
+    {
+      "term": "tour",
+      "gloss": "旅游 , 巡演"
+    },
+    {
+      "term": "crossing",
+      "gloss": "安全通行处"
+    },
+    {
+      "term": "bookcase",
+      "gloss": "书柜"
+    },
+    {
+      "term": "speaker",
+      "gloss": "演讲者"
+    },
+    {
+      "term": "hopefully",
+      "gloss": "有希望地"
+    },
+    {
+      "term": "her",
+      "gloss": "她 ; 她的"
+    },
+    {
+      "term": "argue",
+      "gloss": "争论"
+    },
+    {
+      "term": "sweater",
+      "gloss": "毛衣"
+    },
+    {
+      "term": "moment",
+      "gloss": "片刻 , 瞬间"
+    },
+    {
+      "term": "mystery",
+      "gloss": "神秘"
+    },
+    {
+      "term": "anxious",
+      "gloss": "焦虑的"
+    },
+    {
+      "term": "good",
+      "gloss": "好的 , 优良的"
+    },
+    {
+      "term": "candidate",
+      "gloss": "候选人"
+    },
+    {
+      "term": "generally",
+      "gloss": "普遍地"
+    },
+    {
+      "term": "add",
+      "gloss": "增加"
+    },
+    {
+      "term": "concert",
+      "gloss": "音乐会"
+    },
+    {
+      "term": "bother",
+      "gloss": "打扰"
+    },
+    {
+      "term": "loud",
+      "gloss": "大声的"
+    },
+    {
+      "term": "leather",
+      "gloss": "皮革的"
+    },
+    {
+      "term": "booking",
+      "gloss": "预订"
+    },
+    {
+      "term": "secondary",
+      "gloss": "次要的"
+    },
+    {
+      "term": "after",
+      "gloss": "在 ... 之后"
+    },
+    {
+      "term": "motorway",
+      "gloss": "高速公路"
+    },
+    {
+      "term": "happy",
+      "gloss": "幸福的"
+    },
+    {
+      "term": "painting",
+      "gloss": "油画画作"
+    },
+    {
+      "term": "pharmacy",
+      "gloss": "配药房 , 药剂学"
+    },
+    {
+      "term": "urgently",
+      "gloss": "紧急地"
+    },
+    {
+      "term": "map",
+      "gloss": "地图"
+    },
+    {
+      "term": "forward(s)",
+      "gloss": "前进"
+    },
+    {
+      "term": "February",
+      "gloss": "二月"
+    },
+    {
+      "term": "depressed",
+      "gloss": "沮丧的"
+    },
+    {
+      "term": "middle-aged",
+      "gloss": "中年人"
+    },
+    {
+      "term": "separate",
+      "gloss": "分开的"
+    },
+    {
+      "term": "pillow",
+      "gloss": "枕头"
+    },
+    {
+      "term": "fit",
+      "gloss": "合适的"
+    },
+    {
+      "term": "China",
+      "gloss": "中国"
+    }
+  ]
+}

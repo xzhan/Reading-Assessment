@@ -1,0 +1,311 @@
+{
+  "passage": "Dear Diary, Today was quite an adventure. My neighbour, Mr. Jones, who recently retired, asked me to babysit his two young children. He needed to go into town for an appointment. I said yes because I enjoy spending time with them. We walked to the charming old museum building nearby. It's a lovely place with lots of history. Inside, there was a gentle dog as part of an exhibit about animals. The children were excited! While looking at the displays, I tried to pronounce the name of a dinosaur, but it was tricky. Another fun part was when we got to draw pictures of the animals. The time flew by, and soon Mr. Jones was back. He thanked me and said I did a great job. I felt proud and happy.",
+  "passage_word_count": 131,
+  "questions": [
+    {
+      "number": 1,
+      "question": "What is the main idea of the diary entry?",
+      "options": {
+        "A": "The writer's experience babysitting for a retired neighbour.",
+        "B": "A visit to a museum with family.",
+        "C": "Learning to pronounce difficult words.",
+        "D": "Describing a gentle animal at the library."
+      },
+      "answer": "A"
+    },
+    {
+      "number": 2,
+      "question": "Where did the writer go with the children?",
+      "options": {
+        "A": "To the park.",
+        "B": "To the museum.",
+        "C": "To the library.",
+        "D": "To the zoo."
+      },
+      "answer": "B"
+    },
+    {
+      "number": 3,
+      "question": "Why did Mr. Jones ask the writer to babysit?",
+      "options": {
+        "A": "He was going shopping.",
+        "B": "He had an appointment in town.",
+        "C": "He wanted to visit the museum.",
+        "D": "He needed help with his children."
+      },
+      "answer": "B"
+    },
+    {
+      "number": 4,
+      "question": "How does the writer feel about the experience?",
+      "options": {
+        "A": "Bored and tired.",
+        "B": "Annoyed with the children.",
+        "C": "Proud and happy.",
+        "D": "Confused about the exhibits."
+      },
+      "answer": "C"
+    },
+    {
+      "number": 5,
+      "question": "What does the word 'gentle' describe in the passage?",
+      "options": {
+        "A": "The museum building.",
+        "B": "The children.",
+        "C": "The dog.",
+        "D": "Mr. Jones."
+      },
+      "answer": "C"
+    }
+  ],
+  "answers": [
+    {
+      "number": 1,
+      "answer": "A"
+    },
+    {
+      "number": 2,
+      "answer": "B"
+    },
+    {
+      "number": 3,
+      "answer": "B"
+    },
+    {
+      "number": 4,
+      "answer": "C"
+    },
+    {
+      "number": 5,
+      "answer": "C"
+    }
+  ],
+  "used_vocab": [
+    "gentle",
+    "another",
+    "charming",
+    "pronounce",
+    "babysit",
+    "building"
+  ],
+  "difficulty_notes": "Upper A2 to B1 level with a clear narrative and everyday vocabulary.",
+  "title": "Reading Quest: PET全_Page_6_04221021",
+  "page_number": 6,
+  "lesson_number": 6,
+  "focus_words": [
+    {
+      "term": "gentle",
+      "gloss": "温柔的"
+    },
+    {
+      "term": "another",
+      "gloss": "另一个"
+    },
+    {
+      "term": "charming",
+      "gloss": "令人着迷的"
+    },
+    {
+      "term": "pronounce",
+      "gloss": "发音"
+    },
+    {
+      "term": "animal",
+      "gloss": "动物"
+    },
+    {
+      "term": "retire",
+      "gloss": "退休"
+    },
+    {
+      "term": "babysit",
+      "gloss": "看护孩子"
+    },
+    {
+      "term": "building",
+      "gloss": "建筑物"
+    }
+  ],
+  "source_words": [
+    {
+      "term": "gentle",
+      "gloss": "温柔的"
+    },
+    {
+      "term": "another",
+      "gloss": "另一个"
+    },
+    {
+      "term": "star",
+      "gloss": "星星 , 明星"
+    },
+    {
+      "term": "charming",
+      "gloss": "令人着迷的"
+    },
+    {
+      "term": "pronounce",
+      "gloss": "发音"
+    },
+    {
+      "term": "enter",
+      "gloss": "进入 ; 输入"
+    },
+    {
+      "term": "animal",
+      "gloss": "动物"
+    },
+    {
+      "term": "about",
+      "gloss": "关于 , 大约"
+    },
+    {
+      "term": "retire",
+      "gloss": "退休"
+    },
+    {
+      "term": "babysit",
+      "gloss": "看护孩子"
+    },
+    {
+      "term": "building",
+      "gloss": "建筑物"
+    },
+    {
+      "term": "recent",
+      "gloss": "最近的"
+    },
+    {
+      "term": "call",
+      "gloss": "电话 , 呼叫 , 访问"
+    },
+    {
+      "term": "reporter",
+      "gloss": "记者"
+    },
+    {
+      "term": "measure",
+      "gloss": "测量"
+    },
+    {
+      "term": "room",
+      "gloss": "房间 , 空间"
+    },
+    {
+      "term": "dance",
+      "gloss": "舞蹈,跳舞"
+    },
+    {
+      "term": "goodbye",
+      "gloss": "再见"
+    },
+    {
+      "term": "roll",
+      "gloss": "一卷"
+    },
+    {
+      "term": "volunteer",
+      "gloss": "志愿者"
+    },
+    {
+      "term": "Europe",
+      "gloss": "欧洲"
+    },
+    {
+      "term": "mood",
+      "gloss": "心情"
+    },
+    {
+      "term": "on",
+      "gloss": "在 ... 之上"
+    },
+    {
+      "term": "oil",
+      "gloss": "油"
+    },
+    {
+      "term": "six",
+      "gloss": "六"
+    },
+    {
+      "term": "chance",
+      "gloss": "机会"
+    },
+    {
+      "term": "publish",
+      "gloss": "出版"
+    },
+    {
+      "term": "surprised",
+      "gloss": "感到惊讶的"
+    },
+    {
+      "term": "interview",
+      "gloss": "面试"
+    },
+    {
+      "term": "fifty",
+      "gloss": "五十"
+    },
+    {
+      "term": "whether",
+      "gloss": "是否"
+    },
+    {
+      "term": "bathtub",
+      "gloss": "浴缸"
+    },
+    {
+      "term": "this",
+      "gloss": "这 , 这个"
+    },
+    {
+      "term": "ground",
+      "gloss": "地面"
+    },
+    {
+      "term": "noon",
+      "gloss": "正午 , 中午"
+    },
+    {
+      "term": "where",
+      "gloss": "在哪里"
+    },
+    {
+      "term": "dream",
+      "gloss": "梦 ; 梦想"
+    },
+    {
+      "term": "beach",
+      "gloss": "海滩"
+    },
+    {
+      "term": "jam",
+      "gloss": "果酱 ; 堵塞 ; 挤压"
+    },
+    {
+      "term": "same",
+      "gloss": "相同的"
+    },
+    {
+      "term": "blow",
+      "gloss": "吹"
+    },
+    {
+      "term": "wood",
+      "gloss": "木材"
+    },
+    {
+      "term": "deaf",
+      "gloss": "聋的"
+    },
+    {
+      "term": "instructions",
+      "gloss": "使用说明 ; 指令"
+    },
+    {
+      "term": "penny",
+      "gloss": "便士 , 美分"
+    }
+  ]
+}

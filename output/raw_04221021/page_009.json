@@ -1,0 +1,310 @@
+{
+  "passage": "Last week, our school held its annual Career Day in the main hall. Students from all years gathered to learn about different occupations. One of the most exciting talks was by Mr. Davies, a former astronaut. He described what it's like to travel in a spaceship and see Earth from above. Many students were inspired, but some disagreed about whether space travel is important. During the session, we sat in a circle beside the stage to ask questions. I realised that being an astronaut requires a lot of hard work and training. The event was part of our school's eightieth anniversary celebrations, which have been happening all season. Mr. Davies showed photos from his missions and talked about the beauty of seeing the planet from space. He encouraged us to pursue our dreams. After the talk, we had a workshop where we discussed our favourite occupations in small groups. It was a memorable day for everyone.",
+  "passage_word_count": 156,
+  "questions": [
+    {
+      "number": 1,
+      "question": "What is the article mainly about?",
+      "options": {
+        "A": "A school's anniversary party",
+        "B": "A Career Day event at school",
+        "C": "A talk by a famous astronaut",
+        "D": "A workshop on space travel"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 2,
+      "question": "Where did the students sit during the talk?",
+      "options": {
+        "A": "On the stage",
+        "B": "In a circle beside the stage",
+        "C": "Beside the hall entrance",
+        "D": "In their classrooms"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 3,
+      "question": "Why did the author mention the school's eightieth anniversary?",
+      "options": {
+        "A": "To show how old the school is",
+        "B": "To explain why Career Day was held",
+        "C": "To provide context for the event",
+        "D": "To celebrate the school's history"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 4,
+      "question": "What can be inferred about Mr. Davies?",
+      "options": {
+        "A": "He is currently an astronaut.",
+        "B": "He inspired all students to become astronauts.",
+        "C": "He has experience in space travel.",
+        "D": "He disagreed with the students about space travel."
+      },
+      "answer": "C"
+    },
+    {
+      "number": 5,
+      "question": "What does 'realised' mean in the passage?",
+      "options": {
+        "A": "Understood",
+        "B": "Noticed",
+        "C": "Remembered",
+        "D": "Believed"
+      },
+      "answer": "A"
+    }
+  ],
+  "answers": [
+    {
+      "number": 1,
+      "answer": "B"
+    },
+    {
+      "number": 2,
+      "answer": "B"
+    },
+    {
+      "number": 3,
+      "answer": "C"
+    },
+    {
+      "number": 4,
+      "answer": "C"
+    },
+    {
+      "number": 5,
+      "answer": "A"
+    }
+  ],
+  "used_vocab": [
+    "beside",
+    "eightieth",
+    "season",
+    "circle",
+    "astronaut"
+  ],
+  "difficulty_notes": "The passage uses a clear narrative with simple past tense and familiar school-related topics.",
+  "title": "Reading Quest: PET全_Page_9_04221021",
+  "page_number": 9,
+  "lesson_number": 9,
+  "focus_words": [
+    {
+      "term": "beside",
+      "gloss": "在 ... 旁边"
+    },
+    {
+      "term": "eightieth",
+      "gloss": "第八十"
+    },
+    {
+      "term": "season",
+      "gloss": "季节"
+    },
+    {
+      "term": "realise",
+      "gloss": "意识到"
+    },
+    {
+      "term": "disagree",
+      "gloss": "不同意"
+    },
+    {
+      "term": "circle",
+      "gloss": "圆圈"
+    },
+    {
+      "term": "occupation",
+      "gloss": "职业"
+    },
+    {
+      "term": "astronaut",
+      "gloss": "宇航员"
+    }
+  ],
+  "source_words": [
+    {
+      "term": "beside",
+      "gloss": "在 ... 旁边"
+    },
+    {
+      "term": "look",
+      "gloss": "看 , 面貌"
+    },
+    {
+      "term": "hut",
+      "gloss": "小屋"
+    },
+    {
+      "term": "food",
+      "gloss": "食物"
+    },
+    {
+      "term": "jazz",
+      "gloss": "爵士乐"
+    },
+    {
+      "term": "eightieth",
+      "gloss": "第八十"
+    },
+    {
+      "term": "season",
+      "gloss": "季节"
+    },
+    {
+      "term": "realise",
+      "gloss": "意识到"
+    },
+    {
+      "term": "union",
+      "gloss": "同盟"
+    },
+    {
+      "term": "disagree",
+      "gloss": "不同意"
+    },
+    {
+      "term": "bye",
+      "gloss": "再见"
+    },
+    {
+      "term": "every",
+      "gloss": "每个 , 每隔 ... 的"
+    },
+    {
+      "term": "circle",
+      "gloss": "圆圈"
+    },
+    {
+      "term": "occupation",
+      "gloss": "职业"
+    },
+    {
+      "term": "down",
+      "gloss": "向下,沿着 ... 而下"
+    },
+    {
+      "term": "herb",
+      "gloss": "药草"
+    },
+    {
+      "term": "glass",
+      "gloss": "玻璃"
+    },
+    {
+      "term": "astronaut",
+      "gloss": "宇航员"
+    },
+    {
+      "term": "direct",
+      "gloss": "直接的"
+    },
+    {
+      "term": "spaceship",
+      "gloss": "宇宙飞船"
+    },
+    {
+      "term": "bird",
+      "gloss": "鸟"
+    },
+    {
+      "term": "breath",
+      "gloss": "呼吸"
+    },
+    {
+      "term": "social",
+      "gloss": "社会的"
+    },
+    {
+      "term": "rug",
+      "gloss": "小地毯"
+    },
+    {
+      "term": "ancient",
+      "gloss": "古代的"
+    },
+    {
+      "term": "selfie",
+      "gloss": "自拍"
+    },
+    {
+      "term": "centimetre",
+      "gloss": "厘米"
+    },
+    {
+      "term": "inspire",
+      "gloss": "激励"
+    },
+    {
+      "term": "put",
+      "gloss": "放 , 安置"
+    },
+    {
+      "term": "along",
+      "gloss": "沿着 , 顺着"
+    },
+    {
+      "term": "double",
+      "gloss": "两倍的"
+    },
+    {
+      "term": "press",
+      "gloss": "压 ; 按"
+    },
+    {
+      "term": "shock",
+      "gloss": "震惊 ; 休克"
+    },
+    {
+      "term": "tidy",
+      "gloss": "整洁的 , 整理"
+    },
+    {
+      "term": "beauty",
+      "gloss": "美女"
+    },
+    {
+      "term": "behaviour",
+      "gloss": "行为"
+    },
+    {
+      "term": "excitement",
+      "gloss": "兴奋"
+    },
+    {
+      "term": "dancing",
+      "gloss": "跳舞"
+    },
+    {
+      "term": "incredible",
+      "gloss": "难以置信的"
+    },
+    {
+      "term": "million",
+      "gloss": "百万"
+    },
+    {
+      "term": "novel",
+      "gloss": "小说"
+    },
+    {
+      "term": "cottage",
+      "gloss": "小屋"
+    },
+    {
+      "term": "whale",
+      "gloss": "鲸鱼"
+    },
+    {
+      "term": "podcast",
+      "gloss": "播客"
+    },
+    {
+      "term": "ahead",
+      "gloss": "在前面"
+    }
+  ]
+}

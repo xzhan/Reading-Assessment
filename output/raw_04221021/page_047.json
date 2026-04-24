@@ -1,0 +1,311 @@
+{
+  "passage": "Report: Community Help Day Success On Saturday, 15th October, our school organised a Community Help Day to support local families. The event began at 8 am with a hearty breakfast for all volunteers. We were given written guidelines to understand our tasks. Teams collected broken appliances, such as cookers, from the neighbourhood. These were repaired by skilled volunteers and donated to unemployed residents. Another group provided information on job opportunities, helping people collect useful resources. A marine biologist gave a talk about dolphin protection, educating everyone on environmental issues. The event was held at the community centre near the train station, attracting over 200 participants. Thanks to everyone's efforts, we raised funds and provided essential support to many families. The event was a great success, with volunteers working together smoothly. Many unemployed people received much-needed appliances, and the job information stall helped several individuals find new opportunities. The talk about dolphins also raised awareness about marine conservation in our community. Overall, it demonstrated how our community can unite to make a positive impact.",
+  "passage_word_count": 171,
+  "questions": [
+    {
+      "number": 1,
+      "question": "What is the report mainly about?",
+      "options": {
+        "A": "A school trip to a marine centre.",
+        "B": "A community event to help people in need.",
+        "C": "A breakfast for unemployed people.",
+        "D": "A repair service for cookers."
+      },
+      "answer": "B"
+    },
+    {
+      "number": 2,
+      "question": "What did the volunteers receive at the start of the event?",
+      "options": {
+        "A": "A breakfast.",
+        "B": "Job information.",
+        "C": "A talk about dolphins.",
+        "D": "Money."
+      },
+      "answer": "A"
+    },
+    {
+      "number": 3,
+      "question": "Why was the talk about dolphins given?",
+      "options": {
+        "A": "To collect donations for dolphin research.",
+        "B": "To educate people about protecting marine life.",
+        "C": "To repair dolphin-themed items.",
+        "D": "To attract more volunteers to the event."
+      },
+      "answer": "B"
+    },
+    {
+      "number": 4,
+      "question": "What can be inferred about the event's location?",
+      "options": {
+        "A": "It was held at a school.",
+        "B": "It was at a train station.",
+        "C": "It was convenient for people to attend.",
+        "D": "It was far from the community."
+      },
+      "answer": "C"
+    },
+    {
+      "number": 5,
+      "question": "In the passage, 'hearty' in 'hearty breakfast' means:",
+      "options": {
+        "A": "Large and filling.",
+        "B": "Quick and simple.",
+        "C": "Expensive and elegant.",
+        "D": "Healthy and light."
+      },
+      "answer": "A"
+    }
+  ],
+  "answers": [
+    {
+      "number": 1,
+      "answer": "B"
+    },
+    {
+      "number": 2,
+      "answer": "A"
+    },
+    {
+      "number": 3,
+      "answer": "B"
+    },
+    {
+      "number": 4,
+      "answer": "C"
+    },
+    {
+      "number": 5,
+      "answer": "A"
+    }
+  ],
+  "used_vocab": [
+    "written",
+    "breakfast",
+    "unemployed",
+    "dolphin",
+    "station",
+    "collect"
+  ],
+  "difficulty_notes": "The passage is at B1 level with clear structure and everyday vocabulary.",
+  "title": "Reading Quest: PET全_Page_47_04221021",
+  "page_number": 47,
+  "lesson_number": 47,
+  "focus_words": [
+    {
+      "term": "written",
+      "gloss": "书面的"
+    },
+    {
+      "term": "breakfast",
+      "gloss": "早餐"
+    },
+    {
+      "term": "unemployed",
+      "gloss": "失业的"
+    },
+    {
+      "term": "repair",
+      "gloss": "修理"
+    },
+    {
+      "term": "cooker",
+      "gloss": "炊具"
+    },
+    {
+      "term": "dolphin",
+      "gloss": "海豚"
+    },
+    {
+      "term": "station",
+      "gloss": "车站"
+    },
+    {
+      "term": "collect",
+      "gloss": "收集"
+    }
+  ],
+  "source_words": [
+    {
+      "term": "written",
+      "gloss": "书面的"
+    },
+    {
+      "term": "breakfast",
+      "gloss": "早餐"
+    },
+    {
+      "term": "care",
+      "gloss": "照料"
+    },
+    {
+      "term": "duvet",
+      "gloss": "羽绒被"
+    },
+    {
+      "term": "unemployed",
+      "gloss": "失业的"
+    },
+    {
+      "term": "repair",
+      "gloss": "修理"
+    },
+    {
+      "term": "sex",
+      "gloss": "性"
+    },
+    {
+      "term": "cooker",
+      "gloss": "炊具"
+    },
+    {
+      "term": "fair",
+      "gloss": "白皙的 ; 公平的"
+    },
+    {
+      "term": "pain",
+      "gloss": "痛苦"
+    },
+    {
+      "term": "dolphin",
+      "gloss": "海豚"
+    },
+    {
+      "term": "station",
+      "gloss": "车站"
+    },
+    {
+      "term": "Yeah",
+      "gloss": "是的"
+    },
+    {
+      "term": "coast",
+      "gloss": "海岸"
+    },
+    {
+      "term": "collect",
+      "gloss": "收集"
+    },
+    {
+      "term": "option",
+      "gloss": "选项"
+    },
+    {
+      "term": "stir",
+      "gloss": "搅动"
+    },
+    {
+      "term": "species",
+      "gloss": "物种"
+    },
+    {
+      "term": "effect",
+      "gloss": "影响"
+    },
+    {
+      "term": "midday",
+      "gloss": "中午"
+    },
+    {
+      "term": "meeting",
+      "gloss": "会议 , 会面"
+    },
+    {
+      "term": "neat",
+      "gloss": "整洁的"
+    },
+    {
+      "term": "equal",
+      "gloss": "平等的"
+    },
+    {
+      "term": "dressed",
+      "gloss": "打扮好的"
+    },
+    {
+      "term": "policeman",
+      "gloss": "警察"
+    },
+    {
+      "term": "write",
+      "gloss": "书写"
+    },
+    {
+      "term": "cow",
+      "gloss": "母牛"
+    },
+    {
+      "term": "desk",
+      "gloss": "书桌"
+    },
+    {
+      "term": "grandma",
+      "gloss": "又语 ) 奶奶 , 外婆"
+    },
+    {
+      "term": "fix",
+      "gloss": "使固定"
+    },
+    {
+      "term": "convenient",
+      "gloss": "便利的"
+    },
+    {
+      "term": "hair",
+      "gloss": "头发"
+    },
+    {
+      "term": "bathroom",
+      "gloss": "浴室 , 厕所"
+    },
+    {
+      "term": "regards",
+      "gloss": "祝愿"
+    },
+    {
+      "term": "ours",
+      "gloss": "我们的"
+    },
+    {
+      "term": "bag",
+      "gloss": "包"
+    },
+    {
+      "term": "castle",
+      "gloss": "城堡"
+    },
+    {
+      "term": "examiner",
+      "gloss": "考官 , 审查人"
+    },
+    {
+      "term": "bull",
+      "gloss": "公牛"
+    },
+    {
+      "term": "yard",
+      "gloss": "院子"
+    },
+    {
+      "term": "succeed",
+      "gloss": "成功"
+    },
+    {
+      "term": "click",
+      "gloss": "点击 , 作滴答声"
+    },
+    {
+      "term": "lie",
+      "gloss": "躺 ; 说谎"
+    },
+    {
+      "term": "robot",
+      "gloss": "机器人"
+    },
+    {
+      "term": "exchange",
+      "gloss": "交换"
+    }
+  ]
+}

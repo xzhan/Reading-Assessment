@@ -1,0 +1,311 @@
+{
+  "passage": "Oakwood School is proud to launch our new Green Project this term. The main purpose is to help students learn about sustainable farming and where their food comes from. We are collaborating with Mr. Smith, an experienced farmer from nearby Green Valley Farm. Students can choose from a variety of activities, such as planting seeds, watering plants, or even helping with the harvest. One exciting feature is a webcam set up in the project garden, allowing anyone to watch the plants grow online. We plan to deliver the fresh produce we grow to the school canteen, so students can enjoy healthy meals. To approach this project effectively, we have organized workshops every Friday. Don't forget to visit the decorative fountain near the garden entrance – it's a perfect spot for thinking and planning. Join us in making a difference!",
+  "passage_word_count": 138,
+  "questions": [
+    {
+      "number": 1,
+      "question": "What is the main purpose of the article?",
+      "options": {
+        "A": "To advertise a new school garden.",
+        "B": "To introduce a school project about farming.",
+        "C": "To explain how to use a webcam.",
+        "D": "To invite students to a farming workshop."
+      },
+      "answer": "B"
+    },
+    {
+      "number": 2,
+      "question": "What will students deliver to the school canteen?",
+      "options": {
+        "A": "Seeds from the garden.",
+        "B": "Fresh vegetables grown in the project.",
+        "C": "Cotton for clothing.",
+        "D": "Water for the fountain."
+      },
+      "answer": "B"
+    },
+    {
+      "number": 3,
+      "question": "Why is a webcam mentioned in the article?",
+      "options": {
+        "A": "To show how farmers use technology.",
+        "B": "To allow people to monitor the garden's progress.",
+        "C": "To teach students about online safety.",
+        "D": "To advertise a new school facility."
+      },
+      "answer": "B"
+    },
+    {
+      "number": 4,
+      "question": "What can we infer about the project?",
+      "options": {
+        "A": "It is only for older students.",
+        "B": "It aims to improve school meals.",
+        "C": "It requires students to buy their own tools.",
+        "D": "It is focused on selling products."
+      },
+      "answer": "B"
+    },
+    {
+      "number": 5,
+      "question": "What does the word 'approach' mean in the sentence 'To approach this project effectively, we have organized workshops'?",
+      "options": {
+        "A": "To come near to",
+        "B": "To deal with",
+        "C": "To suggest",
+        "D": "To avoid"
+      },
+      "answer": "B"
+    }
+  ],
+  "answers": [
+    {
+      "number": 1,
+      "answer": "B"
+    },
+    {
+      "number": 2,
+      "answer": "B"
+    },
+    {
+      "number": 3,
+      "answer": "B"
+    },
+    {
+      "number": 4,
+      "answer": "B"
+    },
+    {
+      "number": 5,
+      "answer": "B"
+    }
+  ],
+  "used_vocab": [
+    "fountain",
+    "farmer",
+    "purpose",
+    "webcam",
+    "deliver",
+    "approach"
+  ],
+  "difficulty_notes": "The passage uses clear, everyday language suitable for B1 learners, with a familiar school topic and straightforward questions.",
+  "title": "Reading Quest: PET全_Page_33_04221021",
+  "page_number": 33,
+  "lesson_number": 33,
+  "focus_words": [
+    {
+      "term": "fountain",
+      "gloss": "喷泉"
+    },
+    {
+      "term": "farmer",
+      "gloss": "农夫 ; 农场主"
+    },
+    {
+      "term": "purpose",
+      "gloss": "目的"
+    },
+    {
+      "term": "webcam",
+      "gloss": "网络摄像机"
+    },
+    {
+      "term": "choice",
+      "gloss": "选择"
+    },
+    {
+      "term": "cotton",
+      "gloss": "棉花"
+    },
+    {
+      "term": "deliver",
+      "gloss": "递送"
+    },
+    {
+      "term": "approach",
+      "gloss": "接近"
+    }
+  ],
+  "source_words": [
+    {
+      "term": "free",
+      "gloss": "自由的 , 免费的"
+    },
+    {
+      "term": "cola",
+      "gloss": "可乐"
+    },
+    {
+      "term": "bat",
+      "gloss": "球拍 ; 蝙蝠"
+    },
+    {
+      "term": "fountain",
+      "gloss": "喷泉"
+    },
+    {
+      "term": "farmer",
+      "gloss": "农夫 ; 农场主"
+    },
+    {
+      "term": "purpose",
+      "gloss": "目的"
+    },
+    {
+      "term": "webcam",
+      "gloss": "网络摄像机"
+    },
+    {
+      "term": "choice",
+      "gloss": "选择"
+    },
+    {
+      "term": "gate",
+      "gloss": "大门"
+    },
+    {
+      "term": "cotton",
+      "gloss": "棉花"
+    },
+    {
+      "term": "month",
+      "gloss": "月"
+    },
+    {
+      "term": "sea",
+      "gloss": "海 , 海洋"
+    },
+    {
+      "term": "or",
+      "gloss": "或者 ; 否则"
+    },
+    {
+      "term": "deliver",
+      "gloss": "递送"
+    },
+    {
+      "term": "bin",
+      "gloss": "垃圾箱"
+    },
+    {
+      "term": "approach",
+      "gloss": "接近"
+    },
+    {
+      "term": "store",
+      "gloss": "商店 , 贮藏"
+    },
+    {
+      "term": "logo",
+      "gloss": "标识"
+    },
+    {
+      "term": "left",
+      "gloss": "左边 , 剩下的"
+    },
+    {
+      "term": "indeed",
+      "gloss": "的确地"
+    },
+    {
+      "term": "dot",
+      "gloss": "点"
+    },
+    {
+      "term": "driver",
+      "gloss": "司机 ; 驱动程序"
+    },
+    {
+      "term": "rainforest",
+      "gloss": "热带 ) 雨林"
+    },
+    {
+      "term": "lend",
+      "gloss": "借出 ; 贷出"
+    },
+    {
+      "term": "fever",
+      "gloss": "发烧"
+    },
+    {
+      "term": "organise",
+      "gloss": "组织"
+    },
+    {
+      "term": "advantage",
+      "gloss": "有利条件"
+    },
+    {
+      "term": "vase",
+      "gloss": "花瓶"
+    },
+    {
+      "term": "thunder",
+      "gloss": "雷声"
+    },
+    {
+      "term": "explorer",
+      "gloss": "探索者"
+    },
+    {
+      "term": "addition",
+      "gloss": "增加"
+    },
+    {
+      "term": "pop",
+      "gloss": "流行的 , 爆裂"
+    },
+    {
+      "term": "hunger",
+      "gloss": "饥饿"
+    },
+    {
+      "term": "contents",
+      "gloss": "目录"
+    },
+    {
+      "term": "enough",
+      "gloss": "充足地 , 足够地"
+    },
+    {
+      "term": "graduation",
+      "gloss": "毕业"
+    },
+    {
+      "term": "businesswoman",
+      "gloss": "女商人"
+    },
+    {
+      "term": "loose",
+      "gloss": "宽松的"
+    },
+    {
+      "term": "unfair",
+      "gloss": "不公平的"
+    },
+    {
+      "term": "trick",
+      "gloss": "诡计"
+    },
+    {
+      "term": "exist",
+      "gloss": "存在"
+    },
+    {
+      "term": "total",
+      "gloss": "全部的 , 总数"
+    },
+    {
+      "term": "pound",
+      "gloss": "英镑"
+    },
+    {
+      "term": "show",
+      "gloss": "显示 ; 演出"
+    },
+    {
+      "term": "police",
+      "gloss": "警察 , 警方"
+    }
+  ]
+}

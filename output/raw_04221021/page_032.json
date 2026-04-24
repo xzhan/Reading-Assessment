@@ -1,0 +1,312 @@
+{
+  "passage": "Welcome to the Greenfield Art and Craft Club! We meet every Thursday evening at the community centre. Our club is for everyone who loves creating things. Last month, we had a workshop on making silver earrings. Our member, Sarah, who is a firefighter during the day, showed us how to design beautiful pieces. She is an extremely talented artist. In December, we are planning a special sale where each individual item made by members will be available. We also have knitting sessions where you can make your own pullover. After our meetings, we often enjoy a break with tea and biscuits, but we ask members to help with the washing-up. It's a friendly and relaxing way to spend an evening. If you're interested, just come along! No experience is needed.",
+  "passage_word_count": 130,
+  "questions": [
+    {
+      "number": 1,
+      "question": "What is the main purpose of the text?",
+      "options": {
+        "A": "To describe a new art club for children.",
+        "B": "To invite people to join a community art club.",
+        "C": "To report on a successful craft sale.",
+        "D": "To explain a firefighter's daily routine."
+      },
+      "answer": "B"
+    },
+    {
+      "number": 2,
+      "question": "When do club members usually meet?",
+      "options": {
+        "A": "Every Thursday evening.",
+        "B": "In December for a special sale.",
+        "C": "During the day for workshops.",
+        "D": "After tea and biscuits."
+      },
+      "answer": "A"
+    },
+    {
+      "number": 3,
+      "question": "Why is Sarah mentioned in the text?",
+      "options": {
+        "A": "To show that firefighters can be talented artists.",
+        "B": "To advertise a workshop on making earrings.",
+        "C": "To explain how to design pullovers.",
+        "D": "To encourage members to help with washing-up."
+      },
+      "answer": "A"
+    },
+    {
+      "number": 4,
+      "question": "What can we infer about the club?",
+      "options": {
+        "A": "It is only for experienced artists.",
+        "B": "It has a friendly and cooperative atmosphere.",
+        "C": "It focuses mainly on knitting activities.",
+        "D": "It is located in a firefighter station."
+      },
+      "answer": "B"
+    },
+    {
+      "number": 5,
+      "question": "What does 'individual' mean in the sentence 'each individual item'?",
+      "options": {
+        "A": "Single or separate.",
+        "B": "Very expensive.",
+        "C": "Handmade.",
+        "D": "Popular."
+      },
+      "answer": "A"
+    }
+  ],
+  "answers": [
+    {
+      "number": 1,
+      "answer": "B"
+    },
+    {
+      "number": 2,
+      "answer": "A"
+    },
+    {
+      "number": 3,
+      "answer": "A"
+    },
+    {
+      "number": 4,
+      "answer": "B"
+    },
+    {
+      "number": 5,
+      "answer": "A"
+    }
+  ],
+  "used_vocab": [
+    "washing-up",
+    "artist",
+    "pullover",
+    "individual",
+    "December",
+    "extremely",
+    "firefighter"
+  ],
+  "difficulty_notes": "The passage uses everyday vocabulary and simple sentence structures suitable for B1 learners.",
+  "title": "Reading Quest: PET全_Page_32_04221021",
+  "page_number": 32,
+  "lesson_number": 32,
+  "focus_words": [
+    {
+      "term": "washing-up",
+      "gloss": "洗刷餐具"
+    },
+    {
+      "term": "artist",
+      "gloss": "艺术家"
+    },
+    {
+      "term": "pullover",
+      "gloss": "套衫"
+    },
+    {
+      "term": "individual",
+      "gloss": "单个的"
+    },
+    {
+      "term": "December",
+      "gloss": "十二月"
+    },
+    {
+      "term": "extremely",
+      "gloss": "极其"
+    },
+    {
+      "term": "earring",
+      "gloss": "耳环"
+    },
+    {
+      "term": "firefighter",
+      "gloss": "消防队员"
+    }
+  ],
+  "source_words": [
+    {
+      "term": "artist",
+      "gloss": "艺术家"
+    },
+    {
+      "term": "baker",
+      "gloss": "面包师"
+    },
+    {
+      "term": "pullover",
+      "gloss": "套衫"
+    },
+    {
+      "term": "sing",
+      "gloss": "唱歌"
+    },
+    {
+      "term": "individual",
+      "gloss": "单个的"
+    },
+    {
+      "term": "December",
+      "gloss": "十二月"
+    },
+    {
+      "term": "let",
+      "gloss": "让 , 使得"
+    },
+    {
+      "term": "extremely",
+      "gloss": "极其"
+    },
+    {
+      "term": "peel",
+      "gloss": "剥"
+    },
+    {
+      "term": "meet",
+      "gloss": "遇见 , 满足"
+    },
+    {
+      "term": "each",
+      "gloss": "每个 , 每"
+    },
+    {
+      "term": "pot",
+      "gloss": "锅"
+    },
+    {
+      "term": "earring",
+      "gloss": "耳环"
+    },
+    {
+      "term": "break",
+      "gloss": "休息 ; 打破"
+    },
+    {
+      "term": "scene",
+      "gloss": "场面"
+    },
+    {
+      "term": "firefighter",
+      "gloss": "消防队员"
+    },
+    {
+      "term": "worried",
+      "gloss": "担心的"
+    },
+    {
+      "term": "shark",
+      "gloss": "鲨鱼"
+    },
+    {
+      "term": "first",
+      "gloss": "第一 , 最初"
+    },
+    {
+      "term": "cliff",
+      "gloss": "悬崖"
+    },
+    {
+      "term": "midnight",
+      "gloss": "午夜"
+    },
+    {
+      "term": "million",
+      "gloss": "一百万"
+    },
+    {
+      "term": "itself",
+      "gloss": "它自己"
+    },
+    {
+      "term": "birth",
+      "gloss": "出生 ; 起源"
+    },
+    {
+      "term": "fairly",
+      "gloss": "公平合理地"
+    },
+    {
+      "term": "boy",
+      "gloss": "男孩"
+    },
+    {
+      "term": "ages",
+      "gloss": "很长时间"
+    },
+    {
+      "term": "USA",
+      "gloss": "美利坚合众国"
+    },
+    {
+      "term": "swimmer",
+      "gloss": "游泳者"
+    },
+    {
+      "term": "reception",
+      "gloss": "接待"
+    },
+    {
+      "term": "palace",
+      "gloss": "宫殿"
+    },
+    {
+      "term": "washing-up",
+      "gloss": "洗刷餐具"
+    },
+    {
+      "term": "elder",
+      "gloss": "年纪较长的"
+    },
+    {
+      "term": "sculpture",
+      "gloss": "雕塑"
+    },
+    {
+      "term": "hole",
+      "gloss": "洞"
+    },
+    {
+      "term": "PC",
+      "gloss": "个人电脑"
+    },
+    {
+      "term": "successful",
+      "gloss": "成功的"
+    },
+    {
+      "term": "ought",
+      "gloss": "应该"
+    },
+    {
+      "term": "cake",
+      "gloss": "蛋糕"
+    },
+    {
+      "term": "colleague",
+      "gloss": "同事"
+    },
+    {
+      "term": "supper",
+      "gloss": "晚餐"
+    },
+    {
+      "term": "surprising",
+      "gloss": "令人惊讶的"
+    },
+    {
+      "term": "blank",
+      "gloss": "空白的"
+    },
+    {
+      "term": "use",
+      "gloss": "使用"
+    },
+    {
+      "term": "copy",
+      "gloss": "抄袭 , 复印"
+    }
+  ]
+}

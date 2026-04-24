@@ -1,0 +1,312 @@
+{
+  "passage": "Hi Emma, I still cannot believe how good our autumn trip was. In October, my best friend Lily and I travelled to a small town in the northwest of France. At first, the destination sounded dull because almost nobody in class had heard of it, and our teacher said there was nowhere exciting to shop. However, the place turned out to be perfect for a quiet weekend. Lily is easygoing, so she never complained when our train was late or when it rained on the first morning. We stayed in a family hotel where breakfast included fresh bread, fruit and local cheese. My favourite part was walking along the harbour and watching fishing boats return at sunset. It was not a glamorous holiday, but it was absolutely relaxing. If the school offers the same trip next year, I will join again.",
+  "passage_word_count": 141,
+  "questions": [
+    {
+      "number": 1,
+      "question": "Where did the writer travel in October?",
+      "options": {
+        "A": "A village in southern England",
+        "B": "A town in northwest France",
+        "C": "A city in eastern Spain",
+        "D": "A port in northern Italy"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 2,
+      "question": "Why did the destination sound dull at first?",
+      "options": {
+        "A": "It was too expensive",
+        "B": "The hotel was old",
+        "C": "The weather was cold",
+        "D": "It sounded like there was nowhere exciting to shop"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 3,
+      "question": "What is Lily like?",
+      "options": {
+        "A": "Easygoing",
+        "B": "Very impatient",
+        "C": "Rather shy",
+        "D": "Quite rude"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 4,
+      "question": "What did they have for breakfast?",
+      "options": {
+        "A": "Soup and salad",
+        "B": "Eggs and bacon",
+        "C": "Bread, fruit and cheese",
+        "D": "Fish and rice"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 5,
+      "question": "How does the writer feel about the trip now?",
+      "options": {
+        "A": "It was too quiet",
+        "B": "It was absolutely relaxing",
+        "C": "It was not worth the journey",
+        "D": "It should be shorter next time"
+      },
+      "answer": "B"
+    }
+  ],
+  "answers": [
+    {
+      "number": 1,
+      "answer": "B"
+    },
+    {
+      "number": 2,
+      "answer": "D"
+    },
+    {
+      "number": 3,
+      "answer": "A"
+    },
+    {
+      "number": 4,
+      "answer": "C"
+    },
+    {
+      "number": 5,
+      "answer": "B"
+    }
+  ],
+  "used_vocab": [
+    "believe",
+    "destination",
+    "nowhere",
+    "friend",
+    "easygoing",
+    "cheese",
+    "October"
+  ],
+  "difficulty_notes": "An email-style travel reflection with simple character and attitude questions.",
+  "title": "Reading Quest: PET全_Page_26_04221021",
+  "page_number": 26,
+  "lesson_number": 26,
+  "focus_words": [
+    {
+      "term": "believe",
+      "gloss": "相信"
+    },
+    {
+      "term": "destination",
+      "gloss": "目的地"
+    },
+    {
+      "term": "version",
+      "gloss": "版本"
+    },
+    {
+      "term": "nowhere",
+      "gloss": "无处"
+    },
+    {
+      "term": "friend",
+      "gloss": "朋友"
+    },
+    {
+      "term": "easygoing",
+      "gloss": "随和的"
+    },
+    {
+      "term": "cheese",
+      "gloss": "乳酪"
+    },
+    {
+      "term": "October",
+      "gloss": "十月"
+    }
+  ],
+  "source_words": [
+    {
+      "term": "face",
+      "gloss": "脸"
+    },
+    {
+      "term": "believe",
+      "gloss": "相信"
+    },
+    {
+      "term": "destination",
+      "gloss": "目的地"
+    },
+    {
+      "term": "version",
+      "gloss": "版本"
+    },
+    {
+      "term": "windy",
+      "gloss": "有风的"
+    },
+    {
+      "term": "view",
+      "gloss": "看法 ; 风景"
+    },
+    {
+      "term": "nowhere",
+      "gloss": "无处"
+    },
+    {
+      "term": "sorry",
+      "gloss": "对不起 , 遗憾的"
+    },
+    {
+      "term": "friend",
+      "gloss": "朋友"
+    },
+    {
+      "term": "smoke",
+      "gloss": "吸烟"
+    },
+    {
+      "term": "tie",
+      "gloss": "领带 , 系"
+    },
+    {
+      "term": "silk",
+      "gloss": "丝绸"
+    },
+    {
+      "term": "easygoing",
+      "gloss": "随和的"
+    },
+    {
+      "term": "cheese",
+      "gloss": "乳酪"
+    },
+    {
+      "term": "a.m.",
+      "gloss": "上午 , 午前"
+    },
+    {
+      "term": "stop",
+      "gloss": "停止 , 车站"
+    },
+    {
+      "term": "dress",
+      "gloss": "连衣裙 ; 穿衣"
+    },
+    {
+      "term": "earth",
+      "gloss": "地球"
+    },
+    {
+      "term": "rule",
+      "gloss": "统治 ; 规则"
+    },
+    {
+      "term": "October",
+      "gloss": "十月"
+    },
+    {
+      "term": "cream",
+      "gloss": "奶油 , 面霜"
+    },
+    {
+      "term": "broad",
+      "gloss": "宽阔的"
+    },
+    {
+      "term": "easy",
+      "gloss": "容易的"
+    },
+    {
+      "term": "wing",
+      "gloss": "翅膀"
+    },
+    {
+      "term": "northwest",
+      "gloss": "在西北部的"
+    },
+    {
+      "term": "absolutely",
+      "gloss": "绝对地"
+    },
+    {
+      "term": "Canada",
+      "gloss": "加拿大"
+    },
+    {
+      "term": "pattern",
+      "gloss": "式样"
+    },
+    {
+      "term": "familiar",
+      "gloss": "熟悉的"
+    },
+    {
+      "term": "knit",
+      "gloss": "编织"
+    },
+    {
+      "term": "diver",
+      "gloss": "潜水员"
+    },
+    {
+      "term": "special",
+      "gloss": "特别的"
+    },
+    {
+      "term": "spectacular",
+      "gloss": "壮观的"
+    },
+    {
+      "term": "penguin",
+      "gloss": "企鹅"
+    },
+    {
+      "term": "clearly",
+      "gloss": "清晰地 ; 明显地"
+    },
+    {
+      "term": "elephant",
+      "gloss": "大象"
+    },
+    {
+      "term": "independent",
+      "gloss": "独立的"
+    },
+    {
+      "term": "wonderful",
+      "gloss": "极好的 , 精彩的"
+    },
+    {
+      "term": "cupboard",
+      "gloss": "橱柜"
+    },
+    {
+      "term": "tasty",
+      "gloss": "美味的"
+    },
+    {
+      "term": "order",
+      "gloss": "命令 ; 顺序 ; 订单"
+    },
+    {
+      "term": "fly",
+      "gloss": "苍蝇 ; 飞翔"
+    },
+    {
+      "term": "horrible",
+      "gloss": "可怕的 ; 恐怖的"
+    },
+    {
+      "term": "kettle",
+      "gloss": "烧水壶"
+    },
+    {
+      "term": "transfer",
+      "gloss": "转移"
+    }
+  ]
+}

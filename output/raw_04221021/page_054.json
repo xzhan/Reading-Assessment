@@ -1,0 +1,313 @@
+{
+  "passage": "10th May Today was our school science fair. I worked on my physics project about electricity. I made a poster and put an advertisement on the school noticeboard to attract visitors. My friend Tom helped me carry the heavy equipment; he's very strong, like a hotel porter! The judges were impressed. One of them, a famous scientist from the city university, asked me lots of questions. I was nervous but I explained my report clearly. Afterwards, I felt hungry. I went to the café and had a yogurt with some spinach – not my favourite, but it's healthy! It started raining heavily at lunchtime. I was so glad I remembered my umbrella. I walked home slowly, thinking about my project. I hope I win a prize. It would be great for my university account.",
+  "passage_word_count": 133,
+  "questions": [
+    {
+      "number": 1,
+      "question": "What is the main purpose of this diary entry?",
+      "options": {
+        "A": "To describe a school event",
+        "B": "To complain about the weather",
+        "C": "To advertise a science project",
+        "D": "To recommend a healthy food"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 2,
+      "question": "Why did the writer mention an 'advertisement'?",
+      "options": {
+        "A": "To explain how they promoted their project",
+        "B": "To show they sold something at the fair",
+        "C": "To describe a poster they bought",
+        "D": "To talk about a job they want"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 3,
+      "question": "The word 'porter' in line 4 refers to someone who ______.",
+      "options": {
+        "A": "works in a hotel",
+        "B": "is good at science",
+        "C": "carries heavy things",
+        "D": "is a famous judge"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 4,
+      "question": "What does the writer feel about the spinach?",
+      "options": {
+        "A": "It is their favourite food.",
+        "B": "They eat it because it is good for them.",
+        "C": "They think it tastes better than yogurt.",
+        "D": "They only eat it at science fairs."
+      },
+      "answer": "B"
+    },
+    {
+      "number": 5,
+      "question": "What might the writer use a 'university account' for?",
+      "options": {
+        "A": "To save money for future studies",
+        "B": "To store their physics report",
+        "C": "To buy a new umbrella",
+        "D": "To pay for more spinach"
+      },
+      "answer": "A"
+    }
+  ],
+  "answers": [
+    {
+      "number": 1,
+      "answer": "A"
+    },
+    {
+      "number": 2,
+      "answer": "A"
+    },
+    {
+      "number": 3,
+      "answer": "C"
+    },
+    {
+      "number": 4,
+      "answer": "B"
+    },
+    {
+      "number": 5,
+      "answer": "A"
+    }
+  ],
+  "used_vocab": [
+    "porter",
+    "spinach",
+    "umbrella",
+    "famous",
+    "physics",
+    "report",
+    "account",
+    "advertisement"
+  ],
+  "difficulty_notes": "The passage uses a simple diary format with clear event sequencing; questions require both direct retrieval and mild inference.",
+  "title": "Reading Quest: PET全_Page_54_04221021",
+  "page_number": 54,
+  "lesson_number": 54,
+  "focus_words": [
+    {
+      "term": "porter",
+      "gloss": "搬运工"
+    },
+    {
+      "term": "spinach",
+      "gloss": "菠菜"
+    },
+    {
+      "term": "umbrella",
+      "gloss": "雨伞"
+    },
+    {
+      "term": "famous",
+      "gloss": "著名的"
+    },
+    {
+      "term": "physics",
+      "gloss": "物理学"
+    },
+    {
+      "term": "report",
+      "gloss": "报告"
+    },
+    {
+      "term": "account",
+      "gloss": "账户"
+    },
+    {
+      "term": "advertisement",
+      "gloss": "广告"
+    }
+  ],
+  "source_words": [
+    {
+      "term": "at",
+      "gloss": "在"
+    },
+    {
+      "term": "porter",
+      "gloss": "搬运工"
+    },
+    {
+      "term": "spinach",
+      "gloss": "菠菜"
+    },
+    {
+      "term": "umbrella",
+      "gloss": "雨伞"
+    },
+    {
+      "term": "large",
+      "gloss": "大量的 , 宽大的"
+    },
+    {
+      "term": "famous",
+      "gloss": "著名的"
+    },
+    {
+      "term": "web",
+      "gloss": "网络"
+    },
+    {
+      "term": "physics",
+      "gloss": "物理学"
+    },
+    {
+      "term": "report",
+      "gloss": "报告"
+    },
+    {
+      "term": "chain",
+      "gloss": "锁链"
+    },
+    {
+      "term": "knife",
+      "gloss": "刀 , 匕首"
+    },
+    {
+      "term": "account",
+      "gloss": "账户"
+    },
+    {
+      "term": "advertisement",
+      "gloss": "广告"
+    },
+    {
+      "term": "comic",
+      "gloss": "滑稽的 ; 漫画"
+    },
+    {
+      "term": "subtract",
+      "gloss": "减去"
+    },
+    {
+      "term": "action",
+      "gloss": "行动"
+    },
+    {
+      "term": "communicate",
+      "gloss": "沟通"
+    },
+    {
+      "term": "yogurt",
+      "gloss": "酸奶"
+    },
+    {
+      "term": "turn",
+      "gloss": "转向"
+    },
+    {
+      "term": "scenery",
+      "gloss": "风景"
+    },
+    {
+      "term": "hour",
+      "gloss": "小时"
+    },
+    {
+      "term": "admire",
+      "gloss": "钦佩"
+    },
+    {
+      "term": "cold",
+      "gloss": "冷的 ; 感冒"
+    },
+    {
+      "term": "ID",
+      "gloss": "身份证件"
+    },
+    {
+      "term": "recommend",
+      "gloss": "推荐"
+    },
+    {
+      "term": "whose",
+      "gloss": "谁的"
+    },
+    {
+      "term": "guest",
+      "gloss": "客人"
+    },
+    {
+      "term": "progress",
+      "gloss": "进步"
+    },
+    {
+      "term": "decorate",
+      "gloss": "装饰"
+    },
+    {
+      "term": "climb",
+      "gloss": "攀登 , 上升"
+    },
+    {
+      "term": "woman",
+      "gloss": "女人"
+    },
+    {
+      "term": "may",
+      "gloss": "可以 , 可能"
+    },
+    {
+      "term": "parrot",
+      "gloss": "鹦鹉"
+    },
+    {
+      "term": "cure",
+      "gloss": "治愈"
+    },
+    {
+      "term": "dinosaur",
+      "gloss": "恐龙"
+    },
+    {
+      "term": "place",
+      "gloss": "地方 , 座位"
+    },
+    {
+      "term": "village",
+      "gloss": "村庄"
+    },
+    {
+      "term": "pregnant",
+      "gloss": "怀孕的"
+    },
+    {
+      "term": "fortnight",
+      "gloss": "两星期"
+    },
+    {
+      "term": "near",
+      "gloss": "靠近 , 近乎"
+    },
+    {
+      "term": "headphones",
+      "gloss": "耳机"
+    },
+    {
+      "term": "magic",
+      "gloss": "有魔力的"
+    },
+    {
+      "term": "casual",
+      "gloss": "非正式的"
+    },
+    {
+      "term": "identification",
+      "gloss": "身份 ; 识别"
+    },
+    {
+      "term": "it",
+      "gloss": "它"
+    }
+  ]
+}

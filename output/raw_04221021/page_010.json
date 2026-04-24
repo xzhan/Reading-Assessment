@@ -1,0 +1,312 @@
+{
+  "passage": "Hi Sarah, How are you? I'm writing about our trip to the coast next weekend. I found a good flight deal, so I booked two tickets. The flight is on Saturday morning, which is perfect. We're going to do some outdoor activities like hiking and swimming. The weather forecast says it will be sunny, so I'm excited. Actually, I was a bit worried about the demand for tickets, but it turned out to be fine. For lunch, we can try the local food. I heard they have delicious seafood and chilli dishes. I'm not sure if you like spicy food, but we can find something else if not. Let me know if this plan is satisfactory. Also, intelligent idea to bring sunscreen! I'll pack my new T-shirt for the trip. See you soon, Tom",
+  "passage_word_count": 134,
+  "questions": [
+    {
+      "number": 1,
+      "question": "What is the main purpose of Tom's email?",
+      "options": {
+        "A": "To describe his new T-shirt",
+        "B": "To discuss plans for a weekend trip",
+        "C": "To share a flight booking tip",
+        "D": "To explain ticket demand issues"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 2,
+      "question": "What makes Tom excited about the trip?",
+      "options": {
+        "A": "The sunny weather forecast",
+        "B": "The low flight price",
+        "C": "The outdoor activities planned",
+        "D": "The local food options"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 3,
+      "question": "Why does Tom mention the demand for tickets?",
+      "options": {
+        "A": "To ask Sarah for help",
+        "B": "To show he was previously concerned",
+        "C": "To complain about high costs",
+        "D": "To apologise for a mistake"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 4,
+      "question": "What can be inferred about Sarah from the email?",
+      "options": {
+        "A": "She is very intelligent",
+        "B": "She enjoys spicy food",
+        "C": "She will join the trip",
+        "D": "She booked the flights"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 5,
+      "question": "In the email, what does 'satisfactory' mean?",
+      "options": {
+        "A": "Good enough",
+        "B": "Very exciting",
+        "C": "Completely wrong",
+        "D": "Extremely cheap"
+      },
+      "answer": "A"
+    }
+  ],
+  "answers": [
+    {
+      "number": 1,
+      "answer": "B"
+    },
+    {
+      "number": 2,
+      "answer": "A"
+    },
+    {
+      "number": 3,
+      "answer": "B"
+    },
+    {
+      "number": 4,
+      "answer": "C"
+    },
+    {
+      "number": 5,
+      "answer": "A"
+    }
+  ],
+  "used_vocab": [
+    "intelligent",
+    "satisfactory",
+    "chilli",
+    "flight",
+    "outdoor",
+    "actually",
+    "demand"
+  ],
+  "difficulty_notes": "The passage uses clear, everyday language appropriate for B1 learners.",
+  "title": "Reading Quest: PET全_Page_10_04221021",
+  "page_number": 10,
+  "lesson_number": 10,
+  "focus_words": [
+    {
+      "term": "intelligent",
+      "gloss": "聪明的"
+    },
+    {
+      "term": "satisfactory",
+      "gloss": "满意的"
+    },
+    {
+      "term": "T-shirt T",
+      "gloss": "恤衫"
+    },
+    {
+      "term": "chilli",
+      "gloss": "红辣椒"
+    },
+    {
+      "term": "flight",
+      "gloss": "飞行航班"
+    },
+    {
+      "term": "outdoor",
+      "gloss": "户外的"
+    },
+    {
+      "term": "actually",
+      "gloss": "实际上"
+    },
+    {
+      "term": "demand",
+      "gloss": "要求"
+    }
+  ],
+  "source_words": [
+    {
+      "term": "intelligent",
+      "gloss": "聪明的"
+    },
+    {
+      "term": "cough",
+      "gloss": "咳嗽"
+    },
+    {
+      "term": "get",
+      "gloss": "获得 ; 变成"
+    },
+    {
+      "term": "part",
+      "gloss": "部份 , 角色"
+    },
+    {
+      "term": "wake",
+      "gloss": "醒来 , 唤醒"
+    },
+    {
+      "term": "satisfactory",
+      "gloss": "满意的"
+    },
+    {
+      "term": "ninth",
+      "gloss": "第九"
+    },
+    {
+      "term": "T-shirt T",
+      "gloss": "恤衫"
+    },
+    {
+      "term": "bad",
+      "gloss": "坏的"
+    },
+    {
+      "term": "chilli",
+      "gloss": "红辣椒"
+    },
+    {
+      "term": "flight",
+      "gloss": "飞行航班"
+    },
+    {
+      "term": "wrap",
+      "gloss": "包,裹"
+    },
+    {
+      "term": "outdoor",
+      "gloss": "户外的"
+    },
+    {
+      "term": "actually",
+      "gloss": "实际上"
+    },
+    {
+      "term": "door",
+      "gloss": "门"
+    },
+    {
+      "term": "kite",
+      "gloss": "风筝"
+    },
+    {
+      "term": "these",
+      "gloss": "这些"
+    },
+    {
+      "term": "demand",
+      "gloss": "要求"
+    },
+    {
+      "term": "burning",
+      "gloss": "强烈的 ; 紧急的"
+    },
+    {
+      "term": "might",
+      "gloss": "可能 , 也许"
+    },
+    {
+      "term": "expensive",
+      "gloss": "昂贵的"
+    },
+    {
+      "term": "carry",
+      "gloss": "搬运,拿"
+    },
+    {
+      "term": "those",
+      "gloss": "那些"
+    },
+    {
+      "term": "nearby",
+      "gloss": "附近的"
+    },
+    {
+      "term": "terrible",
+      "gloss": "糟糕的"
+    },
+    {
+      "term": "southeast",
+      "gloss": "东南"
+    },
+    {
+      "term": "burger",
+      "gloss": "汉堡包"
+    },
+    {
+      "term": "island",
+      "gloss": "岛"
+    },
+    {
+      "term": "seriously",
+      "gloss": "严重地"
+    },
+    {
+      "term": "quickly",
+      "gloss": "快速地"
+    },
+    {
+      "term": "political",
+      "gloss": "政治的"
+    },
+    {
+      "term": "time",
+      "gloss": "时间 , 次数"
+    },
+    {
+      "term": "stressed",
+      "gloss": "焦虑不安"
+    },
+    {
+      "term": "could",
+      "gloss": "能够"
+    },
+    {
+      "term": "wife",
+      "gloss": "妻子"
+    },
+    {
+      "term": "bowl",
+      "gloss": "碗"
+    },
+    {
+      "term": "sick",
+      "gloss": "生病的 ; 恶心的"
+    },
+    {
+      "term": "myself",
+      "gloss": "我自己"
+    },
+    {
+      "term": "different",
+      "gloss": "不同的"
+    },
+    {
+      "term": "September",
+      "gloss": "九月"
+    },
+    {
+      "term": "gorgeous",
+      "gloss": "华丽的"
+    },
+    {
+      "term": "pen",
+      "gloss": "钢笔"
+    },
+    {
+      "term": "apologise",
+      "gloss": "道歉"
+    },
+    {
+      "term": "knowledge",
+      "gloss": "知识"
+    },
+    {
+      "term": "mall",
+      "gloss": "商场"
+    }
+  ]
+}

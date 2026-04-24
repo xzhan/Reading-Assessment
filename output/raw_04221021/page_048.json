@@ -1,0 +1,311 @@
+{
+  "passage": "Welcome to the Riverside School Computer Gaming Club! We meet every Thursday after school in the computer lab. Our club is open to all students, and we focus on playing and learning about different video games. This term, we are exploring a new game where players must defeat monsters in a virtual world. It's exciting and challenging! We manage our sessions carefully to ensure everyone gets a turn to play and learn. Neither beginners nor experienced players will feel left out, as we have games for all skill levels. Our club leader, Mr. Smith, helps us improve our skills and finally, we often have mini-tournaments with prizes. If you love computers and gaming, come and join us! You can appear at the lab on Thursday at 4 PM. Don't forget to bring your enthusiasm. We look forward to seeing you there.",
+  "passage_word_count": 140,
+  "questions": [
+    {
+      "number": 1,
+      "question": "What is the main purpose of the text?",
+      "options": {
+        "A": "To describe a new computer game",
+        "B": "To invite students to a school club",
+        "C": "To explain how to manage gaming sessions",
+        "D": "To advertise a competition"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 2,
+      "question": "When do the club meetings take place?",
+      "options": {
+        "A": "On Monday afternoons",
+        "B": "Every Thursday at 4 PM",
+        "C": "During school hours",
+        "D": "On weekends"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 3,
+      "question": "What does the club ensure for all members?",
+      "options": {
+        "A": "They will become skilled players",
+        "B": "Everyone gets a chance to play",
+        "C": "They will win prizes in tournaments",
+        "D": "They will learn to use computers"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 4,
+      "question": "What can be inferred about the club's members?",
+      "options": {
+        "A": "They are all experienced gamers",
+        "B": "They include both new and advanced players",
+        "C": "They only play on Thursdays",
+        "D": "They are managed by students"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 5,
+      "question": "What does 'appear' mean in the sentence 'You can appear at the lab'?",
+      "options": {
+        "A": "To look good",
+        "B": "To arrive or come",
+        "C": "To seem important",
+        "D": "To show up online"
+      },
+      "answer": "B"
+    }
+  ],
+  "answers": [
+    {
+      "number": 1,
+      "answer": "B"
+    },
+    {
+      "number": 2,
+      "answer": "B"
+    },
+    {
+      "number": 3,
+      "answer": "B"
+    },
+    {
+      "number": 4,
+      "answer": "B"
+    },
+    {
+      "number": 5,
+      "answer": "B"
+    }
+  ],
+  "used_vocab": [
+    "computer",
+    "appear",
+    "Thursday",
+    "neither",
+    "manage",
+    "finally"
+  ],
+  "difficulty_notes": "The passage uses clear, everyday language suitable for B1 learners, with a mix of simple and compound sentences.",
+  "title": "Reading Quest: PET全_Page_48_04221021",
+  "page_number": 48,
+  "lesson_number": 48,
+  "focus_words": [
+    {
+      "term": "computer",
+      "gloss": "计算机"
+    },
+    {
+      "term": "sandal",
+      "gloss": "凉鞋"
+    },
+    {
+      "term": "appear",
+      "gloss": "出现"
+    },
+    {
+      "term": "monster",
+      "gloss": "怪物"
+    },
+    {
+      "term": "Thursday",
+      "gloss": "星期四"
+    },
+    {
+      "term": "neither",
+      "gloss": "两个都不"
+    },
+    {
+      "term": "manage",
+      "gloss": "管理"
+    },
+    {
+      "term": "finally",
+      "gloss": "最后;终于"
+    }
+  ],
+  "source_words": [
+    {
+      "term": "piano",
+      "gloss": "钢琴"
+    },
+    {
+      "term": "today",
+      "gloss": "今天"
+    },
+    {
+      "term": "path",
+      "gloss": "小路 , 道路"
+    },
+    {
+      "term": "computer",
+      "gloss": "计算机"
+    },
+    {
+      "term": "sandal",
+      "gloss": "凉鞋"
+    },
+    {
+      "term": "appear",
+      "gloss": "出现"
+    },
+    {
+      "term": "monster",
+      "gloss": "怪物"
+    },
+    {
+      "term": "push",
+      "gloss": "挤 , 逼迫"
+    },
+    {
+      "term": "blind",
+      "gloss": "失明的"
+    },
+    {
+      "term": "Thursday",
+      "gloss": "星期四"
+    },
+    {
+      "term": "neither",
+      "gloss": "两个都不"
+    },
+    {
+      "term": "manage",
+      "gloss": "管理"
+    },
+    {
+      "term": "money",
+      "gloss": "钱"
+    },
+    {
+      "term": "finally",
+      "gloss": "最后;终于"
+    },
+    {
+      "term": "experience",
+      "gloss": "经验 ; 经历"
+    },
+    {
+      "term": "fur",
+      "gloss": "毛皮"
+    },
+    {
+      "term": "novelist",
+      "gloss": "小说家"
+    },
+    {
+      "term": "session",
+      "gloss": "会议"
+    },
+    {
+      "term": "spot",
+      "gloss": "斑点"
+    },
+    {
+      "term": "bite",
+      "gloss": "咬"
+    },
+    {
+      "term": "hardly",
+      "gloss": "几乎不"
+    },
+    {
+      "term": "hopeless",
+      "gloss": "绝望的"
+    },
+    {
+      "term": "relax",
+      "gloss": "放松"
+    },
+    {
+      "term": "focus",
+      "gloss": "集中"
+    },
+    {
+      "term": "sink",
+      "gloss": "水槽 , 下沉"
+    },
+    {
+      "term": "prize",
+      "gloss": "奖 , 奖品"
+    },
+    {
+      "term": "signature",
+      "gloss": "签名"
+    },
+    {
+      "term": "server",
+      "gloss": "服务器"
+    },
+    {
+      "term": "no",
+      "gloss": "没有 , 不是"
+    },
+    {
+      "term": "hairdryer",
+      "gloss": "吹风机"
+    },
+    {
+      "term": "watch",
+      "gloss": "手表 , 观看"
+    },
+    {
+      "term": "neighbour",
+      "gloss": "邻居"
+    },
+    {
+      "term": "world",
+      "gloss": "世界"
+    },
+    {
+      "term": "canteen",
+      "gloss": "食堂"
+    },
+    {
+      "term": "careless",
+      "gloss": "不小心的"
+    },
+    {
+      "term": "headline",
+      "gloss": "大标题"
+    },
+    {
+      "term": "fourth",
+      "gloss": "第四"
+    },
+    {
+      "term": "consonant",
+      "gloss": "辅音"
+    },
+    {
+      "term": "net",
+      "gloss": "鱼网 ; 网络"
+    },
+    {
+      "term": "ticket",
+      "gloss": "票"
+    },
+    {
+      "term": "brown",
+      "gloss": "棕色的"
+    },
+    {
+      "term": "stamp",
+      "gloss": "邮票 , 印章"
+    },
+    {
+      "term": "phone",
+      "gloss": "打电话 ; 电话"
+    },
+    {
+      "term": "aunt",
+      "gloss": "伯母 , 姑 , 婶 , 姨"
+    },
+    {
+      "term": "upload",
+      "gloss": "上传数据"
+    }
+  ]
+}

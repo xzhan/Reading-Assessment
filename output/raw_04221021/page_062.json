@@ -1,0 +1,313 @@
+{
+  "passage": "Our class trip to England began on the twenty-fourth of March, and the hardest part was the airport check-in. Because our flight left early, we travelled overnight by coach and arrived before dawn. The teacher told us to keep a phone number for emergency contact in our pockets and to request help at once if anything went wrong. One student's suitcase was too heavy, so the airline worker showed him how to remove a silver photo frame and pack it in hand luggage instead. A banker standing behind us smiled and said school trips were always more exciting than business travel. After security, we sat near the gate and watched planes connect with flights to other cities. Although everyone looked tired, the mood was cheerful because our long journey was finally beginning.",
+  "passage_word_count": 132,
+  "questions": [
+    {
+      "number": 1,
+      "question": "When did the trip to England begin?",
+      "options": {
+        "A": "On the first of March",
+        "B": "On the twenty-fourth of March",
+        "C": "At the end of April",
+        "D": "On a Saturday in May"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 2,
+      "question": "What was the hardest part of the journey?",
+      "options": {
+        "A": "The airport check-in",
+        "B": "The overnight coach",
+        "C": "The flight to England",
+        "D": "The walk to the gate"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 3,
+      "question": "Why did the class travel overnight?",
+      "options": {
+        "A": "The teacher preferred it",
+        "B": "The airport was very far away",
+        "C": "Hotels were too expensive",
+        "D": "Their flight left early"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 4,
+      "question": "What did the airline worker ask one student to do?",
+      "options": {
+        "A": "Call an emergency contact",
+        "B": "Give a bag to the banker",
+        "C": "Move a silver photo frame into hand luggage",
+        "D": "Buy another suitcase"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 5,
+      "question": "How did the class feel after security?",
+      "options": {
+        "A": "Tired but cheerful",
+        "B": "Angry and confused",
+        "C": "Bored and hungry",
+        "D": "Scared of flying"
+      },
+      "answer": "A"
+    }
+  ],
+  "answers": [
+    {
+      "number": 1,
+      "answer": "B"
+    },
+    {
+      "number": 2,
+      "answer": "A"
+    },
+    {
+      "number": 3,
+      "answer": "D"
+    },
+    {
+      "number": 4,
+      "answer": "C"
+    },
+    {
+      "number": 5,
+      "answer": "A"
+    }
+  ],
+  "used_vocab": [
+    "twenty-fourth",
+    "check-in",
+    "overnight",
+    "contact",
+    "silver",
+    "banker",
+    "request",
+    "connect"
+  ],
+  "difficulty_notes": "A travel passage with a clear timeline and simple airport vocabulary.",
+  "title": "Reading Quest: PET全_Page_62_04221021",
+  "page_number": 62,
+  "lesson_number": 62,
+  "focus_words": [
+    {
+      "term": "twenty-fourth",
+      "gloss": "第二十四"
+    },
+    {
+      "term": "check-in",
+      "gloss": "办理登机手续"
+    },
+    {
+      "term": "overnight",
+      "gloss": "一夜之间"
+    },
+    {
+      "term": "contact",
+      "gloss": "接触 ; 联系"
+    },
+    {
+      "term": "silver",
+      "gloss": "银制的"
+    },
+    {
+      "term": "banker",
+      "gloss": "银行高管"
+    },
+    {
+      "term": "request",
+      "gloss": "请求"
+    },
+    {
+      "term": "connect",
+      "gloss": "使 ) 连接"
+    }
+  ],
+  "source_words": [
+    {
+      "term": "hand",
+      "gloss": "手 ; 递给"
+    },
+    {
+      "term": "overnight",
+      "gloss": "一夜之间"
+    },
+    {
+      "term": "soft",
+      "gloss": "温柔的"
+    },
+    {
+      "term": "contact",
+      "gloss": "接触 ; 联系"
+    },
+    {
+      "term": "agree",
+      "gloss": "同意 , 赞成"
+    },
+    {
+      "term": "admit",
+      "gloss": "承认"
+    },
+    {
+      "term": "close",
+      "gloss": "亲密的 ; 近的"
+    },
+    {
+      "term": "staff",
+      "gloss": "全体人员"
+    },
+    {
+      "term": "silver",
+      "gloss": "银制的"
+    },
+    {
+      "term": "banker",
+      "gloss": "银行高管"
+    },
+    {
+      "term": "request",
+      "gloss": "请求"
+    },
+    {
+      "term": "connect",
+      "gloss": "使 ) 连接"
+    },
+    {
+      "term": "condition",
+      "gloss": "状况"
+    },
+    {
+      "term": "twenty-fourth",
+      "gloss": "第二十四"
+    },
+    {
+      "term": "solve",
+      "gloss": "解决"
+    },
+    {
+      "term": "England",
+      "gloss": "英格兰"
+    },
+    {
+      "term": "escape",
+      "gloss": "逃避"
+    },
+    {
+      "term": "past",
+      "gloss": "经过 ; 过去"
+    },
+    {
+      "term": "granny",
+      "gloss": "老奶奶"
+    },
+    {
+      "term": "sew",
+      "gloss": "缝"
+    },
+    {
+      "term": "funny",
+      "gloss": "滑稽的 , 奇怪的"
+    },
+    {
+      "term": "continue",
+      "gloss": "持续 ; 继续"
+    },
+    {
+      "term": "please",
+      "gloss": "请 ; 使高兴"
+    },
+    {
+      "term": "mad",
+      "gloss": "疯狂的"
+    },
+    {
+      "term": "aspirin",
+      "gloss": "阿司匹林"
+    },
+    {
+      "term": "winter",
+      "gloss": "冬季"
+    },
+    {
+      "term": "cat",
+      "gloss": "猫 ; 猫科动物"
+    },
+    {
+      "term": "check-in",
+      "gloss": "办理登机手续"
+    },
+    {
+      "term": "supporter",
+      "gloss": "支持者"
+    },
+    {
+      "term": "walk",
+      "gloss": "走 , 散步"
+    },
+    {
+      "term": "bury",
+      "gloss": "埋葬"
+    },
+    {
+      "term": "uninteresting",
+      "gloss": "无趣的"
+    },
+    {
+      "term": "camera",
+      "gloss": "照相机"
+    },
+    {
+      "term": "its",
+      "gloss": "它的"
+    },
+    {
+      "term": "underground",
+      "gloss": "地铁 ; 秘密的"
+    },
+    {
+      "term": "silence",
+      "gloss": "沉默"
+    },
+    {
+      "term": "exercise",
+      "gloss": "练习 ; 运动"
+    },
+    {
+      "term": "married",
+      "gloss": "已婚的"
+    },
+    {
+      "term": "team",
+      "gloss": "团队"
+    },
+    {
+      "term": "unhealthy",
+      "gloss": "不健康的"
+    },
+    {
+      "term": "secretary",
+      "gloss": "秘书"
+    },
+    {
+      "term": "subject",
+      "gloss": "主题 ; 科目"
+    },
+    {
+      "term": "sheet",
+      "gloss": "床单 ; 薄片"
+    },
+    {
+      "term": "die",
+      "gloss": "死亡"
+    },
+    {
+      "term": "museum",
+      "gloss": "博物馆"
+    }
+  ]
+}

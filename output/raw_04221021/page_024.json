@@ -1,0 +1,312 @@
+{
+  "passage": "Just before the school show began, Anna realised that one orange scarf was missing from the costume box. She checked her locker, looked behind the curtain and asked everyone if they could identify the item. At first, she forgot to search the photography room, where students had been taking pictures of the actors. A boy called Leo, whose initial was also A, said he had seen something colourful near the window. Anna ran there and found the scarf hanging beside a paper butterfly from the art class. She felt relieved at once, because the scarf was needed for the opening dance. Leo joked that the main actor looked too handsome to worry about a small problem, but Anna knew that one missing object could spoil the first scene. When the music started, everything was finally ready.",
+  "passage_word_count": 136,
+  "questions": [
+    {
+      "number": 1,
+      "question": "What was missing before the show?",
+      "options": {
+        "A": "A camera",
+        "B": "A script",
+        "C": "An orange scarf",
+        "D": "A pair of shoes"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 2,
+      "question": "Where did Anna finally find the scarf?",
+      "options": {
+        "A": "Inside her locker",
+        "B": "Under the stage",
+        "C": "In the school office",
+        "D": "Near the window in the photography room"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 3,
+      "question": "Why did Anna feel relieved?",
+      "options": {
+        "A": "The scarf was needed for the dance",
+        "B": "Leo offered her a new costume",
+        "C": "The show was cancelled",
+        "D": "The actor found his shoes"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 4,
+      "question": "What mistake did Anna make at first?",
+      "options": {
+        "A": "She blamed Leo",
+        "B": "She forgot to search one room",
+        "C": "She put the scarf in a bag",
+        "D": "She left the theatre early"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 5,
+      "question": "What does the story show?",
+      "options": {
+        "A": "Actors never worry",
+        "B": "Butterflies are useful in plays",
+        "C": "Small problems can affect a show",
+        "D": "Photography rooms should stay closed"
+      },
+      "answer": "C"
+    }
+  ],
+  "answers": [
+    {
+      "number": 1,
+      "answer": "C"
+    },
+    {
+      "number": 2,
+      "answer": "D"
+    },
+    {
+      "number": 3,
+      "answer": "A"
+    },
+    {
+      "number": 4,
+      "answer": "B"
+    },
+    {
+      "number": 5,
+      "answer": "C"
+    }
+  ],
+  "used_vocab": [
+    "initial",
+    "butterfly",
+    "identify",
+    "relieved",
+    "curtain",
+    "locker",
+    "orange"
+  ],
+  "difficulty_notes": "A backstage school story with clear cause-and-effect questions.",
+  "title": "Reading Quest: PET全_Page_24_04221021",
+  "page_number": 24,
+  "lesson_number": 24,
+  "focus_words": [
+    {
+      "term": "initial",
+      "gloss": "最初的 ; 首字母"
+    },
+    {
+      "term": "butterfly",
+      "gloss": "蝴蝶"
+    },
+    {
+      "term": "identify",
+      "gloss": "识别"
+    },
+    {
+      "term": "relieved",
+      "gloss": "缓解的"
+    },
+    {
+      "term": "curtain",
+      "gloss": "窗帘"
+    },
+    {
+      "term": "locker",
+      "gloss": "寄存柜"
+    },
+    {
+      "term": "orange",
+      "gloss": "橙色的 ; 橙子"
+    },
+    {
+      "term": "forget",
+      "gloss": "忘记"
+    }
+  ],
+  "source_words": [
+    {
+      "term": "initial",
+      "gloss": "最初的 ; 首字母"
+    },
+    {
+      "term": "butterfly",
+      "gloss": "蝴蝶"
+    },
+    {
+      "term": "identify",
+      "gloss": "识别"
+    },
+    {
+      "term": "wait",
+      "gloss": "等候"
+    },
+    {
+      "term": "wet",
+      "gloss": "潮湿的"
+    },
+    {
+      "term": "local",
+      "gloss": "本地的 , 局部的"
+    },
+    {
+      "term": "soul",
+      "gloss": "灵魂"
+    },
+    {
+      "term": "tea",
+      "gloss": "茶叶"
+    },
+    {
+      "term": "relieved",
+      "gloss": "缓解的"
+    },
+    {
+      "term": "curtain",
+      "gloss": "窗帘"
+    },
+    {
+      "term": "opera",
+      "gloss": "歌剧"
+    },
+    {
+      "term": "tall",
+      "gloss": "高的"
+    },
+    {
+      "term": "grey",
+      "gloss": "灰色 ( 英式 )"
+    },
+    {
+      "term": "locker",
+      "gloss": "寄存柜"
+    },
+    {
+      "term": "orange",
+      "gloss": "橙色的 ; 橙子"
+    },
+    {
+      "term": "sharp",
+      "gloss": "锋利的"
+    },
+    {
+      "term": "full",
+      "gloss": "充满的 , 完整的"
+    },
+    {
+      "term": "name",
+      "gloss": "名字"
+    },
+    {
+      "term": "forget",
+      "gloss": "忘记"
+    },
+    {
+      "term": "photography",
+      "gloss": "摄影术"
+    },
+    {
+      "term": "handsome",
+      "gloss": "英俊的"
+    },
+    {
+      "term": "ocean",
+      "gloss": "海洋"
+    },
+    {
+      "term": "plenty",
+      "gloss": "充足"
+    },
+    {
+      "term": "opposite",
+      "gloss": "在 ... 对面"
+    },
+    {
+      "term": "beneath",
+      "gloss": "在下面"
+    },
+    {
+      "term": "petrol",
+      "gloss": "汽油 ( 英式 )"
+    },
+    {
+      "term": "holiday",
+      "gloss": "假期"
+    },
+    {
+      "term": "little",
+      "gloss": "小的 ; 很少的"
+    },
+    {
+      "term": "defence",
+      "gloss": "防御"
+    },
+    {
+      "term": "fare",
+      "gloss": "票价"
+    },
+    {
+      "term": "eye",
+      "gloss": "眼睛"
+    },
+    {
+      "term": "dog",
+      "gloss": "狗"
+    },
+    {
+      "term": "suddenly",
+      "gloss": "忽然"
+    },
+    {
+      "term": "celebrity",
+      "gloss": "名人"
+    },
+    {
+      "term": "truth",
+      "gloss": "事实 ; 真相"
+    },
+    {
+      "term": "atmosphere",
+      "gloss": "气氛"
+    },
+    {
+      "term": "shorts",
+      "gloss": "短裤"
+    },
+    {
+      "term": "customs",
+      "gloss": "海关"
+    },
+    {
+      "term": "queue",
+      "gloss": "行列"
+    },
+    {
+      "term": "sunshine",
+      "gloss": "阳光"
+    },
+    {
+      "term": "biology",
+      "gloss": "生物学"
+    },
+    {
+      "term": "organisation",
+      "gloss": "机构"
+    },
+    {
+      "term": "spelling",
+      "gloss": "拼写"
+    },
+    {
+      "term": "fault",
+      "gloss": "过错"
+    },
+    {
+      "term": "lesson",
+      "gloss": "课程 ; 教训"
+    }
+  ]
+}

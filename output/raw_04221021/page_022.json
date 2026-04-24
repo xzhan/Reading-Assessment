@@ -1,0 +1,312 @@
+{
+  "passage": "At the town museum, visitors are invited to take part in a new nature trail. When you enter, turn right at the main stairs and pick up the green sheet from the right-hand desk. It asks each group to answer a question about plants, animals and local history. If you are unsure about anything, a guide will inform you where to look next. At the end of the trail, children can create a simple paper bird and take home a small souvenir. The most exciting stop is the room about a recent discovery in the nearby hills, where workers found ancient tools under the ground. The display explains how these objects may influence what we know about early life in the area. Tickets are cheap, and the walk around the museum takes less than an hour.",
+  "passage_word_count": 136,
+  "questions": [
+    {
+      "number": 1,
+      "question": "What should visitors do first?",
+      "options": {
+        "A": "Pick up a green sheet",
+        "B": "Buy a souvenir",
+        "C": "Watch a film",
+        "D": "Meet the butcher"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 2,
+      "question": "What can children do at the end of the trail?",
+      "options": {
+        "A": "Paint the museum wall",
+        "B": "Feed animals outside",
+        "C": "Make a paper bird",
+        "D": "Take tools home"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 3,
+      "question": "What is the most exciting stop on the trail?",
+      "options": {
+        "A": "The ticket office",
+        "B": "The room about a recent discovery",
+        "C": "The café near the exit",
+        "D": "The shop by the door"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 4,
+      "question": "What should you do if you are not sure where to go?",
+      "options": {
+        "A": "Ask a guide",
+        "B": "Leave the museum",
+        "C": "Wait for another family",
+        "D": "Read the answer sheet"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 5,
+      "question": "Why is the museum trail good for families?",
+      "options": {
+        "A": "It is cheap and does not take long",
+        "B": "It includes free lunch",
+        "C": "It only needs one adult",
+        "D": "It finishes at the park"
+      },
+      "answer": "A"
+    }
+  ],
+  "answers": [
+    {
+      "number": 1,
+      "answer": "A"
+    },
+    {
+      "number": 2,
+      "answer": "C"
+    },
+    {
+      "number": 3,
+      "answer": "B"
+    },
+    {
+      "number": 4,
+      "answer": "A"
+    },
+    {
+      "number": 5,
+      "answer": "A"
+    }
+  ],
+  "used_vocab": [
+    "right-hand",
+    "influence",
+    "souvenir",
+    "inform",
+    "question",
+    "discovery",
+    "create"
+  ],
+  "difficulty_notes": "An information text with clear instructions and a simple museum setting.",
+  "title": "Reading Quest: PET全_Page_22_04221021",
+  "page_number": 22,
+  "lesson_number": 22,
+  "focus_words": [
+    {
+      "term": "right-hand",
+      "gloss": "右手的"
+    },
+    {
+      "term": "influence",
+      "gloss": "影响"
+    },
+    {
+      "term": "souvenir",
+      "gloss": "纪念品"
+    },
+    {
+      "term": "inform",
+      "gloss": "通知"
+    },
+    {
+      "term": "question",
+      "gloss": "问题 , 质问"
+    },
+    {
+      "term": "butcher",
+      "gloss": "屠夫"
+    },
+    {
+      "term": "discovery",
+      "gloss": "发现"
+    },
+    {
+      "term": "create",
+      "gloss": "创造"
+    }
+  ],
+  "source_words": [
+    {
+      "term": "influence",
+      "gloss": "影响"
+    },
+    {
+      "term": "date",
+      "gloss": "日期 , 约会"
+    },
+    {
+      "term": "souvenir",
+      "gloss": "纪念品"
+    },
+    {
+      "term": "vowel",
+      "gloss": "元音"
+    },
+    {
+      "term": "night",
+      "gloss": "夜晚"
+    },
+    {
+      "term": "inform",
+      "gloss": "通知"
+    },
+    {
+      "term": "question",
+      "gloss": "问题 , 质问"
+    },
+    {
+      "term": "tired",
+      "gloss": "疲劳的"
+    },
+    {
+      "term": "butcher",
+      "gloss": "屠夫"
+    },
+    {
+      "term": "gold",
+      "gloss": "黄金 ; 金制的"
+    },
+    {
+      "term": "discovery",
+      "gloss": "发现"
+    },
+    {
+      "term": "drama",
+      "gloss": "戏剧"
+    },
+    {
+      "term": "tube",
+      "gloss": "管子"
+    },
+    {
+      "term": "bee",
+      "gloss": "蜜蜂"
+    },
+    {
+      "term": "create",
+      "gloss": "创造"
+    },
+    {
+      "term": "nature",
+      "gloss": "自然 ; 本性"
+    },
+    {
+      "term": "very",
+      "gloss": "非常;很"
+    },
+    {
+      "term": "cheap",
+      "gloss": "便宜的"
+    },
+    {
+      "term": "army",
+      "gloss": "军队"
+    },
+    {
+      "term": "operation",
+      "gloss": "操作;运营"
+    },
+    {
+      "term": "shape",
+      "gloss": "形状"
+    },
+    {
+      "term": "raincoat",
+      "gloss": "雨衣"
+    },
+    {
+      "term": "my",
+      "gloss": "我的"
+    },
+    {
+      "term": "climbing",
+      "gloss": "攀登运动"
+    },
+    {
+      "term": "bus",
+      "gloss": "公共汽车"
+    },
+    {
+      "term": "electricity",
+      "gloss": "电;电力"
+    },
+    {
+      "term": "count",
+      "gloss": "数数"
+    },
+    {
+      "term": "matter",
+      "gloss": "物质 ; 要紧"
+    },
+    {
+      "term": "cancel",
+      "gloss": "取消"
+    },
+    {
+      "term": "back",
+      "gloss": "后背 ; 向后地"
+    },
+    {
+      "term": "laundry",
+      "gloss": "盥洗衣物"
+    },
+    {
+      "term": "disgusting",
+      "gloss": "令人厌恶的"
+    },
+    {
+      "term": "nose",
+      "gloss": "鼻子"
+    },
+    {
+      "term": "forecast",
+      "gloss": "预报"
+    },
+    {
+      "term": "right-hand",
+      "gloss": "右手的"
+    },
+    {
+      "term": "delighted",
+      "gloss": "高兴的"
+    },
+    {
+      "term": "wallet",
+      "gloss": "钱包"
+    },
+    {
+      "term": "bold",
+      "gloss": "大胆自信的"
+    },
+    {
+      "term": "agency",
+      "gloss": "代理机构"
+    },
+    {
+      "term": "several",
+      "gloss": "几个 , 若干"
+    },
+    {
+      "term": "respect",
+      "gloss": "尊敬"
+    },
+    {
+      "term": "kiss",
+      "gloss": "吻 , 接吻"
+    },
+    {
+      "term": "mug",
+      "gloss": "杯子"
+    },
+    {
+      "term": "beginner",
+      "gloss": "初学者"
+    },
+    {
+      "term": "hit",
+      "gloss": "流行音乐 , 打击"
+    }
+  ]
+}

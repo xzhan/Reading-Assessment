@@ -1,0 +1,323 @@
+{
+  "passage": "Subject: My Summer Adventure Hi Alex, Hope you're doing well. I wanted to share my summer job experience at the local wildlife park. It's been terrific! I'm working full-time during the school holidays, which is rather demanding, but I've developed a positive attitude towards hard work. I really prefer being outside with the animals. Last Tuesday, we had a group of school children visiting, and I showed them the bird sanctuary. They were amazed by the colourful parrots. The park has modern buildings, and the toilet facilities are always clean, which is important. After my shift, my colleague and I often play baseball with a soft ball. It's not a real game, just for fun. My ambition is to become a wildlife conservationist one day. What about you? Any exciting plans? Write back soon, Sam",
+  "passage_word_count": 135,
+  "questions": [
+    {
+      "number": 1,
+      "question": "What is the main topic of Sam's email?",
+      "options": {
+        "A": "His school subjects and exams",
+        "B": "His summer job and personal interests",
+        "C": "Alex's summer holiday plans",
+        "D": "A professional baseball match"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 2,
+      "question": "What does Sam do after finishing work at the park?",
+      "options": {
+        "A": "He cleans the toilet facilities",
+        "B": "He plays baseball with a colleague",
+        "C": "He studies at the university library",
+        "D": "He writes emails to his family"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 3,
+      "question": "Why does Sam mention the clean toilet facilities?",
+      "options": {
+        "A": "To complain about the park's maintenance",
+        "B": "To highlight that the park is modern and well-kept",
+        "C": "To encourage Alex to apply for a job there",
+        "D": "To describe a problem he faced at work"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 4,
+      "question": "What can we infer about Sam's attitude from the email?",
+      "options": {
+        "A": "He is unhappy with his job.",
+        "B": "He has become more positive about working hard.",
+        "C": "He is lazy and avoids responsibilities.",
+        "D": "He prefers indoor activities over outdoor ones."
+      },
+      "answer": "B"
+    },
+    {
+      "number": 5,
+      "question": "What does the word 'terrific' mean in the context of the email?",
+      "options": {
+        "A": "Very bad or unpleasant",
+        "B": "Quite good but not excellent",
+        "C": "Extremely good or wonderful",
+        "D": "Rather boring and uninteresting"
+      },
+      "answer": "C"
+    }
+  ],
+  "answers": [
+    {
+      "number": 1,
+      "answer": "B"
+    },
+    {
+      "number": 2,
+      "answer": "B"
+    },
+    {
+      "number": 3,
+      "answer": "B"
+    },
+    {
+      "number": 4,
+      "answer": "B"
+    },
+    {
+      "number": 5,
+      "answer": "C"
+    }
+  ],
+  "used_vocab": [
+    "full-time",
+    "attitude",
+    "terrific",
+    "rather",
+    "ambition",
+    "prefer",
+    "wildlife",
+    "toilet",
+    "modern",
+    "baseball"
+  ],
+  "difficulty_notes": "The passage uses everyday vocabulary and simple sentence structures suitable for upper A2 to B1 learners.",
+  "title": "Reading Quest: PET全_Page_2_04221020",
+  "page_number": 2,
+  "lesson_number": 2,
+  "focus_words": [
+    {
+      "term": "full-time",
+      "gloss": "全职的"
+    },
+    {
+      "term": "attitude",
+      "gloss": "态度"
+    },
+    {
+      "term": "terrific",
+      "gloss": "极好的"
+    },
+    {
+      "term": "rather",
+      "gloss": "相当"
+    },
+    {
+      "term": "ambition",
+      "gloss": "野心 , 志向"
+    },
+    {
+      "term": "prefer",
+      "gloss": "更喜欢 , 宁愿"
+    },
+    {
+      "term": "wildlife",
+      "gloss": "野生动物"
+    },
+    {
+      "term": "toilet",
+      "gloss": "厕所 , 盥洗室"
+    },
+    {
+      "term": "modern",
+      "gloss": "现代的"
+    },
+    {
+      "term": "baseball",
+      "gloss": "棒球"
+    }
+  ],
+  "source_words": [
+    {
+      "term": "twelfth",
+      "gloss": "第十二"
+    },
+    {
+      "term": "tower",
+      "gloss": "塔"
+    },
+    {
+      "term": "attitude",
+      "gloss": "态度"
+    },
+    {
+      "term": "terrific",
+      "gloss": "极好的"
+    },
+    {
+      "term": "pet",
+      "gloss": "宠物"
+    },
+    {
+      "term": "full-time",
+      "gloss": "全职的"
+    },
+    {
+      "term": "rather",
+      "gloss": "相当"
+    },
+    {
+      "term": "never",
+      "gloss": "从不"
+    },
+    {
+      "term": "music",
+      "gloss": "音乐"
+    },
+    {
+      "term": "crowd",
+      "gloss": "群众 , 一伙"
+    },
+    {
+      "term": "ambition",
+      "gloss": "野心 , 志向"
+    },
+    {
+      "term": "prefer",
+      "gloss": "更喜欢 , 宁愿"
+    },
+    {
+      "term": "thirty",
+      "gloss": "三十"
+    },
+    {
+      "term": "nine",
+      "gloss": "九"
+    },
+    {
+      "term": "wildlife",
+      "gloss": "野生动物"
+    },
+    {
+      "term": "toilet",
+      "gloss": "厕所 , 盥洗室"
+    },
+    {
+      "term": "silly",
+      "gloss": "傻的"
+    },
+    {
+      "term": "among",
+      "gloss": "在 ... 之中"
+    },
+    {
+      "term": "modern",
+      "gloss": "现代的"
+    },
+    {
+      "term": "hurry",
+      "gloss": "匆忙 , 赶快"
+    },
+    {
+      "term": "baseball",
+      "gloss": "棒球"
+    },
+    {
+      "term": "underpants",
+      "gloss": "内衣裤"
+    },
+    {
+      "term": "right",
+      "gloss": "正确的 , 合适的"
+    },
+    {
+      "term": "rope",
+      "gloss": "绳子"
+    },
+    {
+      "term": "position",
+      "gloss": "位置"
+    },
+    {
+      "term": "grandfather",
+      "gloss": "外 ) 祖父"
+    },
+    {
+      "term": "uninterested",
+      "gloss": "不感兴趣的"
+    },
+    {
+      "term": "fine",
+      "gloss": "晴朗的 , 健康的"
+    },
+    {
+      "term": "printer",
+      "gloss": "打印机"
+    },
+    {
+      "term": "grape",
+      "gloss": "葡萄"
+    },
+    {
+      "term": "bear",
+      "gloss": "熊"
+    },
+    {
+      "term": "unnecessary",
+      "gloss": "不必要的"
+    },
+    {
+      "term": "statue",
+      "gloss": "雕像"
+    },
+    {
+      "term": "come",
+      "gloss": "来"
+    },
+    {
+      "term": "bottle",
+      "gloss": "瓶子"
+    },
+    {
+      "term": "house",
+      "gloss": "房子 , 住宅"
+    },
+    {
+      "term": "fourteenth",
+      "gloss": "第十四"
+    },
+    {
+      "term": "disco",
+      "gloss": "迪斯科舞厅"
+    },
+    {
+      "term": "princess",
+      "gloss": "公主"
+    },
+    {
+      "term": "one",
+      "gloss": "一 , 一个"
+    },
+    {
+      "term": "cloudy",
+      "gloss": "多云的"
+    },
+    {
+      "term": "amazing",
+      "gloss": "令人惊讶的"
+    },
+    {
+      "term": "choose",
+      "gloss": "选择"
+    },
+    {
+      "term": "perfectly",
+      "gloss": "完美地"
+    },
+    {
+      "term": "afterwards",
+      "gloss": "以后 , 后来"
+    }
+  ]
+}

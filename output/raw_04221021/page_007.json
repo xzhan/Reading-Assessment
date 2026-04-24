@@ -1,0 +1,310 @@
+{
+  "passage": "Last weekend, on Saturday, 15th October, our school held a charity fair in the main hall to raise money for the local children's hospital. The event started at 10 a.m. and lasted until 4 p.m. We encouraged all students and their families to join, and many volunteered to help. There were several stalls: a bake sale where we sold homemade cakes and cookies at inexpensive prices, a game stall with fun activities, and a raffle. The raffle prize was a weekend trip to Africa, which was donated by a local travel agency. One popular game was a mini motor-racing track where players could switch cars and compete. We also had a photo booth where we could take pictures of ourselves with funny props. By the end of the day, we had raised over 500 pounds, which was fantastic. The event showed how we can work together to make a difference.",
+  "passage_word_count": 149,
+  "questions": [
+    {
+      "number": 1,
+      "question": "What is the main purpose of this report?",
+      "options": {
+        "A": "To describe a school trip to Africa.",
+        "B": "To explain how a charity event was organised and its success.",
+        "C": "To advertise a motor-racing game.",
+        "D": "To list the prizes in a raffle."
+      },
+      "answer": "B"
+    },
+    {
+      "number": 2,
+      "question": "How much money was raised at the charity fair?",
+      "options": {
+        "A": "Over 500 pounds.",
+        "B": "Exactly 500 pounds.",
+        "C": "Around 400 pounds.",
+        "D": "The report does not mention the amount."
+      },
+      "answer": "A"
+    },
+    {
+      "number": 3,
+      "question": "Why was the trip to Africa included in the event?",
+      "options": {
+        "A": "As a prize for the raffle.",
+        "B": "To teach students about different countries.",
+        "C": "To promote tourism in Africa.",
+        "D": "As a gift for volunteers."
+      },
+      "answer": "A"
+    },
+    {
+      "number": 4,
+      "question": "What can be inferred about the students' feelings towards the event?",
+      "options": {
+        "A": "They were bored and uninterested.",
+        "B": "They felt proud of their achievements.",
+        "C": "They preferred the bake sale to other activities.",
+        "D": "They were angry about the raffle prize."
+      },
+      "answer": "B"
+    },
+    {
+      "number": 5,
+      "question": "The word 'inexpensive' in the passage means:",
+      "options": {
+        "A": "cheap",
+        "B": "valuable",
+        "C": "rare",
+        "D": "free"
+      },
+      "answer": "A"
+    }
+  ],
+  "answers": [
+    {
+      "number": 1,
+      "answer": "B"
+    },
+    {
+      "number": 2,
+      "answer": "A"
+    },
+    {
+      "number": 3,
+      "answer": "A"
+    },
+    {
+      "number": 4,
+      "answer": "B"
+    },
+    {
+      "number": 5,
+      "answer": "A"
+    }
+  ],
+  "used_vocab": [
+    "motor-racing",
+    "switch",
+    "ourselves",
+    "inexpensive",
+    "Africa"
+  ],
+  "difficulty_notes": "The passage uses everyday vocabulary and clear structure, suitable for B1 learners.",
+  "title": "Reading Quest: PET全_Page_7_04221021",
+  "page_number": 7,
+  "lesson_number": 7,
+  "focus_words": [
+    {
+      "term": "motor-racing",
+      "gloss": "飙车"
+    },
+    {
+      "term": "kilogramme",
+      "gloss": "千克"
+    },
+    {
+      "term": "switch",
+      "gloss": "开关"
+    },
+    {
+      "term": "ourselves",
+      "gloss": "我们自己"
+    },
+    {
+      "term": "encourage",
+      "gloss": "鼓励"
+    },
+    {
+      "term": "inexpensive",
+      "gloss": "不贵的"
+    },
+    {
+      "term": "Africa",
+      "gloss": "非洲"
+    },
+    {
+      "term": "lawyer",
+      "gloss": "律师"
+    }
+  ],
+  "source_words": [
+    {
+      "term": "kilogramme",
+      "gloss": "千克"
+    },
+    {
+      "term": "switch",
+      "gloss": "开关"
+    },
+    {
+      "term": "flute",
+      "gloss": "长笛"
+    },
+    {
+      "term": "ourselves",
+      "gloss": "我们自己"
+    },
+    {
+      "term": "encourage",
+      "gloss": "鼓励"
+    },
+    {
+      "term": "inexpensive",
+      "gloss": "不贵的"
+    },
+    {
+      "term": "ten",
+      "gloss": "十"
+    },
+    {
+      "term": "Africa",
+      "gloss": "非洲"
+    },
+    {
+      "term": "lawyer",
+      "gloss": "律师"
+    },
+    {
+      "term": "memory",
+      "gloss": "记忆 , 内存"
+    },
+    {
+      "term": "turkey",
+      "gloss": "火鸡"
+    },
+    {
+      "term": "dust",
+      "gloss": "尘土"
+    },
+    {
+      "term": "dentist",
+      "gloss": "牙科医生"
+    },
+    {
+      "term": "financial",
+      "gloss": "金融的"
+    },
+    {
+      "term": "nightmare",
+      "gloss": "恶梦"
+    },
+    {
+      "term": "secretary",
+      "gloss": "秘书"
+    },
+    {
+      "term": "ruin",
+      "gloss": "毁坏"
+    },
+    {
+      "term": "mix",
+      "gloss": "混合"
+    },
+    {
+      "term": "price",
+      "gloss": "价格 , 代价"
+    },
+    {
+      "term": "cash",
+      "gloss": "现金 , 付现款"
+    },
+    {
+      "term": "ant",
+      "gloss": "蚂蚁"
+    },
+    {
+      "term": "sixteen",
+      "gloss": "十六"
+    },
+    {
+      "term": "stranger",
+      "gloss": "陌生人"
+    },
+    {
+      "term": "either",
+      "gloss": "任何一个"
+    },
+    {
+      "term": "cleaner",
+      "gloss": "清洁工"
+    },
+    {
+      "term": "birthday",
+      "gloss": "生日"
+    },
+    {
+      "term": "motor-racing",
+      "gloss": "飙车"
+    },
+    {
+      "term": "fry",
+      "gloss": "油炸"
+    },
+    {
+      "term": "born",
+      "gloss": "出生"
+    },
+    {
+      "term": "experiment",
+      "gloss": "实验"
+    },
+    {
+      "term": "doubt",
+      "gloss": "怀疑"
+    },
+    {
+      "term": "timetable",
+      "gloss": "时间表"
+    },
+    {
+      "term": "athletics",
+      "gloss": "体育运动"
+    },
+    {
+      "term": "anniversary",
+      "gloss": "周年纪念日"
+    },
+    {
+      "term": "voice",
+      "gloss": "声音"
+    },
+    {
+      "term": "planet",
+      "gloss": "行星"
+    },
+    {
+      "term": "themselves",
+      "gloss": "他 ( 她 , 它 ) 们自己"
+    },
+    {
+      "term": "test",
+      "gloss": "测试 , 试验"
+    },
+    {
+      "term": "teach",
+      "gloss": "教导"
+    },
+    {
+      "term": "lock",
+      "gloss": "锁"
+    },
+    {
+      "term": "fifth",
+      "gloss": "第五"
+    },
+    {
+      "term": "someone",
+      "gloss": "某人 , 有人"
+    },
+    {
+      "term": "coffee",
+      "gloss": "咖啡"
+    },
+    {
+      "term": "interrupt",
+      "gloss": "打断"
+    },
+    {
+      "term": "front",
+      "gloss": "前面 ; 正面"
+    }
+  ]
+}

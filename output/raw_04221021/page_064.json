@@ -1,0 +1,310 @@
+{
+  "passage": "When Mr Lewis took retirement from teaching, he did not want to spend every day sitting at home. Instead, he opened a small second-hand bookshop near the station. At first, some people were surprised by the idea, but the shop soon became a happy part of the town's culture. Mr Lewis keeps a shelf of travel writing, a corner for young readers and a table for revision guides before exams. He says his greatest happiness comes from helping a child discover a story they love. Last week, I asked whether he ever misses the classroom. He smiled and said he sometimes thinks about his old students, especially when one of them is absent from the shop for a long time. Still, he feels totally sure that he made the right decision.",
+  "passage_word_count": 131,
+  "questions": [
+    {
+      "number": 1,
+      "question": "What did Mr Lewis do after retirement?",
+      "options": {
+        "A": "He travelled abroad",
+        "B": "He started teaching online",
+        "C": "He opened a second-hand bookshop",
+        "D": "He worked at the station"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 2,
+      "question": "Why were some people surprised at first?",
+      "options": {
+        "A": "The shop sold food",
+        "B": "A teacher opened a bookshop",
+        "C": "The prices were too low",
+        "D": "The building was very large"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 3,
+      "question": "What does Mr Lewis put on the table before exams?",
+      "options": {
+        "A": "Travel books",
+        "B": "Children's stories",
+        "C": "Free magazines",
+        "D": "Revision guides"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 4,
+      "question": "What gives Mr Lewis the most happiness?",
+      "options": {
+        "A": "Selling expensive books",
+        "B": "Meeting famous writers",
+        "C": "Helping a child find a story they love",
+        "D": "Closing the shop early"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 5,
+      "question": "How does Mr Lewis feel about his decision?",
+      "options": {
+        "A": "Totally sure it was right",
+        "B": "Still uncertain",
+        "C": "A little disappointed",
+        "D": "Too busy to decide"
+      },
+      "answer": "A"
+    }
+  ],
+  "answers": [
+    {
+      "number": 1,
+      "answer": "C"
+    },
+    {
+      "number": 2,
+      "answer": "B"
+    },
+    {
+      "number": 3,
+      "answer": "D"
+    },
+    {
+      "number": 4,
+      "answer": "C"
+    },
+    {
+      "number": 5,
+      "answer": "A"
+    }
+  ],
+  "used_vocab": [
+    "second-hand",
+    "culture",
+    "retirement",
+    "revision",
+    "happiness"
+  ],
+  "difficulty_notes": "A warm human-interest text with a clear opinion at the end.",
+  "title": "Reading Quest: PET全_Page_64_04221021",
+  "page_number": 64,
+  "lesson_number": 64,
+  "focus_words": [
+    {
+      "term": "second-hand",
+      "gloss": "二手的"
+    },
+    {
+      "term": "culture",
+      "gloss": "文化"
+    },
+    {
+      "term": "retirement",
+      "gloss": "退休"
+    },
+    {
+      "term": "surprise",
+      "gloss": "惊奇"
+    },
+    {
+      "term": "revision",
+      "gloss": "修订"
+    },
+    {
+      "term": "wonder",
+      "gloss": "想知道 ; 奇迹"
+    },
+    {
+      "term": "happiness",
+      "gloss": "幸福"
+    },
+    {
+      "term": "reader",
+      "gloss": "读者"
+    }
+  ],
+  "source_words": [
+    {
+      "term": "beard",
+      "gloss": "络腮胡子"
+    },
+    {
+      "term": "culture",
+      "gloss": "文化"
+    },
+    {
+      "term": "annoy",
+      "gloss": "惹恼"
+    },
+    {
+      "term": "toy",
+      "gloss": "玩具"
+    },
+    {
+      "term": "retirement",
+      "gloss": "退休"
+    },
+    {
+      "term": "surprise",
+      "gloss": "惊奇"
+    },
+    {
+      "term": "comb",
+      "gloss": "梳子 , 梳理"
+    },
+    {
+      "term": "revision",
+      "gloss": "修订"
+    },
+    {
+      "term": "hug",
+      "gloss": "拥抱"
+    },
+    {
+      "term": "rude",
+      "gloss": "粗鲁的"
+    },
+    {
+      "term": "wonder",
+      "gloss": "想知道 ; 奇迹"
+    },
+    {
+      "term": "guy",
+      "gloss": "小伙子"
+    },
+    {
+      "term": "ink",
+      "gloss": "墨水"
+    },
+    {
+      "term": "fork",
+      "gloss": "餐叉"
+    },
+    {
+      "term": "coat",
+      "gloss": "外套"
+    },
+    {
+      "term": "happiness",
+      "gloss": "幸福"
+    },
+    {
+      "term": "reader",
+      "gloss": "读者"
+    },
+    {
+      "term": "sound",
+      "gloss": "听起来 , 声音"
+    },
+    {
+      "term": "wrong",
+      "gloss": "错误的"
+    },
+    {
+      "term": "white",
+      "gloss": "白色的"
+    },
+    {
+      "term": "hurt",
+      "gloss": "伤害 ,( 使 ) 疼痛"
+    },
+    {
+      "term": "absent",
+      "gloss": "缺席的"
+    },
+    {
+      "term": "into",
+      "gloss": "到 ... 里"
+    },
+    {
+      "term": "totally",
+      "gloss": "完全"
+    },
+    {
+      "term": "garlic",
+      "gloss": "大蒜"
+    },
+    {
+      "term": "pure",
+      "gloss": "纯的"
+    },
+    {
+      "term": "businessman",
+      "gloss": "商人"
+    },
+    {
+      "term": "trend",
+      "gloss": "趋势"
+    },
+    {
+      "term": "lion",
+      "gloss": "狮子"
+    },
+    {
+      "term": "sunrise",
+      "gloss": "日出"
+    },
+    {
+      "term": "interest",
+      "gloss": "兴趣"
+    },
+    {
+      "term": "Brazil",
+      "gloss": "巴西"
+    },
+    {
+      "term": "ninety",
+      "gloss": "九十"
+    },
+    {
+      "term": "short",
+      "gloss": "短的 , 矮的"
+    },
+    {
+      "term": "life",
+      "gloss": "生活 ; 生命"
+    },
+    {
+      "term": "title",
+      "gloss": "标题 ; 头衔"
+    },
+    {
+      "term": "window",
+      "gloss": "窗户"
+    },
+    {
+      "term": "second-hand",
+      "gloss": "二手的"
+    },
+    {
+      "term": "end",
+      "gloss": "结束 , 末端"
+    },
+    {
+      "term": "musical",
+      "gloss": "音乐的"
+    },
+    {
+      "term": "UK",
+      "gloss": "英国"
+    },
+    {
+      "term": "awake",
+      "gloss": "唤醒"
+    },
+    {
+      "term": "top",
+      "gloss": "顶端 , 最高层"
+    },
+    {
+      "term": "city",
+      "gloss": "城市"
+    },
+    {
+      "term": "British",
+      "gloss": "英国的 , 英国人"
+    }
+  ]
+}

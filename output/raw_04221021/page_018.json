@@ -1,0 +1,313 @@
+{
+  "passage": "On the thirtieth day of our summer project, our class visited a cultural museum in Bristol. An experienced guide called Mrs Green led us through the building and showed us a new documentary about the history of local science. After the film, she asked us to describe the object that interested us most. I chose an old suitcase that had belonged to a young chemist who travelled around Europe. Mrs Green said his career began when he was still at school and he loved chemistry experiments. She also explained that students should keep notes whenever they visit a museum, because small details are easy to forget. Before we left, we were allowed to look into a narrow closet where workers store costumes and posters from past exhibitions. The trip was much more interesting than I had expected.",
+  "passage_word_count": 137,
+  "questions": [
+    {
+      "number": 1,
+      "question": "What did the class watch at the museum?",
+      "options": {
+        "A": "A comedy play",
+        "B": "A documentary about local science",
+        "C": "A live chemistry lesson",
+        "D": "A sports film"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 2,
+      "question": "Which object did the writer choose to describe?",
+      "options": {
+        "A": "An old suitcase",
+        "B": "A silver medal",
+        "C": "A camera",
+        "D": "A school uniform"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 3,
+      "question": "Why did Mrs Green say students should keep notes?",
+      "options": {
+        "A": "The museum was noisy",
+        "B": "Teachers would collect them",
+        "C": "Details are easy to forget",
+        "D": "The guide wanted homework"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 4,
+      "question": "What was kept in the closet?",
+      "options": {
+        "A": "Snacks for visitors",
+        "B": "Costumes and posters",
+        "C": "Chemistry equipment",
+        "D": "Travel bags"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 5,
+      "question": "How did the writer feel about the visit?",
+      "options": {
+        "A": "It was more interesting than expected",
+        "B": "It was too long and boring",
+        "C": "It was only useful for scientists",
+        "D": "It was less helpful than school"
+      },
+      "answer": "A"
+    }
+  ],
+  "answers": [
+    {
+      "number": 1,
+      "answer": "B"
+    },
+    {
+      "number": 2,
+      "answer": "A"
+    },
+    {
+      "number": 3,
+      "answer": "C"
+    },
+    {
+      "number": 4,
+      "answer": "B"
+    },
+    {
+      "number": 5,
+      "answer": "A"
+    }
+  ],
+  "used_vocab": [
+    "cultural",
+    "experienced",
+    "documentary",
+    "describe",
+    "suitcase",
+    "should",
+    "career",
+    "thirtieth"
+  ],
+  "difficulty_notes": "A museum report with straightforward detail questions and a clear final opinion.",
+  "title": "Reading Quest: PET全_Page_18_04221021",
+  "page_number": 18,
+  "lesson_number": 18,
+  "focus_words": [
+    {
+      "term": "cultural",
+      "gloss": "文化的"
+    },
+    {
+      "term": "experienced",
+      "gloss": "有经验的"
+    },
+    {
+      "term": "documentary",
+      "gloss": "纪录片"
+    },
+    {
+      "term": "describe",
+      "gloss": "描述"
+    },
+    {
+      "term": "suitcase",
+      "gloss": "手提箱"
+    },
+    {
+      "term": "should",
+      "gloss": "应该"
+    },
+    {
+      "term": "career",
+      "gloss": "职业"
+    },
+    {
+      "term": "thirtieth",
+      "gloss": "第三十"
+    }
+  ],
+  "source_words": [
+    {
+      "term": "cultural",
+      "gloss": "文化的"
+    },
+    {
+      "term": "range",
+      "gloss": "一系列"
+    },
+    {
+      "term": "experienced",
+      "gloss": "有经验的"
+    },
+    {
+      "term": "documentary",
+      "gloss": "纪录片"
+    },
+    {
+      "term": "find",
+      "gloss": "找到"
+    },
+    {
+      "term": "dear",
+      "gloss": "亲爱的"
+    },
+    {
+      "term": "describe",
+      "gloss": "描述"
+    },
+    {
+      "term": "suitcase",
+      "gloss": "手提箱"
+    },
+    {
+      "term": "should",
+      "gloss": "应该"
+    },
+    {
+      "term": "would",
+      "gloss": "将要 , 愿意"
+    },
+    {
+      "term": "career",
+      "gloss": "职业"
+    },
+    {
+      "term": "mess",
+      "gloss": "混乱"
+    },
+    {
+      "term": "thirtieth",
+      "gloss": "第三十"
+    },
+    {
+      "term": "guess",
+      "gloss": "猜测"
+    },
+    {
+      "term": "chemistry",
+      "gloss": "化学"
+    },
+    {
+      "term": "closet",
+      "gloss": "壁橱 ; 密室"
+    },
+    {
+      "term": "introduction",
+      "gloss": "介绍"
+    },
+    {
+      "term": "yours",
+      "gloss": "你的,你们的"
+    },
+    {
+      "term": "amusing",
+      "gloss": "有趣的"
+    },
+    {
+      "term": "ankle",
+      "gloss": "踝关节"
+    },
+    {
+      "term": "weekday",
+      "gloss": "工作日"
+    },
+    {
+      "term": "badminton",
+      "gloss": "羽毛球"
+    },
+    {
+      "term": "bunch",
+      "gloss": "束 ; 群"
+    },
+    {
+      "term": "both",
+      "gloss": "两者都"
+    },
+    {
+      "term": "afternoon",
+      "gloss": "下午"
+    },
+    {
+      "term": "true",
+      "gloss": "真实的 , 正确的"
+    },
+    {
+      "term": "curry",
+      "gloss": "咖喱"
+    },
+    {
+      "term": "sandwich",
+      "gloss": "三明治"
+    },
+    {
+      "term": "questionnaire",
+      "gloss": "调查问卷"
+    },
+    {
+      "term": "fat",
+      "gloss": "肥胖的"
+    },
+    {
+      "term": "celebrate",
+      "gloss": "庆祝"
+    },
+    {
+      "term": "mention",
+      "gloss": "提及"
+    },
+    {
+      "term": "can",
+      "gloss": "罐头 ; 能 , 可以"
+    },
+    {
+      "term": "particularly",
+      "gloss": "特别 ; 尤其"
+    },
+    {
+      "term": "thumb",
+      "gloss": "拇指"
+    },
+    {
+      "term": "attention",
+      "gloss": "注意力"
+    },
+    {
+      "term": "recording",
+      "gloss": "录音"
+    },
+    {
+      "term": "refund",
+      "gloss": "退款"
+    },
+    {
+      "term": "address",
+      "gloss": "地址"
+    },
+    {
+      "term": "must",
+      "gloss": "必须"
+    },
+    {
+      "term": "sightseeing",
+      "gloss": "观光"
+    },
+    {
+      "term": "clothes",
+      "gloss": "衣服"
+    },
+    {
+      "term": "cruise",
+      "gloss": "乘船游览"
+    },
+    {
+      "term": "microwave",
+      "gloss": "微波"
+    },
+    {
+      "term": "altogether",
+      "gloss": "一共"
+    }
+  ]
+}

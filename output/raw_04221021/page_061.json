@@ -1,0 +1,313 @@
+{
+  "passage": "Our gymnastics team had an early flight on Monday, so we met at the airport before sunrise. Mrs Khan stood by the entrance and asked anyone who had not checked in online to come straight to her. One boy arrived with an untidy bag full of clothes, snacks and even an eraser from his maths lesson. He said he had packed in a hurry and was already tired. Another student felt disappointed because the warm breeze outside made her wish we were going to the beach instead of to a sports hall. Before we went through security, the coach read out every surname to make sure the team list was correct. The group would consist of twelve gymnasts and two teachers. Once everyone was together, even the nervous students began to smile and talk about the competition ahead.",
+  "passage_word_count": 138,
+  "questions": [
+    {
+      "number": 1,
+      "question": "Where did the team meet?",
+      "options": {
+        "A": "At the airport",
+        "B": "In the gym",
+        "C": "At the beach",
+        "D": "Outside the hotel"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 2,
+      "question": "What unusual thing was in the boy's bag?",
+      "options": {
+        "A": "A football shirt",
+        "B": "A silver cup",
+        "C": "A camera battery",
+        "D": "An eraser"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 3,
+      "question": "Why was one student disappointed?",
+      "options": {
+        "A": "She lost her ticket",
+        "B": "The warm breeze made her want a beach trip",
+        "C": "Her surname was missing",
+        "D": "She forgot her bag"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 4,
+      "question": "What did the coach read out before security?",
+      "options": {
+        "A": "The weather report",
+        "B": "The hotel address",
+        "C": "Every surname",
+        "D": "The flight price"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 5,
+      "question": "What would the group consist of?",
+      "options": {
+        "A": "Twelve gymnasts and two teachers",
+        "B": "Ten parents and two teachers",
+        "C": "Twelve coaches and one student",
+        "D": "Fourteen teachers"
+      },
+      "answer": "A"
+    }
+  ],
+  "answers": [
+    {
+      "number": 1,
+      "answer": "A"
+    },
+    {
+      "number": 2,
+      "answer": "D"
+    },
+    {
+      "number": 3,
+      "answer": "B"
+    },
+    {
+      "number": 4,
+      "answer": "C"
+    },
+    {
+      "number": 5,
+      "answer": "A"
+    }
+  ],
+  "used_vocab": [
+    "untidy",
+    "anyone",
+    "eraser",
+    "gymnastics",
+    "already",
+    "disappointed",
+    "surname",
+    "breeze"
+  ],
+  "difficulty_notes": "An airport departure story with clear factual questions and light emotional detail.",
+  "title": "Reading Quest: PET全_Page_61_04221021",
+  "page_number": 61,
+  "lesson_number": 61,
+  "focus_words": [
+    {
+      "term": "untidy",
+      "gloss": "不整洁的"
+    },
+    {
+      "term": "anyone",
+      "gloss": "任何人"
+    },
+    {
+      "term": "eraser",
+      "gloss": "橡皮 ( 美式 )"
+    },
+    {
+      "term": "gymnastics",
+      "gloss": "体操运动"
+    },
+    {
+      "term": "already",
+      "gloss": "已经"
+    },
+    {
+      "term": "disappointed",
+      "gloss": "失望的"
+    },
+    {
+      "term": "surname",
+      "gloss": "姓氏"
+    },
+    {
+      "term": "breeze",
+      "gloss": "微风"
+    }
+  ],
+  "source_words": [
+    {
+      "term": "untidy",
+      "gloss": "不整洁的"
+    },
+    {
+      "term": "anyone",
+      "gloss": "任何人"
+    },
+    {
+      "term": "eraser",
+      "gloss": "橡皮 ( 美式 )"
+    },
+    {
+      "term": "greet",
+      "gloss": "打招呼"
+    },
+    {
+      "term": "sixty",
+      "gloss": "六十"
+    },
+    {
+      "term": "gymnastics",
+      "gloss": "体操运动"
+    },
+    {
+      "term": "already",
+      "gloss": "已经"
+    },
+    {
+      "term": "hike",
+      "gloss": "远足"
+    },
+    {
+      "term": "farm",
+      "gloss": "农场"
+    },
+    {
+      "term": "disappointed",
+      "gloss": "失望的"
+    },
+    {
+      "term": "surname",
+      "gloss": "姓氏"
+    },
+    {
+      "term": "breeze",
+      "gloss": "微风"
+    },
+    {
+      "term": "airport",
+      "gloss": "飞机场"
+    },
+    {
+      "term": "consist",
+      "gloss": "由 ... 组成"
+    },
+    {
+      "term": "play",
+      "gloss": "玩 , 演奏 , 剧本"
+    },
+    {
+      "term": "disappointing",
+      "gloss": "令人失望的"
+    },
+    {
+      "term": "software",
+      "gloss": "软件"
+    },
+    {
+      "term": "effort",
+      "gloss": "努力"
+    },
+    {
+      "term": "necessary",
+      "gloss": "必要的"
+    },
+    {
+      "term": "fight",
+      "gloss": "打架"
+    },
+    {
+      "term": "litter",
+      "gloss": "垃圾"
+    },
+    {
+      "term": "nothing",
+      "gloss": "什么也没有"
+    },
+    {
+      "term": "DVD",
+      "gloss": "光盘 , 影碟"
+    },
+    {
+      "term": "custom",
+      "gloss": "风俗"
+    },
+    {
+      "term": "frightening",
+      "gloss": "令人惊恐的"
+    },
+    {
+      "term": "sauce",
+      "gloss": "酱汁"
+    },
+    {
+      "term": "belt",
+      "gloss": "带,腰带"
+    },
+    {
+      "term": "damage",
+      "gloss": "损害"
+    },
+    {
+      "term": "rich",
+      "gloss": "富有的 , 丰富的"
+    },
+    {
+      "term": "to",
+      "gloss": "向 , 给"
+    },
+    {
+      "term": "depend",
+      "gloss": "依靠"
+    },
+    {
+      "term": "dessert",
+      "gloss": "餐后甜点"
+    },
+    {
+      "term": "plastic",
+      "gloss": "塑料的"
+    },
+    {
+      "term": "fuel",
+      "gloss": "燃料"
+    },
+    {
+      "term": "rider",
+      "gloss": "骑手"
+    },
+    {
+      "term": "arm",
+      "gloss": "手臂"
+    },
+    {
+      "term": "mind",
+      "gloss": "思维 ; 介意 ; 当心"
+    },
+    {
+      "term": "band",
+      "gloss": "带子 ; 乐队"
+    },
+    {
+      "term": "violin",
+      "gloss": "小提琴"
+    },
+    {
+      "term": "electrical",
+      "gloss": "电的"
+    },
+    {
+      "term": "sugar",
+      "gloss": "糖"
+    },
+    {
+      "term": "history",
+      "gloss": "历史"
+    },
+    {
+      "term": "previously",
+      "gloss": "以前"
+    },
+    {
+      "term": "success",
+      "gloss": "成功"
+    },
+    {
+      "term": "practise",
+      "gloss": "练习 , 实践"
+    }
+  ]
+}

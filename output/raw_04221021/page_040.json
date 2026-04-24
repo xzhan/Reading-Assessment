@@ -1,0 +1,312 @@
+{
+  "passage": "Welcome to the Riverside School Creative Writing Club's homepage! Our club is a brilliant place for students who enjoy writing stories and poems. We meet every Friday after school in the library, near the town's bookstore. Last term, we had a trip to the bookstore for a book signing event. In our meetings, members share their work and receive helpful feedback. Recently, we explored writing about childhood experiences. One member wrote a secret poem that was very touching. Our instructor, Ms. Clarke, is a young and energetic teacher who guides us. We provide self-service drinks and snacks, so you can relax while you write. If you want to join, come to our next meeting. It's not so-so – it's fantastic! Visit our homepage for more information. We also share writing tips and event news there.",
+  "passage_word_count": 134,
+  "questions": [
+    {
+      "number": 1,
+      "question": "What is the main purpose of the text?",
+      "options": {
+        "A": "To describe a school library.",
+        "B": "To promote a creative writing club.",
+        "C": "To explain how to write poems.",
+        "D": "To advertise a bookstore event."
+      },
+      "answer": "B"
+    },
+    {
+      "number": 2,
+      "question": "When does the club meet?",
+      "options": {
+        "A": "Every Monday morning.",
+        "B": "On Friday afternoons.",
+        "C": "During lunchtime daily.",
+        "D": "On weekends."
+      },
+      "answer": "B"
+    },
+    {
+      "number": 3,
+      "question": "Why is the bookstore mentioned in the passage?",
+      "options": {
+        "A": "To show where members buy books.",
+        "B": "To indicate a past club activity.",
+        "C": "To suggest a meeting place.",
+        "D": "To advertise a special offer."
+      },
+      "answer": "B"
+    },
+    {
+      "number": 4,
+      "question": "What can be inferred about the club from the text?",
+      "options": {
+        "A": "It is only for advanced writers.",
+        "B": "It has a small number of members.",
+        "C": "It is an active and enjoyable group.",
+        "D": "It focuses only on childhood stories."
+      },
+      "answer": "C"
+    },
+    {
+      "number": 5,
+      "question": "What does 'brilliant' mean in the passage?",
+      "options": {
+        "A": "Very bright.",
+        "B": "Extremely good.",
+        "C": "Quite intelligent.",
+        "D": "Somewhat loud."
+      },
+      "answer": "B"
+    }
+  ],
+  "answers": [
+    {
+      "number": 1,
+      "answer": "B"
+    },
+    {
+      "number": 2,
+      "answer": "B"
+    },
+    {
+      "number": 3,
+      "answer": "B"
+    },
+    {
+      "number": 4,
+      "answer": "C"
+    },
+    {
+      "number": 5,
+      "answer": "B"
+    }
+  ],
+  "used_vocab": [
+    "self-service",
+    "bookstore",
+    "childhood",
+    "so-so",
+    "homepage",
+    "secret",
+    "brilliant"
+  ],
+  "difficulty_notes": "The passage uses everyday vocabulary and simple sentence structures suitable for B1 learners.",
+  "title": "Reading Quest: PET全_Page_40_04221021",
+  "page_number": 40,
+  "lesson_number": 40,
+  "focus_words": [
+    {
+      "term": "self-service",
+      "gloss": "自助的"
+    },
+    {
+      "term": "bookstore",
+      "gloss": "书店 ( 美式 )"
+    },
+    {
+      "term": "childhood",
+      "gloss": "童年"
+    },
+    {
+      "term": "so-so",
+      "gloss": "平常的"
+    },
+    {
+      "term": "homepage",
+      "gloss": "主页"
+    },
+    {
+      "term": "tourist",
+      "gloss": "游客"
+    },
+    {
+      "term": "secret",
+      "gloss": "秘密 , 秘密的"
+    },
+    {
+      "term": "brilliant",
+      "gloss": "精彩的"
+    }
+  ],
+  "source_words": [
+    {
+      "term": "glad",
+      "gloss": "高兴的"
+    },
+    {
+      "term": "bookstore",
+      "gloss": "书店 ( 美式 )"
+    },
+    {
+      "term": "childhood",
+      "gloss": "童年"
+    },
+    {
+      "term": "Ms",
+      "gloss": "女士"
+    },
+    {
+      "term": "so-so",
+      "gloss": "平常的"
+    },
+    {
+      "term": "homepage",
+      "gloss": "主页"
+    },
+    {
+      "term": "tourist",
+      "gloss": "游客"
+    },
+    {
+      "term": "south",
+      "gloss": "南方"
+    },
+    {
+      "term": "secret",
+      "gloss": "秘密 , 秘密的"
+    },
+    {
+      "term": "brilliant",
+      "gloss": "精彩的"
+    },
+    {
+      "term": "limited",
+      "gloss": "有限的"
+    },
+    {
+      "term": "bald",
+      "gloss": "秃头的"
+    },
+    {
+      "term": "light",
+      "gloss": "光 ; 灯 ; 明亮的"
+    },
+    {
+      "term": "Friday",
+      "gloss": "星期五"
+    },
+    {
+      "term": "somebody",
+      "gloss": "某人 , 有人"
+    },
+    {
+      "term": "shiny",
+      "gloss": "闪亮的"
+    },
+    {
+      "term": "member",
+      "gloss": "成员 , 会员"
+    },
+    {
+      "term": "seventieth",
+      "gloss": "第七十"
+    },
+    {
+      "term": "imagination",
+      "gloss": "想象力"
+    },
+    {
+      "term": "postpone",
+      "gloss": "延迟"
+    },
+    {
+      "term": "olive",
+      "gloss": "橄榄"
+    },
+    {
+      "term": "hard",
+      "gloss": "硬的 ( 地 ) ,努力的 ( 地 )"
+    },
+    {
+      "term": "instructor",
+      "gloss": "教练"
+    },
+    {
+      "term": "jacket",
+      "gloss": "短上衣"
+    },
+    {
+      "term": "young",
+      "gloss": "年轻的"
+    },
+    {
+      "term": "icy",
+      "gloss": "冰冷的"
+    },
+    {
+      "term": "poem",
+      "gloss": "诗"
+    },
+    {
+      "term": "difficult",
+      "gloss": "困难的"
+    },
+    {
+      "term": "when",
+      "gloss": "什么时候;何时"
+    },
+    {
+      "term": "relationship",
+      "gloss": "关系"
+    },
+    {
+      "term": "stuff",
+      "gloss": "材料 , 原料"
+    },
+    {
+      "term": "rock",
+      "gloss": "岩石 , 摇滚乐"
+    },
+    {
+      "term": "self-service",
+      "gloss": "自助的"
+    },
+    {
+      "term": "salary",
+      "gloss": "工资"
+    },
+    {
+      "term": "perfect",
+      "gloss": "完美的"
+    },
+    {
+      "term": "space",
+      "gloss": "空间 , 太空"
+    },
+    {
+      "term": "difficulty",
+      "gloss": "困难"
+    },
+    {
+      "term": "safely",
+      "gloss": "安全地"
+    },
+    {
+      "term": "wheel",
+      "gloss": "车轮 , 方向盘"
+    },
+    {
+      "term": "dish",
+      "gloss": "盘子,一道菜"
+    },
+    {
+      "term": "anybody",
+      "gloss": "任何人"
+    },
+    {
+      "term": "point",
+      "gloss": "指出 , 指向"
+    },
+    {
+      "term": "scientist",
+      "gloss": "科学家"
+    },
+    {
+      "term": "prove",
+      "gloss": "证明"
+    },
+    {
+      "term": "return",
+      "gloss": "返回,返程票"
+    }
+  ]
+}

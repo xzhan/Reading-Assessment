@@ -1,0 +1,312 @@
+{
+  "passage": "Dear Diary, Today started with a special assembly at school. We had a foreign visitor from Australia who came to talk about communication in English. She explained the English alphabet with interesting stories, which made it easier to remember for my upcoming exam. In the afternoon, I had my weekly horse-riding lesson. My instructor said I'm improving, and we practiced jumping over small obstacles. It's my favourite hobby! Later, I went to the local supermarket. There was a discount on fresh fruit, so I bought some apples and oranges. The sign said there was a minimum spend of £5 to get the discount, but I was buying enough anyway. I also picked up a new book on art, as I'm interested in that too. On the way back, I saw some rubbish near the park and decided to pick it up. It's important to keep our neighbourhood clean. Overall, it was a productive day with learning and fun. Best wishes, Sam",
+  "passage_word_count": 160,
+  "questions": [
+    {
+      "number": 1,
+      "question": "What is the diary entry mainly about?",
+      "options": {
+        "A": "A school trip to Australia",
+        "B": "The writer's busy and enjoyable day",
+        "C": "Learning to ride a horse for the first time",
+        "D": "Shopping for discounts at a supermarket"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 2,
+      "question": "What did the writer do in the afternoon?",
+      "options": {
+        "A": "Attended an assembly",
+        "B": "Had a horse-riding lesson",
+        "C": "Cleaned up rubbish in the park",
+        "D": "Bought a new book on art"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 3,
+      "question": "Why did the writer mention the minimum spend for the discount?",
+      "options": {
+        "A": "To show that they spent a lot of money",
+        "B": "To explain why they bought extra fruit",
+        "C": "To indicate that they met the requirement easily",
+        "D": "To complain about the shop's rules"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 4,
+      "question": "What can be inferred about the writer?",
+      "options": {
+        "A": "They are preparing for an English exam.",
+        "B": "They dislike their horse-riding instructor.",
+        "C": "They never go shopping alone.",
+        "D": "They are studying to be a professional artist."
+      },
+      "answer": "A"
+    },
+    {
+      "number": 5,
+      "question": "What does the word 'minimum' mean in the passage?",
+      "options": {
+        "A": "The largest amount required",
+        "B": "The smallest amount needed",
+        "C": "The exact price to pay",
+        "D": "The discount percentage"
+      },
+      "answer": "B"
+    }
+  ],
+  "answers": [
+    {
+      "number": 1,
+      "answer": "B"
+    },
+    {
+      "number": 2,
+      "answer": "B"
+    },
+    {
+      "number": 3,
+      "answer": "C"
+    },
+    {
+      "number": 4,
+      "answer": "A"
+    },
+    {
+      "number": 5,
+      "answer": "B"
+    }
+  ],
+  "used_vocab": [
+    "horse-riding",
+    "alphabet",
+    "English",
+    "visitor",
+    "rubbish",
+    "minimum",
+    "discount"
+  ],
+  "difficulty_notes": "The passage uses clear, everyday language with a personal narrative, suitable for upper A2 to B1 readers.",
+  "title": "Reading Quest: PET全_Page_38_04221021",
+  "page_number": 38,
+  "lesson_number": 38,
+  "focus_words": [
+    {
+      "term": "horse-riding",
+      "gloss": "骑马"
+    },
+    {
+      "term": "alphabet",
+      "gloss": "字母表"
+    },
+    {
+      "term": "foreigner",
+      "gloss": "外国人"
+    },
+    {
+      "term": "English",
+      "gloss": "英语"
+    },
+    {
+      "term": "visitor",
+      "gloss": "参观者"
+    },
+    {
+      "term": "rubbish",
+      "gloss": "垃圾 ; 废话"
+    },
+    {
+      "term": "minimum",
+      "gloss": "最小的"
+    },
+    {
+      "term": "discount",
+      "gloss": "折扣"
+    }
+  ],
+  "source_words": [
+    {
+      "term": "golf",
+      "gloss": "高尔夫球"
+    },
+    {
+      "term": "alphabet",
+      "gloss": "字母表"
+    },
+    {
+      "term": "foreigner",
+      "gloss": "外国人"
+    },
+    {
+      "term": "English",
+      "gloss": "英语"
+    },
+    {
+      "term": "visitor",
+      "gloss": "参观者"
+    },
+    {
+      "term": "hi",
+      "gloss": "嗨!"
+    },
+    {
+      "term": "match",
+      "gloss": "比赛 ; 火柴 ; 匹配"
+    },
+    {
+      "term": "rubbish",
+      "gloss": "垃圾 ; 废话"
+    },
+    {
+      "term": "minimum",
+      "gloss": "最小的"
+    },
+    {
+      "term": "mean",
+      "gloss": "意味 , 想要"
+    },
+    {
+      "term": "discount",
+      "gloss": "折扣"
+    },
+    {
+      "term": "ring",
+      "gloss": "戒指 ; 铃声"
+    },
+    {
+      "term": "thin",
+      "gloss": "瘦的 ; 薄的"
+    },
+    {
+      "term": "communication",
+      "gloss": "交流"
+    },
+    {
+      "term": "any",
+      "gloss": "一些 , 任何"
+    },
+    {
+      "term": "miserable",
+      "gloss": "痛苦的"
+    },
+    {
+      "term": "degree",
+      "gloss": "等级 ; 学位"
+    },
+    {
+      "term": "ceremony",
+      "gloss": "典礼"
+    },
+    {
+      "term": "send",
+      "gloss": "发送 , 寄"
+    },
+    {
+      "term": "unbelievable",
+      "gloss": "难以置信的"
+    },
+    {
+      "term": "onion",
+      "gloss": "洋葱"
+    },
+    {
+      "term": "messy",
+      "gloss": "凌乱的"
+    },
+    {
+      "term": "professional",
+      "gloss": "专业的"
+    },
+    {
+      "term": "decrease",
+      "gloss": "减少"
+    },
+    {
+      "term": "user",
+      "gloss": "用户"
+    },
+    {
+      "term": "horse-riding",
+      "gloss": "骑马"
+    },
+    {
+      "term": "jail",
+      "gloss": "监狱"
+    },
+    {
+      "term": "membership",
+      "gloss": "会员身份"
+    },
+    {
+      "term": "chemist",
+      "gloss": "化学家 ; 药剂师"
+    },
+    {
+      "term": "owner",
+      "gloss": "物主"
+    },
+    {
+      "term": "them",
+      "gloss": "他 ( 她 , 它 ) 们"
+    },
+    {
+      "term": "backpacking",
+      "gloss": "背包旅行"
+    },
+    {
+      "term": "beef",
+      "gloss": "牛肉"
+    },
+    {
+      "term": "motorbike",
+      "gloss": "摩托车"
+    },
+    {
+      "term": "sofa",
+      "gloss": "沙发"
+    },
+    {
+      "term": "July",
+      "gloss": "七月"
+    },
+    {
+      "term": "service",
+      "gloss": "服务"
+    },
+    {
+      "term": "neighbourhood",
+      "gloss": "邻近"
+    },
+    {
+      "term": "collar",
+      "gloss": "衣领"
+    },
+    {
+      "term": "landscape",
+      "gloss": "景色"
+    },
+    {
+      "term": "art",
+      "gloss": "艺术;美术"
+    },
+    {
+      "term": "application",
+      "gloss": "申请"
+    },
+    {
+      "term": "even",
+      "gloss": "甚至"
+    },
+    {
+      "term": "emergency",
+      "gloss": "紧急情况"
+    },
+    {
+      "term": "factory",
+      "gloss": "工厂"
+    }
+  ]
+}

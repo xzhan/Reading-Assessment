@@ -1,0 +1,313 @@
+{
+  "passage": "Subject: My New Volunteer Job! Hi Sam, Hope you're doing well! I wanted to tell you about my new volunteer work at the City Wildlife Park. It's terrific! I work with the animals and help visitors. The job is rather busy, but I love it because I learn so much about wildlife. My ambition is to become a zoologist one day, so this experience is perfect. I prefer working outdoors rather than in an office. The staff have a positive attitude, which makes it even better. They are very supportive. Last week, we had a school group visit. One student asked where the toilet was, and I showed them. It was funny because they were more interested in the monkeys than the facilities! I enjoyed chatting with them. How are things with you? Still thinking about that full-time job offer? Let me know soon. Best, Alex",
+  "passage_word_count": 146,
+  "questions": [
+    {
+      "number": 1,
+      "question": "What is Alex mainly writing to Sam about?",
+      "options": {
+        "A": "His new volunteer job at a wildlife park.",
+        "B": "A funny incident at school.",
+        "C": "His ambition to work in an office.",
+        "D": "A job offer for a full-time position."
+      },
+      "answer": "A"
+    },
+    {
+      "number": 2,
+      "question": "What is Alex's ambition?",
+      "options": {
+        "A": "To become a teacher.",
+        "B": "To work with school groups.",
+        "C": "To become a zoologist.",
+        "D": "To manage a wildlife park."
+      },
+      "answer": "C"
+    },
+    {
+      "number": 3,
+      "question": "Why does Alex talk about the student asking for the toilet?",
+      "options": {
+        "A": "To show that the park has good facilities.",
+        "B": "To share a humorous anecdote from his work.",
+        "C": "To complain about the visitors.",
+        "D": "To explain why he prefers outdoor work."
+      },
+      "answer": "B"
+    },
+    {
+      "number": 4,
+      "question": "From the email, we can infer that Alex __________.",
+      "options": {
+        "A": "prefers indoor work environments.",
+        "B": "has a negative attitude towards his job.",
+        "C": "finds his volunteer work rewarding.",
+        "D": "is uninterested in wildlife."
+      },
+      "answer": "C"
+    },
+    {
+      "number": 5,
+      "question": "The word \"terrific\" in the email means __________.",
+      "options": {
+        "A": "very bad",
+        "B": "quite ordinary",
+        "C": "extremely good",
+        "D": "rather boring"
+      },
+      "answer": "C"
+    }
+  ],
+  "answers": [
+    {
+      "number": 1,
+      "answer": "A"
+    },
+    {
+      "number": 2,
+      "answer": "C"
+    },
+    {
+      "number": 3,
+      "answer": "B"
+    },
+    {
+      "number": 4,
+      "answer": "C"
+    },
+    {
+      "number": 5,
+      "answer": "C"
+    }
+  ],
+  "used_vocab": [
+    "full-time",
+    "attitude",
+    "terrific",
+    "rather",
+    "ambition",
+    "prefer",
+    "wildlife",
+    "toilet"
+  ],
+  "difficulty_notes": "The passage uses everyday vocabulary and simple sentence structures suitable for B1 learners.",
+  "title": "Reading Quest: PET全_Page_2_04221021",
+  "page_number": 2,
+  "lesson_number": 2,
+  "focus_words": [
+    {
+      "term": "full-time",
+      "gloss": "全职的"
+    },
+    {
+      "term": "attitude",
+      "gloss": "态度"
+    },
+    {
+      "term": "terrific",
+      "gloss": "极好的"
+    },
+    {
+      "term": "rather",
+      "gloss": "相当"
+    },
+    {
+      "term": "ambition",
+      "gloss": "野心 , 志向"
+    },
+    {
+      "term": "prefer",
+      "gloss": "更喜欢 , 宁愿"
+    },
+    {
+      "term": "wildlife",
+      "gloss": "野生动物"
+    },
+    {
+      "term": "toilet",
+      "gloss": "厕所 , 盥洗室"
+    }
+  ],
+  "source_words": [
+    {
+      "term": "twelfth",
+      "gloss": "第十二"
+    },
+    {
+      "term": "tower",
+      "gloss": "塔"
+    },
+    {
+      "term": "attitude",
+      "gloss": "态度"
+    },
+    {
+      "term": "terrific",
+      "gloss": "极好的"
+    },
+    {
+      "term": "pet",
+      "gloss": "宠物"
+    },
+    {
+      "term": "full-time",
+      "gloss": "全职的"
+    },
+    {
+      "term": "rather",
+      "gloss": "相当"
+    },
+    {
+      "term": "never",
+      "gloss": "从不"
+    },
+    {
+      "term": "music",
+      "gloss": "音乐"
+    },
+    {
+      "term": "crowd",
+      "gloss": "群众 , 一伙"
+    },
+    {
+      "term": "ambition",
+      "gloss": "野心 , 志向"
+    },
+    {
+      "term": "prefer",
+      "gloss": "更喜欢 , 宁愿"
+    },
+    {
+      "term": "thirty",
+      "gloss": "三十"
+    },
+    {
+      "term": "nine",
+      "gloss": "九"
+    },
+    {
+      "term": "wildlife",
+      "gloss": "野生动物"
+    },
+    {
+      "term": "toilet",
+      "gloss": "厕所 , 盥洗室"
+    },
+    {
+      "term": "silly",
+      "gloss": "傻的"
+    },
+    {
+      "term": "among",
+      "gloss": "在 ... 之中"
+    },
+    {
+      "term": "modern",
+      "gloss": "现代的"
+    },
+    {
+      "term": "hurry",
+      "gloss": "匆忙 , 赶快"
+    },
+    {
+      "term": "baseball",
+      "gloss": "棒球"
+    },
+    {
+      "term": "underpants",
+      "gloss": "内衣裤"
+    },
+    {
+      "term": "right",
+      "gloss": "正确的 , 合适的"
+    },
+    {
+      "term": "rope",
+      "gloss": "绳子"
+    },
+    {
+      "term": "position",
+      "gloss": "位置"
+    },
+    {
+      "term": "grandfather",
+      "gloss": "外 ) 祖父"
+    },
+    {
+      "term": "uninterested",
+      "gloss": "不感兴趣的"
+    },
+    {
+      "term": "fine",
+      "gloss": "晴朗的 , 健康的"
+    },
+    {
+      "term": "printer",
+      "gloss": "打印机"
+    },
+    {
+      "term": "grape",
+      "gloss": "葡萄"
+    },
+    {
+      "term": "bear",
+      "gloss": "熊"
+    },
+    {
+      "term": "unnecessary",
+      "gloss": "不必要的"
+    },
+    {
+      "term": "statue",
+      "gloss": "雕像"
+    },
+    {
+      "term": "come",
+      "gloss": "来"
+    },
+    {
+      "term": "bottle",
+      "gloss": "瓶子"
+    },
+    {
+      "term": "house",
+      "gloss": "房子 , 住宅"
+    },
+    {
+      "term": "fourteenth",
+      "gloss": "第十四"
+    },
+    {
+      "term": "disco",
+      "gloss": "迪斯科舞厅"
+    },
+    {
+      "term": "princess",
+      "gloss": "公主"
+    },
+    {
+      "term": "one",
+      "gloss": "一 , 一个"
+    },
+    {
+      "term": "cloudy",
+      "gloss": "多云的"
+    },
+    {
+      "term": "amazing",
+      "gloss": "令人惊讶的"
+    },
+    {
+      "term": "choose",
+      "gloss": "选择"
+    },
+    {
+      "term": "perfectly",
+      "gloss": "完美地"
+    },
+    {
+      "term": "afterwards",
+      "gloss": "以后 , 后来"
+    }
+  ]
+}

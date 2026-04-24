@@ -1,0 +1,311 @@
+{
+  "passage": "Subject: My School Presentation Hi Alex, How are you? I just finished my big history presentation at school, and I wanted to tell you about it. I worked really hard on it, and my teacher said it was well-made. I compared my project with others in the class, and I think mine stood out because I used a lot of pictures. My grandpa helped me with some research. He’s very patient and gave me good advice. I had to present in front of the whole class, but I didn’t feel embarrassed because I practiced a lot. I could easily explain my ideas. Next week, I’m getting my diploma for completing the course. I’m so excited! Maybe we can celebrate together. Let me know how your projects are going. Best, Sam",
+  "passage_word_count": 134,
+  "questions": [
+    {
+      "number": 1,
+      "question": "What is the main purpose of Sam's email?",
+      "options": {
+        "A": "To ask Alex for help with a project.",
+        "B": "To share news about a school presentation.",
+        "C": "To invite Alex to a graduation party.",
+        "D": "To complain about a difficult course."
+      },
+      "answer": "B"
+    },
+    {
+      "number": 2,
+      "question": "How did Sam's teacher describe the presentation?",
+      "options": {
+        "A": "Embarrassing",
+        "B": "Well-made",
+        "C": "Easy",
+        "D": "Patient"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 3,
+      "question": "Why did Sam mention his grandpa in the email?",
+      "options": {
+        "A": "To show that he has a supportive family.",
+        "B": "To explain why he was patient during the presentation.",
+        "C": "To compare his grandpa with other students.",
+        "D": "To talk about a recent hospital visit."
+      },
+      "answer": "A"
+    },
+    {
+      "number": 4,
+      "question": "What can be inferred about Sam's feelings?",
+      "options": {
+        "A": "He was nervous during the presentation.",
+        "B": "He is proud of his work and achievements.",
+        "C": "He found the project very difficult to complete.",
+        "D": "He does not enjoy studying history."
+      },
+      "answer": "B"
+    },
+    {
+      "number": 5,
+      "question": "What does 'stood out' mean in the email?",
+      "options": {
+        "A": "Was different and noticeable",
+        "B": "Was the same as other projects",
+        "C": "Was poorly made and forgettable",
+        "D": "Was easy to understand quickly"
+      },
+      "answer": "A"
+    }
+  ],
+  "answers": [
+    {
+      "number": 1,
+      "answer": "B"
+    },
+    {
+      "number": 2,
+      "answer": "B"
+    },
+    {
+      "number": 3,
+      "answer": "A"
+    },
+    {
+      "number": 4,
+      "answer": "B"
+    },
+    {
+      "number": 5,
+      "answer": "A"
+    }
+  ],
+  "used_vocab": [
+    "well-made",
+    "diploma",
+    "patient",
+    "presentation",
+    "grandpa",
+    "easily"
+  ],
+  "difficulty_notes": "The passage uses simple past and present tenses with everyday vocabulary, suitable for upper A2 to B1 learners.",
+  "title": "Reading Quest: PET全_Page_34_04221021",
+  "page_number": 34,
+  "lesson_number": 34,
+  "focus_words": [
+    {
+      "term": "well-made",
+      "gloss": "精致的"
+    },
+    {
+      "term": "diploma",
+      "gloss": "文凭"
+    },
+    {
+      "term": "compare",
+      "gloss": "比较"
+    },
+    {
+      "term": "American",
+      "gloss": "美国人 , 美洲人"
+    },
+    {
+      "term": "patient",
+      "gloss": "病人 ; 耐心的"
+    },
+    {
+      "term": "presentation",
+      "gloss": "展示"
+    },
+    {
+      "term": "grandpa",
+      "gloss": "又语 ) 爷爷 , 外公"
+    },
+    {
+      "term": "easily",
+      "gloss": "容易地"
+    }
+  ],
+  "source_words": [
+    {
+      "term": "during",
+      "gloss": "在 ... 期间"
+    },
+    {
+      "term": "diploma",
+      "gloss": "文凭"
+    },
+    {
+      "term": "compare",
+      "gloss": "比较"
+    },
+    {
+      "term": "exit",
+      "gloss": "出又 , 退场"
+    },
+    {
+      "term": "American",
+      "gloss": "美国人 , 美洲人"
+    },
+    {
+      "term": "fruit",
+      "gloss": "水果"
+    },
+    {
+      "term": "patient",
+      "gloss": "病人 ; 耐心的"
+    },
+    {
+      "term": "CV",
+      "gloss": "履历"
+    },
+    {
+      "term": "niece",
+      "gloss": "外甥女,侄女"
+    },
+    {
+      "term": "zero",
+      "gloss": "零"
+    },
+    {
+      "term": "presentation",
+      "gloss": "展示"
+    },
+    {
+      "term": "grandpa",
+      "gloss": "又语 ) 爷爷 , 外公"
+    },
+    {
+      "term": "bossy",
+      "gloss": "好支使人的"
+    },
+    {
+      "term": "job",
+      "gloss": "工作"
+    },
+    {
+      "term": "easily",
+      "gloss": "容易地"
+    },
+    {
+      "term": "disc/disk",
+      "gloss": "磁盘"
+    },
+    {
+      "term": "youth",
+      "gloss": "青年时期"
+    },
+    {
+      "term": "apartment",
+      "gloss": "公寓,房间"
+    },
+    {
+      "term": "really",
+      "gloss": "实际上"
+    },
+    {
+      "term": "reward",
+      "gloss": "奖励"
+    },
+    {
+      "term": "mechanic",
+      "gloss": "机修工"
+    },
+    {
+      "term": "well-made",
+      "gloss": "精致的"
+    },
+    {
+      "term": "anything",
+      "gloss": "任何事"
+    },
+    {
+      "term": "tomato",
+      "gloss": "西红柿"
+    },
+    {
+      "term": "cooking",
+      "gloss": "烹饪"
+    },
+    {
+      "term": "gain",
+      "gloss": "获得"
+    },
+    {
+      "term": "embarrassed",
+      "gloss": "尴尬的"
+    },
+    {
+      "term": "haircut",
+      "gloss": "理发"
+    },
+    {
+      "term": "advise",
+      "gloss": "劝告"
+    },
+    {
+      "term": "crowded",
+      "gloss": "拥挤的"
+    },
+    {
+      "term": "sensible",
+      "gloss": "明智的"
+    },
+    {
+      "term": "politician",
+      "gloss": "政客"
+    },
+    {
+      "term": "poetry",
+      "gloss": "诗歌"
+    },
+    {
+      "term": "narrow",
+      "gloss": "狭窄的"
+    },
+    {
+      "term": "necklace",
+      "gloss": "项链"
+    },
+    {
+      "term": "border",
+      "gloss": "边界"
+    },
+    {
+      "term": "hospital",
+      "gloss": "医院"
+    },
+    {
+      "term": "almost",
+      "gloss": "几乎,差不多"
+    },
+    {
+      "term": "delivery",
+      "gloss": "传送"
+    },
+    {
+      "term": "eastern",
+      "gloss": "东方的"
+    },
+    {
+      "term": "the",
+      "gloss": "这 ( 那 )"
+    },
+    {
+      "term": "religion",
+      "gloss": "宗教"
+    },
+    {
+      "term": "basket",
+      "gloss": "篮"
+    },
+    {
+      "term": "together",
+      "gloss": "一起"
+    },
+    {
+      "term": "activity",
+      "gloss": "活动"
+    }
+  ]
+}

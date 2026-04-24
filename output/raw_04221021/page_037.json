@@ -1,0 +1,311 @@
+{
+  "passage": "Leo, 16, helps his elderly neighbour Mr. Davies every Saturday morning. Mr. Davies used to be a keen cyclist, but an accident means he can't ride his bike anymore. Now, he spends his time writing his life story. Last week, Mr. Davies asked Leo for help with his new computer. 'I need to provide a clear description of my old adventures for my book,' he explained. 'But I'm not good with the keyboard.' Leo happily agreed. He showed Mr. Davies how to type and save his files. Mr. Davies writes about his cycling tours and the interesting characters he met. He has a fantastic vocabulary for describing places. To thank Leo, Mr. Davies gave him a cheque for his birthday. Leo was surprised and grateful. He feels good about using his computer skills to help someone share their amazing stories with the world.",
+  "passage_word_count": 142,
+  "questions": [
+    {
+      "number": 1,
+      "question": "What is the main idea of the story?",
+      "options": {
+        "A": "A teenager learns new computer skills from an expert.",
+        "B": "A former cyclist receives help to write his autobiography.",
+        "C": "A student receives money for his birthday.",
+        "D": "Two neighbours share a love of cycling."
+      },
+      "answer": "B"
+    },
+    {
+      "number": 2,
+      "question": "Why did Mr. Davies need Leo's help last week?",
+      "options": {
+        "A": "To fix his bicycle.",
+        "B": "To send emails to his friends.",
+        "C": "To use his computer for writing.",
+        "D": "To learn new vocabulary."
+      },
+      "answer": "C"
+    },
+    {
+      "number": 3,
+      "question": "What does Mr. Davies use his computer for?",
+      "options": {
+        "A": "Playing games.",
+        "B": "Describing his past experiences.",
+        "C": "Ordering things online.",
+        "D": "Learning about characters in books."
+      },
+      "answer": "B"
+    },
+    {
+      "number": 4,
+      "question": "How does Leo probably feel about helping Mr. Davies?",
+      "options": {
+        "A": "Sorry for him.",
+        "B": "Bored by it.",
+        "C": "Pleased and satisfied.",
+        "D": "Worried about his health."
+      },
+      "answer": "C"
+    },
+    {
+      "number": 5,
+      "question": "What does the word 'character' mean in the story?",
+      "options": {
+        "A": "A person in a book or story.",
+        "B": "A letter on the keyboard.",
+        "C": "A type of bicycle.",
+        "D": "A kind of cheque."
+      },
+      "answer": "A"
+    }
+  ],
+  "answers": [
+    {
+      "number": 1,
+      "answer": "B"
+    },
+    {
+      "number": 2,
+      "answer": "C"
+    },
+    {
+      "number": 3,
+      "answer": "B"
+    },
+    {
+      "number": 4,
+      "answer": "C"
+    },
+    {
+      "number": 5,
+      "answer": "A"
+    }
+  ],
+  "used_vocab": [
+    "cheque",
+    "cyclist",
+    "keyboard",
+    "provide",
+    "description",
+    "vocabulary"
+  ],
+  "difficulty_notes": "The passage uses straightforward narrative and familiar contexts suitable for B1 readers.",
+  "title": "Reading Quest: PET全_Page_37_04221021",
+  "page_number": 37,
+  "lesson_number": 37,
+  "focus_words": [
+    {
+      "term": "cheque",
+      "gloss": "支票"
+    },
+    {
+      "term": "carrot",
+      "gloss": "胡萝卜"
+    },
+    {
+      "term": "cyclist",
+      "gloss": "骑自行车的人"
+    },
+    {
+      "term": "keyboard",
+      "gloss": "键盘"
+    },
+    {
+      "term": "provide",
+      "gloss": "提供"
+    },
+    {
+      "term": "character",
+      "gloss": "品质 ; 性格"
+    },
+    {
+      "term": "description",
+      "gloss": "描述"
+    },
+    {
+      "term": "vocabulary",
+      "gloss": "词汇表"
+    }
+  ],
+  "source_words": [
+    {
+      "term": "cheque",
+      "gloss": "支票"
+    },
+    {
+      "term": "cycle",
+      "gloss": "循环 ; 骑自行车"
+    },
+    {
+      "term": "carrot",
+      "gloss": "胡萝卜"
+    },
+    {
+      "term": "cyclist",
+      "gloss": "骑自行车的人"
+    },
+    {
+      "term": "keyboard",
+      "gloss": "键盘"
+    },
+    {
+      "term": "water",
+      "gloss": "水"
+    },
+    {
+      "term": "provide",
+      "gloss": "提供"
+    },
+    {
+      "term": "taxi",
+      "gloss": "出租车"
+    },
+    {
+      "term": "hall",
+      "gloss": "大厅 , 礼堂"
+    },
+    {
+      "term": "character",
+      "gloss": "品质 ; 性格"
+    },
+    {
+      "term": "girl",
+      "gloss": "女孩"
+    },
+    {
+      "term": "file",
+      "gloss": "文件"
+    },
+    {
+      "term": "description",
+      "gloss": "描述"
+    },
+    {
+      "term": "vocabulary",
+      "gloss": "词汇表"
+    },
+    {
+      "term": "Monday",
+      "gloss": "星期一"
+    },
+    {
+      "term": "curly",
+      "gloss": "卷曲的"
+    },
+    {
+      "term": "boat",
+      "gloss": "船"
+    },
+    {
+      "term": "mail",
+      "gloss": "邮件"
+    },
+    {
+      "term": "access",
+      "gloss": "通道 , 机会"
+    },
+    {
+      "term": "cloud",
+      "gloss": "云"
+    },
+    {
+      "term": "particular",
+      "gloss": "特别的"
+    },
+    {
+      "term": "awful",
+      "gloss": "糟糕的"
+    },
+    {
+      "term": "what",
+      "gloss": "什么,多么"
+    },
+    {
+      "term": "avoid",
+      "gloss": "避免"
+    },
+    {
+      "term": "cruel",
+      "gloss": "残酷的"
+    },
+    {
+      "term": "bread",
+      "gloss": "面包"
+    },
+    {
+      "term": "upon",
+      "gloss": "在 ... 上"
+    },
+    {
+      "term": "suitable",
+      "gloss": "合适的"
+    },
+    {
+      "term": "radio",
+      "gloss": "收音机"
+    },
+    {
+      "term": "grant",
+      "gloss": "拨款"
+    },
+    {
+      "term": "motorcycle",
+      "gloss": "摩托车"
+    },
+    {
+      "term": "singer",
+      "gloss": "歌手"
+    },
+    {
+      "term": "egg",
+      "gloss": "蛋"
+    },
+    {
+      "term": "mistake",
+      "gloss": "错误 ; 误会"
+    },
+    {
+      "term": "twin",
+      "gloss": "双胞胎之一"
+    },
+    {
+      "term": "although",
+      "gloss": "尽管"
+    },
+    {
+      "term": "latest",
+      "gloss": "最新的"
+    },
+    {
+      "term": "study",
+      "gloss": "学习 , 研究"
+    },
+    {
+      "term": "regret",
+      "gloss": "后悔"
+    },
+    {
+      "term": "brake",
+      "gloss": "刹车"
+    },
+    {
+      "term": "rely",
+      "gloss": "依赖"
+    },
+    {
+      "term": "accountant",
+      "gloss": "会计"
+    },
+    {
+      "term": "friendly",
+      "gloss": "友好的"
+    },
+    {
+      "term": "biography",
+      "gloss": "传记"
+    },
+    {
+      "term": "include",
+      "gloss": "包含 ; 包括"
+    }
+  ]
+}

@@ -1,0 +1,313 @@
+{
+  "passage": "On Saturday, our school will host the twenty-first youth speaking day. Students from several local schools are coming to take part in a short speech competition and a music workshop. If you have an inquiry about times or tickets, please send it to the office by Thursday afternoon. The morning programme begins with a pleasant face-to-face meeting for all competitors, so they can relax before speaking in public. After lunch, a young musician will lead a session on using voice and rhythm in presentations. Teachers will also give short advice after each round, which many students find useful. My sister entered the contest when she was in eighteenth place on the reserve list, but another student became ill and she was invited at the last minute. She has practised every evening and now feels much more confident about the day.",
+  "passage_word_count": 140,
+  "questions": [
+    {
+      "number": 1,
+      "question": "What event will happen on Saturday?",
+      "options": {
+        "A": "A youth speaking day",
+        "B": "A sports final",
+        "C": "A school trip",
+        "D": "A parents meeting"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 2,
+      "question": "How should someone ask about times or tickets?",
+      "options": {
+        "A": "Speak to the musician",
+        "B": "Wait until the day",
+        "C": "Ask a classmate",
+        "D": "Send an inquiry to the office"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 3,
+      "question": "Why is there a face-to-face meeting in the morning?",
+      "options": {
+        "A": "To choose the winners",
+        "B": "To help competitors relax",
+        "C": "To sell tickets",
+        "D": "To move furniture"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 4,
+      "question": "What will the young musician do?",
+      "options": {
+        "A": "Judge every speech",
+        "B": "Play during lunch",
+        "C": "Lead a workshop session",
+        "D": "Drive students home"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 5,
+      "question": "How did the writer's sister get a place?",
+      "options": {
+        "A": "Another student became ill",
+        "B": "She was the first to apply",
+        "C": "Her teacher paid for it",
+        "D": "She won a school prize"
+      },
+      "answer": "A"
+    }
+  ],
+  "answers": [
+    {
+      "number": 1,
+      "answer": "A"
+    },
+    {
+      "number": 2,
+      "answer": "D"
+    },
+    {
+      "number": 3,
+      "answer": "B"
+    },
+    {
+      "number": 4,
+      "answer": "C"
+    },
+    {
+      "number": 5,
+      "answer": "A"
+    }
+  ],
+  "used_vocab": [
+    "face-to-face",
+    "twenty-first",
+    "pleasant",
+    "inquiry",
+    "speech",
+    "Saturday",
+    "eighteenth",
+    "musician"
+  ],
+  "difficulty_notes": "An event notice with simple sequencing and one small inference about the sister.",
+  "title": "Reading Quest: PET全_Page_56_04221021",
+  "page_number": 56,
+  "lesson_number": 56,
+  "focus_words": [
+    {
+      "term": "face-to-face",
+      "gloss": "面对面的"
+    },
+    {
+      "term": "twenty-first",
+      "gloss": "第二十一"
+    },
+    {
+      "term": "pleasant",
+      "gloss": "令人愉快的"
+    },
+    {
+      "term": "inquiry",
+      "gloss": "询问 ; 调查"
+    },
+    {
+      "term": "speech",
+      "gloss": "演讲"
+    },
+    {
+      "term": "Saturday",
+      "gloss": "星期六"
+    },
+    {
+      "term": "eighteenth",
+      "gloss": "第十八"
+    },
+    {
+      "term": "musician",
+      "gloss": "音乐家"
+    }
+  ],
+  "source_words": [
+    {
+      "term": "rent",
+      "gloss": "出租"
+    },
+    {
+      "term": "pleasant",
+      "gloss": "令人愉快的"
+    },
+    {
+      "term": "inquiry",
+      "gloss": "询问 ; 调查"
+    },
+    {
+      "term": "speech",
+      "gloss": "演讲"
+    },
+    {
+      "term": "sad",
+      "gloss": "难过的"
+    },
+    {
+      "term": "Saturday",
+      "gloss": "星期六"
+    },
+    {
+      "term": "eighteenth",
+      "gloss": "第十八"
+    },
+    {
+      "term": "musician",
+      "gloss": "音乐家"
+    },
+    {
+      "term": "our",
+      "gloss": "我们的"
+    },
+    {
+      "term": "furniture",
+      "gloss": "家具"
+    },
+    {
+      "term": "candy",
+      "gloss": "糖果"
+    },
+    {
+      "term": "skating",
+      "gloss": "滑冰"
+    },
+    {
+      "term": "hang",
+      "gloss": "挂"
+    },
+    {
+      "term": "hardware",
+      "gloss": "硬件"
+    },
+    {
+      "term": "personally",
+      "gloss": "亲自地"
+    },
+    {
+      "term": "bath",
+      "gloss": "洗澡"
+    },
+    {
+      "term": "dirt",
+      "gloss": "污垢"
+    },
+    {
+      "term": "noise",
+      "gloss": "噪音"
+    },
+    {
+      "term": "face-to-face",
+      "gloss": "面对面的"
+    },
+    {
+      "term": "global",
+      "gloss": "全球的"
+    },
+    {
+      "term": "bottom",
+      "gloss": "底部 , 臀部"
+    },
+    {
+      "term": "board",
+      "gloss": "木板 ; 甲板"
+    },
+    {
+      "term": "reading",
+      "gloss": "阅读"
+    },
+    {
+      "term": "ferry",
+      "gloss": "渡船"
+    },
+    {
+      "term": "conclusion",
+      "gloss": "结论"
+    },
+    {
+      "term": "purse",
+      "gloss": "女士 ) 手提袋"
+    },
+    {
+      "term": "female",
+      "gloss": "女性的"
+    },
+    {
+      "term": "teaching",
+      "gloss": "教学"
+    },
+    {
+      "term": "network",
+      "gloss": "网络"
+    },
+    {
+      "term": "disappear",
+      "gloss": "消失"
+    },
+    {
+      "term": "backpacker",
+      "gloss": "背包客"
+    },
+    {
+      "term": "broccoli",
+      "gloss": "西兰花"
+    },
+    {
+      "term": "hungry",
+      "gloss": "饥饿的"
+    },
+    {
+      "term": "paper",
+      "gloss": "纸 , 纸制的"
+    },
+    {
+      "term": "unhappy",
+      "gloss": "不高兴"
+    },
+    {
+      "term": "twenty-first",
+      "gloss": "第二十一"
+    },
+    {
+      "term": "smile",
+      "gloss": "微笑"
+    },
+    {
+      "term": "smooth",
+      "gloss": "平滑的"
+    },
+    {
+      "term": "song",
+      "gloss": "歌曲"
+    },
+    {
+      "term": "field",
+      "gloss": "田地 ; 领域"
+    },
+    {
+      "term": "windsurfing",
+      "gloss": "帆板运动"
+    },
+    {
+      "term": "once",
+      "gloss": "一次 , 曾经"
+    },
+    {
+      "term": "duck",
+      "gloss": "鸭子 ; 鸭肉"
+    },
+    {
+      "term": "afraid",
+      "gloss": "害怕的"
+    },
+    {
+      "term": "general",
+      "gloss": "普遍的"
+    }
+  ]
+}

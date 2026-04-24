@@ -1,0 +1,313 @@
+{
+  "passage": "Last month, Riverside School started a comedy production for the spring festival. Mia, whose nationality is Spanish, wanted to compete for one of the main parts, but she was nearly too nervous to stand on the stage. Mr Cole, the honest drama teacher, wrote the rehearsal times on the blackboard every morning so nobody forgot them. During the first practice, a local cameraman visited the hall to film a short report about the club. He asked the students to repeat one funny scene several times. Mia was terrified when she forgot her line, but her classmates laughed kindly and clapped. After that, she relaxed and spoke more clearly. Although Mia did not get the lead role, she helped the club finish a lively show and learned that taking part was sometimes more important than winning.",
+  "passage_word_count": 135,
+  "questions": [
+    {
+      "number": 1,
+      "question": "What is the passage mainly about?",
+      "options": {
+        "A": "A school comedy production",
+        "B": "A hockey final",
+        "C": "A television news studio",
+        "D": "A nationality lesson"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 2,
+      "question": "Why did Mr Cole write on the blackboard?",
+      "options": {
+        "A": "To test the students",
+        "B": "To show the cameraman a script",
+        "C": "So nobody forgot rehearsal times",
+        "D": "To choose the main actor"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 3,
+      "question": "Why did the cameraman come to the hall?",
+      "options": {
+        "A": "To offer Mia a paid job",
+        "B": "To film a report about the club",
+        "C": "To teach hockey to the students",
+        "D": "To repair the stage lights"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 4,
+      "question": "How did the class react when Mia forgot her line?",
+      "options": {
+        "A": "They laughed kindly and clapped",
+        "B": "They became annoyed with her",
+        "C": "They left the hall at once",
+        "D": "They asked the teacher to stop"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 5,
+      "question": "What did Mia learn by the end?",
+      "options": {
+        "A": "Winning is the only important thing",
+        "B": "The lead role is always the easiest",
+        "C": "Being filmed is better than acting",
+        "D": "Taking part can matter more than winning"
+      },
+      "answer": "D"
+    }
+  ],
+  "answers": [
+    {
+      "number": 1,
+      "answer": "A"
+    },
+    {
+      "number": 2,
+      "answer": "C"
+    },
+    {
+      "number": 3,
+      "answer": "B"
+    },
+    {
+      "number": 4,
+      "answer": "A"
+    },
+    {
+      "number": 5,
+      "answer": "D"
+    }
+  ],
+  "used_vocab": [
+    "production",
+    "blackboard",
+    "nationality",
+    "cameraman",
+    "honest",
+    "nearly",
+    "comedy",
+    "compete"
+  ],
+  "difficulty_notes": "A clear school story with simple emotions and familiar performance vocabulary.",
+  "title": "Reading Quest: PET全_Page_16_04221021",
+  "page_number": 16,
+  "lesson_number": 16,
+  "focus_words": [
+    {
+      "term": "production",
+      "gloss": "生产活动"
+    },
+    {
+      "term": "blackboard",
+      "gloss": "黑板"
+    },
+    {
+      "term": "nationality",
+      "gloss": "国籍 , 民族"
+    },
+    {
+      "term": "cameraman",
+      "gloss": "摄影师"
+    },
+    {
+      "term": "honest",
+      "gloss": "诚实的"
+    },
+    {
+      "term": "nearly",
+      "gloss": "几乎 , 差不多"
+    },
+    {
+      "term": "comedy",
+      "gloss": "喜剧"
+    },
+    {
+      "term": "compete",
+      "gloss": "竞争"
+    }
+  ],
+  "source_words": [
+    {
+      "term": "production",
+      "gloss": "生产活动"
+    },
+    {
+      "term": "shout",
+      "gloss": "呼喊"
+    },
+    {
+      "term": "blackboard",
+      "gloss": "黑板"
+    },
+    {
+      "term": "fond",
+      "gloss": "喜欢的"
+    },
+    {
+      "term": "nationality",
+      "gloss": "国籍 , 民族"
+    },
+    {
+      "term": "cameraman",
+      "gloss": "摄影师"
+    },
+    {
+      "term": "pale",
+      "gloss": "苍白的"
+    },
+    {
+      "term": "honest",
+      "gloss": "诚实的"
+    },
+    {
+      "term": "nearly",
+      "gloss": "几乎 , 差不多"
+    },
+    {
+      "term": "comedy",
+      "gloss": "喜剧"
+    },
+    {
+      "term": "alarm",
+      "gloss": "闹钟"
+    },
+    {
+      "term": "safe",
+      "gloss": "安全的"
+    },
+    {
+      "term": "lorry",
+      "gloss": "卡车"
+    },
+    {
+      "term": "hero",
+      "gloss": "英雄"
+    },
+    {
+      "term": "compete",
+      "gloss": "竞争"
+    },
+    {
+      "term": "firm",
+      "gloss": "公司"
+    },
+    {
+      "term": "leaf",
+      "gloss": "叶子"
+    },
+    {
+      "term": "hockey",
+      "gloss": "曲棍球"
+    },
+    {
+      "term": "most",
+      "gloss": "大多数 , 最多的"
+    },
+    {
+      "term": "terrified",
+      "gloss": "使恐惧"
+    },
+    {
+      "term": "heavy",
+      "gloss": "沉重的"
+    },
+    {
+      "term": "fasten",
+      "gloss": "系牢"
+    },
+    {
+      "term": "plug",
+      "gloss": "插头"
+    },
+    {
+      "term": "upstairs",
+      "gloss": "在楼上 , 往楼上"
+    },
+    {
+      "term": "reserve",
+      "gloss": "预订"
+    },
+    {
+      "term": "medium",
+      "gloss": "媒体"
+    },
+    {
+      "term": "invention",
+      "gloss": "发明物"
+    },
+    {
+      "term": "oh",
+      "gloss": "哦"
+    },
+    {
+      "term": "explain",
+      "gloss": "解释 , 说明"
+    },
+    {
+      "term": "mosquito",
+      "gloss": "蚊子"
+    },
+    {
+      "term": "wooden",
+      "gloss": "木制的"
+    },
+    {
+      "term": "pile",
+      "gloss": "堆"
+    },
+    {
+      "term": "floor",
+      "gloss": "地板 , 楼层"
+    },
+    {
+      "term": "draw",
+      "gloss": "画画 ; 拉拖"
+    },
+    {
+      "term": "receptionist",
+      "gloss": "前台接待员"
+    },
+    {
+      "term": "subway",
+      "gloss": "地铁"
+    },
+    {
+      "term": "conversation",
+      "gloss": "会话 , 谈话"
+    },
+    {
+      "term": "branch",
+      "gloss": "树枝"
+    },
+    {
+      "term": "tracksuit",
+      "gloss": "运动服"
+    },
+    {
+      "term": "humid",
+      "gloss": "潮湿的"
+    },
+    {
+      "term": "ballet",
+      "gloss": "芭蕾舞"
+    },
+    {
+      "term": "male",
+      "gloss": "男性"
+    },
+    {
+      "term": "theatre",
+      "gloss": "剧院"
+    },
+    {
+      "term": "librarian",
+      "gloss": "图书管理员"
+    },
+    {
+      "term": "steal",
+      "gloss": "偷窃"
+    }
+  ]
+}

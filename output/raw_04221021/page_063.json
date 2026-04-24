@@ -1,0 +1,312 @@
+{
+  "passage": "Everyone at school has received an invitation to the spring talent evening next month. The event will be led by a former student who now works as a television presenter. He has agreed to introduce each act and interview the most talented performers after the show. Because the hall is open to the public, extra security will be in place at the doors. Students are asked to keep large bags in the wardrobe room behind the stage and to arrive at least thirty minutes early. My band is practising a new song, and our music teacher is doing us a favour by lending extra speakers. She says that performing live helps create a stronger connection with the audience than posting videos online. If the night goes well, we may even raise money for the local youth club.",
+  "passage_word_count": 137,
+  "questions": [
+    {
+      "number": 1,
+      "question": "What event are students invited to?",
+      "options": {
+        "A": "The spring talent evening",
+        "B": "A science exhibition",
+        "C": "A sports prizegiving",
+        "D": "A film afternoon"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 2,
+      "question": "Who will lead the evening?",
+      "options": {
+        "A": "The head teacher",
+        "B": "A famous singer",
+        "C": "A security guard",
+        "D": "A former student who is now a presenter"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 3,
+      "question": "Why will there be extra security?",
+      "options": {
+        "A": "The band is very popular",
+        "B": "The wardrobe room is full",
+        "C": "The hall is open to the public",
+        "D": "Students are bringing money"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 4,
+      "question": "Where should students leave large bags?",
+      "options": {
+        "A": "In the music room",
+        "B": "In the wardrobe room",
+        "C": "Beside the stage lights",
+        "D": "At the front door"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 5,
+      "question": "What favour is the music teacher doing?",
+      "options": {
+        "A": "Lending extra speakers",
+        "B": "Buying the tickets",
+        "C": "Writing a new song",
+        "D": "Driving students home"
+      },
+      "answer": "A"
+    }
+  ],
+  "answers": [
+    {
+      "number": 1,
+      "answer": "A"
+    },
+    {
+      "number": 2,
+      "answer": "D"
+    },
+    {
+      "number": 3,
+      "answer": "C"
+    },
+    {
+      "number": 4,
+      "answer": "B"
+    },
+    {
+      "number": 5,
+      "answer": "A"
+    }
+  ],
+  "used_vocab": [
+    "invitation",
+    "presenter",
+    "wardrobe",
+    "talented",
+    "public",
+    "security",
+    "favour"
+  ],
+  "difficulty_notes": "A performance notice with familiar school details and very clear key information.",
+  "title": "Reading Quest: PET全_Page_63_04221021",
+  "page_number": 63,
+  "lesson_number": 63,
+  "focus_words": [
+    {
+      "term": "invitation",
+      "gloss": "邀请函"
+    },
+    {
+      "term": "presenter",
+      "gloss": "主持人"
+    },
+    {
+      "term": "wardrobe",
+      "gloss": "衣橱"
+    },
+    {
+      "term": "talented",
+      "gloss": "有才能的"
+    },
+    {
+      "term": "public",
+      "gloss": "公众的"
+    },
+    {
+      "term": "security",
+      "gloss": "安全"
+    },
+    {
+      "term": "pepper",
+      "gloss": "胡椒"
+    },
+    {
+      "term": "favour",
+      "gloss": "恩惠"
+    }
+  ],
+  "source_words": [
+    {
+      "term": "invitation",
+      "gloss": "邀请函"
+    },
+    {
+      "term": "presenter",
+      "gloss": "主持人"
+    },
+    {
+      "term": "week",
+      "gloss": "星期 , 周"
+    },
+    {
+      "term": "wardrobe",
+      "gloss": "衣橱"
+    },
+    {
+      "term": "talented",
+      "gloss": "有才能的"
+    },
+    {
+      "term": "public",
+      "gloss": "公众的"
+    },
+    {
+      "term": "security",
+      "gloss": "安全"
+    },
+    {
+      "term": "pepper",
+      "gloss": "胡椒"
+    },
+    {
+      "term": "favour",
+      "gloss": "恩惠"
+    },
+    {
+      "term": "drive",
+      "gloss": "开车 ; 迫使"
+    },
+    {
+      "term": "connection",
+      "gloss": "连接"
+    },
+    {
+      "term": "around",
+      "gloss": "大约 , 在 ... 周围"
+    },
+    {
+      "term": "cut",
+      "gloss": "切割 ; 削减"
+    },
+    {
+      "term": "battle",
+      "gloss": "战斗"
+    },
+    {
+      "term": "permanent",
+      "gloss": "永久的"
+    },
+    {
+      "term": "audience",
+      "gloss": "观众"
+    },
+    {
+      "term": "consider",
+      "gloss": "考虑"
+    },
+    {
+      "term": "recycling",
+      "gloss": "回收"
+    },
+    {
+      "term": "windscreen",
+      "gloss": "挡风玻璃"
+    },
+    {
+      "term": "essential",
+      "gloss": "本质的 ; 基本的"
+    },
+    {
+      "term": "especially",
+      "gloss": "特别 ; 尤其"
+    },
+    {
+      "term": "fifteen",
+      "gloss": "十五"
+    },
+    {
+      "term": "install",
+      "gloss": "安装"
+    },
+    {
+      "term": "before",
+      "gloss": "以前 , 在 ... 以前"
+    },
+    {
+      "term": "available",
+      "gloss": "可用的 , 可获得的"
+    },
+    {
+      "term": "strange",
+      "gloss": "陌生的 , 奇怪的"
+    },
+    {
+      "term": "greeting",
+      "gloss": "问候"
+    },
+    {
+      "term": "diary",
+      "gloss": "日记"
+    },
+    {
+      "term": "child",
+      "gloss": "孩子"
+    },
+    {
+      "term": "stripe",
+      "gloss": "条纹"
+    },
+    {
+      "term": "receive",
+      "gloss": "收到"
+    },
+    {
+      "term": "prescription",
+      "gloss": "处方"
+    },
+    {
+      "term": "produce",
+      "gloss": "生产"
+    },
+    {
+      "term": "piece",
+      "gloss": "块 , 片 , 篇"
+    },
+    {
+      "term": "bank",
+      "gloss": "银行 ; 堤岸"
+    },
+    {
+      "term": "generous",
+      "gloss": "慷慨的"
+    },
+    {
+      "term": "sour",
+      "gloss": "酸的"
+    },
+    {
+      "term": "gun",
+      "gloss": "枪"
+    },
+    {
+      "term": "sweet",
+      "gloss": "甜的 , 可爱的"
+    },
+    {
+      "term": "shop",
+      "gloss": "商店 ; 购物"
+    },
+    {
+      "term": "goat",
+      "gloss": "山羊"
+    },
+    {
+      "term": "king",
+      "gloss": "国王"
+    },
+    {
+      "term": "pan",
+      "gloss": "平底锅"
+    },
+    {
+      "term": "essay",
+      "gloss": "散文"
+    },
+    {
+      "term": "gym",
+      "gloss": "健身房"
+    }
+  ]
+}

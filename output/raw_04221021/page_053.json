@@ -1,0 +1,310 @@
+{
+  "passage": "Lucy, a 16-year-old from a small town, loved skateboarding after school. Her daily routine was simple: homework, then skateboarding in the park with friends. One Saturday, while waiting for her friend at the drugstore, she bought a lottery ticket on a whim. A week later, the result was surprising – she won £10,000! Lucy was thrilled but also horrified by the sudden attention from everyone in town. She promised to use the money wisely for her family, who were not wealthy. This win was a significant development for them. Lucy still enjoys skateboarding, and she often wears her favourite sleeveless jacket while skating. Her ability to stay calm and her fitness from the sport helped her handle the situation well. The story shows how a small change in routine can lead to magnificent outcomes.",
+  "passage_word_count": 132,
+  "questions": [
+    {
+      "number": 1,
+      "question": "What is the main point of the story?",
+      "options": {
+        "A": "How skateboarding improves fitness.",
+        "B": "How winning the lottery changed a girl's life.",
+        "C": "The importance of family support.",
+        "D": "The dangers of buying lottery tickets."
+      },
+      "answer": "B"
+    },
+    {
+      "number": 2,
+      "question": "What did Lucy buy while waiting for her friend?",
+      "options": {
+        "A": "A lottery ticket.",
+        "B": "A slice of cake.",
+        "C": "A new skateboard.",
+        "D": "A sleeveless top."
+      },
+      "answer": "A"
+    },
+    {
+      "number": 3,
+      "question": "Why was Lucy horrified after winning?",
+      "options": {
+        "A": "Because she had to stop skateboarding.",
+        "B": "Because her family was angry with her.",
+        "C": "Because of the sudden attention from others.",
+        "D": "Because she lost the lottery ticket."
+      },
+      "answer": "C"
+    },
+    {
+      "number": 4,
+      "question": "What can we infer about Lucy's family?",
+      "options": {
+        "A": "They were very strict with her.",
+        "B": "They were not wealthy before the win.",
+        "C": "They disapproved of her skateboarding.",
+        "D": "They already knew about the lottery."
+      },
+      "answer": "B"
+    },
+    {
+      "number": 5,
+      "question": "What does 'result' mean in the sentence 'the result was surprising'?",
+      "options": {
+        "A": "The consequence of an action.",
+        "B": "The end of a school term.",
+        "C": "A piece of information.",
+        "D": "A type of document."
+      },
+      "answer": "A"
+    }
+  ],
+  "answers": [
+    {
+      "number": 1,
+      "answer": "B"
+    },
+    {
+      "number": 2,
+      "answer": "A"
+    },
+    {
+      "number": 3,
+      "answer": "C"
+    },
+    {
+      "number": 4,
+      "answer": "B"
+    },
+    {
+      "number": 5,
+      "answer": "A"
+    }
+  ],
+  "used_vocab": [
+    "lottery",
+    "routine",
+    "sleeveless",
+    "family",
+    "result"
+  ],
+  "difficulty_notes": "Upper A2 to B1 level with clear, everyday narrative.",
+  "title": "Reading Quest: PET全_Page_53_04221021",
+  "page_number": 53,
+  "lesson_number": 53,
+  "focus_words": [
+    {
+      "term": "lottery",
+      "gloss": "彩票"
+    },
+    {
+      "term": "horror",
+      "gloss": "可怕的事物"
+    },
+    {
+      "term": "while/whilst",
+      "gloss": "当 ... 的时候"
+    },
+    {
+      "term": "routine",
+      "gloss": "常规"
+    },
+    {
+      "term": "sleeveless",
+      "gloss": "无袖的"
+    },
+    {
+      "term": "skateboard",
+      "gloss": "滑板"
+    },
+    {
+      "term": "family",
+      "gloss": "家庭"
+    },
+    {
+      "term": "result",
+      "gloss": "结果"
+    }
+  ],
+  "source_words": [
+    {
+      "term": "lottery",
+      "gloss": "彩票"
+    },
+    {
+      "term": "horror",
+      "gloss": "可怕的事物"
+    },
+    {
+      "term": "while/whilst",
+      "gloss": "当 ... 的时候"
+    },
+    {
+      "term": "slice",
+      "gloss": "薄片"
+    },
+    {
+      "term": "routine",
+      "gloss": "常规"
+    },
+    {
+      "term": "sleeveless",
+      "gloss": "无袖的"
+    },
+    {
+      "term": "sore",
+      "gloss": "疼痛的"
+    },
+    {
+      "term": "skateboard",
+      "gloss": "滑板"
+    },
+    {
+      "term": "alive",
+      "gloss": "活着的"
+    },
+    {
+      "term": "family",
+      "gloss": "家庭"
+    },
+    {
+      "term": "result",
+      "gloss": "结果"
+    },
+    {
+      "term": "strict",
+      "gloss": "严厉的"
+    },
+    {
+      "term": "between",
+      "gloss": "在 ... 之间"
+    },
+    {
+      "term": "plain",
+      "gloss": "明确的 ; 朴素的"
+    },
+    {
+      "term": "term",
+      "gloss": "术语 ; 学期"
+    },
+    {
+      "term": "town",
+      "gloss": "城镇"
+    },
+    {
+      "term": "promise",
+      "gloss": "许诺"
+    },
+    {
+      "term": "herself",
+      "gloss": "她自己"
+    },
+    {
+      "term": "development",
+      "gloss": "发展"
+    },
+    {
+      "term": "ability",
+      "gloss": "能力"
+    },
+    {
+      "term": "fitness",
+      "gloss": "健身"
+    },
+    {
+      "term": "folder",
+      "gloss": "文件夹"
+    },
+    {
+      "term": "spring",
+      "gloss": "春天 ; 弹簧 ; 泉水"
+    },
+    {
+      "term": "magnificent",
+      "gloss": "华丽的"
+    },
+    {
+      "term": "drugstore",
+      "gloss": "药房 ( 美式 )"
+    },
+    {
+      "term": "arrange",
+      "gloss": "安排"
+    },
+    {
+      "term": "husband",
+      "gloss": "丈夫"
+    },
+    {
+      "term": "wash",
+      "gloss": "洗涤"
+    },
+    {
+      "term": "soldier",
+      "gloss": "士兵"
+    },
+    {
+      "term": "marry",
+      "gloss": "结婚"
+    },
+    {
+      "term": "text",
+      "gloss": "文本;课文"
+    },
+    {
+      "term": "skiing",
+      "gloss": "滑雪运动"
+    },
+    {
+      "term": "winner",
+      "gloss": "胜利者"
+    },
+    {
+      "term": "turning",
+      "gloss": "岔路又"
+    },
+    {
+      "term": "journey",
+      "gloss": "旅行 , 行程"
+    },
+    {
+      "term": "discover",
+      "gloss": "发现"
+    },
+    {
+      "term": "peach",
+      "gloss": "桃"
+    },
+    {
+      "term": "forgive",
+      "gloss": "原谅"
+    },
+    {
+      "term": "develop",
+      "gloss": "发展"
+    },
+    {
+      "term": "ball",
+      "gloss": "球 ; 舞会"
+    },
+    {
+      "term": "excuse",
+      "gloss": "原谅"
+    },
+    {
+      "term": "basin",
+      "gloss": "盆"
+    },
+    {
+      "term": "boil",
+      "gloss": "煮沸"
+    },
+    {
+      "term": "asleep",
+      "gloss": "睡着的"
+    },
+    {
+      "term": "and",
+      "gloss": "和"
+    }
+  ]
+}

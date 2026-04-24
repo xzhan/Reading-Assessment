@@ -1,0 +1,311 @@
+{
+  "passage": "On the twenty-third of June, our town will hold its summer sports day. Every runner will go through the park before finishing in the main square. I finished sixteenth last year, which made me proud because I had only started training in spring. This time, I am helping the organisers as well, because I have a part-time job at the stadium on Saturdays. Near the finish line, volunteers will sell drinks, fruit and warm mushroom pies. Visitors love the route because it passes the lake and the old tower, the town's most famous attraction. A local news team may film the race for the evening programme, so the square is likely to be busier than usual. Although I want to run faster, I like the event most because it raises money for the children's hospital.",
+  "passage_word_count": 135,
+  "questions": [
+    {
+      "number": 1,
+      "question": "When will the sports day take place?",
+      "options": {
+        "A": "On the twenty-third of June",
+        "B": "At the end of July",
+        "C": "On the sixteenth of May",
+        "D": "Next Saturday morning"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 2,
+      "question": "Where do the runners go before the finish?",
+      "options": {
+        "A": "Across the beach",
+        "B": "Through the park",
+        "C": "Around the school hall",
+        "D": "Past the hospital"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 3,
+      "question": "How did the writer do last year?",
+      "options": {
+        "A": "He won the race",
+        "B": "He stopped halfway",
+        "C": "He worked at the stadium",
+        "D": "He finished sixteenth"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 4,
+      "question": "What food will volunteers sell?",
+      "options": {
+        "A": "Fish sandwiches",
+        "B": "Chocolate cakes",
+        "C": "Mushroom pies",
+        "D": "Sausage rolls"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 5,
+      "question": "Why does the writer like the event most?",
+      "options": {
+        "A": "It raises money for the hospital",
+        "B": "It is shown on television",
+        "C": "It gives him a paid job",
+        "D": "It is easy to win"
+      },
+      "answer": "A"
+    }
+  ],
+  "answers": [
+    {
+      "number": 1,
+      "answer": "A"
+    },
+    {
+      "number": 2,
+      "answer": "B"
+    },
+    {
+      "number": 3,
+      "answer": "D"
+    },
+    {
+      "number": 4,
+      "answer": "C"
+    },
+    {
+      "number": 5,
+      "answer": "A"
+    }
+  ],
+  "used_vocab": [
+    "twenty-third",
+    "part-time",
+    "sixteenth",
+    "runner",
+    "mushroom",
+    "through"
+  ],
+  "difficulty_notes": "A community sports text with direct factual questions and one opinion item.",
+  "title": "Reading Quest: PET全_Page_25_04221021",
+  "page_number": 25,
+  "lesson_number": 25,
+  "focus_words": [
+    {
+      "term": "twenty-third",
+      "gloss": "第二十三"
+    },
+    {
+      "term": "blond(e)",
+      "gloss": "金发的"
+    },
+    {
+      "term": "television(TV)",
+      "gloss": "电视"
+    },
+    {
+      "term": "part-time",
+      "gloss": "兼职的"
+    },
+    {
+      "term": "sixteenth",
+      "gloss": "第十六"
+    },
+    {
+      "term": "runner",
+      "gloss": "跑步者"
+    },
+    {
+      "term": "mushroom",
+      "gloss": "蘑菇"
+    },
+    {
+      "term": "through",
+      "gloss": "通过 , 凭借"
+    }
+  ],
+  "source_words": [
+    {
+      "term": "hobby",
+      "gloss": "业余爱好"
+    },
+    {
+      "term": "sixteenth",
+      "gloss": "第十六"
+    },
+    {
+      "term": "album",
+      "gloss": "相册 , 音乐专辑"
+    },
+    {
+      "term": "runner",
+      "gloss": "跑步者"
+    },
+    {
+      "term": "mushroom",
+      "gloss": "蘑菇"
+    },
+    {
+      "term": "pea",
+      "gloss": "豌豆"
+    },
+    {
+      "term": "weigh",
+      "gloss": "称重量"
+    },
+    {
+      "term": "rain",
+      "gloss": "雨 , 下雨"
+    },
+    {
+      "term": "through",
+      "gloss": "通过 , 凭借"
+    },
+    {
+      "term": "attraction",
+      "gloss": "吸引力"
+    },
+    {
+      "term": "without",
+      "gloss": "没有"
+    },
+    {
+      "term": "difference",
+      "gloss": "不同 , 差异"
+    },
+    {
+      "term": "incredibly",
+      "gloss": "非常地"
+    },
+    {
+      "term": "stick",
+      "gloss": "木棍 , 粘贴"
+    },
+    {
+      "term": "backwards",
+      "gloss": "向后的"
+    },
+    {
+      "term": "quietly",
+      "gloss": "平静地"
+    },
+    {
+      "term": "IT",
+      "gloss": "信息技术"
+    },
+    {
+      "term": "industry",
+      "gloss": "工业"
+    },
+    {
+      "term": "great",
+      "gloss": "伟大的 ; 很棒的"
+    },
+    {
+      "term": "twenty-third",
+      "gloss": "第二十三"
+    },
+    {
+      "term": "versus",
+      "gloss": "与 ... 相对"
+    },
+    {
+      "term": "obviously",
+      "gloss": "明显地"
+    },
+    {
+      "term": "Sunday",
+      "gloss": "星期日"
+    },
+    {
+      "term": "classroom",
+      "gloss": "教室"
+    },
+    {
+      "term": "acceptable",
+      "gloss": "可接受的"
+    },
+    {
+      "term": "grandson",
+      "gloss": "外 ) 孙子"
+    },
+    {
+      "term": "January",
+      "gloss": "一月"
+    },
+    {
+      "term": "peace",
+      "gloss": "和平"
+    },
+    {
+      "term": "delayed",
+      "gloss": "推迟的"
+    },
+    {
+      "term": "rough",
+      "gloss": "粗糙的"
+    },
+    {
+      "term": "blond(e)",
+      "gloss": "金发的"
+    },
+    {
+      "term": "television(TV)",
+      "gloss": "电视"
+    },
+    {
+      "term": "part-time",
+      "gloss": "兼职的"
+    },
+    {
+      "term": "clever",
+      "gloss": "聪明的"
+    },
+    {
+      "term": "somehow",
+      "gloss": "不知怎地"
+    },
+    {
+      "term": "example",
+      "gloss": "榜样 , 例子"
+    },
+    {
+      "term": "fantastic",
+      "gloss": "不可思议的"
+    },
+    {
+      "term": "June",
+      "gloss": "六月"
+    },
+    {
+      "term": "monkey",
+      "gloss": "猴子"
+    },
+    {
+      "term": "make",
+      "gloss": "做 , 制造 , 使"
+    },
+    {
+      "term": "rare",
+      "gloss": "稀少的"
+    },
+    {
+      "term": "three",
+      "gloss": "三"
+    },
+    {
+      "term": "digital",
+      "gloss": "数字的 ; 数码的"
+    },
+    {
+      "term": "eleven",
+      "gloss": "十一"
+    },
+    {
+      "term": "only",
+      "gloss": "只 , 仅仅"
+    }
+  ]
+}

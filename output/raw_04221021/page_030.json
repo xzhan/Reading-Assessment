@@ -1,0 +1,313 @@
+{
+  "passage": "Saturday, 15th June Dear Diary, Today was quite eventful. I started the morning with skateboarding at the local park. Fortunately, the weather was clear, and I managed to practice new tricks without any accidents. I even tried a new jump that I've been working on for weeks. Afterwards, I decided to visit the bookshop on Main Street. I'm a big fan of fiction, so I spent ages browsing the shelves and finally picked up a mystery novel. Besides reading, I also enjoy the quiet company of other book lovers there; it's so peaceful. Later, I met my friend Sam for lunch at our favourite café. We talked about the increasing pollution in our town; it's probably because of all the traffic. Sam suggested we could join a local clean-up group, which sounds like a great idea. All in all, it was a good day, and I feel fortunate to have such hobbies and friends.",
+  "passage_word_count": 154,
+  "questions": [
+    {
+      "number": 1,
+      "question": "What is the diary entry mainly about?",
+      "options": {
+        "A": "The writer's hobby of skateboarding.",
+        "B": "A visit to a bookshop.",
+        "C": "The writer's activities on a particular day.",
+        "D": "The problem of pollution in the town."
+      },
+      "answer": "C"
+    },
+    {
+      "number": 2,
+      "question": "What did the writer do first on Saturday?",
+      "options": {
+        "A": "Read a fiction book.",
+        "B": "Go skateboarding.",
+        "C": "Meet a friend for lunch.",
+        "D": "Visit a bookshop."
+      },
+      "answer": "B"
+    },
+    {
+      "number": 3,
+      "question": "Why does the writer talk about pollution?",
+      "options": {
+        "A": "To explain why they don't like their town.",
+        "B": "To describe a problem they discussed with a friend.",
+        "C": "To complain about the weather.",
+        "D": "To recommend a book on the topic."
+      },
+      "answer": "B"
+    },
+    {
+      "number": 4,
+      "question": "What can we understand about the writer from the entry?",
+      "options": {
+        "A": "They are concerned about the environment.",
+        "B": "They prefer reading to skateboarding.",
+        "C": "They are planning to move to a new town.",
+        "D": "They dislike spending time with friends."
+      },
+      "answer": "A"
+    },
+    {
+      "number": 5,
+      "question": "In the diary, \"company\" means _______.",
+      "options": {
+        "A": "a business organisation",
+        "B": "a type of book",
+        "C": "being with other people",
+        "D": "a skateboarding trick"
+      },
+      "answer": "C"
+    }
+  ],
+  "answers": [
+    {
+      "number": 1,
+      "answer": "C"
+    },
+    {
+      "number": 2,
+      "answer": "B"
+    },
+    {
+      "number": 3,
+      "answer": "B"
+    },
+    {
+      "number": 4,
+      "answer": "A"
+    },
+    {
+      "number": 5,
+      "answer": "C"
+    }
+  ],
+  "used_vocab": [
+    "fortunately",
+    "fiction",
+    "skateboarding",
+    "bookshop",
+    "besides",
+    "company",
+    "pollution",
+    "probably"
+  ],
+  "difficulty_notes": "The passage uses a personal diary format with everyday vocabulary and clear context for B1 comprehension.",
+  "title": "Reading Quest: PET全_Page_30_04221021",
+  "page_number": 30,
+  "lesson_number": 30,
+  "focus_words": [
+    {
+      "term": "fortunately",
+      "gloss": "幸运地"
+    },
+    {
+      "term": "fiction",
+      "gloss": "小说"
+    },
+    {
+      "term": "skateboarding",
+      "gloss": "滑板运动"
+    },
+    {
+      "term": "bookshop",
+      "gloss": "书店 ( 英式 )"
+    },
+    {
+      "term": "besides",
+      "gloss": "此外"
+    },
+    {
+      "term": "company",
+      "gloss": "公司 ; 陪伴"
+    },
+    {
+      "term": "pollution",
+      "gloss": "污染"
+    },
+    {
+      "term": "probably",
+      "gloss": "或许 ; 很可能"
+    }
+  ],
+  "source_words": [
+    {
+      "term": "jeans",
+      "gloss": "牛仔裤"
+    },
+    {
+      "term": "fortunately",
+      "gloss": "幸运地"
+    },
+    {
+      "term": "fax",
+      "gloss": "传真机"
+    },
+    {
+      "term": "from",
+      "gloss": "从 , 从 ... 起"
+    },
+    {
+      "term": "fiction",
+      "gloss": "小说"
+    },
+    {
+      "term": "moon",
+      "gloss": "月亮 , 月球"
+    },
+    {
+      "term": "try",
+      "gloss": "试图 , 尝试"
+    },
+    {
+      "term": "whole",
+      "gloss": "整个的 , 全部"
+    },
+    {
+      "term": "too",
+      "gloss": "也 ; 太"
+    },
+    {
+      "term": "skateboarding",
+      "gloss": "滑板运动"
+    },
+    {
+      "term": "bookshop",
+      "gloss": "书店 ( 英式 )"
+    },
+    {
+      "term": "vet",
+      "gloss": "兽医"
+    },
+    {
+      "term": "besides",
+      "gloss": "此外"
+    },
+    {
+      "term": "company",
+      "gloss": "公司 ; 陪伴"
+    },
+    {
+      "term": "word",
+      "gloss": "单词 ; 话"
+    },
+    {
+      "term": "model",
+      "gloss": "模范 ; 模特"
+    },
+    {
+      "term": "pollution",
+      "gloss": "污染"
+    },
+    {
+      "term": "Madam",
+      "gloss": "夫人"
+    },
+    {
+      "term": "app",
+      "gloss": "手机应用程序"
+    },
+    {
+      "term": "probably",
+      "gloss": "或许 ; 很可能"
+    },
+    {
+      "term": "northeast",
+      "gloss": "东北的"
+    },
+    {
+      "term": "brave",
+      "gloss": "勇敢的"
+    },
+    {
+      "term": "red",
+      "gloss": "红色的"
+    },
+    {
+      "term": "corn",
+      "gloss": "谷物"
+    },
+    {
+      "term": "mother",
+      "gloss": "母亲"
+    },
+    {
+      "term": "be",
+      "gloss": "是 ; 有 ; 在"
+    },
+    {
+      "term": "breathe",
+      "gloss": "呼吸"
+    },
+    {
+      "term": "India",
+      "gloss": "印度"
+    },
+    {
+      "term": "sure",
+      "gloss": "确信 , 必然的"
+    },
+    {
+      "term": "not",
+      "gloss": "不 , 非"
+    },
+    {
+      "term": "parcel",
+      "gloss": "包裹"
+    },
+    {
+      "term": "university",
+      "gloss": "大学"
+    },
+    {
+      "term": "all",
+      "gloss": "所有的"
+    },
+    {
+      "term": "scissors",
+      "gloss": "剪刀"
+    },
+    {
+      "term": "sit",
+      "gloss": "坐"
+    },
+    {
+      "term": "o'clock ...",
+      "gloss": "点钟"
+    },
+    {
+      "term": "control",
+      "gloss": "控制"
+    },
+    {
+      "term": "deep",
+      "gloss": "深奥的"
+    },
+    {
+      "term": "neck",
+      "gloss": "脖颈 ; 衣领"
+    },
+    {
+      "term": "lunch",
+      "gloss": "午餐"
+    },
+    {
+      "term": "airline",
+      "gloss": "航空公司"
+    },
+    {
+      "term": "brief",
+      "gloss": "简洁的"
+    },
+    {
+      "term": "we",
+      "gloss": "我们"
+    },
+    {
+      "term": "bleed",
+      "gloss": "流血"
+    },
+    {
+      "term": "elevator",
+      "gloss": "电梯 ( 美式 )"
+    }
+  ]
+}

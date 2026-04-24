@@ -1,0 +1,313 @@
+{
+  "passage": "Hi Ben, Thanks for your message about Saturday. I spent the day in the city with my cousin Ella, who has real musical talent. First, we went to a short lecture at the arts centre about classical music. The speaker explained why some young people think it is old-fashioned, but he also showed how exciting it can be. After that, we did some shopping for sunglasses and a new phone battery because Ella had lost both during a night out. The only disadvantage of the trip was the crowd. There were so many people in the streets because the weekend nightlife festival had already started. Still, we enjoyed the atmosphere and even heard a student orchestra playing outside the station. On the way home, Ella said she might join the school music club again.",
+  "passage_word_count": 134,
+  "questions": [
+    {
+      "number": 1,
+      "question": "Why did the writer go to the city?",
+      "options": {
+        "A": "To work at a festival",
+        "B": "To enjoy music activities and shop",
+        "C": "To return a receipt",
+        "D": "To meet a head teacher"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 2,
+      "question": "What did Ella need to buy?",
+      "options": {
+        "A": "A dress and shoes",
+        "B": "Books about classical music",
+        "C": "Sunglasses and a phone battery",
+        "D": "Tickets for a dance class"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 3,
+      "question": "What was the disadvantage of the trip?",
+      "options": {
+        "A": "The lecture was cancelled",
+        "B": "There were too many people",
+        "C": "The shops were closed",
+        "D": "Ella forgot her bag"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 4,
+      "question": "What can we understand about Ella?",
+      "options": {
+        "A": "She may rejoin the music club",
+        "B": "She dislikes classical music",
+        "C": "She hates shopping trips",
+        "D": "She wants to leave school"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 5,
+      "question": "What does the word talent mean in the email?",
+      "options": {
+        "A": "A natural ability",
+        "B": "A difficult exam",
+        "C": "A noisy instrument",
+        "D": "A type of concert"
+      },
+      "answer": "A"
+    }
+  ],
+  "answers": [
+    {
+      "number": 1,
+      "answer": "B"
+    },
+    {
+      "number": 2,
+      "answer": "C"
+    },
+    {
+      "number": 3,
+      "answer": "B"
+    },
+    {
+      "number": 4,
+      "answer": "A"
+    },
+    {
+      "number": 5,
+      "answer": "A"
+    }
+  ],
+  "used_vocab": [
+    "classical",
+    "talent",
+    "battery",
+    "nightlife",
+    "people",
+    "lecture",
+    "disadvantage",
+    "sunglasses"
+  ],
+  "difficulty_notes": "An everyday email that mixes a city outing with simple meaning and inference questions.",
+  "title": "Reading Quest: PET全_Page_17_04221021",
+  "page_number": 17,
+  "lesson_number": 17,
+  "focus_words": [
+    {
+      "term": "classical",
+      "gloss": "经典的"
+    },
+    {
+      "term": "talent",
+      "gloss": "天才"
+    },
+    {
+      "term": "battery",
+      "gloss": "电池"
+    },
+    {
+      "term": "nightlife",
+      "gloss": "夜生活"
+    },
+    {
+      "term": "people",
+      "gloss": "民族 , 人们"
+    },
+    {
+      "term": "lecture",
+      "gloss": "讲课"
+    },
+    {
+      "term": "disadvantage",
+      "gloss": "不利因素"
+    },
+    {
+      "term": "sunglasses",
+      "gloss": "太阳镜"
+    }
+  ],
+  "source_words": [
+    {
+      "term": "classical",
+      "gloss": "经典的"
+    },
+    {
+      "term": "Mr",
+      "gloss": "先生"
+    },
+    {
+      "term": "talent",
+      "gloss": "天才"
+    },
+    {
+      "term": "bride",
+      "gloss": "新娘"
+    },
+    {
+      "term": "battery",
+      "gloss": "电池"
+    },
+    {
+      "term": "Miss",
+      "gloss": "小姐"
+    },
+    {
+      "term": "head",
+      "gloss": "头部 ; 首领"
+    },
+    {
+      "term": "pink",
+      "gloss": "粉红色的"
+    },
+    {
+      "term": "nightlife",
+      "gloss": "夜生活"
+    },
+    {
+      "term": "round",
+      "gloss": "圆的 , 完全的"
+    },
+    {
+      "term": "own",
+      "gloss": "自己的 ; 拥有"
+    },
+    {
+      "term": "link",
+      "gloss": "链接"
+    },
+    {
+      "term": "giant",
+      "gloss": "巨人"
+    },
+    {
+      "term": "people",
+      "gloss": "民族 , 人们"
+    },
+    {
+      "term": "diet",
+      "gloss": "日常饮食"
+    },
+    {
+      "term": "lecture",
+      "gloss": "讲课"
+    },
+    {
+      "term": "disadvantage",
+      "gloss": "不利因素"
+    },
+    {
+      "term": "sunglasses",
+      "gloss": "太阳镜"
+    },
+    {
+      "term": "land",
+      "gloss": "陆地"
+    },
+    {
+      "term": "receipt",
+      "gloss": "收据"
+    },
+    {
+      "term": "dig",
+      "gloss": "挖掘"
+    },
+    {
+      "term": "shopping",
+      "gloss": "购物"
+    },
+    {
+      "term": "cycling",
+      "gloss": "自行车运动"
+    },
+    {
+      "term": "fear",
+      "gloss": "害怕"
+    },
+    {
+      "term": "issue",
+      "gloss": "重要议题"
+    },
+    {
+      "term": "article",
+      "gloss": "文章"
+    },
+    {
+      "term": "congratulations",
+      "gloss": "祝贺 ; 恭喜"
+    },
+    {
+      "term": "generation",
+      "gloss": "一代"
+    },
+    {
+      "term": "profession",
+      "gloss": "职业"
+    },
+    {
+      "term": "surround",
+      "gloss": "围绕"
+    },
+    {
+      "term": "freezing",
+      "gloss": "极冷的"
+    },
+    {
+      "term": "rest",
+      "gloss": "剩余部分 ; 休息"
+    },
+    {
+      "term": "nowadays",
+      "gloss": "当今"
+    },
+    {
+      "term": "shine",
+      "gloss": "发光"
+    },
+    {
+      "term": "catch",
+      "gloss": "抓住 ; 赶上 ; 了解"
+    },
+    {
+      "term": "road",
+      "gloss": "公路"
+    },
+    {
+      "term": "learn",
+      "gloss": "学习 , 获悉"
+    },
+    {
+      "term": "happily",
+      "gloss": "幸福地"
+    },
+    {
+      "term": "idea",
+      "gloss": "主意 , 想法"
+    },
+    {
+      "term": "need",
+      "gloss": "需要 , 必须"
+    },
+    {
+      "term": "ingredient",
+      "gloss": "烹饪原料"
+    },
+    {
+      "term": "improve",
+      "gloss": "改善 , 提高"
+    },
+    {
+      "term": "climate",
+      "gloss": "气候"
+    },
+    {
+      "term": "performer",
+      "gloss": "执行者"
+    },
+    {
+      "term": "certificate",
+      "gloss": "证明书"
+    }
+  ]
+}

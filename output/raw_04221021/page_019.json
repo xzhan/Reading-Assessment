@@ -1,0 +1,313 @@
+{
+  "passage": "Dear Students, If you intend to improve your English speaking, our language centre has a simple solution. From next Monday, a qualified teacher will offer evening classes twice a week. The course includes pronunciation training, short conversations and games. We use colourful cards and picture stories so the lessons feel lively rather than difficult. Several students have already asked questions regarding homework. The answer is easy: bring a notebook and a pen, and the rest of the material is ours. If you miss a class, do not borrow another student's notes and pretend they are theirs. Instead, speak to the teacher after the lesson and ask what to revise. The centre believes that regular practice matters more than speed, so students should feel calmer and more confident by the end of the month.",
+  "passage_word_count": 133,
+  "questions": [
+    {
+      "number": 1,
+      "question": "What is the purpose of the text?",
+      "options": {
+        "A": "To advertise a speaking course",
+        "B": "To describe a school trip",
+        "C": "To explain a library rule",
+        "D": "To report exam results"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 2,
+      "question": "Who will teach the classes?",
+      "options": {
+        "A": "A student helper",
+        "B": "A qualified teacher",
+        "C": "A visiting actor",
+        "D": "A science coach"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 3,
+      "question": "What should students bring to class?",
+      "options": {
+        "A": "A dictionary and cards",
+        "B": "Their own textbooks",
+        "C": "A notebook and a pen",
+        "D": "A laptop and headphones"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 4,
+      "question": "What should a student do after missing a class?",
+      "options": {
+        "A": "Stop attending the course",
+        "B": "Copy someone else's notes",
+        "C": "Ask a friend for all the answers",
+        "D": "Speak to the teacher after class"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 5,
+      "question": "What does the centre believe?",
+      "options": {
+        "A": "Speed is more important than practice",
+        "B": "Regular practice matters most",
+        "C": "Homework should be avoided",
+        "D": "Evening classes are too hard"
+      },
+      "answer": "B"
+    }
+  ],
+  "answers": [
+    {
+      "number": 1,
+      "answer": "A"
+    },
+    {
+      "number": 2,
+      "answer": "B"
+    },
+    {
+      "number": 3,
+      "answer": "C"
+    },
+    {
+      "number": 4,
+      "answer": "D"
+    },
+    {
+      "number": 5,
+      "answer": "B"
+    }
+  ],
+  "used_vocab": [
+    "intend",
+    "solution",
+    "qualified",
+    "training",
+    "colourful",
+    "regarding",
+    "evening",
+    "theirs"
+  ],
+  "difficulty_notes": "A simple course notice using familiar classroom situations and clear advice.",
+  "title": "Reading Quest: PET全_Page_19_04221021",
+  "page_number": 19,
+  "lesson_number": 19,
+  "focus_words": [
+    {
+      "term": "intend",
+      "gloss": "打算"
+    },
+    {
+      "term": "solution",
+      "gloss": "解决方案"
+    },
+    {
+      "term": "qualified",
+      "gloss": "使具备资格"
+    },
+    {
+      "term": "training",
+      "gloss": "训练"
+    },
+    {
+      "term": "colourful",
+      "gloss": "五彩缤纷的"
+    },
+    {
+      "term": "regarding",
+      "gloss": "至于"
+    },
+    {
+      "term": "evening",
+      "gloss": "晚上"
+    },
+    {
+      "term": "theirs",
+      "gloss": "他 ( 她 , 它 ) 们的"
+    }
+  ],
+  "source_words": [
+    {
+      "term": "intend",
+      "gloss": "打算"
+    },
+    {
+      "term": "solution",
+      "gloss": "解决方案"
+    },
+    {
+      "term": "qualified",
+      "gloss": "使具备资格"
+    },
+    {
+      "term": "keen",
+      "gloss": "热切"
+    },
+    {
+      "term": "training",
+      "gloss": "训练"
+    },
+    {
+      "term": "court",
+      "gloss": "法院"
+    },
+    {
+      "term": "colourful",
+      "gloss": "五彩缤纷的"
+    },
+    {
+      "term": "mine",
+      "gloss": "我的"
+    },
+    {
+      "term": "regarding",
+      "gloss": "至于"
+    },
+    {
+      "term": "evening",
+      "gloss": "晚上"
+    },
+    {
+      "term": "lamb",
+      "gloss": "羔羊"
+    },
+    {
+      "term": "theirs",
+      "gloss": "他 ( 她 , 它 ) 们的"
+    },
+    {
+      "term": "instead",
+      "gloss": "代替 , 相反"
+    },
+    {
+      "term": "thank",
+      "gloss": "感谢"
+    },
+    {
+      "term": "wide",
+      "gloss": "广泛的"
+    },
+    {
+      "term": "hers",
+      "gloss": "她的"
+    },
+    {
+      "term": "pronunciation",
+      "gloss": "发音"
+    },
+    {
+      "term": "qualification",
+      "gloss": "资格"
+    },
+    {
+      "term": "above",
+      "gloss": "在 ... 上面"
+    },
+    {
+      "term": "give",
+      "gloss": "给"
+    },
+    {
+      "term": "van",
+      "gloss": "厢式送货车"
+    },
+    {
+      "term": "sincerely",
+      "gloss": "真诚地"
+    },
+    {
+      "term": "course",
+      "gloss": "课程 ; 路线"
+    },
+    {
+      "term": "distance",
+      "gloss": "距离"
+    },
+    {
+      "term": "admission",
+      "gloss": "准许进入"
+    },
+    {
+      "term": "throw",
+      "gloss": "投 , 掷 , 抛"
+    },
+    {
+      "term": "insect",
+      "gloss": "昆虫"
+    },
+    {
+      "term": "via",
+      "gloss": "通过"
+    },
+    {
+      "term": "take",
+      "gloss": "拿 , 取"
+    },
+    {
+      "term": "old",
+      "gloss": "旧的 , 老的"
+    },
+    {
+      "term": "various",
+      "gloss": "各种各样的"
+    },
+    {
+      "term": "out",
+      "gloss": "在外 ; 出局"
+    },
+    {
+      "term": "block",
+      "gloss": "街区 ; 块"
+    },
+    {
+      "term": "sixth",
+      "gloss": "第六"
+    },
+    {
+      "term": "literature",
+      "gloss": "文学作品"
+    },
+    {
+      "term": "better",
+      "gloss": "更好的"
+    },
+    {
+      "term": "championship",
+      "gloss": "冠军地位"
+    },
+    {
+      "term": "dusty",
+      "gloss": "布满灰尘的"
+    },
+    {
+      "term": "saleswoman",
+      "gloss": "女售货员"
+    },
+    {
+      "term": "taste",
+      "gloss": "味道"
+    },
+    {
+      "term": "gum",
+      "gloss": "牙龈"
+    },
+    {
+      "term": "ship",
+      "gloss": "船舰"
+    },
+    {
+      "term": "sell",
+      "gloss": "出售"
+    },
+    {
+      "term": "oven",
+      "gloss": "烤箱 , 灶"
+    },
+    {
+      "term": "remain",
+      "gloss": "依然;留下"
+    }
+  ]
+}

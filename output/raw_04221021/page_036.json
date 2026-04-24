@@ -1,0 +1,312 @@
+{
+  "passage": "Join Our Annual Community Sports Day! The Community Sports Day is back this Saturday at Green Park. Everyone is welcome to listen to the opening speech by our mayor at 10 am sharp. Don't miss the exciting football match where our local team hopes to defeat the visitors from North Town. After the game, children can become mini-champions in fun races and win prizes. For safety, we have a first aid station with bandages and medicine ready for any minor injuries. If you get lost, look for the red signal flags near the main stage. Volunteers will insist on everyone following the rules to keep the event fun and safe for all. There will also be a book stall with a bookshelf full of interesting second-hand books for sale. All money raised will go to the local charity. Please bring your own water and snacks, as there are no duty-free shops nearby. We look forward to a fantastic day with you!",
+  "passage_word_count": 160,
+  "questions": [
+    {
+      "number": 1,
+      "question": "What is the main purpose of this notice?",
+      "options": {
+        "A": "To invite people to a community sports event.",
+        "B": "To advertise a charity book sale in the park.",
+        "C": "To explain safety rules for a local football match.",
+        "D": "To announce the results of a sports competition."
+      },
+      "answer": "A"
+    },
+    {
+      "number": 2,
+      "question": "What time does the event start?",
+      "options": {
+        "A": "At 9 am.",
+        "B": "At 10 am.",
+        "C": "At 11 am.",
+        "D": "Throughout the day."
+      },
+      "answer": "B"
+    },
+    {
+      "number": 3,
+      "question": "Why is there a book stall at the event?",
+      "options": {
+        "A": "To sell new books from a shop.",
+        "B": "To raise money for a good cause.",
+        "C": "To provide reading for children.",
+        "D": "To compete with other stalls."
+      },
+      "answer": "B"
+    },
+    {
+      "number": 4,
+      "question": "What can be inferred about the volunteers?",
+      "options": {
+        "A": "They are paid for their work.",
+        "B": "They will help ensure safety.",
+        "C": "They are selling bandages.",
+        "D": "They prefer quiet events."
+      },
+      "answer": "B"
+    },
+    {
+      "number": 5,
+      "question": "What does 'signal' refer to in the passage?",
+      "options": {
+        "A": "A type of book for sale.",
+        "B": "A flag used for directions.",
+        "C": "A sound from a whistle.",
+        "D": "A message on a phone."
+      },
+      "answer": "B"
+    }
+  ],
+  "answers": [
+    {
+      "number": 1,
+      "answer": "A"
+    },
+    {
+      "number": 2,
+      "answer": "B"
+    },
+    {
+      "number": 3,
+      "answer": "B"
+    },
+    {
+      "number": 4,
+      "answer": "B"
+    },
+    {
+      "number": 5,
+      "answer": "B"
+    }
+  ],
+  "used_vocab": [
+    "duty-free",
+    "bookshelf",
+    "defeat",
+    "become",
+    "insist",
+    "signal",
+    "listen"
+  ],
+  "difficulty_notes": "The passage uses everyday community event vocabulary and clear structure, appropriate for B1 level readers.",
+  "title": "Reading Quest: PET全_Page_36_04221021",
+  "page_number": 36,
+  "lesson_number": 36,
+  "focus_words": [
+    {
+      "term": "duty-free",
+      "gloss": "免关税的"
+    },
+    {
+      "term": "bookshelf",
+      "gloss": "书架"
+    },
+    {
+      "term": "defeat",
+      "gloss": "击败"
+    },
+    {
+      "term": "become",
+      "gloss": "变成 , 变得"
+    },
+    {
+      "term": "insist",
+      "gloss": "坚持"
+    },
+    {
+      "term": "signal",
+      "gloss": "信号"
+    },
+    {
+      "term": "bandage",
+      "gloss": "绷带"
+    },
+    {
+      "term": "listen",
+      "gloss": "听"
+    }
+  ],
+  "source_words": [
+    {
+      "term": "bookshelf",
+      "gloss": "书架"
+    },
+    {
+      "term": "defeat",
+      "gloss": "击败"
+    },
+    {
+      "term": "become",
+      "gloss": "变成 , 变得"
+    },
+    {
+      "term": "heel",
+      "gloss": "脚后跟"
+    },
+    {
+      "term": "insist",
+      "gloss": "坚持"
+    },
+    {
+      "term": "signal",
+      "gloss": "信号"
+    },
+    {
+      "term": "duty-free",
+      "gloss": "免关税的"
+    },
+    {
+      "term": "thing",
+      "gloss": "东西 , 事物"
+    },
+    {
+      "term": "nasty",
+      "gloss": "令人讨厌的"
+    },
+    {
+      "term": "knock",
+      "gloss": "敲"
+    },
+    {
+      "term": "bandage",
+      "gloss": "绷带"
+    },
+    {
+      "term": "plan",
+      "gloss": "计划"
+    },
+    {
+      "term": "listen",
+      "gloss": "听"
+    },
+    {
+      "term": "northern",
+      "gloss": "北部的"
+    },
+    {
+      "term": "new",
+      "gloss": "新的"
+    },
+    {
+      "term": "chef",
+      "gloss": "厨师"
+    },
+    {
+      "term": "beginning",
+      "gloss": "开始;起点"
+    },
+    {
+      "term": "rescue",
+      "gloss": "营救"
+    },
+    {
+      "term": "ugly",
+      "gloss": "丑陋的"
+    },
+    {
+      "term": "backpack",
+      "gloss": "背包"
+    },
+    {
+      "term": "late",
+      "gloss": "迟到的"
+    },
+    {
+      "term": "jet",
+      "gloss": "喷气式飞机"
+    },
+    {
+      "term": "raise",
+      "gloss": "举起"
+    },
+    {
+      "term": "carpet",
+      "gloss": "地毯"
+    },
+    {
+      "term": "sort",
+      "gloss": "种类 ; 排序 ; 分类"
+    },
+    {
+      "term": "weekly",
+      "gloss": "每周的"
+    },
+    {
+      "term": "change",
+      "gloss": "变化 ; 零钱"
+    },
+    {
+      "term": "unemployment",
+      "gloss": "失业"
+    },
+    {
+      "term": "realistic",
+      "gloss": "现实的"
+    },
+    {
+      "term": "confirm",
+      "gloss": "确认"
+    },
+    {
+      "term": "trunk",
+      "gloss": "树干"
+    },
+    {
+      "term": "explode",
+      "gloss": "爆炸"
+    },
+    {
+      "term": "person",
+      "gloss": "人"
+    },
+    {
+      "term": "eleventh",
+      "gloss": "第十一"
+    },
+    {
+      "term": "knee",
+      "gloss": "膝盖"
+    },
+    {
+      "term": "jealous",
+      "gloss": "妒忌的"
+    },
+    {
+      "term": "racket",
+      "gloss": "球拍"
+    },
+    {
+      "term": "hope",
+      "gloss": "希望"
+    },
+    {
+      "term": "help",
+      "gloss": "帮助 , 援助"
+    },
+    {
+      "term": "medicine",
+      "gloss": "药 , 医学"
+    },
+    {
+      "term": "manager",
+      "gloss": "经理"
+    },
+    {
+      "term": "maximum",
+      "gloss": "最大量"
+    },
+    {
+      "term": "coin",
+      "gloss": "硬币"
+    },
+    {
+      "term": "quiet",
+      "gloss": "安静的"
+    },
+    {
+      "term": "know",
+      "gloss": "知道 , 认识"
+    }
+  ]
+}

@@ -1,0 +1,310 @@
+{
+  "passage": "Last week, our school organised an expedition to the historic city of York. I was responsible for looking after our group's map and making sure no one got lost. Throughout the day, our teacher, Ms. Clarke, reminded us to stay close and be punctual for meetings. The itinerary included a tour of the York Minster, an amazing cathedral that has stood since the 7th century. For lunch, we enjoyed refreshments at a cosy café, featuring local treats like lemon drizzle cake and fresh sandwiches. Later, we explored the medieval streets under sunny skies, which made the walk even more enjoyable. I heard a talented musician playing the trumpet beautifully there. This trip not only taught me about history but also about being reliable and working as a team. It was an unforgettable adventure!",
+  "passage_word_count": 133,
+  "questions": [
+    {
+      "number": 1,
+      "question": "What is the main topic of the blog entry?",
+      "options": {
+        "A": "A school expedition to York",
+        "B": "Learning musical instruments",
+        "C": "A history lecture",
+        "D": "A café experience"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 2,
+      "question": "What was the writer's responsibility during the trip?",
+      "options": {
+        "A": "To lead the group",
+        "B": "To look after the map",
+        "C": "To buy refreshments",
+        "D": "To play the trumpet"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 3,
+      "question": "Why did Ms. Clarke remind the students?",
+      "options": {
+        "A": "To ensure safety and punctuality",
+        "B": "To teach them history",
+        "C": "To help them enjoy music",
+        "D": "To encourage them to eat"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 4,
+      "question": "What can be inferred about the trip?",
+      "options": {
+        "A": "It was boring and uneducational",
+        "B": "It taught teamwork and reliability",
+        "C": "It focused only on historical facts",
+        "D": "The weather was poor throughout"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 5,
+      "question": "What does 'refreshments' mean in the passage?",
+      "options": {
+        "A": "Food and drinks",
+        "B": "Maps and tickets",
+        "C": "Musical instruments",
+        "D": "Historical tours"
+      },
+      "answer": "A"
+    }
+  ],
+  "answers": [
+    {
+      "number": 1,
+      "answer": "A"
+    },
+    {
+      "number": 2,
+      "answer": "B"
+    },
+    {
+      "number": 3,
+      "answer": "A"
+    },
+    {
+      "number": 4,
+      "answer": "B"
+    },
+    {
+      "number": 5,
+      "answer": "A"
+    }
+  ],
+  "used_vocab": [
+    "responsible",
+    "refreshments",
+    "trumpet",
+    "expedition",
+    "century"
+  ],
+  "difficulty_notes": "The passage uses everyday travel vocabulary suitable for B1 learners.",
+  "title": "Reading Quest: PET全_Page_43_04221021",
+  "page_number": 43,
+  "lesson_number": 43,
+  "focus_words": [
+    {
+      "term": "responsible",
+      "gloss": "有责任"
+    },
+    {
+      "term": "refreshments",
+      "gloss": "点心"
+    },
+    {
+      "term": "trumpet",
+      "gloss": "小号 ; 喇叭"
+    },
+    {
+      "term": "expedition",
+      "gloss": "远征"
+    },
+    {
+      "term": "remind",
+      "gloss": "提醒"
+    },
+    {
+      "term": "including",
+      "gloss": "包含 ; 包括"
+    },
+    {
+      "term": "century",
+      "gloss": "世纪"
+    },
+    {
+      "term": "doctor",
+      "gloss": "医生 ; 博士"
+    }
+  ],
+  "source_words": [
+    {
+      "term": "responsible",
+      "gloss": "有责任"
+    },
+    {
+      "term": "have",
+      "gloss": "有"
+    },
+    {
+      "term": "pool",
+      "gloss": "水塘"
+    },
+    {
+      "term": "refreshments",
+      "gloss": "点心"
+    },
+    {
+      "term": "save",
+      "gloss": "节省 , 解救"
+    },
+    {
+      "term": "lemon",
+      "gloss": "柠檬"
+    },
+    {
+      "term": "trumpet",
+      "gloss": "小号 ; 喇叭"
+    },
+    {
+      "term": "expedition",
+      "gloss": "远征"
+    },
+    {
+      "term": "cry",
+      "gloss": "哭 , 叫喊"
+    },
+    {
+      "term": "remind",
+      "gloss": "提醒"
+    },
+    {
+      "term": "skirt",
+      "gloss": "半身裙"
+    },
+    {
+      "term": "tyre",
+      "gloss": "轮胎"
+    },
+    {
+      "term": "including",
+      "gloss": "包含 ; 包括"
+    },
+    {
+      "term": "century",
+      "gloss": "世纪"
+    },
+    {
+      "term": "doctor",
+      "gloss": "医生 ; 博士"
+    },
+    {
+      "term": "curriculum",
+      "gloss": "全部课程"
+    },
+    {
+      "term": "cabbage",
+      "gloss": "卷心菜"
+    },
+    {
+      "term": "off",
+      "gloss": "脱离 , 切断"
+    },
+    {
+      "term": "street",
+      "gloss": "街道"
+    },
+    {
+      "term": "parking",
+      "gloss": "停车"
+    },
+    {
+      "term": "screen",
+      "gloss": "屏幕"
+    },
+    {
+      "term": "jug",
+      "gloss": "壶,罐"
+    },
+    {
+      "term": "travel",
+      "gloss": "旅行"
+    },
+    {
+      "term": "suppose",
+      "gloss": "假设 , 认为"
+    },
+    {
+      "term": "seat",
+      "gloss": "座位"
+    },
+    {
+      "term": "universe",
+      "gloss": "宇宙"
+    },
+    {
+      "term": "grill",
+      "gloss": "烧烤架"
+    },
+    {
+      "term": "game",
+      "gloss": "游戏"
+    },
+    {
+      "term": "sunset",
+      "gloss": "日落"
+    },
+    {
+      "term": "tell",
+      "gloss": "告诉 , 分辨"
+    },
+    {
+      "term": "prince",
+      "gloss": "王子"
+    },
+    {
+      "term": "favourite",
+      "gloss": "特别喜爱的"
+    },
+    {
+      "term": "by",
+      "gloss": "通过 ; 被 ; 截止"
+    },
+    {
+      "term": "affect",
+      "gloss": "影响"
+    },
+    {
+      "term": "wage",
+      "gloss": "工资"
+    },
+    {
+      "term": "fan",
+      "gloss": "风扇 ; 爱好者"
+    },
+    {
+      "term": "offer",
+      "gloss": "提议 , 给"
+    },
+    {
+      "term": "butter",
+      "gloss": "黄油"
+    },
+    {
+      "term": "unfit",
+      "gloss": "不适合的"
+    },
+    {
+      "term": "flour",
+      "gloss": "面粉"
+    },
+    {
+      "term": "drop",
+      "gloss": "落下"
+    },
+    {
+      "term": "reply",
+      "gloss": "回复"
+    },
+    {
+      "term": "across",
+      "gloss": "穿过"
+    },
+    {
+      "term": "enjoy",
+      "gloss": "享受 , 喜欢"
+    },
+    {
+      "term": "garden",
+      "gloss": "花园"
+    }
+  ]
+}

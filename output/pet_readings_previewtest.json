@@ -1,0 +1,121 @@
+{
+  "source_pdf": "/Users/aistudio/PET/PET全.pdf",
+  "batch_id": "previewtest",
+  "generated_at": "2026-04-22T10:10:00",
+  "start_page": 1,
+  "end_page": 1,
+  "total_readings": 1,
+  "readings": [
+    {
+      "title": "Reading Quest: PET全_Page_1_previewtest",
+      "page_number": 1,
+      "lesson_number": 1,
+      "passage": "Last winter, Mia and her brother stayed at a small mountain resort for a school holiday. Before they left home, their dad asked Mia to select the warmest clothes and put them in the luggage. She packed a thick sock, a soft cushion for the bus, and her snowboard. On the first morning, the pavement outside the hotel was white with snow, so everyone walked slowly. Mia felt healthy and excited, and she was exactly on time for her lesson. After class, a photographer took pictures of the group. Mia wanted to keep the photo forever because it was her best winter trip.",
+      "passage_word_count": 107,
+      "questions": [
+        {
+          "number": 1,
+          "question": "Why did Mia pack her warmest clothes?",
+          "options": {
+            "A": "She was moving to the mountains.",
+            "B": "She was preparing for a winter holiday.",
+            "C": "She needed them for a school play.",
+            "D": "She wanted to give them to a friend."
+          },
+          "answer": "B"
+        },
+        {
+          "number": 2,
+          "question": "What does the passage say about the pavement?",
+          "options": {
+            "A": "It was covered with snow.",
+            "B": "It was being repaired.",
+            "C": "It led to a sports shop.",
+            "D": "It was inside the hotel."
+          },
+          "answer": "A"
+        },
+        {
+          "number": 3,
+          "question": "How did Mia feel on the first morning?",
+          "options": {
+            "A": "Nervous and tired.",
+            "B": "Cold and lonely.",
+            "C": "Fit and happy.",
+            "D": "Quiet and bored."
+          },
+          "answer": "C"
+        },
+        {
+          "number": 4,
+          "question": "Who took a picture of the students?",
+          "options": {
+            "A": "A teacher.",
+            "B": "A photographer.",
+            "C": "Mia's brother.",
+            "D": "The hotel manager."
+          },
+          "answer": "B"
+        },
+        {
+          "number": 5,
+          "question": "Why did Mia want to keep the photo?",
+          "options": {
+            "A": "It showed her new clothes.",
+            "B": "It was taken by her father.",
+            "C": "It reminded her of a great trip.",
+            "D": "It helped her remember the hotel name."
+          },
+          "answer": "C"
+        }
+      ],
+      "answers": [
+        {
+          "number": 1,
+          "answer": "B"
+        },
+        {
+          "number": 2,
+          "answer": "A"
+        },
+        {
+          "number": 3,
+          "answer": "C"
+        },
+        {
+          "number": 4,
+          "answer": "B"
+        },
+        {
+          "number": 5,
+          "answer": "C"
+        }
+      ],
+      "difficulty_notes": "Simple everyday travel content with clear detail questions.",
+      "focus_words": [
+        {
+          "term": "forever",
+          "gloss": "永远"
+        }
+      ],
+      "source_words": [
+        {
+          "term": "forever",
+          "gloss": "永远"
+        }
+      ],
+      "used_vocab": [
+        "forever",
+        "resort",
+        "select",
+        "luggage",
+        "cushion",
+        "snowboard",
+        "pavement",
+        "healthy",
+        "exactly",
+        "photographer"
+      ]
+    }
+  ]
+}

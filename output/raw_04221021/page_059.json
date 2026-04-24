@@ -1,0 +1,313 @@
+{
+  "passage": "Last month, our class visited a wildlife park in the western part of the county. The bus driver asked to see the teacher's licence before we set off, and everyone laughed because Mr Hayes had almost forgotten it. At the park gate, the bird keeper gave us a short talk about animals from southern Africa and Australia. Unfortunately, the weather turned wet, so we spent more time indoors than we had planned. In the reptile house, I bought a small purple notebook because I wanted to write a composition about the trip later. There was also a curved mirror near the exit, which made us all look taller and stranger than usual. Even with the rain, the day was alright in the end. The best present was being able to watch the baby penguins being fed at close range.",
+  "passage_word_count": 139,
+  "questions": [
+    {
+      "number": 1,
+      "question": "Where did the class go?",
+      "options": {
+        "A": "A museum in the city centre",
+        "B": "A park in the south of France",
+        "C": "A wildlife park in the western county",
+        "D": "A beach near school"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 2,
+      "question": "What did the driver ask to see?",
+      "options": {
+        "A": "The map",
+        "B": "The teacher's licence",
+        "C": "A present for the keeper",
+        "D": "The lunch tickets"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 3,
+      "question": "What did the keeper talk about?",
+      "options": {
+        "A": "Birds from southern places",
+        "B": "How to draw a composition",
+        "C": "Why the mirror was broken",
+        "D": "The school timetable"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 4,
+      "question": "Why did the class stay indoors more than planned?",
+      "options": {
+        "A": "The guide was late",
+        "B": "The reptiles were hungry",
+        "C": "The notebook shop was crowded",
+        "D": "The weather became wet"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 5,
+      "question": "Why did the writer buy the purple notebook?",
+      "options": {
+        "A": "To show the driver",
+        "B": "To give it to the keeper",
+        "C": "To write a composition later",
+        "D": "To hide the licence inside"
+      },
+      "answer": "C"
+    }
+  ],
+  "answers": [
+    {
+      "number": 1,
+      "answer": "C"
+    },
+    {
+      "number": 2,
+      "answer": "B"
+    },
+    {
+      "number": 3,
+      "answer": "A"
+    },
+    {
+      "number": 4,
+      "answer": "D"
+    },
+    {
+      "number": 5,
+      "answer": "C"
+    }
+  ],
+  "used_vocab": [
+    "alright",
+    "present",
+    "southern",
+    "keeper",
+    "unfortunately",
+    "western",
+    "purple",
+    "composition"
+  ],
+  "difficulty_notes": "A class trip report with simple details and an easy vocabulary question in context.",
+  "title": "Reading Quest: PET全_Page_59_04221021",
+  "page_number": 59,
+  "lesson_number": 59,
+  "focus_words": [
+    {
+      "term": "alright",
+      "gloss": "令人满意的"
+    },
+    {
+      "term": "present",
+      "gloss": "礼物 ; 现在 ; 呈现"
+    },
+    {
+      "term": "southern",
+      "gloss": "南方的"
+    },
+    {
+      "term": "keeper",
+      "gloss": "监护人"
+    },
+    {
+      "term": "unfortunately",
+      "gloss": "不幸地"
+    },
+    {
+      "term": "western",
+      "gloss": "西方的"
+    },
+    {
+      "term": "purple",
+      "gloss": "紫色的"
+    },
+    {
+      "term": "composition",
+      "gloss": "构成 ; 作文"
+    }
+  ],
+  "source_words": [
+    {
+      "term": "alright",
+      "gloss": "令人满意的"
+    },
+    {
+      "term": "present",
+      "gloss": "礼物 ; 现在 ; 呈现"
+    },
+    {
+      "term": "low",
+      "gloss": "低的 , 消沉的"
+    },
+    {
+      "term": "southern",
+      "gloss": "南方的"
+    },
+    {
+      "term": "keeper",
+      "gloss": "监护人"
+    },
+    {
+      "term": "crazy",
+      "gloss": "疯狂的"
+    },
+    {
+      "term": "unfortunately",
+      "gloss": "不幸地"
+    },
+    {
+      "term": "western",
+      "gloss": "西方的"
+    },
+    {
+      "term": "purple",
+      "gloss": "紫色的"
+    },
+    {
+      "term": "reach",
+      "gloss": "到达"
+    },
+    {
+      "term": "some",
+      "gloss": "一些"
+    },
+    {
+      "term": "gas",
+      "gloss": "汽油 ; 气体"
+    },
+    {
+      "term": "grab",
+      "gloss": "抓取"
+    },
+    {
+      "term": "buy",
+      "gloss": "买"
+    },
+    {
+      "term": "composition",
+      "gloss": "构成 ; 作文"
+    },
+    {
+      "term": "roast",
+      "gloss": "烘烤"
+    },
+    {
+      "term": "mirror",
+      "gloss": "镜子"
+    },
+    {
+      "term": "licence",
+      "gloss": "执照 , 许可证"
+    },
+    {
+      "term": "directly",
+      "gloss": "直接地"
+    },
+    {
+      "term": "bell",
+      "gloss": "钟"
+    },
+    {
+      "term": "wild",
+      "gloss": "野生的"
+    },
+    {
+      "term": "hostel",
+      "gloss": "招待所"
+    },
+    {
+      "term": "rose",
+      "gloss": "玫瑰花"
+    },
+    {
+      "term": "fifteenth",
+      "gloss": "第十五"
+    },
+    {
+      "term": "metal",
+      "gloss": "金属"
+    },
+    {
+      "term": "clock",
+      "gloss": "时钟"
+    },
+    {
+      "term": "serious",
+      "gloss": "严重的"
+    },
+    {
+      "term": "urgent",
+      "gloss": "紧急的"
+    },
+    {
+      "term": "lemonade",
+      "gloss": "柠檬汽水"
+    },
+    {
+      "term": "poor",
+      "gloss": "贫穷的 ; 可怜的"
+    },
+    {
+      "term": "meal",
+      "gloss": "膳食 , 一餐"
+    },
+    {
+      "term": "euro",
+      "gloss": "欧元"
+    },
+    {
+      "term": "disappoint",
+      "gloss": "使失望"
+    },
+    {
+      "term": "intermediate",
+      "gloss": "中级的"
+    },
+    {
+      "term": "sight",
+      "gloss": "视力"
+    },
+    {
+      "term": "pill",
+      "gloss": "药丸"
+    },
+    {
+      "term": "headteacher",
+      "gloss": "中小学校长"
+    },
+    {
+      "term": "period",
+      "gloss": "时期"
+    },
+    {
+      "term": "kitchen",
+      "gloss": "厨房"
+    },
+    {
+      "term": "grateful",
+      "gloss": "感激的"
+    },
+    {
+      "term": "permitted",
+      "gloss": "允许的"
+    },
+    {
+      "term": "entry",
+      "gloss": "进入"
+    },
+    {
+      "term": "trade",
+      "gloss": "贸易"
+    },
+    {
+      "term": "black",
+      "gloss": "黑色 ; 黑人"
+    },
+    {
+      "term": "nephew",
+      "gloss": "侄子 ; 外甥"
+    }
+  ]
+}

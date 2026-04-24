@@ -1,0 +1,313 @@
+{
+  "passage": "We were meant to take a charter bus to the sports centre for a squash tournament last Sunday, but the weather changed everything. Heavy rain began before breakfast, and by the time we reached the crossroads near school, the driver said the roads were unsafe. Our coach checked his contract with the bus company and decided to cancel the trip. It was a real disappointment because we had trained for weeks. Some players were even wearing their new team fashion jackets for the first time. While we waited for parents to collect us, my friend Zara used her handkerchief to dry the windows so we could watch the storm outside. Later, the teacher promised that the competition would happen next month if the hall was free. We were unhappy at first, but at least nobody was put in danger.",
+  "passage_word_count": 139,
+  "questions": [
+    {
+      "number": 1,
+      "question": "How were the players meant to travel?",
+      "options": {
+        "A": "By train",
+        "B": "By charter bus",
+        "C": "By bicycle",
+        "D": "On foot"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 2,
+      "question": "Why was the trip cancelled?",
+      "options": {
+        "A": "The sports centre closed early",
+        "B": "Not enough players arrived",
+        "C": "The weather made the roads unsafe",
+        "D": "The bus company lost the contract"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 3,
+      "question": "What did the coach check before cancelling?",
+      "options": {
+        "A": "The contract with the company",
+        "B": "The players' tickets",
+        "C": "The school timetable",
+        "D": "The cost of lunch"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 4,
+      "question": "Why did Zara use her handkerchief?",
+      "options": {
+        "A": "To clean her shoes",
+        "B": "To wrap a present",
+        "C": "To dry the team shirts",
+        "D": "To wipe the windows"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 5,
+      "question": "How did the players feel in the end?",
+      "options": {
+        "A": "Glad the match was finished",
+        "B": "Angry with the driver",
+        "C": "Still sad but pleased nobody was hurt",
+        "D": "Excited to play outdoors"
+      },
+      "answer": "C"
+    }
+  ],
+  "answers": [
+    {
+      "number": 1,
+      "answer": "B"
+    },
+    {
+      "number": 2,
+      "answer": "C"
+    },
+    {
+      "number": 3,
+      "answer": "A"
+    },
+    {
+      "number": 4,
+      "answer": "D"
+    },
+    {
+      "number": 5,
+      "answer": "C"
+    }
+  ],
+  "used_vocab": [
+    "charter",
+    "weather",
+    "squash",
+    "handkerchief",
+    "contract",
+    "disappointment",
+    "fashion",
+    "crossroads"
+  ],
+  "difficulty_notes": "A cancelled trip story with clear reasons and a simple emotional ending.",
+  "title": "Reading Quest: PET全_Page_57_04221021",
+  "page_number": 57,
+  "lesson_number": 57,
+  "focus_words": [
+    {
+      "term": "charter",
+      "gloss": "包租"
+    },
+    {
+      "term": "weather",
+      "gloss": "天气"
+    },
+    {
+      "term": "squash",
+      "gloss": "壁球"
+    },
+    {
+      "term": "handkerchief",
+      "gloss": "手帕"
+    },
+    {
+      "term": "contract",
+      "gloss": "合同"
+    },
+    {
+      "term": "disappointment",
+      "gloss": "失望"
+    },
+    {
+      "term": "fashion",
+      "gloss": "时尚 ; 时装"
+    },
+    {
+      "term": "crossroads",
+      "gloss": "十字路又"
+    }
+  ],
+  "source_words": [
+    {
+      "term": "charter",
+      "gloss": "包租"
+    },
+    {
+      "term": "crew",
+      "gloss": "全体工作人员"
+    },
+    {
+      "term": "early",
+      "gloss": "提早 ; 早期的"
+    },
+    {
+      "term": "for",
+      "gloss": "给 ; 为了 ; 对于"
+    },
+    {
+      "term": "chin",
+      "gloss": "下巴"
+    },
+    {
+      "term": "weather",
+      "gloss": "天气"
+    },
+    {
+      "term": "adult",
+      "gloss": "成年人"
+    },
+    {
+      "term": "squash",
+      "gloss": "壁球"
+    },
+    {
+      "term": "handkerchief",
+      "gloss": "手帕"
+    },
+    {
+      "term": "contract",
+      "gloss": "合同"
+    },
+    {
+      "term": "disappointment",
+      "gloss": "失望"
+    },
+    {
+      "term": "fashion",
+      "gloss": "时尚 ; 时装"
+    },
+    {
+      "term": "crossroads",
+      "gloss": "十字路又"
+    },
+    {
+      "term": "happen",
+      "gloss": "发生"
+    },
+    {
+      "term": "shoot",
+      "gloss": "射击"
+    },
+    {
+      "term": "liquid",
+      "gloss": "液体"
+    },
+    {
+      "term": "shortly",
+      "gloss": "立刻"
+    },
+    {
+      "term": "education",
+      "gloss": "教育"
+    },
+    {
+      "term": "wise",
+      "gloss": "明智的"
+    },
+    {
+      "term": "picnic",
+      "gloss": "野餐"
+    },
+    {
+      "term": "previous",
+      "gloss": "以前的"
+    },
+    {
+      "term": "frightened",
+      "gloss": "害怕的 ; 受惊的"
+    },
+    {
+      "term": "newspaper",
+      "gloss": "报纸"
+    },
+    {
+      "term": "excited",
+      "gloss": "兴奋的"
+    },
+    {
+      "term": "length",
+      "gloss": "长度"
+    },
+    {
+      "term": "anyway",
+      "gloss": "不管怎样"
+    },
+    {
+      "term": "build",
+      "gloss": "建造"
+    },
+    {
+      "term": "population",
+      "gloss": "人又"
+    },
+    {
+      "term": "satisfied",
+      "gloss": "使满意"
+    },
+    {
+      "term": "throat",
+      "gloss": "喉咙"
+    },
+    {
+      "term": "superhero",
+      "gloss": "超级英雄"
+    },
+    {
+      "term": "smartphone",
+      "gloss": "智能手机"
+    },
+    {
+      "term": "style",
+      "gloss": "风格"
+    },
+    {
+      "term": "also",
+      "gloss": "也"
+    },
+    {
+      "term": "second",
+      "gloss": "第二 ; 秒"
+    },
+    {
+      "term": "government",
+      "gloss": "政府"
+    },
+    {
+      "term": "writing",
+      "gloss": "著作 ; 笔迹"
+    },
+    {
+      "term": "cover",
+      "gloss": "包括 ; 覆盖"
+    },
+    {
+      "term": "ski",
+      "gloss": "滑雪"
+    },
+    {
+      "term": "third",
+      "gloss": "第三"
+    },
+    {
+      "term": "actor",
+      "gloss": "男演员"
+    },
+    {
+      "term": "dozen",
+      "gloss": "一打"
+    },
+    {
+      "term": "heating",
+      "gloss": "供暖装置"
+    },
+    {
+      "term": "one",
+      "gloss": "一;一个"
+    },
+    {
+      "term": "usual",
+      "gloss": "平常的"
+    }
+  ]
+}

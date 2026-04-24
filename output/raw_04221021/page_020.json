@@ -1,0 +1,312 @@
+{
+  "passage": "Every Friday at lunchtime, the square near our school turns into a busy market. Last week, our class helped to assist the organisers because they wanted to attract more young visitors. One stall sold old-fashioned toys, while another offered half-price books and maps from every continent. I was nervous at first because I had to answer questions from strangers, but the stall owners were friendly and patient. My job was to check which bags were marked for the art club and to carry them less than a kilometre from the bus stop to the square. By midday, the smell of fresh bread and soup filled the air, and the whole place felt cheerful. The event taught me that a simple local market can be both useful and fun when students are willing to help.",
+  "passage_word_count": 134,
+  "questions": [
+    {
+      "number": 1,
+      "question": "What happens near the school every Friday?",
+      "options": {
+        "A": "A music lesson",
+        "B": "A film club",
+        "C": "A market in the square",
+        "D": "A sports meeting"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 2,
+      "question": "Why did the class help the organisers?",
+      "options": {
+        "A": "To attract more young visitors",
+        "B": "To earn money for a holiday",
+        "C": "To practise cooking",
+        "D": "To sell school uniforms"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 3,
+      "question": "What was the writer's job?",
+      "options": {
+        "A": "To play music for visitors",
+        "B": "To move marked bags from the bus stop",
+        "C": "To paint signs for the square",
+        "D": "To sell soup and bread"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 4,
+      "question": "Why was the writer nervous at first?",
+      "options": {
+        "A": "The square was too far away",
+        "B": "The market was closing early",
+        "C": "The bags were too heavy",
+        "D": "Strangers were asking questions"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 5,
+      "question": "What did the writer learn from the event?",
+      "options": {
+        "A": "Markets are only for adults",
+        "B": "Old-fashioned toys are expensive",
+        "C": "Local events can be useful and enjoyable",
+        "D": "Students should not help in public"
+      },
+      "answer": "C"
+    }
+  ],
+  "answers": [
+    {
+      "number": 1,
+      "answer": "C"
+    },
+    {
+      "number": 2,
+      "answer": "A"
+    },
+    {
+      "number": 3,
+      "answer": "B"
+    },
+    {
+      "number": 4,
+      "answer": "D"
+    },
+    {
+      "number": 5,
+      "answer": "C"
+    }
+  ],
+  "used_vocab": [
+    "old-fashioned",
+    "half-price",
+    "assist",
+    "attract",
+    "nervous",
+    "kilometre",
+    "continent"
+  ],
+  "difficulty_notes": "An easy market story with practical tasks and a clear final lesson.",
+  "title": "Reading Quest: PET全_Page_20_04221021",
+  "page_number": 20,
+  "lesson_number": 20,
+  "focus_words": [
+    {
+      "term": "old-fashioned",
+      "gloss": "老式的"
+    },
+    {
+      "term": "half-price",
+      "gloss": "半价 ( 的 )"
+    },
+    {
+      "term": "belong",
+      "gloss": "属于"
+    },
+    {
+      "term": "assist",
+      "gloss": "帮助"
+    },
+    {
+      "term": "attract",
+      "gloss": "吸引"
+    },
+    {
+      "term": "nervous",
+      "gloss": "紧张不安的"
+    },
+    {
+      "term": "kilometre",
+      "gloss": "千米"
+    },
+    {
+      "term": "continent",
+      "gloss": "大陆"
+    }
+  ],
+  "source_words": [
+    {
+      "term": "belong",
+      "gloss": "属于"
+    },
+    {
+      "term": "camp",
+      "gloss": "露营"
+    },
+    {
+      "term": "assist",
+      "gloss": "帮助"
+    },
+    {
+      "term": "attract",
+      "gloss": "吸引"
+    },
+    {
+      "term": "nervous",
+      "gloss": "紧张不安的"
+    },
+    {
+      "term": "kilometre",
+      "gloss": "千米"
+    },
+    {
+      "term": "continent",
+      "gloss": "大陆"
+    },
+    {
+      "term": "terribly",
+      "gloss": "非常"
+    },
+    {
+      "term": "lunchtime",
+      "gloss": "午餐时间"
+    },
+    {
+      "term": "engaged",
+      "gloss": "订婚的 ; 占用的"
+    },
+    {
+      "term": "mate",
+      "gloss": "伙伴"
+    },
+    {
+      "term": "laptop",
+      "gloss": "笔记本电脑"
+    },
+    {
+      "term": "smell",
+      "gloss": "闻到"
+    },
+    {
+      "term": "average",
+      "gloss": "平均的"
+    },
+    {
+      "term": "old-fashioned",
+      "gloss": "老式的"
+    },
+    {
+      "term": "wave",
+      "gloss": "波浪"
+    },
+    {
+      "term": "comma",
+      "gloss": "逗号"
+    },
+    {
+      "term": "now",
+      "gloss": "现在"
+    },
+    {
+      "term": "bucket",
+      "gloss": "一桶 ( 的量 )"
+    },
+    {
+      "term": "calendar",
+      "gloss": "日历"
+    },
+    {
+      "term": "run",
+      "gloss": "奔跑 , 运转"
+    },
+    {
+      "term": "jog",
+      "gloss": "慢跑"
+    },
+    {
+      "term": "vanilla",
+      "gloss": "香草"
+    },
+    {
+      "term": "goods",
+      "gloss": "商品"
+    },
+    {
+      "term": "headache",
+      "gloss": "头疼 ; 头痛"
+    },
+    {
+      "term": "reason",
+      "gloss": "原因"
+    },
+    {
+      "term": "half-price",
+      "gloss": "半价 ( 的 )"
+    },
+    {
+      "term": "frequent",
+      "gloss": "频繁的"
+    },
+    {
+      "term": "note",
+      "gloss": "笔记 ; 做记录"
+    },
+    {
+      "term": "hidden",
+      "gloss": "隐藏的"
+    },
+    {
+      "term": "chair",
+      "gloss": "椅子 , 席位"
+    },
+    {
+      "term": "orchestra",
+      "gloss": "管弦乐队"
+    },
+    {
+      "term": "pence",
+      "gloss": "便士"
+    },
+    {
+      "term": "apple",
+      "gloss": "苹果"
+    },
+    {
+      "term": "letter",
+      "gloss": "信 , 字母"
+    },
+    {
+      "term": "appearance",
+      "gloss": "外表"
+    },
+    {
+      "term": "fire",
+      "gloss": "火 , 火灾"
+    },
+    {
+      "term": "seem",
+      "gloss": "似乎"
+    },
+    {
+      "term": "simple",
+      "gloss": "简单的"
+    },
+    {
+      "term": "half",
+      "gloss": "一半的"
+    },
+    {
+      "term": "stadium",
+      "gloss": "体育场"
+    },
+    {
+      "term": "download",
+      "gloss": "下载"
+    },
+    {
+      "term": "underneath",
+      "gloss": "在 ...... 底下"
+    },
+    {
+      "term": "than",
+      "gloss": "比"
+    },
+    {
+      "term": "penfriend",
+      "gloss": "笔友"
+    }
+  ]
+}

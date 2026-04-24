@@ -1,0 +1,311 @@
+{
+  "passage": "Last summer, I went on an unforgettable trip to Italy with my family. We were excited to explore the country's tourism attractions, from historic cities to coastal villages. Our main goal was to attend a traditional festival in a small town, known for its music and food. The journey started smoothly, but we faced a temporary issue when our train was delayed at the platform. The delay was due to a technical fault, and we had to wait for an hour. During this time, we met some friendly locals who told us about the festival. When we finally arrived, the event was in full swing. We enjoyed the performances and tried various dishes. Unfortunately, my camera was damaged when I dropped it, so I missed capturing some moments. Despite this minor problem, the trip was amazing, and I learned a lot about Italian culture. I hope to return someday for another adventure.",
+  "passage_word_count": 152,
+  "questions": [
+    {
+      "number": 1,
+      "question": "What is the main purpose of the blog entry?",
+      "options": {
+        "A": "To describe a memorable family holiday in Italy.",
+        "B": "To explain how to fix train delays.",
+        "C": "To warn about the dangers of festivals.",
+        "D": "To recommend the best cameras for travel."
+      },
+      "answer": "A"
+    },
+    {
+      "number": 2,
+      "question": "What was the reason for the train delay mentioned in the passage?",
+      "options": {
+        "A": "A strike by railway workers.",
+        "B": "Heavy rain and flooding.",
+        "C": "A technical fault.",
+        "D": "An accident on the platform."
+      },
+      "answer": "C"
+    },
+    {
+      "number": 3,
+      "question": "Why did the writer and their family go to the small town?",
+      "options": {
+        "A": "To visit a famous museum.",
+        "B": "To attend a local festival.",
+        "C": "To meet relatives.",
+        "D": "To buy souvenirs."
+      },
+      "answer": "B"
+    },
+    {
+      "number": 4,
+      "question": "What can be inferred about the writer's overall experience?",
+      "options": {
+        "A": "They were mostly happy despite some difficulties.",
+        "B": "They were disappointed with the festival.",
+        "C": "They preferred the train journey to the destination.",
+        "D": "They would not travel to Italy again."
+      },
+      "answer": "A"
+    },
+    {
+      "number": 5,
+      "question": "What does the word 'damaged' mean in the context of the camera?",
+      "options": {
+        "A": "Broken or harmed.",
+        "B": "Lost or misplaced.",
+        "C": "Stolen by someone.",
+        "D": "Cleaned and improved."
+      },
+      "answer": "A"
+    }
+  ],
+  "answers": [
+    {
+      "number": 1,
+      "answer": "A"
+    },
+    {
+      "number": 2,
+      "answer": "C"
+    },
+    {
+      "number": 3,
+      "answer": "B"
+    },
+    {
+      "number": 4,
+      "answer": "A"
+    },
+    {
+      "number": 5,
+      "answer": "A"
+    }
+  ],
+  "used_vocab": [
+    "damaged",
+    "platform",
+    "temporary",
+    "unforgettable",
+    "tourism",
+    "attend"
+  ],
+  "difficulty_notes": "The passage uses B1-level vocabulary and natural structures suitable for teenagers.",
+  "title": "Reading Quest: PET全_Page_51_04221021",
+  "page_number": 51,
+  "lesson_number": 51,
+  "focus_words": [
+    {
+      "term": "romance",
+      "gloss": "浪漫史"
+    },
+    {
+      "term": "damaged",
+      "gloss": "受损的"
+    },
+    {
+      "term": "platform",
+      "gloss": "平台 , 站台"
+    },
+    {
+      "term": "grammar",
+      "gloss": "语法"
+    },
+    {
+      "term": "temporary",
+      "gloss": "暂时的"
+    },
+    {
+      "term": "unforgettable",
+      "gloss": "难以忘怀的"
+    },
+    {
+      "term": "tourism",
+      "gloss": "旅游业"
+    },
+    {
+      "term": "attend",
+      "gloss": "出席"
+    }
+  ],
+  "source_words": [
+    {
+      "term": "romance",
+      "gloss": "浪漫史"
+    },
+    {
+      "term": "damaged",
+      "gloss": "受损的"
+    },
+    {
+      "term": "platform",
+      "gloss": "平台 , 站台"
+    },
+    {
+      "term": "pump",
+      "gloss": "泵"
+    },
+    {
+      "term": "feed",
+      "gloss": "喂养"
+    },
+    {
+      "term": "grammar",
+      "gloss": "语法"
+    },
+    {
+      "term": "spoon",
+      "gloss": "汤匙"
+    },
+    {
+      "term": "temporary",
+      "gloss": "暂时的"
+    },
+    {
+      "term": "unforgettable",
+      "gloss": "难以忘怀的"
+    },
+    {
+      "term": "tourism",
+      "gloss": "旅游业"
+    },
+    {
+      "term": "attend",
+      "gloss": "出席"
+    },
+    {
+      "term": "worth",
+      "gloss": "有价值"
+    },
+    {
+      "term": "group",
+      "gloss": "团体 , 组"
+    },
+    {
+      "term": "cave",
+      "gloss": "山洞"
+    },
+    {
+      "term": "eat",
+      "gloss": "吃"
+    },
+    {
+      "term": "traditional",
+      "gloss": "传统的"
+    },
+    {
+      "term": "score",
+      "gloss": "分数 ; 得分"
+    },
+    {
+      "term": "tense",
+      "gloss": "时态"
+    },
+    {
+      "term": "departure",
+      "gloss": "离开"
+    },
+    {
+      "term": "thick",
+      "gloss": "厚的"
+    },
+    {
+      "term": "phrase",
+      "gloss": "短语"
+    },
+    {
+      "term": "kit",
+      "gloss": "工具箱"
+    },
+    {
+      "term": "May",
+      "gloss": "五月"
+    },
+    {
+      "term": "corner",
+      "gloss": "角落 , 转角"
+    },
+    {
+      "term": "answer",
+      "gloss": "答案,回答"
+    },
+    {
+      "term": "recognise",
+      "gloss": "认出"
+    },
+    {
+      "term": "August",
+      "gloss": "八月"
+    },
+    {
+      "term": "lazy",
+      "gloss": "懒惰的"
+    },
+    {
+      "term": "handle",
+      "gloss": "处理"
+    },
+    {
+      "term": "thief",
+      "gloss": "小偷"
+    },
+    {
+      "term": "seven",
+      "gloss": "七"
+    },
+    {
+      "term": "relation",
+      "gloss": "关系"
+    },
+    {
+      "term": "Italy",
+      "gloss": "意大利"
+    },
+    {
+      "term": "advanced",
+      "gloss": "先进的 , 高级的"
+    },
+    {
+      "term": "pity",
+      "gloss": "遗憾 , 同情"
+    },
+    {
+      "term": "garage",
+      "gloss": "车库"
+    },
+    {
+      "term": "accommodation",
+      "gloss": "住宿"
+    },
+    {
+      "term": "pupil",
+      "gloss": "小学生"
+    },
+    {
+      "term": "stage",
+      "gloss": "舞台 ; 阶段"
+    },
+    {
+      "term": "handwriting",
+      "gloss": "书法"
+    },
+    {
+      "term": "middle",
+      "gloss": "中间"
+    },
+    {
+      "term": "illness",
+      "gloss": "疾病"
+    },
+    {
+      "term": "pirate",
+      "gloss": "海盗"
+    },
+    {
+      "term": "roof",
+      "gloss": "屋顶"
+    },
+    {
+      "term": "shocking",
+      "gloss": "令人震惊的"
+    }
+  ]
+}

@@ -1,0 +1,312 @@
+{
+  "passage": "Last night, the science club put on an entertainment show about space travel. The hall was full of families, and nearly a hundred people came to watch. At the centre of the stage stood a yellow model rocket that the older students had been working on for weeks. Their aim was to achieve two things: explain how rockets move and prove that science can be fun. During the programme, visitors guessed the quantity of air needed to push the model upward. When the countdown ended, a button was pressed and the rocket flew high enough to make everyone cheer. One boy almost dropped his drink in surprise, but luckily no liquid touched the equipment. The evening was lovely from start to finish, and by the end the club felt complete because every member had helped in some way.",
+  "passage_word_count": 138,
+  "questions": [
+    {
+      "number": 1,
+      "question": "What kind of event did the science club organise?",
+      "options": {
+        "A": "A space entertainment show",
+        "B": "A school dance",
+        "C": "A football match",
+        "D": "A cooking lesson"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 2,
+      "question": "How many people came to watch?",
+      "options": {
+        "A": "About twenty",
+        "B": "More than two hundred",
+        "C": "Exactly fifty",
+        "D": "Nearly a hundred"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 3,
+      "question": "Why did the students build the rocket?",
+      "options": {
+        "A": "To win money",
+        "B": "To explain science in a fun way",
+        "C": "To travel outside",
+        "D": "To decorate the stage"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 4,
+      "question": "What did visitors guess during the show?",
+      "options": {
+        "A": "The speed of the bus",
+        "B": "The colour of the rocket",
+        "C": "The quantity of air needed",
+        "D": "The number of teachers there"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 5,
+      "question": "How does the writer describe the evening?",
+      "options": {
+        "A": "Lovely and successful",
+        "B": "Too noisy and long",
+        "C": "Useful but dull",
+        "D": "Confusing and unsafe"
+      },
+      "answer": "A"
+    }
+  ],
+  "answers": [
+    {
+      "number": 1,
+      "answer": "A"
+    },
+    {
+      "number": 2,
+      "answer": "D"
+    },
+    {
+      "number": 3,
+      "answer": "B"
+    },
+    {
+      "number": 4,
+      "answer": "C"
+    },
+    {
+      "number": 5,
+      "answer": "A"
+    }
+  ],
+  "used_vocab": [
+    "working",
+    "achieve",
+    "hundred",
+    "entertainment",
+    "quantity",
+    "lovely",
+    "yellow"
+  ],
+  "difficulty_notes": "A lively club report with simple science vocabulary and clear outcomes.",
+  "title": "Reading Quest: PET全_Page_58_04221021",
+  "page_number": 58,
+  "lesson_number": 58,
+  "focus_words": [
+    {
+      "term": "working",
+      "gloss": "有工作的"
+    },
+    {
+      "term": "achieve",
+      "gloss": "实现"
+    },
+    {
+      "term": "hundred",
+      "gloss": "百"
+    },
+    {
+      "term": "entertainment",
+      "gloss": "娱乐"
+    },
+    {
+      "term": "quantity",
+      "gloss": "数量"
+    },
+    {
+      "term": "strike",
+      "gloss": "击打"
+    },
+    {
+      "term": "lovely",
+      "gloss": "可爱的"
+    },
+    {
+      "term": "yellow",
+      "gloss": "黄色的"
+    }
+  ],
+  "source_words": [
+    {
+      "term": "tip",
+      "gloss": "尖端 ; 小费"
+    },
+    {
+      "term": "shake",
+      "gloss": "动摇"
+    },
+    {
+      "term": "working",
+      "gloss": "有工作的"
+    },
+    {
+      "term": "achieve",
+      "gloss": "实现"
+    },
+    {
+      "term": "hundred",
+      "gloss": "百"
+    },
+    {
+      "term": "entertainment",
+      "gloss": "娱乐"
+    },
+    {
+      "term": "wall",
+      "gloss": "墙壁"
+    },
+    {
+      "term": "hot",
+      "gloss": "热的 , 辣的"
+    },
+    {
+      "term": "quantity",
+      "gloss": "数量"
+    },
+    {
+      "term": "soon",
+      "gloss": "不久 , 很快"
+    },
+    {
+      "term": "sky",
+      "gloss": "天空"
+    },
+    {
+      "term": "mouth",
+      "gloss": "嘴 , 开又"
+    },
+    {
+      "term": "iron",
+      "gloss": "铁"
+    },
+    {
+      "term": "strike",
+      "gloss": "击打"
+    },
+    {
+      "term": "honey",
+      "gloss": "蜂蜜 ; 宝贝"
+    },
+    {
+      "term": "lovely",
+      "gloss": "可爱的"
+    },
+    {
+      "term": "fancy",
+      "gloss": "喜欢 , 想要"
+    },
+    {
+      "term": "pear",
+      "gloss": "梨"
+    },
+    {
+      "term": "wish",
+      "gloss": "希望 , 祝福"
+    },
+    {
+      "term": "yellow",
+      "gloss": "黄色的"
+    },
+    {
+      "term": "rocket",
+      "gloss": "火箭"
+    },
+    {
+      "term": "complete",
+      "gloss": "完成"
+    },
+    {
+      "term": "hitchhike",
+      "gloss": "搭便车"
+    },
+    {
+      "term": "laboratory/lab",
+      "gloss": "实验室"
+    },
+    {
+      "term": "loan",
+      "gloss": "贷款"
+    },
+    {
+      "term": "vehicle",
+      "gloss": "交通工具"
+    },
+    {
+      "term": "inside",
+      "gloss": "在里面"
+    },
+    {
+      "term": "sudden",
+      "gloss": "突然的"
+    },
+    {
+      "term": "French",
+      "gloss": "法国的 , 法语"
+    },
+    {
+      "term": "due",
+      "gloss": "因为 ; 预定"
+    },
+    {
+      "term": "beautiful",
+      "gloss": "美丽的"
+    },
+    {
+      "term": "salmon",
+      "gloss": "鲑鱼"
+    },
+    {
+      "term": "chip",
+      "gloss": "芯片 , 炸薯条"
+    },
+    {
+      "term": "welcome",
+      "gloss": "欢迎"
+    },
+    {
+      "term": "popular",
+      "gloss": "流行的 , 通俗的"
+    },
+    {
+      "term": "Dr",
+      "gloss": "博士 ; 医生"
+    },
+    {
+      "term": "surfing",
+      "gloss": "冲浪运动"
+    },
+    {
+      "term": "scientific",
+      "gloss": "科学的"
+    },
+    {
+      "term": "groom",
+      "gloss": "新郎"
+    },
+    {
+      "term": "otherwise",
+      "gloss": "否则"
+    },
+    {
+      "term": "therefore",
+      "gloss": "因此"
+    },
+    {
+      "term": "guilty",
+      "gloss": "感到内疚的"
+    },
+    {
+      "term": "engine",
+      "gloss": "发动机 , 引擎"
+    },
+    {
+      "term": "metre",
+      "gloss": "米"
+    },
+    {
+      "term": "tunnel",
+      "gloss": "隧道"
+    }
+  ]
+}
