@@ -1,0 +1,797 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PET Writing Student Beta Flow</title>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Fraunces:opsz,wght@9..144,650&display=swap");
+
+    :root {
+      --paper: #fbfaf6;
+      --paper-strong: #fffef9;
+      --ink: #202124;
+      --muted: #686b64;
+      --line: #dedbd0;
+      --green: #28745a;
+      --green-soft: #e5f1ec;
+      --coral: #be513c;
+      --coral-soft: #fae8e2;
+      --gold: #a56a10;
+      --gold-soft: #f8ecd2;
+      --blue: #346b93;
+      --blue-soft: #e6f0f7;
+      --shadow: 0 18px 40px rgba(33, 34, 31, 0.12);
+      --radius: 8px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background:
+        linear-gradient(135deg, rgba(40, 116, 90, 0.08), transparent 28%),
+        linear-gradient(315deg, rgba(190, 81, 60, 0.08), transparent 35%),
+        var(--paper);
+      color: var(--ink);
+      font-family: "Atkinson Hyperlegible", "Segoe UI", sans-serif;
+      min-height: 100vh;
+    }
+
+    button,
+    textarea {
+      font: inherit;
+    }
+
+    .shell {
+      width: min(1180px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 24px 0 40px;
+    }
+
+    .topbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      padding: 14px 0 22px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      min-width: 220px;
+    }
+
+    .mark {
+      width: 38px;
+      height: 38px;
+      border-radius: 8px;
+      background: var(--ink);
+      color: var(--paper-strong);
+      display: grid;
+      place-items: center;
+      font-weight: 700;
+      letter-spacing: 0;
+    }
+
+    .brand strong {
+      display: block;
+      font-size: 15px;
+    }
+
+    .brand span {
+      display: block;
+      color: var(--muted);
+      font-size: 13px;
+      margin-top: 2px;
+    }
+
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 8px;
+      flex: 1;
+      max-width: 660px;
+    }
+
+    .step {
+      border: 1px solid var(--line);
+      background: rgba(255, 254, 249, 0.72);
+      color: var(--muted);
+      border-radius: 8px;
+      padding: 10px 12px;
+      text-align: left;
+      cursor: pointer;
+      min-height: 54px;
+    }
+
+    .step small {
+      display: block;
+      font-size: 11px;
+      text-transform: uppercase;
+      color: inherit;
+    }
+
+    .step span {
+      display: block;
+      font-weight: 700;
+      font-size: 14px;
+      margin-top: 2px;
+    }
+
+    .step.active {
+      background: var(--ink);
+      border-color: var(--ink);
+      color: var(--paper-strong);
+      box-shadow: var(--shadow);
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1.35fr) minmax(340px, 0.85fr);
+      gap: 18px;
+      align-items: start;
+    }
+
+    .panel,
+    .summary,
+    .note,
+    .metric,
+    .issue,
+    .sentence,
+    .rewrite-box {
+      border: 1px solid var(--line);
+      background: rgba(255, 254, 249, 0.88);
+      border-radius: var(--radius);
+    }
+
+    .panel {
+      min-height: 680px;
+      padding: 24px;
+      box-shadow: var(--shadow);
+    }
+
+    .view {
+      display: none;
+      animation: rise 220ms ease-out;
+    }
+
+    .view.active {
+      display: block;
+    }
+
+    @keyframes rise {
+      from {
+        opacity: 0;
+        transform: translateY(8px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    h1,
+    h2,
+    h3 {
+      margin: 0;
+      letter-spacing: 0;
+    }
+
+    h1 {
+      font-family: "Fraunces", Georgia, serif;
+      font-size: clamp(30px, 4vw, 52px);
+      line-height: 0.98;
+      max-width: 820px;
+    }
+
+    h2 {
+      font-family: "Fraunces", Georgia, serif;
+      font-size: 34px;
+      line-height: 1.05;
+      margin-bottom: 12px;
+    }
+
+    h3 {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+
+    .subcopy {
+      color: var(--muted);
+      line-height: 1.55;
+      margin: 12px 0 0;
+      max-width: 700px;
+    }
+
+    .task-strip {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin: 22px 0;
+    }
+
+    .tag {
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      background: var(--paper-strong);
+      padding: 7px 10px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .prompt {
+      border-left: 4px solid var(--green);
+      padding: 16px 18px;
+      background: var(--green-soft);
+      border-radius: 0 8px 8px 0;
+      line-height: 1.55;
+      margin-bottom: 18px;
+    }
+
+    textarea {
+      width: 100%;
+      min-height: 300px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 18px;
+      resize: vertical;
+      background: var(--paper-strong);
+      color: var(--ink);
+      line-height: 1.55;
+      outline: none;
+    }
+
+    textarea:focus {
+      border-color: var(--green);
+      box-shadow: 0 0 0 3px rgba(40, 116, 90, 0.16);
+    }
+
+    .toolbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-top: 14px;
+      flex-wrap: wrap;
+    }
+
+    .count {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .actions {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      border: 1px solid var(--ink);
+      border-radius: 8px;
+      padding: 11px 14px;
+      background: var(--ink);
+      color: var(--paper-strong);
+      font-weight: 700;
+      cursor: pointer;
+      min-height: 44px;
+    }
+
+    .btn.secondary {
+      background: transparent;
+      color: var(--ink);
+      border-color: var(--line);
+    }
+
+    .btn.blue {
+      background: var(--blue);
+      border-color: var(--blue);
+    }
+
+    .side {
+      display: grid;
+      gap: 14px;
+      position: sticky;
+      top: 18px;
+    }
+
+    .summary {
+      padding: 18px;
+    }
+
+    .status {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      padding: 12px;
+      border-radius: 8px;
+      background: var(--gold-soft);
+      color: #4f3410;
+      font-size: 14px;
+      margin-bottom: 14px;
+    }
+
+    .score-large {
+      display: flex;
+      align-items: baseline;
+      gap: 8px;
+      margin: 8px 0;
+    }
+
+    .score-large strong {
+      font-family: "Fraunces", Georgia, serif;
+      font-size: 52px;
+      line-height: 1;
+    }
+
+    .score-large span {
+      color: var(--muted);
+      font-weight: 700;
+    }
+
+    .dimension {
+      display: grid;
+      grid-template-columns: 1fr 44px;
+      gap: 12px;
+      align-items: center;
+      margin: 12px 0;
+    }
+
+    .bar {
+      height: 10px;
+      border-radius: 999px;
+      background: #e7e2d6;
+      overflow: hidden;
+    }
+
+    .bar i {
+      display: block;
+      height: 100%;
+      border-radius: inherit;
+      background: var(--green);
+    }
+
+    .dimension span {
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .note {
+      padding: 16px;
+      line-height: 1.5;
+      color: var(--muted);
+    }
+
+    .note strong {
+      color: var(--ink);
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    .preview-banner {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      align-items: center;
+      gap: 16px;
+      padding: 16px;
+      border-radius: 8px;
+      background: var(--blue-soft);
+      border: 1px solid #c7dbe9;
+      margin-bottom: 18px;
+    }
+
+    .preview-banner strong {
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    .preview-banner span {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 18px;
+    }
+
+    .metric {
+      padding: 16px;
+    }
+
+    .metric strong {
+      display: block;
+      font-size: 24px;
+      margin-top: 6px;
+    }
+
+    .metric span {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .issue-list,
+    .sentence-list {
+      display: grid;
+      gap: 12px;
+      margin-top: 16px;
+    }
+
+    .issue,
+    .sentence,
+    .rewrite-box {
+      padding: 16px;
+    }
+
+    .issue {
+      border-left: 4px solid var(--coral);
+      background: var(--coral-soft);
+    }
+
+    .sentence .original {
+      color: var(--muted);
+      margin-bottom: 10px;
+    }
+
+    .sentence .suggestion {
+      color: var(--green);
+      font-weight: 700;
+    }
+
+    .teacher-card {
+      display: grid;
+      grid-template-columns: 84px minmax(0, 1fr);
+      gap: 14px;
+      align-items: center;
+      padding: 16px;
+      border-radius: 8px;
+      background: var(--green-soft);
+      border: 1px solid #c2ddd1;
+      margin: 18px 0;
+    }
+
+    .stamp {
+      width: 74px;
+      height: 74px;
+      border-radius: 8px;
+      border: 2px solid var(--green);
+      color: var(--green);
+      display: grid;
+      place-items: center;
+      text-align: center;
+      font-weight: 700;
+      font-size: 13px;
+      line-height: 1.2;
+      transform: rotate(-2deg);
+      background: rgba(255, 254, 249, 0.8);
+    }
+
+    .compare-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin: 18px 0;
+    }
+
+    .compare-box {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 14px;
+      background: var(--paper-strong);
+    }
+
+    .compare-box small {
+      color: var(--muted);
+      display: block;
+      margin-bottom: 6px;
+    }
+
+    .compare-box strong {
+      font-size: 26px;
+    }
+
+    .rewrite-text {
+      min-height: 230px;
+    }
+
+    .hidden-mobile {
+      display: block;
+    }
+
+    @media (max-width: 920px) {
+      .topbar {
+        align-items: stretch;
+        flex-direction: column;
+      }
+
+      .steps {
+        max-width: none;
+      }
+
+      .layout {
+        grid-template-columns: 1fr;
+      }
+
+      .side {
+        position: static;
+      }
+    }
+
+    @media (max-width: 620px) {
+      .shell {
+        width: min(100% - 20px, 1180px);
+        padding-top: 12px;
+      }
+
+      .steps {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .panel {
+        padding: 18px;
+        min-height: auto;
+      }
+
+      h1 {
+        font-size: 34px;
+      }
+
+      h2 {
+        font-size: 28px;
+      }
+
+      .grid,
+      .compare-row,
+      .preview-banner,
+      .teacher-card {
+        grid-template-columns: 1fr;
+      }
+
+      .hidden-mobile {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <header class="topbar">
+      <div class="brand">
+        <div class="mark">PET</div>
+        <div>
+          <strong>Writing Beta</strong>
+          <span>Student practice session</span>
+        </div>
+      </div>
+      <nav class="steps" aria-label="Writing flow">
+        <button class="step active" data-view="write"><small>Step 1</small><span>Write</span></button>
+        <button class="step" data-view="preview"><small>Step 2</small><span>AI Preview</span></button>
+        <button class="step" data-view="final"><small>Step 3</small><span>Final Report</span></button>
+        <button class="step" data-view="rewrite"><small>Step 4</small><span>Rewrite</span></button>
+      </nav>
+    </header>
+
+    <section class="layout">
+      <section class="panel">
+        <section class="view active" id="write">
+          <h1>Write your PET email response</h1>
+          <p class="subcopy">You are answering an English friend. Keep the writing clear, complete, and close to the PET target length.</p>
+          <div class="task-strip">
+            <span class="tag">Task type: Email</span>
+            <span class="tag">Target: 100-140 words</span>
+            <span class="tag">Time: 20 minutes</span>
+          </div>
+          <div class="prompt">
+            Your English friend Sam asks you about an after-school club at your school. Write an email to Sam. Say which club you joined, explain why you like it, and invite Sam to visit or join you one day.
+          </div>
+          <label for="essay"><strong>Your answer</strong></label>
+          <textarea id="essay" spellcheck="true">Dear Sam,
+I joined the music club at school because I really enjoy singing, learning new songs, and meeting new friends after class. We practise every Tuesday, and our teacher is very kind, so everyone feels relaxed and ready to try new things.
+Last week we prepared for a school show, and I liked the club even more because we worked together and helped each other improve. You should come and visit our club next week because it is fun, friendly, and a very good way to spend time after school.</textarea>
+          <div class="toolbar">
+            <div class="count"><span id="word-count">91</span> words measured locally</div>
+            <div class="actions">
+              <button class="btn secondary" data-view="preview">Preview score</button>
+              <button class="btn" data-view="preview">Submit for beta review</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="view" id="preview">
+          <div class="preview-banner">
+            <div>
+              <strong>AI preview is ready</strong>
+              <span>Your final beta report is waiting for teacher review. Use this preview to understand the main issues now.</span>
+            </div>
+            <button class="btn blue" data-view="final">See reviewed final</button>
+          </div>
+          <h2>AI Preview Feedback</h2>
+          <p class="subcopy">This preview is fast feedback from the scoring pipeline. The reviewed final report will become the official beta result.</p>
+          <div class="grid">
+            <div class="metric"><span>Preview score</span><strong>16.2 / 20</strong></div>
+            <div class="metric"><span>PET readiness</span><strong>On track</strong></div>
+            <div class="metric"><span>Task coverage</span><strong>3 / 3 points</strong></div>
+            <div class="metric"><span>Review status</span><strong>Pending</strong></div>
+          </div>
+          <div class="issue-list">
+            <div class="issue"><strong>Priority issue 1</strong><br>Write a little more so each idea has enough detail for a PET email.</div>
+            <div class="issue"><strong>Priority issue 2</strong><br>Add a clearer final invitation so the purpose of the email feels complete.</div>
+            <div class="issue"><strong>Priority issue 3</strong><br>Use one or two connecting phrases to make the second paragraph easier to follow.</div>
+          </div>
+          <div class="sentence-list">
+            <div class="sentence">
+              <div class="original">Original: You should come and visit our club next week because it is fun.</div>
+              <div class="suggestion">Suggestion: You should come and visit our club next Tuesday because it is friendly, fun, and easy to join.</div>
+            </div>
+          </div>
+        </section>
+
+        <section class="view" id="final">
+          <h2>Teacher Reviewed Final Report</h2>
+          <p class="subcopy">The reviewed score is the official result for this beta session. It keeps the AI feedback useful, but anchors the final result in teacher judgment.</p>
+          <div class="teacher-card">
+            <div class="stamp">Reviewed<br>Final</div>
+            <div>
+              <strong>Teacher note</strong>
+              <p class="subcopy">Good task response and friendly tone. Make the ending more specific and watch repeated simple phrases in the second half.</p>
+            </div>
+          </div>
+          <div class="compare-row">
+            <div class="compare-box"><small>AI preview</small><strong>16.2</strong><span> / 20</span></div>
+            <div class="compare-box"><small>Reviewed final</small><strong>15.5</strong><span> / 20</span></div>
+          </div>
+          <div class="grid">
+            <div class="metric"><span>Task Achievement</span><strong>4.0 / 5</strong></div>
+            <div class="metric"><span>Organization</span><strong>3.7 / 5</strong></div>
+            <div class="metric"><span>Grammar</span><strong>3.8 / 5</strong></div>
+            <div class="metric"><span>Vocabulary</span><strong>4.0 / 5</strong></div>
+          </div>
+          <div class="rewrite-box">
+            <h3>Next rewrite focus</h3>
+            Keep the same content, but expand the invitation with a specific day and add one linking phrase between your club details and your invitation.
+          </div>
+          <div class="toolbar">
+            <div class="count">Official beta result published</div>
+            <div class="actions">
+              <button class="btn secondary" data-view="preview">Compare AI preview</button>
+              <button class="btn" data-view="rewrite">Start rewrite</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="view" id="rewrite">
+          <h2>Rewrite with one clear goal</h2>
+          <p class="subcopy">Use the reviewed report as your guide. The goal is not to write a different essay, but to make the same response more complete and connected.</p>
+          <div class="prompt">
+            Rewrite target: 100-140 words. Keep the music club topic, add a specific invitation, and use at least two linking phrases.
+          </div>
+          <label for="rewrite-text"><strong>Second draft</strong></label>
+          <textarea id="rewrite-text" class="rewrite-text" spellcheck="true">Dear Sam,
+I joined the music club at school because I enjoy singing and meeting new friends. First, we practise every Tuesday after class, and our teacher helps us prepare for school shows. I like the club because it is friendly and everyone supports each other.
+You should come and visit us next Tuesday. After practice, I can introduce you to my classmates, and we can choose a song to sing together.</textarea>
+          <div class="toolbar">
+            <div class="count"><span id="rewrite-count">75</span> words in draft two</div>
+            <div class="actions">
+              <button class="btn secondary" data-view="final">Back to final report</button>
+              <button class="btn blue">Submit rewrite</button>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <aside class="side">
+        <section class="summary">
+          <div class="status">
+            <strong id="side-status">Writing in progress</strong>
+            <span>Beta</span>
+          </div>
+          <h3>Current score view</h3>
+          <div class="score-large"><strong id="side-score">--</strong><span id="side-scale">waiting</span></div>
+          <div class="dimension"><span>Task Achievement</span><strong id="d-task">--</strong></div>
+          <div class="bar"><i id="b-task" style="width: 0%"></i></div>
+          <div class="dimension"><span>Organization</span><strong id="d-org">--</strong></div>
+          <div class="bar"><i id="b-org" style="width: 0%"></i></div>
+          <div class="dimension"><span>Grammar</span><strong id="d-grammar">--</strong></div>
+          <div class="bar"><i id="b-grammar" style="width: 0%"></i></div>
+          <div class="dimension"><span>Vocabulary</span><strong id="d-vocab">--</strong></div>
+          <div class="bar"><i id="b-vocab" style="width: 0%"></i></div>
+        </section>
+
+        <section class="note">
+          <strong>Report mode</strong>
+          <span id="mode-copy">Start by submitting the essay. The beta can show an AI preview first, then a reviewed final report later.</span>
+        </section>
+
+        <section class="note hidden-mobile">
+          <strong>Baseline comparison placeholder</strong>
+          Strong email responses usually cover all 3 content points, stay near the target word count, and connect the final invitation clearly.
+        </section>
+      </aside>
+    </section>
+  </main>
+
+  <script>
+    const scoreStates = {
+      write: {
+        status: "Writing in progress",
+        score: "--",
+        scale: "waiting",
+        mode: "Start by submitting the essay. The beta can show an AI preview first, then a reviewed final report later.",
+        dims: ["--", "--", "--", "--"],
+        bars: [0, 0, 0, 0]
+      },
+      preview: {
+        status: "AI preview ready",
+        score: "16.2",
+        scale: "/ 20 preview",
+        mode: "This is immediate AI feedback. The teacher-reviewed final report is still pending.",
+        dims: ["4.1", "3.8", "4.0", "4.3"],
+        bars: [82, 76, 80, 86]
+      },
+      final: {
+        status: "Final reviewed",
+        score: "15.5",
+        scale: "/ 20 final",
+        mode: "The teacher-reviewed score is now the official beta result for this submission.",
+        dims: ["4.0", "3.7", "3.8", "4.0"],
+        bars: [80, 74, 76, 80]
+      },
+      rewrite: {
+        status: "Rewrite started",
+        score: "15.5",
+        scale: "/ 20 final",
+        mode: "The rewrite is based on the reviewed report, with one focused improvement goal.",
+        dims: ["4.0", "3.7", "3.8", "4.0"],
+        bars: [80, 74, 76, 80]
+      }
+    };
+
+    const ids = ["task", "org", "grammar", "vocab"];
+
+    function countWords(value) {
+      return (value.match(/[A-Za-z]+(?:'[A-Za-z]+)?/g) || []).length;
+    }
+
+    function updateWordCounts() {
+      const essay = document.getElementById("essay");
+      const rewrite = document.getElementById("rewrite-text");
+      document.getElementById("word-count").textContent = countWords(essay.value);
+      document.getElementById("rewrite-count").textContent = countWords(rewrite.value);
+    }
+
+    function setView(name) {
+      document.querySelectorAll(".view").forEach((item) => item.classList.remove("active"));
+      document.getElementById(name).classList.add("active");
+      document.querySelectorAll(".step").forEach((item) => {
+        item.classList.toggle("active", item.dataset.view === name);
+      });
+
+      const state = scoreStates[name];
+      document.getElementById("side-status").textContent = state.status;
+      document.getElementById("side-score").textContent = state.score;
+      document.getElementById("side-scale").textContent = state.scale;
+      document.getElementById("mode-copy").textContent = state.mode;
+      ids.forEach((id, index) => {
+        document.getElementById(`d-${id}`).textContent = state.dims[index];
+        document.getElementById(`b-${id}`).style.width = `${state.bars[index]}%`;
+      });
+    }
+
+    document.querySelectorAll("[data-view]").forEach((button) => {
+      button.addEventListener("click", () => setView(button.dataset.view));
+    });
+
+    document.getElementById("essay").addEventListener("input", updateWordCounts);
+    document.getElementById("rewrite-text").addEventListener("input", updateWordCounts);
+    updateWordCounts();
+  </script>
+</body>
+</html>
