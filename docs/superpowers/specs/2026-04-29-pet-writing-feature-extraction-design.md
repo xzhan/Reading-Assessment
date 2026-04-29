@@ -235,7 +235,33 @@ Later versions can add stronger features:
 
 These should be added only when gold data volume is large enough to evaluate whether each new feature improves validation performance.
 
-## 11. Success Criteria
+## 11. Reference Websites For Essay Scoring
+
+These websites are useful product and workflow references for the PET Writing system.
+
+They are **not** training data sources. The system should not scrape or copy proprietary essays, rubrics, reports, or scoring data from these sites. Our supervised-learning gold data should come from student submissions and teacher-reviewed labels collected through our own review workflow.
+
+| Website | Link | What It Supports | What We Can Learn |
+|---|---|---|---|
+| Essay.Art | <https://www.essay.art/> | IELTS, TOEFL, and GRE writing correction | Exam-oriented writing reports, dimension feedback, grammar and vocabulary comments, high-score sample references |
+| Essay.Art GRE | <https://www.essay.art/gre> | GRE essay correction | A focused exam-writing flow and report structure for one exam type |
+| Cambridge Write & Improve | <https://writeandimprove.com/> | English writing practice with CEFR-linked feedback | Student loop of submit, receive feedback, revise, and resubmit |
+| Use of English AI | <https://useofenglish.ai/> | Cambridge B1 PET, B2, C1, and C2 practice, including writing | Closest reference for Cambridge/PET-style writing feedback and Cambridge-style score positioning |
+| ETS e-rater / Criterion | <https://www.ets.org/erater/criterion.html> | Automated essay scoring and trait-level feedback | ML/AES concept: extract linguistic features from training essays and use teacher-like scoring criteria |
+| ScorePlus | <https://www.scoreplusai.com/> | IELTS, TOEFL, and GRE essay feedback | Rubric-based score breakdown, weakness diagnosis, progress tracking, and revision comparison |
+| CoGrader | <https://cograder.com/> | Teacher-facing AI essay grading | Teacher dashboard, editable rubric scores, human-in-the-loop review, and classroom workflow |
+| EssayGrader.ai | <https://www.essaygrader.ai/> | Teacher AI essay grader | Rubric-aligned grading at scale, teacher control, multilingual support, and AI/plagiarism flags |
+| GradeLab | <https://gradelab.io/essay-grading-ai> | AI essay grading and assessment workflows | Workflow of set rubric, upload essays, review/adjust, and release feedback |
+
+The strongest references for our immediate PET Writing direction are:
+
+- `Cambridge Write & Improve` for the student practice and rewrite loop.
+- `Use of English AI` for direct B1 PET / Cambridge-style positioning.
+- `Essay.Art` for exam-writing report structure.
+- `ETS e-rater / Criterion` for the ML scoring concept and the importance of linguistic feature extraction.
+- `CoGrader` and `GradeLab` for future teacher review dashboard patterns.
+
+## 12. Success Criteria
 
 The feature extraction layer is successful when:
 
