@@ -1,0 +1,1016 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PET Writing Feature Extraction Design</title>
+  <style>
+    :root {
+      --ink: #21201d;
+      --muted: #6c675f;
+      --paper: #f8f3ea;
+      --card: #fffdf7;
+      --line: #dfd4c2;
+      --teal: #1f7668;
+      --teal-soft: #dcefeb;
+      --clay: #b85f38;
+      --clay-soft: #f4dfd2;
+      --ochre: #d99a25;
+      --green: #4f7d49;
+      --shadow: 0 22px 60px rgba(49, 40, 27, 0.14);
+      --radius-xl: 30px;
+      --radius-lg: 22px;
+      --radius-md: 16px;
+      --mono: "SFMono-Regular", "Cascadia Mono", "Menlo", monospace;
+      --serif: "Georgia", "Songti SC", "STSong", serif;
+      --sans: "Avenir Next", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      font-family: var(--sans);
+      background:
+        radial-gradient(circle at 8% 6%, rgba(31, 118, 104, 0.2), transparent 28rem),
+        radial-gradient(circle at 92% 14%, rgba(217, 154, 37, 0.18), transparent 26rem),
+        linear-gradient(135deg, #fbf7ef 0%, #f1eadf 52%, #fbf6ee 100%);
+    }
+
+    a {
+      color: inherit;
+    }
+
+    .page {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 32px 22px 80px;
+    }
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      min-height: 520px;
+      padding: 36px;
+      border: 1px solid rgba(97, 80, 55, 0.2);
+      border-radius: var(--radius-xl);
+      background:
+        linear-gradient(135deg, rgba(255, 253, 247, 0.96), rgba(248, 243, 234, 0.82)),
+        repeating-linear-gradient(45deg, rgba(31, 118, 104, 0.05) 0 1px, transparent 1px 14px);
+      box-shadow: var(--shadow);
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      right: -120px;
+      bottom: -160px;
+      width: 430px;
+      height: 430px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(31, 118, 104, 0.14), transparent 68%);
+      pointer-events: none;
+    }
+
+    .topbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 70px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-weight: 800;
+      letter-spacing: 0.02em;
+    }
+
+    .brand-mark {
+      display: grid;
+      width: 48px;
+      height: 48px;
+      place-items: center;
+      color: white;
+      border-radius: 15px;
+      background: var(--ink);
+      font-family: var(--mono);
+      font-size: 14px;
+    }
+
+    .date-pill {
+      padding: 10px 14px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      color: var(--muted);
+      background: rgba(255, 253, 247, 0.7);
+      font-size: 14px;
+    }
+
+    .hero-grid {
+      position: relative;
+      z-index: 1;
+      display: grid;
+      grid-template-columns: minmax(0, 1.08fr) minmax(300px, 0.72fr);
+      gap: 34px;
+      align-items: end;
+    }
+
+    .kicker {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 12px;
+      border-radius: 999px;
+      color: #174b43;
+      background: var(--teal-soft);
+      font-weight: 700;
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    h1 {
+      max-width: 760px;
+      margin: 18px 0 18px;
+      font-family: var(--serif);
+      font-size: clamp(42px, 6vw, 78px);
+      line-height: 0.94;
+      letter-spacing: -0.055em;
+    }
+
+    .lead {
+      max-width: 700px;
+      margin: 0;
+      color: #514c45;
+      font-size: clamp(18px, 2.2vw, 23px);
+      line-height: 1.58;
+    }
+
+    .hero-card {
+      padding: 24px;
+      border: 1px solid rgba(31, 118, 104, 0.18);
+      border-radius: var(--radius-lg);
+      background: rgba(255, 253, 247, 0.82);
+      box-shadow: 0 18px 40px rgba(36, 66, 56, 0.1);
+    }
+
+    .hero-card h2 {
+      margin: 0 0 14px;
+      font-size: 18px;
+    }
+
+    .definition {
+      display: grid;
+      gap: 12px;
+      margin: 0;
+    }
+
+    .definition div {
+      padding: 14px;
+      border-radius: 15px;
+      background: #f8efe2;
+    }
+
+    .definition dt {
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .definition dd {
+      margin: 6px 0 0;
+      font-size: 17px;
+      line-height: 1.42;
+    }
+
+    .nav {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin: 22px 0;
+      padding: 12px;
+      border: 1px solid rgba(97, 80, 55, 0.16);
+      border-radius: 999px;
+      background: rgba(255, 253, 247, 0.78);
+      backdrop-filter: blur(14px);
+    }
+
+    .nav a {
+      padding: 9px 14px;
+      border-radius: 999px;
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    .nav a:hover {
+      color: var(--ink);
+      background: var(--teal-soft);
+    }
+
+    section {
+      margin-top: 26px;
+      padding: 32px;
+      border: 1px solid rgba(97, 80, 55, 0.16);
+      border-radius: var(--radius-xl);
+      background: rgba(255, 253, 247, 0.82);
+      box-shadow: 0 16px 44px rgba(50, 41, 30, 0.08);
+    }
+
+    .section-head {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 22px;
+      margin-bottom: 22px;
+    }
+
+    .section-head h2 {
+      margin: 0;
+      font-family: var(--serif);
+      font-size: clamp(30px, 4vw, 48px);
+      line-height: 1;
+      letter-spacing: -0.04em;
+    }
+
+    .section-head p {
+      max-width: 520px;
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+
+    .flow {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(140px, 1fr));
+      gap: 12px;
+      align-items: stretch;
+    }
+
+    .flow-card {
+      position: relative;
+      min-height: 154px;
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius-lg);
+      background: linear-gradient(180deg, #fffef9, #f8f0e4);
+    }
+
+    .flow-card:not(:last-child)::after {
+      content: ">";
+      position: absolute;
+      top: 50%;
+      right: -13px;
+      display: grid;
+      width: 24px;
+      height: 24px;
+      place-items: center;
+      color: white;
+      border-radius: 50%;
+      background: var(--teal);
+      font-family: var(--mono);
+      transform: translateY(-50%);
+      z-index: 2;
+    }
+
+    .flow-card strong {
+      display: block;
+      margin-bottom: 10px;
+      color: var(--teal);
+      font-family: var(--mono);
+      font-size: 13px;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+
+    .flow-card h3 {
+      margin: 0 0 10px;
+      font-size: 19px;
+    }
+
+    .flow-card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+    }
+
+    .layer-card {
+      padding: 22px;
+      border-radius: var(--radius-lg);
+      background: #fbf5eb;
+      border: 1px solid var(--line);
+    }
+
+    .layer-card h3 {
+      margin: 0 0 12px;
+      font-size: 22px;
+    }
+
+    .layer-card p {
+      margin: 0 0 16px;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+
+    .chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .chip {
+      padding: 7px 10px;
+      border-radius: 999px;
+      color: #39534f;
+      background: var(--teal-soft);
+      font-family: var(--mono);
+      font-size: 12px;
+    }
+
+    .split {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(320px, 0.8fr);
+      gap: 18px;
+      align-items: stretch;
+    }
+
+    .essay-box,
+    .code-box {
+      overflow: hidden;
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--line);
+      background: #1f201d;
+      color: #f7efe2;
+    }
+
+    .essay-box {
+      background: #fff8ed;
+      color: var(--ink);
+    }
+
+    .box-label {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 12px 16px;
+      color: var(--muted);
+      border-bottom: 1px solid rgba(223, 212, 194, 0.7);
+      font-family: var(--mono);
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+
+    .code-box .box-label {
+      color: #d7c8ae;
+      border-bottom-color: rgba(255, 255, 255, 0.12);
+    }
+
+    .essay-text {
+      padding: 22px;
+      font-size: 18px;
+      line-height: 1.75;
+    }
+
+    pre {
+      margin: 0;
+      padding: 22px;
+      overflow: auto;
+      font-family: var(--mono);
+      font-size: 13px;
+      line-height: 1.56;
+    }
+
+    .table-tools {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      margin-bottom: 14px;
+    }
+
+    .search {
+      width: min(420px, 100%);
+      padding: 12px 14px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      color: var(--ink);
+      background: #fffdf7;
+      font: inherit;
+      outline: none;
+    }
+
+    .search:focus {
+      border-color: var(--teal);
+      box-shadow: 0 0 0 4px rgba(31, 118, 104, 0.12);
+    }
+
+    .hint {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .feature-table-wrap {
+      overflow: auto;
+      border: 1px solid var(--line);
+      border-radius: var(--radius-lg);
+      background: var(--card);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 960px;
+    }
+
+    th,
+    td {
+      padding: 16px;
+      border-bottom: 1px solid #ebe1d3;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      position: sticky;
+      top: 0;
+      z-index: 1;
+      color: #5f5549;
+      background: #f2e7d8;
+      font-size: 13px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    td code,
+    .inline-code {
+      padding: 2px 6px;
+      border-radius: 7px;
+      color: #164a42;
+      background: var(--teal-soft);
+      font-family: var(--mono);
+      font-size: 0.92em;
+    }
+
+    .value {
+      color: var(--clay);
+      font-family: var(--mono);
+      font-weight: 800;
+    }
+
+    .category {
+      display: inline-flex;
+      padding: 5px 9px;
+      border-radius: 999px;
+      color: #68391d;
+      background: var(--clay-soft);
+      font-size: 12px;
+      font-weight: 800;
+      white-space: nowrap;
+    }
+
+    .xy-panel {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+
+    .xy-card {
+      padding: 24px;
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--line);
+      background: #fbf5eb;
+    }
+
+    .xy-card h3 {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin: 0 0 14px;
+      font-size: 24px;
+    }
+
+    .big-letter {
+      display: grid;
+      width: 46px;
+      height: 46px;
+      place-items: center;
+      color: white;
+      border-radius: 15px;
+      background: var(--teal);
+      font-family: var(--serif);
+      font-size: 28px;
+    }
+
+    .xy-card:nth-child(2) .big-letter {
+      background: var(--clay);
+    }
+
+    .xy-card p {
+      color: var(--muted);
+      line-height: 1.65;
+    }
+
+    .callout {
+      margin-top: 16px;
+      padding: 20px;
+      border-left: 5px solid var(--ochre);
+      border-radius: 0 var(--radius-md) var(--radius-md) 0;
+      background: #fff4da;
+      color: #54432a;
+      line-height: 1.62;
+    }
+
+    .footer {
+      margin: 24px 0 0;
+      color: var(--muted);
+      text-align: center;
+      font-size: 14px;
+    }
+
+    @media (max-width: 920px) {
+      .hero {
+        min-height: auto;
+        padding: 26px;
+      }
+
+      .topbar,
+      .section-head,
+      .table-tools {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .hero-grid,
+      .split,
+      .xy-panel {
+        grid-template-columns: 1fr;
+      }
+
+      .flow {
+        grid-template-columns: 1fr;
+      }
+
+      .flow-card:not(:last-child)::after {
+        top: auto;
+        right: 50%;
+        bottom: -16px;
+        transform: translateX(50%) rotate(90deg);
+      }
+
+      .grid-3 {
+        grid-template-columns: 1fr;
+      }
+
+      .nav {
+        border-radius: 22px;
+      }
+    }
+
+    @media print {
+      body {
+        background: white;
+      }
+
+      .page {
+        max-width: none;
+        padding: 0;
+      }
+
+      .nav,
+      .table-tools {
+        display: none;
+      }
+
+      .hero,
+      section {
+        box-shadow: none;
+        break-inside: avoid;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="hero">
+      <div class="topbar">
+        <div class="brand">
+          <div class="brand-mark">PET</div>
+          <div>
+            <div>Writing Scorer</div>
+            <div style="color: var(--muted); font-size: 13px;">Feature Extraction Share Page</div>
+          </div>
+        </div>
+        <div class="date-pill">Design share page · 2026-04-29</div>
+      </div>
+
+      <div class="hero-grid">
+        <div>
+          <div class="kicker">第一版 ML Scorer 输入设计</div>
+          <h1>把一篇作文变成模型能学习的数字</h1>
+          <p class="lead">
+            Feature extraction 是 PET Writing 监督学习闭环里的翻译层。它把学生作文、题目信息和用时转换成一组可解释的数字特征，让模型学习这些特征和老师评分之间的关系。
+          </p>
+        </div>
+
+        <aside class="hero-card" aria-label="Key definitions">
+          <h2>核心理解</h2>
+          <dl class="definition">
+            <div>
+              <dt>Feature Vector</dt>
+              <dd>模型真正看到的数字输入，也就是监督学习里的 <span class="inline-code">X</span>。</dd>
+            </div>
+            <div>
+              <dt>Teacher Labels</dt>
+              <dd>老师人工复核后的四个维度分，也就是模型要学习预测的 <span class="inline-code">y</span>。</dd>
+            </div>
+            <div>
+              <dt>Goal</dt>
+              <dd>先做可解释 baseline，等 gold data 变多后再升级更复杂模型。</dd>
+            </div>
+          </dl>
+        </aside>
+      </div>
+    </header>
+
+    <nav class="nav" aria-label="Page sections">
+      <a href="#flow">Data Flow</a>
+      <a href="#layers">Three Layers</a>
+      <a href="#example">Example</a>
+      <a href="#features">Feature Table</a>
+      <a href="#training">Training Connection</a>
+    </nav>
+
+    <section id="flow">
+      <div class="section-head">
+        <h2>Data Flow</h2>
+        <p>一条作文不会直接进入第一版回归模型。它会先被拆解成结构化信号，再被转成纯数字特征。</p>
+      </div>
+
+      <div class="flow" aria-label="Essay to model flow">
+        <div class="flow-card">
+          <strong>Step 01</strong>
+          <h3>Student Essay</h3>
+          <p>学生提交作文原文，例如 PET email response。</p>
+        </div>
+        <div class="flow-card">
+          <strong>Step 02</strong>
+          <h3>Prompt Metadata</h3>
+          <p>读取 task type、目标字数、题目内容点。</p>
+        </div>
+        <div class="flow-card">
+          <strong>Step 03</strong>
+          <h3>Feature Extraction</h3>
+          <p>统计长度、覆盖率、连接词、词汇多样性等信号。</p>
+        </div>
+        <div class="flow-card">
+          <strong>Step 04</strong>
+          <h3>Feature Vector</h3>
+          <p>把所有信号转换成模型可读取的数字。</p>
+        </div>
+        <div class="flow-card">
+          <strong>Step 05</strong>
+          <h3>ML Scorer</h3>
+          <p>预测四个维度分，再加总成 overall score。</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="layers">
+      <div class="section-head">
+        <h2>Three Output Layers</h2>
+        <p>同一条作文会产出三层信息。它们分别服务于报告解释、人工审阅和模型训练。</p>
+      </div>
+
+      <div class="grid-3">
+        <article class="layer-card">
+          <h3>Signals</h3>
+          <p>人能读懂的作文表现信号。它们既可以显示在报告里，也可以进入模型训练。</p>
+          <div class="chips">
+            <span class="chip">word_count</span>
+            <span class="chip">task_coverage</span>
+            <span class="chip">lexical_diversity</span>
+            <span class="chip">connector_density</span>
+          </div>
+        </article>
+
+        <article class="layer-card">
+          <h3>Evidence</h3>
+          <p>解释信号背后的证据。它帮助老师和学生理解为什么系统这样判断。</p>
+          <div class="chips">
+            <span class="chip">content_hits</span>
+            <span class="chip">missing_content_points</span>
+            <span class="chip">repeated_words</span>
+          </div>
+        </article>
+
+        <article class="layer-card">
+          <h3>Feature Vector</h3>
+          <p>最终给模型使用的数字对象。第一版 Ridge / LightGBM / CatBoost 都可以吃这个结构。</p>
+          <div class="chips">
+            <span class="chip">X</span>
+            <span class="chip">numeric only</span>
+            <span class="chip">trainable</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="example">
+      <div class="section-head">
+        <h2>Example Conversion</h2>
+        <p>左边是学生作文，右边是同一篇作文被转换后的特征向量。注意：模型看到的是右边这些数字。</p>
+      </div>
+
+      <div class="split">
+        <div class="essay-box">
+          <div class="box-label">
+            <span>Essay Text</span>
+            <span>Human Language</span>
+          </div>
+          <div class="essay-text">
+            Dear Sam, I joined the music club because I really enjoy singing and meeting new friends.
+            We practise every Tuesday after class, and the teacher is very kind.
+            Please come and visit us next week because I think you will like it too.
+          </div>
+        </div>
+
+        <div class="code-box">
+          <div class="box-label">
+            <span>Feature Vector</span>
+            <span>Model Input X</span>
+          </div>
+<pre>{
+  "word_count": 43.0,
+  "paragraph_count": 1.0,
+  "task_coverage": 1.0,
+  "grammar_error_rate": 0.0,
+  "lexical_diversity": 0.86,
+  "sentence_variety": 1.0,
+  "off_topic_risk": 0.0,
+  "connectors": 3.0,
+  "connector_density": 1.0,
+  "avg_sentence_length": 14.33,
+  "long_sentence_ratio": 0.0,
+  "within_target_word_count": 0.0,
+  "content_hits": 3.0,
+  "missing_content_count": 0.0,
+  "time_spent_min": 16.333,
+  "task_type_email": 1.0
+}</pre>
+        </div>
+      </div>
+
+      <div class="callout">
+        这个例子内容点覆盖很好，所以 <span class="inline-code">task_coverage = 1.0</span>。但它只有 43 个词，不在 PET 目标字数范围，所以 <span class="inline-code">within_target_word_count = 0.0</span>。这正是特征提取的价值：它能同时保留不同维度的证据，而不是只给一个笼统判断。
+      </div>
+    </section>
+
+    <section id="features">
+      <div class="section-head">
+        <h2>Feature Table</h2>
+        <p>当前第一版共有 19 个特征。它们覆盖任务完成、组织结构、语言控制、词汇范围和任务类型。</p>
+      </div>
+
+      <div class="table-tools">
+        <input id="featureSearch" class="search" type="search" placeholder="Search feature, 中文含义, or category">
+        <div class="hint"><span id="rowCount">19</span> features shown</div>
+      </div>
+
+      <div class="feature-table-wrap">
+        <table id="featureTable">
+          <thead>
+            <tr>
+              <th>Feature</th>
+              <th>Example</th>
+              <th>中文含义</th>
+              <th>Category</th>
+              <th>Model Role</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><code>word_count</code></td>
+              <td class="value">43.0</td>
+              <td>作文单词总数</td>
+              <td><span class="category">Length</span></td>
+              <td>Measures length and task completeness risk.</td>
+            </tr>
+            <tr>
+              <td><code>paragraph_count</code></td>
+              <td class="value">1.0</td>
+              <td>段落数量</td>
+              <td><span class="category">Organization</span></td>
+              <td>Measures basic structure and paragraphing.</td>
+            </tr>
+            <tr>
+              <td><code>task_coverage</code></td>
+              <td class="value">1.0</td>
+              <td>题目要求内容点覆盖率，1.0 代表 100%</td>
+              <td><span class="category">Task</span></td>
+              <td>Strong signal for Task Achievement.</td>
+            </tr>
+            <tr>
+              <td><code>grammar_error_rate</code></td>
+              <td class="value">0.0</td>
+              <td>当前规则检测到的语法错误比例</td>
+              <td><span class="category">Grammar</span></td>
+              <td>Early signal for Grammar Control.</td>
+            </tr>
+            <tr>
+              <td><code>lexical_diversity</code></td>
+              <td class="value">0.86</td>
+              <td>词汇多样性，越接近 1.0 重复越少</td>
+              <td><span class="category">Vocabulary</span></td>
+              <td>Signal for Lexical Range and Accuracy.</td>
+            </tr>
+            <tr>
+              <td><code>sentence_variety</code></td>
+              <td class="value">1.0</td>
+              <td>句子长度变化程度</td>
+              <td><span class="category">Sentence</span></td>
+              <td>Signal for sentence control and writing maturity.</td>
+            </tr>
+            <tr>
+              <td><code>off_topic_risk</code></td>
+              <td class="value">0.0</td>
+              <td>跑题风险</td>
+              <td><span class="category">Task</span></td>
+              <td>Negative signal for Task Achievement.</td>
+            </tr>
+            <tr>
+              <td><code>connectors</code></td>
+              <td class="value">3.0</td>
+              <td>连接词数量</td>
+              <td><span class="category">Organization</span></td>
+              <td>Signal for organization and coherence.</td>
+            </tr>
+            <tr>
+              <td><code>connector_density</code></td>
+              <td class="value">1.0</td>
+              <td>平均每句话连接词数量</td>
+              <td><span class="category">Organization</span></td>
+              <td>Signal for cohesion and transitions.</td>
+            </tr>
+            <tr>
+              <td><code>avg_sentence_length</code></td>
+              <td class="value">14.33</td>
+              <td>平均句长</td>
+              <td><span class="category">Sentence</span></td>
+              <td>Helps detect too simple or too long sentences.</td>
+            </tr>
+            <tr>
+              <td><code>long_sentence_ratio</code></td>
+              <td class="value">0.0</td>
+              <td>长句比例</td>
+              <td><span class="category">Sentence</span></td>
+              <td>Helps detect possible sentence-control risk.</td>
+            </tr>
+            <tr>
+              <td><code>within_target_word_count</code></td>
+              <td class="value">0.0</td>
+              <td>是否在目标字数范围内，1.0 是，0.0 否</td>
+              <td><span class="category">Task</span></td>
+              <td>Important PET task-format signal.</td>
+            </tr>
+            <tr>
+              <td><code>content_hits</code></td>
+              <td class="value">3.0</td>
+              <td>命中的题目内容点数量</td>
+              <td><span class="category">Task</span></td>
+              <td>Direct support for Task Achievement.</td>
+            </tr>
+            <tr>
+              <td><code>missing_content_count</code></td>
+              <td class="value">0.0</td>
+              <td>缺失内容点数量</td>
+              <td><span class="category">Task</span></td>
+              <td>Negative signal for Task Achievement.</td>
+            </tr>
+            <tr>
+              <td><code>repeated_word_count</code></td>
+              <td class="value">0.0</td>
+              <td>高频重复词数量</td>
+              <td><span class="category">Vocabulary</span></td>
+              <td>Negative signal for lexical variety.</td>
+            </tr>
+            <tr>
+              <td><code>lowercase_sentence_starts</code></td>
+              <td class="value">0.0</td>
+              <td>小写开头句子数量</td>
+              <td><span class="category">Grammar</span></td>
+              <td>Simple mechanics and grammar signal.</td>
+            </tr>
+            <tr>
+              <td><code>time_spent_min</code></td>
+              <td class="value">16.333</td>
+              <td>学生用时，单位分钟</td>
+              <td><span class="category">Behavior</span></td>
+              <td>Useful for analysis and later personalization.</td>
+            </tr>
+            <tr>
+              <td><code>task_type_email</code></td>
+              <td class="value">1.0</td>
+              <td>是否是 email 写作任务</td>
+              <td><span class="category">Task Type</span></td>
+              <td>One-hot task type flag.</td>
+            </tr>
+            <tr>
+              <td><code>task_type_article</code></td>
+              <td class="value">0.0</td>
+              <td>是否是 article 写作任务</td>
+              <td><span class="category">Task Type</span></td>
+              <td>One-hot task type flag.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="training">
+      <div class="section-head">
+        <h2>Training Connection</h2>
+        <p>Feature extraction 的最终意义，是让人工复核产生的 gold data 可以进入监督学习训练。</p>
+      </div>
+
+      <div class="xy-panel">
+        <article class="xy-card">
+          <h3><span class="big-letter">X</span> Model Input</h3>
+          <p>
+            <span class="inline-code">feature_vector</span> 是模型输入。它包含作文长度、内容覆盖、语法风险、词汇多样性、连接词密度等数字。
+          </p>
+<pre>{
+  "word_count": 43.0,
+  "task_coverage": 1.0,
+  "grammar_error_rate": 0.0,
+  "lexical_diversity": 0.86
+}</pre>
+        </article>
+
+        <article class="xy-card">
+          <h3><span class="big-letter">y</span> Teacher Labels</h3>
+          <p>
+            <span class="inline-code">teacher-reviewed labels</span> 是标准答案。模型训练时学习如何从 X 预测 y。
+          </p>
+<pre>{
+  "task_achievement": 5,
+  "organization_coherence": 4,
+  "grammar_control": 4,
+  "lexical_range_accuracy": 4
+}</pre>
+        </article>
+      </div>
+
+      <div class="callout">
+        重要边界：老师评分不是 feature。老师评分是训练标签。模型部署后，面对新作文时只能看到 <span class="inline-code">feature_vector</span>，然后预测四个维度分。
+      </div>
+    </section>
+
+    <p class="footer">
+      Source design: PET Writing Feature Extraction Design · Single-file share page
+    </p>
+  </main>
+
+  <script>
+    const search = document.getElementById("featureSearch");
+    const table = document.getElementById("featureTable");
+    const rows = Array.from(table.querySelectorAll("tbody tr"));
+    const rowCount = document.getElementById("rowCount");
+
+    search.addEventListener("input", () => {
+      const query = search.value.trim().toLowerCase();
+      let shown = 0;
+      rows.forEach((row) => {
+        const text = row.innerText.toLowerCase();
+        const match = !query || text.includes(query);
+        row.style.display = match ? "" : "none";
+        if (match) shown += 1;
+      });
+      rowCount.textContent = String(shown);
+    });
+  </script>
+</body>
+</html>
