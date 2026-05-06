@@ -197,7 +197,7 @@ The reading report intentionally mirrors the main Star Reading report slots whil
 - `reading_recommendation`: independent reading range and supported-challenge range.
 - `test_duration` and `test_fidelity`: elapsed time, passages completed, items answered, and validity cautions.
 - `report_metadata`: report type, target range, scale, benchmark type, and official-status disclaimer.
-- `zpd_like`: internal practice range used as a ZPD-like recommendation.
+- `zpd_like`: internal practice range used as a ZPD-like recommendation. It represents the growth practice zone: too low is not challenging, too high can be frustrating without support.
 - `testing_scope`: target grades, difficulty range, passages completed, items answered, measured skills, and official terms that require external norm data.
 - `report_term_coverage`: machine-readable coverage map for every official-style report term above.
 

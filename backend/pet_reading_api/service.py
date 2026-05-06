@@ -535,6 +535,10 @@ def _reading_recommendation_payload(estimate: dict[str, Any], zpd_like: dict[str
         "independent_reading": f"{practice_lower}L-{practice_upper}L",
         "supported_challenge": f"{practice_upper}L-{min(1100, practice_upper + 100)}L",
         "zpd_like": zpd_like,
+        "zpd_explanation": (
+            "The ZPD-like range is the recommended practice zone: texts below it may be too easy, "
+            "while texts above it may be frustrating without support."
+        ),
         "notes": estimate["recommendations"],
     }
 
@@ -589,7 +593,7 @@ def _report_term_coverage() -> dict[str, dict[str, str]]:
         "zpd": {
             "field": "zpd_like",
             "status": "practice_range_projection",
-            "note": "Uses the internal practice range as a ZPD-like recommendation.",
+            "note": "Uses the internal practice range as the recommended growth zone for reading materials.",
         },
     }
 
