@@ -84,6 +84,10 @@ def make_handler(service: WritingService, reading_service: ReadingService) -> ty
                     assessment_id = path.split("/")[-2]
                     json_response(self, 200, reading_service.get_report(assessment_id))
                     return
+                if method == "GET" and path.startswith("/api/v1/reading/assessments/") and path.endswith("/materials"):
+                    assessment_id = path.split("/")[-2]
+                    json_response(self, 200, reading_service.get_material_recommendations(assessment_id))
+                    return
                 if method == "GET" and path == "/api/v1/writing/prompts":
                     task_type = query.get("task_type", [None])[0]
                     limit = int(query.get("limit", ["20"])[0])

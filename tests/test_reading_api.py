@@ -6,6 +6,7 @@ import json
 import tempfile
 import threading
 import unittest
+import urllib.error
 import urllib.request
 from pathlib import Path
 
@@ -40,6 +41,12 @@ class ReadingApiFlowTest(unittest.TestCase):
         )
         with urllib.request.urlopen(req, timeout=5) as response:
             return response.status, json.loads(response.read().decode("utf-8"))
+
+    def request_allow_error(self, method: str, path: str, payload: dict | None = None) -> tuple[int, dict]:
+        try:
+            return self.request(method, path, payload)
+        except urllib.error.HTTPError as exc:
+            return exc.code, json.loads(exc.read().decode("utf-8"))
 
     def test_full_reading_flow(self) -> None:
         status, created = self.request(
@@ -189,6 +196,69 @@ class ReadingApiFlowTest(unittest.TestCase):
         )
         self.assertEqual(report["report_term_coverage"]["percentile_rank_pr"]["status"], "not_available")
         self.assertEqual(report["report_term_coverage"]["district_benchmark"]["field"], "benchmark")
+
+    def test_parent_material_recommendations_help_choose_reading_materials(self) -> None:
+        status, created = self.request(
+            "POST",
+            "/api/v1/reading/assessments",
+            {"student_id": "stu_materials", "grade_level": 6},
+        )
+        self.assertEqual(status, 201)
+        assessment_id = created["assessment_id"]
+
+        status, not_ready = self.request_allow_error(
+            "GET",
+            f"/api/v1/reading/assessments/{assessment_id}/materials",
+        )
+        self.assertEqual(status, 404)
+        self.assertEqual(not_ready["error"]["code"], "READING_REPORT_NOT_READY")
+
+        for selected_choice in ("B", "B", "A"):
+            status, next_payload = self.request("GET", f"/api/v1/reading/assessments/{assessment_id}/next")
+            self.assertEqual(status, 200)
+            responses = [
+                {
+                    "item_id": item["item_id"],
+                    "selected_choice": selected_choice,
+                    "time_spent_sec": 42,
+                }
+                for item in next_payload["items"]
+            ]
+            status, _ = self.request(
+                "POST",
+                f"/api/v1/reading/assessments/{assessment_id}/responses",
+                {
+                    "passage_id": next_payload["passage"]["passage_id"],
+                    "time_spent_sec": 420,
+                    "responses": responses,
+                },
+            )
+            self.assertEqual(status, 200)
+
+        status, report = self.request("POST", f"/api/v1/reading/assessments/{assessment_id}/complete")
+        self.assertEqual(status, 200)
+        status, materials = self.request("GET", f"/api/v1/reading/assessments/{assessment_id}/materials")
+        self.assertEqual(status, 200)
+        self.assertEqual(materials["assessment_id"], assessment_id)
+        self.assertEqual(materials["goal"], "parent_material_selection")
+        self.assertEqual(
+            set(materials["buckets"]),
+            {
+                "confidence_or_warmup",
+                "best_fit_daily_reading",
+                "supported_challenge",
+                "frustration_risk",
+            },
+        )
+        self.assertEqual(
+            materials["buckets"]["best_fit_daily_reading"]["range"],
+            report["reading_recommendation"]["parent_material_guidance"]["best_fit_daily_reading"]["range"],
+        )
+        best_fit = materials["buckets"]["best_fit_daily_reading"]["materials"]
+        self.assertGreaterEqual(len(best_fit), 1)
+        self.assertEqual(best_fit[0]["fit_label"], "best_fit_daily_reading")
+        self.assertIn("why_this_fits", best_fit[0])
+        self.assertIn("parent_action", best_fit[0])
 
 
 if __name__ == "__main__":

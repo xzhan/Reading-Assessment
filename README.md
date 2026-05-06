@@ -208,6 +208,7 @@ The reading report intentionally mirrors the main Star Reading report slots whil
 - `POST /api/v1/reading/assessments/{assessment_id}/responses`
 - `POST /api/v1/reading/assessments/{assessment_id}/complete`
 - `GET /api/v1/reading/assessments/{assessment_id}/report`
+- `GET /api/v1/reading/assessments/{assessment_id}/materials`
 
 ### Run reading tests
 

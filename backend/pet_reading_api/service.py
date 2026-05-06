@@ -10,6 +10,7 @@ from backend.pet_writing_api.service import ServiceError
 
 from .adaptive import next_anchor_lexile, starting_anchor_for_grade
 from .estimator import estimate_reading_level
+from .materials import build_parent_material_recommendations
 from .storage import ReadingStorage
 
 
@@ -274,6 +275,10 @@ class ReadingService:
             raise ServiceError("READING_REPORT_NOT_READY", "Reading report is not ready.", status=404)
         return self.storage.loads(row["report_payload_json"], {})
 
+    def get_material_recommendations(self, assessment_id: str) -> dict[str, Any]:
+        report = self.get_report(assessment_id)
+        return report["material_recommendations"]
+
     def _select_new_passage(self, conn: Any, assessment: Any) -> Any:
         used_rows = conn.execute(
             "select passage_id from reading_assessment_passages where assessment_id = ?",
@@ -338,6 +343,12 @@ class ReadingService:
             ),
             "status": "practice_range_projection",
         }
+        material_recommendations = build_parent_material_recommendations(
+            assessment_id=assessment_id,
+            practice_lower_lexile=estimate["practice_lower_lexile"],
+            practice_upper_lexile=estimate["practice_upper_lexile"],
+            grade_level=assessment["grade_level"],
+        )
         return {
             "assessment_id": assessment_id,
             "student_id": assessment["student_id"],
@@ -397,6 +408,7 @@ class ReadingService:
                 "reason": "Requires a norm group and percentile calibration dataset.",
             },
             "reading_recommendation": _reading_recommendation_payload(estimate, zpd_like),
+            "material_recommendations": material_recommendations,
             "report_term_coverage": _report_term_coverage(),
             "validity_flags": estimate["validity_flags"],
             "recommendations": estimate["recommendations"],
