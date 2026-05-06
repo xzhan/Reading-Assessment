@@ -9,6 +9,9 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from typing import Any, Callable
 from urllib.parse import parse_qs, urlparse
 
+from backend.pet_reading_api.service import ReadingService
+from backend.pet_reading_api.storage import ReadingStorage
+
 from .service import ServiceError, WritingService
 from .storage import Storage
 
@@ -33,7 +36,7 @@ def read_json_body(handler: BaseHTTPRequestHandler) -> dict[str, Any]:
         raise ServiceError("INVALID_JSON", "Request body must be valid JSON.", status=400) from exc
 
 
-def make_handler(service: WritingService) -> type[BaseHTTPRequestHandler]:
+def make_handler(service: WritingService, reading_service: ReadingService) -> type[BaseHTTPRequestHandler]:
     class Handler(BaseHTTPRequestHandler):
         def _dispatch(self) -> None:
             parsed = urlparse(self.path)
@@ -43,6 +46,43 @@ def make_handler(service: WritingService) -> type[BaseHTTPRequestHandler]:
             try:
                 if method == "GET" and path == "/api/v1/health":
                     json_response(self, 200, {"status": "ok"})
+                    return
+                if method == "POST" and path == "/api/v1/reading/assessments":
+                    body = read_json_body(self)
+                    json_response(
+                        self,
+                        201,
+                        reading_service.create_assessment(
+                            student_id=body["student_id"],
+                            grade_level=body.get("grade_level"),
+                        ),
+                    )
+                    return
+                if method == "GET" and path.startswith("/api/v1/reading/assessments/") and path.endswith("/next"):
+                    assessment_id = path.split("/")[-2]
+                    json_response(self, 200, reading_service.get_next_passage(assessment_id))
+                    return
+                if method == "POST" and path.startswith("/api/v1/reading/assessments/") and path.endswith("/responses"):
+                    assessment_id = path.split("/")[-2]
+                    body = read_json_body(self)
+                    json_response(
+                        self,
+                        200,
+                        reading_service.submit_responses(
+                            assessment_id=assessment_id,
+                            passage_id=body["passage_id"],
+                            time_spent_sec=int(body.get("time_spent_sec", 0)),
+                            responses=body["responses"],
+                        ),
+                    )
+                    return
+                if method == "POST" and path.startswith("/api/v1/reading/assessments/") and path.endswith("/complete"):
+                    assessment_id = path.split("/")[-2]
+                    json_response(self, 200, reading_service.complete_assessment(assessment_id))
+                    return
+                if method == "GET" and path.startswith("/api/v1/reading/assessments/") and path.endswith("/report"):
+                    assessment_id = path.split("/")[-2]
+                    json_response(self, 200, reading_service.get_report(assessment_id))
                     return
                 if method == "GET" and path == "/api/v1/writing/prompts":
                     task_type = query.get("task_type", [None])[0]
@@ -178,7 +218,8 @@ def make_handler(service: WritingService) -> type[BaseHTTPRequestHandler]:
 
 def create_server(host: str, port: int, db_path: str) -> ThreadingHTTPServer:
     service = WritingService(Storage(db_path))
-    server = ThreadingHTTPServer((host, port), make_handler(service))
+    reading_service = ReadingService(ReadingStorage(db_path))
+    server = ThreadingHTTPServer((host, port), make_handler(service, reading_service))
     return server
 
 
