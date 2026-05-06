@@ -4,9 +4,14 @@
 from __future__ import annotations
 
 import argparse
+import sys
 from pathlib import Path
 
-from pet_writing_api.server import run_server
+ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+
+from backend.pet_writing_api.server import run_server
 
 
 def build_parser() -> argparse.ArgumentParser:
