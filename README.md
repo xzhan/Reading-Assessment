@@ -224,3 +224,9 @@ python3 -m unittest \
 Open:
 
 `/Users/xzhan/vibcoding/EnglishTest/docs/mockups/reading-lexile-assessment-flow.html`
+
+### Next phase TODO
+
+- Replace the internal sample material list in `backend/pet_reading_api/materials.py` with a real reading-material catalog.
+- Catalog records should include title, Lexile or difficulty band, topic, genre, length, age fit, purchase link, and reading link.
+- Keep this out of the current frontend/API integration phase; for now, the product only needs internal sample recommendations to prove the parent flow.
