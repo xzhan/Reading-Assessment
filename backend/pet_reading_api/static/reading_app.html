@@ -38,7 +38,7 @@
     }
 
     .shell {
-      width: min(1120px, calc(100% - 32px));
+      width: min(1240px, calc(100% - 32px));
       margin: 0 auto;
       padding: 24px 0 44px;
     }
@@ -220,15 +220,225 @@
     }
 
     .big-score {
-      font-size: 42px;
+      font-size: clamp(38px, 5vw, 52px);
       line-height: 1;
       font-weight: 900;
-      margin-top: 10px;
+      margin-top: 12px;
     }
 
     .report-grid,
     .materials-grid {
       grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .report-grid {
+      grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
+      align-items: start;
+    }
+
+    .report-summary {
+      display: grid;
+      gap: 12px;
+    }
+
+    .report-summary p,
+    .domain-panel p {
+      margin: 0;
+    }
+
+    .report-meta {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .benchmark-band {
+      position: relative;
+      display: flex;
+      height: 34px;
+      overflow: hidden;
+      border-radius: 6px;
+      border: 1px solid var(--line);
+      background: var(--surface);
+      margin-top: 4px;
+    }
+
+    .benchmark-band .band {
+      min-width: 8%;
+    }
+
+    .benchmark-band .red {
+      background: var(--red);
+    }
+
+    .benchmark-band .yellow {
+      background: #f1c44d;
+    }
+
+    .benchmark-band .blue {
+      background: var(--blue);
+    }
+
+    .benchmark-band .green {
+      background: var(--green);
+    }
+
+    .score-marker {
+      position: absolute;
+      top: -1px;
+      bottom: -1px;
+      width: 3px;
+      background: var(--ink);
+      transform: translateX(-50%);
+      box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.72);
+    }
+
+    .benchmark-axis,
+    .benchmark-legend {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 14px;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.35;
+    }
+
+    .benchmark-axis {
+      justify-content: space-between;
+    }
+
+    .legend-swatch {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      border-radius: 2px;
+      margin-right: 5px;
+      vertical-align: -1px;
+    }
+
+    .legend-swatch.red {
+      background: var(--red);
+    }
+
+    .legend-swatch.yellow {
+      background: #f1c44d;
+    }
+
+    .legend-swatch.blue {
+      background: var(--blue);
+    }
+
+    .legend-swatch.green {
+      background: var(--green);
+    }
+
+    .benchmark-note {
+      border-left: 4px solid var(--green);
+      padding: 8px 0 8px 12px;
+      color: var(--muted);
+      line-height: 1.45;
+    }
+
+    .official-metrics {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    .metric-tile,
+    .guide-item {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+    }
+
+    .metric-tile {
+      min-height: 96px;
+      padding: 12px;
+    }
+
+    .metric-tile span {
+      display: block;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+
+    .metric-tile strong {
+      display: block;
+      font-size: 26px;
+      line-height: 1.05;
+      margin-top: 6px;
+    }
+
+    .metric-tile small {
+      display: block;
+      color: var(--muted);
+      line-height: 1.35;
+      margin-top: 6px;
+    }
+
+    .domains {
+      display: grid;
+      gap: 9px;
+      margin-top: 6px;
+    }
+
+    .domain-group {
+      color: var(--ink);
+      font-weight: 900;
+      margin-top: 12px;
+    }
+
+    .domain-row {
+      display: grid;
+      grid-template-columns: minmax(160px, 1fr) minmax(160px, 0.95fr) 40px;
+      gap: 10px;
+      align-items: center;
+    }
+
+    .domain-row span {
+      color: var(--ink);
+    }
+
+    .domain-row strong {
+      text-align: right;
+    }
+
+    .bar {
+      height: 10px;
+      border-radius: 999px;
+      background: #e8e4d8;
+      overflow: hidden;
+    }
+
+    .bar i {
+      display: block;
+      height: 100%;
+      border-radius: inherit;
+      background: var(--green);
+    }
+
+    .parent-guide {
+      display: grid;
+      gap: 8px;
+      margin-top: 12px;
+    }
+
+    .guide-item {
+      padding: 10px 12px;
+      color: var(--muted);
+      line-height: 1.35;
+    }
+
+    .guide-item strong {
+      color: var(--ink);
+    }
+
+    .domain-panel > p {
+      margin-top: 18px;
+      line-height: 1.45;
     }
 
     .material-card {
@@ -248,6 +458,14 @@
       .app-grid,
       .report-grid,
       .materials-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .domain-row {
+        grid-template-columns: 1fr 90px 36px;
+      }
+
+      .official-metrics {
         grid-template-columns: 1fr;
       }
     }
@@ -319,17 +537,23 @@
 
     <section class="view" id="report-view">
       <div class="report-grid">
-        <section class="card">
+        <section class="card report-summary">
           <h2>Reading Report</h2>
           <p>Estimated Lexile-like Range</p>
           <div class="big-score" id="estimated-range">-</div>
+          <div class="report-meta" id="report-meta"></div>
+          <div id="benchmark-band"></div>
+          <p class="benchmark-note" id="benchmark-note">-</p>
           <p><strong>Practice Range:</strong> <span id="practice-range">-</span></p>
-          <p><strong>ZPD / 最近发展阅读区间:</strong> <span id="zpd-range">-</span></p>
+          <p><strong>CEFR:</strong> <span id="cefr-label">-</span></p>
           <p><strong>Confidence:</strong> <span id="confidence-label">-</span></p>
+          <div class="official-metrics" id="official-metrics"></div>
         </section>
-        <section class="card">
+        <section class="card domain-panel">
           <h2>Domain Scores</h2>
           <div id="domain-scores"></div>
+          <p><strong>Parent Reading Guide:</strong> Use the ZPD zone to choose daily reading materials.</p>
+          <div class="parent-guide" id="parent-guide"></div>
           <div class="actions">
             <button class="btn" id="show-materials-button">Choose reading materials</button>
           </div>
@@ -472,14 +696,220 @@
       showView("report");
     }
 
+    const benchmarkLabels = {
+      urgent_intervention: "Urgent Intervention",
+      intervention: "Intervention",
+      on_watch: "On Watch",
+      at_or_above_benchmark: "At/Above Benchmark"
+    };
+
+    const domainGroupLabels = {
+      literature: "Literature",
+      informational_text: "Informational Text",
+      vocabulary: "Vocabulary"
+    };
+
+    const domainSkillLabels = {
+      comprehension_of_elements_and_ideas: "Elements and ideas",
+      structure_genre_and_authors_craft: "Structure and craft",
+      extending_meaning_and_deepening_understanding: "Deep understanding",
+      comprehension_of_information_and_ideas: "Information and ideas",
+      organization_purpose_and_language_use: "Purpose and language",
+      analysis_evaluation_and_extending_meaning: "Analysis and evaluation",
+      vocabulary_development: "Vocabulary development",
+      main_idea: "Main idea",
+      detail: "Detail",
+      inference: "Inference",
+      vocabulary_context: "Vocabulary context",
+      structure_author_purpose: "Structure and author purpose"
+    };
+
+    const parentGuideOrder = [
+      "confidence_or_warmup",
+      "best_fit_daily_reading",
+      "supported_challenge",
+      "frustration_risk"
+    ];
+
+    function escapeHtml(value) {
+      return String(value ?? "").replace(/[&<>"']/g, (character) => ({
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        '"': "&quot;",
+        "'": "&#39;"
+      })[character]);
+    }
+
+    function clamp(value, minimum, maximum) {
+      return Math.max(minimum, Math.min(maximum, value));
+    }
+
+    function titleFromKey(value) {
+      return String(value || "")
+        .replaceAll("_", " ")
+        .replace(/\b[a-z]/g, (letter) => letter.toUpperCase());
+    }
+
     function renderReport(report) {
       document.getElementById("estimated-range").textContent = report.estimated_range;
       document.getElementById("practice-range").textContent = report.practice_range;
-      document.getElementById("zpd-range").textContent = `${report.zpd_like.grade_range} (${report.zpd_like.lexile_range})`;
+      document.getElementById("cefr-label").textContent = report.cefr_estimate || "-";
       document.getElementById("confidence-label").textContent = report.confidence;
-      document.getElementById("domain-scores").innerHTML = Object.entries(report.domain_scores)
-        .map(([skill, score]) => `<p><strong>${skill.replaceAll("_", " ")}:</strong> ${score}</p>`)
-        .join("");
+      document.getElementById("report-meta").innerHTML = `
+        <span class="pill">Grade ${escapeHtml(report.grade_level || "-")}</span>
+        <span class="pill">Scale: ${escapeHtml(report.report_metadata?.scale || "Lexile-like Scale")}</span>
+        <span class="pill">Benchmark: ${escapeHtml(report.report_metadata?.benchmark_type || "Internal Grade Band")}</span>
+      `;
+      renderBenchmarkBand(report.benchmark);
+      renderOfficialMetrics(report);
+      document.getElementById("domain-scores").innerHTML = renderDomainGroups(report);
+      document.getElementById("parent-guide").innerHTML = renderParentGuide(report);
+    }
+
+    function renderBenchmarkBand(benchmark) {
+      const element = document.getElementById("benchmark-band");
+      const bands = benchmark?.bands || [];
+      if (!bands.length) {
+        element.innerHTML = "";
+        document.getElementById("benchmark-note").textContent = "Benchmark-like status is unavailable for this report.";
+        return;
+      }
+
+      const minimum = Math.min(...bands.map((band) => band.min_lexile));
+      const maximum = Math.max(...bands.map((band) => band.max_lexile));
+      const score = Number(benchmark.value_lexile || minimum);
+      const markerLeft = clamp(((score - minimum) / Math.max(1, maximum - minimum)) * 100, 0, 100);
+      const axisPoints = [
+        minimum,
+        ...bands.slice(1).map((band) => band.min_lexile),
+        maximum
+      ];
+
+      element.innerHTML = `
+        <div class="benchmark-band" role="img" aria-label="Benchmark bands with estimated score marker">
+          ${bands.map((band) => {
+            const span = Math.max(1, Number(band.max_lexile) - Number(band.min_lexile) + 1);
+            const color = escapeHtml(band.color || "green");
+            const label = escapeHtml(benchmarkLabels[band.label] || titleFromKey(band.label));
+            return `<div class="band ${color}" style="flex:${span} 1 0" title="${label}: ${escapeHtml(band.min_lexile)}L-${escapeHtml(band.max_lexile)}L"></div>`;
+          }).join("")}
+          <span class="score-marker" style="left:${markerLeft}%"></span>
+        </div>
+        <div class="benchmark-axis">${axisPoints.map((point) => `<span>${escapeHtml(point)}L</span>`).join("")}</div>
+        <div class="benchmark-legend">
+          ${bands.map((band) => {
+            const color = escapeHtml(band.color || "green");
+            const label = escapeHtml(benchmarkLabels[band.label] || titleFromKey(band.label));
+            return `<span><i class="legend-swatch ${color}"></i>${label}</span>`;
+          }).join("")}
+        </div>
+      `;
+
+      const benchmarkLabel = benchmarkLabels[benchmark.label] || titleFromKey(benchmark.label);
+      document.getElementById("benchmark-note").innerHTML = `
+        <strong>District Benchmark-like:</strong> ${escapeHtml(benchmarkLabel)}, using internal cut points.
+        This is not an official Renaissance district benchmark.
+      `;
+    }
+
+    function renderOfficialMetrics(report) {
+      const fidelity = report.test_fidelity || {};
+      const fidelityParts = [
+        fidelity.passages_completed ? `${fidelity.passages_completed} passages` : "",
+        fidelity.items_answered ? `${fidelity.items_answered} items` : ""
+      ].filter(Boolean).join(", ");
+      const fidelityStatus = fidelity.status ? titleFromKey(fidelity.status) : "N/A";
+      const fidelityNote = `${fidelityStatus}${fidelityParts ? `: ${fidelityParts}` : ""}. ${(fidelity.notes || [])[0] || ""}`;
+      const cards = [
+        {
+          label: "SS-like",
+          value: report.scaled_score_like?.value || "-",
+          note: "Internal midpoint, not official Star SS."
+        },
+        {
+          label: "PR",
+          value: "N/A",
+          note: report.percentile_rank?.reason || "Requires a norm group."
+        },
+        {
+          label: "GE-like",
+          value: report.grade_equivalent_like?.value || "-",
+          note: "Rough internal grade projection."
+        },
+        {
+          label: "IRL-like",
+          value: report.instructional_reading_level_like?.value || "-",
+          note: "Projected from the practice range."
+        },
+        {
+          label: "ZPD / 最近发展阅读区间",
+          value: report.zpd_like?.grade_range || "-",
+          note: `Recommended practice zone. Texts: ${report.zpd_like?.lexile_range || report.practice_range || "-"}.`
+        },
+        {
+          label: "Duration & Fidelity",
+          value: report.test_duration?.display || fidelity.duration_display || "-",
+          note: fidelityNote
+        }
+      ];
+
+      document.getElementById("official-metrics").innerHTML = cards.map((card) => `
+        <div class="metric-tile">
+          <span>${escapeHtml(card.label)}</span>
+          <strong>${escapeHtml(card.value)}</strong>
+          <small>${escapeHtml(card.note)}</small>
+        </div>
+      `).join("");
+    }
+
+    function renderDomainGroups(report) {
+      const groups = report.official_domain_groups || {};
+      if (Object.keys(groups).length) {
+        return `<div class="domains">
+          ${Object.entries(groups).map(([groupKey, scores]) => `
+            <div class="domain-group">${escapeHtml(domainGroupLabels[groupKey] || titleFromKey(groupKey))}</div>
+            ${Object.entries(scores).map(([skillKey, score]) => renderDomainRow(skillKey, score)).join("")}
+          `).join("")}
+        </div>`;
+      }
+
+      return `<div class="domains">
+        <div class="domain-group">Skill Profile</div>
+        ${Object.entries(report.domain_scores || {}).map(([skillKey, score]) => renderDomainRow(skillKey, score)).join("")}
+      </div>`;
+    }
+
+    function renderDomainRow(skillKey, score) {
+      const numericScore = Number(score);
+      const safeScore = Number.isFinite(numericScore) ? clamp(numericScore, 0, 100) : 0;
+      const label = domainSkillLabels[skillKey] || titleFromKey(skillKey);
+      return `
+        <div class="domain-row">
+          <span>${escapeHtml(label)}</span>
+          <div class="bar"><i style="width:${safeScore}%"></i></div>
+          <strong>${escapeHtml(score)}</strong>
+        </div>
+      `;
+    }
+
+    function renderParentGuide(report) {
+      const guidance = report.reading_recommendation?.parent_material_guidance || {};
+      const entries = parentGuideOrder
+        .map((key) => guidance[key])
+        .filter(Boolean);
+      if (!entries.length) {
+        return `<div class="guide-item">Use the practice range as the main daily reading target.</div>`;
+      }
+
+      return entries.map((entry) => {
+        const range = String(entry.range || "-").replace(/^below/i, "Below").replace(/^above/i, "Above");
+        return `
+          <div class="guide-item">
+            <strong>${escapeHtml(range)}:</strong> ${escapeHtml(entry.use || "")}
+          </div>
+        `;
+      }).join("");
     }
 
     async function showMaterials() {

@@ -39,6 +39,10 @@ class ReadingAppRouteTest(unittest.TestCase):
         self.assertIn("/responses", html)
         self.assertIn("/complete", html)
         self.assertIn("/materials", html)
+        self.assertIn("benchmark-band", html)
+        self.assertIn("official-metrics", html)
+        self.assertIn("renderDomainGroups", html)
+        self.assertIn("renderParentGuide", html)
 
 
 if __name__ == "__main__":
