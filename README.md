@@ -177,3 +177,32 @@ python3 /Users/xzhan/vibcoding/EnglishTest/scripts/pet_reading_pipeline.py build
 - `output/pet_readings_<batch>.json`
 - `output/pet_readings_<batch>.pdf`
 - `output/raw_<batch>/page_001.json` ... `page_066.json`
+
+## Reading Level Assessment MVP
+
+The backend also supports a first Lexile-like reading assessment flow for Grade 6-8 students.
+
+This is an internal teaching estimate, not an official Lexile or Renaissance Star Reading score.
+
+### Reading assessment endpoints
+
+- `POST /api/v1/reading/assessments`
+- `GET /api/v1/reading/assessments/{assessment_id}/next`
+- `POST /api/v1/reading/assessments/{assessment_id}/responses`
+- `POST /api/v1/reading/assessments/{assessment_id}/complete`
+- `GET /api/v1/reading/assessments/{assessment_id}/report`
+
+### Run reading tests
+
+```bash
+python3 -m unittest \
+  /Users/xzhan/vibcoding/EnglishTest/tests/test_reading_estimator.py \
+  /Users/xzhan/vibcoding/EnglishTest/tests/test_reading_adaptive.py \
+  /Users/xzhan/vibcoding/EnglishTest/tests/test_reading_api.py
+```
+
+### UI mockup
+
+Open:
+
+`/Users/xzhan/vibcoding/EnglishTest/docs/mockups/reading-lexile-assessment-flow.html`
