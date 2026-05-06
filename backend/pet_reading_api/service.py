@@ -218,7 +218,7 @@ class ReadingService:
                 passages_completed=int(assessment["passages_completed"]),
                 duration_seconds=int(assessment["duration_sec"]),
             )
-            report = self._report_payload(assessment_id, estimate)
+            report = self._report_payload(assessment, estimate)
             conn.execute(
                 """
                 insert into reading_estimates (
@@ -318,16 +318,115 @@ class ReadingService:
             ],
         }
 
-    def _report_payload(self, assessment_id: str, estimate: dict[str, Any]) -> dict[str, Any]:
+    def _report_payload(self, assessment: Any, estimate: dict[str, Any]) -> dict[str, Any]:
+        assessment_id = assessment["id"]
+        duration_sec = int(assessment["duration_sec"])
+        domain_scores = estimate["domain_scores"]
         return {
             "assessment_id": assessment_id,
+            "student_id": assessment["student_id"],
+            "grade_level": assessment["grade_level"],
             "estimated_range": f"{estimate['estimated_lower_lexile']}L-{estimate['estimated_upper_lexile']}L",
             "practice_range": f"{estimate['practice_lower_lexile']}L-{estimate['practice_upper_lexile']}L",
             "cefr_estimate": estimate["cefr_estimate"],
             "confidence": estimate["confidence_label"],
             "range_status": estimate["range_status"],
+            "test_duration": {
+                "seconds": duration_sec,
+                "display": _duration_display(duration_sec),
+            },
+            "scaled_score_like": {
+                "value": f"{_midpoint(estimate['estimated_lower_lexile'], estimate['estimated_upper_lexile'])}L",
+                "status": "internal_estimate",
+            },
+            "instructional_reading_level_like": {
+                "value": _grade_level_projection(
+                    _midpoint(estimate["practice_lower_lexile"], estimate["practice_upper_lexile"])
+                ),
+                "status": "rough_internal_projection",
+            },
+            "grade_equivalent_like": {
+                "value": _grade_level_projection(
+                    _midpoint(estimate["estimated_lower_lexile"], estimate["estimated_upper_lexile"])
+                ),
+                "status": "rough_internal_projection",
+            },
+            "zpd_like": {
+                "lexile_range": f"{estimate['practice_lower_lexile']}L-{estimate['practice_upper_lexile']}L",
+                "grade_range": (
+                    f"{_grade_level_projection(estimate['practice_lower_lexile'])}-"
+                    f"{_grade_level_projection(estimate['practice_upper_lexile'])}"
+                ),
+                "status": "practice_range_projection",
+            },
             "summary": estimate["summary"],
-            "domain_scores": estimate["domain_scores"],
+            "domain_scores": domain_scores,
+            "official_domain_groups": _official_domain_groups(domain_scores),
+            "star_report_alignment": _star_report_alignment(estimate),
             "validity_flags": estimate["validity_flags"],
             "recommendations": estimate["recommendations"],
         }
+
+
+def _duration_display(seconds: int) -> str:
+    minutes, remainder = divmod(seconds, 60)
+    return f"{minutes} min {remainder} sec"
+
+
+def _midpoint(lower: int, upper: int) -> int:
+    return round((lower + upper) / 2)
+
+
+def _grade_level_projection(lexile: int) -> float:
+    # Internal rough mapping for report readability, not a normed GE/IRL value.
+    projected = 1.0 + (lexile / 140)
+    return round(max(1.0, min(12.9, projected)), 1)
+
+
+def _official_domain_groups(domain_scores: dict[str, int]) -> dict[str, dict[str, int]]:
+    return {
+        "literature": {
+            "comprehension_of_elements_and_ideas": domain_scores["main_idea"],
+            "structure_genre_and_authors_craft": domain_scores["structure_author_purpose"],
+            "extending_meaning_and_deepening_understanding": domain_scores["inference"],
+        },
+        "informational_text": {
+            "comprehension_of_information_and_ideas": domain_scores["detail"],
+            "organization_purpose_and_language_use": domain_scores["structure_author_purpose"],
+            "analysis_evaluation_and_extending_meaning": domain_scores["inference"],
+        },
+        "vocabulary": {
+            "vocabulary_development": domain_scores["vocabulary_context"],
+        },
+    }
+
+
+def _star_report_alignment(estimate: dict[str, Any]) -> dict[str, Any]:
+    midpoint = _midpoint(estimate["estimated_lower_lexile"], estimate["estimated_upper_lexile"])
+    return {
+        "scaled_score_like": {
+            "status": "internal_estimate",
+            "value": f"{midpoint}L",
+            "note": "Comparable display slot to Star SS, but not an official Renaissance score.",
+        },
+        "percentile_rank": {
+            "status": "not_available",
+            "reason": "Requires a norm group and percentile calibration dataset.",
+        },
+        "grade_equivalent_like": {
+            "status": "rough_internal_projection",
+            "value": _grade_level_projection(midpoint),
+            "reason": "Useful for teacher orientation, not a normed GE score.",
+        },
+        "instructional_reading_level_like": {
+            "status": "rough_internal_projection",
+            "value": _grade_level_projection(
+                _midpoint(estimate["practice_lower_lexile"], estimate["practice_upper_lexile"])
+            ),
+            "reason": "Derived from practice range, not official IRL.",
+        },
+        "zpd_like": {
+            "status": "practice_range_projection",
+            "lexile_range": f"{estimate['practice_lower_lexile']}L-{estimate['practice_upper_lexile']}L",
+        },
+    }

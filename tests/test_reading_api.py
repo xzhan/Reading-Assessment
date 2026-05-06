@@ -84,11 +84,17 @@ class ReadingApiFlowTest(unittest.TestCase):
         self.assertIn("estimated_range", completed)
         self.assertIn("practice_range", completed)
         self.assertIn("domain_scores", completed)
+        self.assertIn("test_duration", completed)
+        self.assertIn("zpd_like", completed)
+        self.assertIn("star_report_alignment", completed)
+        self.assertEqual(completed["star_report_alignment"]["percentile_rank"]["status"], "not_available")
+        self.assertEqual(completed["star_report_alignment"]["scaled_score_like"]["status"], "internal_estimate")
 
         status, report = self.request("GET", f"/api/v1/reading/assessments/{assessment_id}/report")
         self.assertEqual(status, 200)
         self.assertEqual(report["assessment_id"], assessment_id)
         self.assertIn("summary", report)
+        self.assertIn("official_domain_groups", report)
 
 
 if __name__ == "__main__":
