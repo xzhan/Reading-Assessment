@@ -1,0 +1,514 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reading Level Check</title>
+  <style>
+    :root {
+      --bg: #f7f5ef;
+      --surface: #fffdf7;
+      --ink: #1d2528;
+      --muted: #64706f;
+      --line: #d9d5c8;
+      --green: #247257;
+      --green-soft: #e2f0ea;
+      --blue: #2f6f94;
+      --blue-soft: #e4eff6;
+      --gold: #a66d16;
+      --gold-soft: #f8ecd4;
+      --red: #b84e42;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    button,
+    input,
+    select {
+      font: inherit;
+    }
+
+    .shell {
+      width: min(1120px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 24px 0 44px;
+    }
+
+    .topbar,
+    .hero,
+    .app-grid,
+    .report-grid,
+    .materials-grid {
+      display: grid;
+      gap: 16px;
+    }
+
+    .topbar {
+      grid-template-columns: minmax(0, 1fr) auto;
+      align-items: center;
+      margin-bottom: 18px;
+    }
+
+    .brand strong {
+      display: block;
+      font-size: 18px;
+    }
+
+    .brand span,
+    p,
+    small {
+      color: var(--muted);
+    }
+
+    .steps {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .step,
+    .card,
+    .choice,
+    input,
+    select {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--surface);
+    }
+
+    .step {
+      min-height: 34px;
+      padding: 0 10px;
+      color: var(--muted);
+    }
+
+    .step.active {
+      background: var(--ink);
+      color: var(--surface);
+      border-color: var(--ink);
+    }
+
+    .card {
+      padding: 18px;
+    }
+
+    h1,
+    h2,
+    h3 {
+      margin: 0;
+      letter-spacing: 0;
+    }
+
+    h1 {
+      font-size: clamp(32px, 4vw, 52px);
+      line-height: 1;
+      max-width: 780px;
+    }
+
+    h2 {
+      font-size: 26px;
+      margin-bottom: 10px;
+    }
+
+    h3 {
+      font-size: 16px;
+    }
+
+    .hero {
+      grid-template-columns: minmax(0, 1fr) 320px;
+      align-items: start;
+    }
+
+    .field-row {
+      display: grid;
+      gap: 10px;
+      margin-top: 14px;
+    }
+
+    label {
+      display: grid;
+      gap: 6px;
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    input,
+    select {
+      width: 100%;
+      min-height: 42px;
+      padding: 0 12px;
+      color: var(--ink);
+    }
+
+    .actions {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 18px;
+    }
+
+    .btn {
+      border: 1px solid var(--ink);
+      border-radius: 8px;
+      background: var(--ink);
+      color: var(--surface);
+      min-height: 42px;
+      padding: 0 16px;
+      cursor: pointer;
+      font-weight: 800;
+    }
+
+    .btn.secondary {
+      background: transparent;
+      color: var(--ink);
+    }
+
+    .view {
+      display: none;
+    }
+
+    .view.active {
+      display: block;
+    }
+
+    .app-grid {
+      grid-template-columns: minmax(0, 1.1fr) minmax(320px, 0.9fr);
+      align-items: start;
+    }
+
+    .passage {
+      font-size: 17px;
+      line-height: 1.72;
+    }
+
+    .choice {
+      display: block;
+      width: 100%;
+      text-align: left;
+      padding: 10px 12px;
+      margin-top: 8px;
+      cursor: pointer;
+    }
+
+    .choice.selected {
+      border-color: var(--green);
+      background: var(--green-soft);
+      color: #174d3b;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      min-height: 26px;
+      padding: 0 10px;
+      border-radius: 999px;
+      background: var(--blue-soft);
+      color: #214d68;
+      font-size: 12px;
+      font-weight: 800;
+      margin: 0 6px 6px 0;
+    }
+
+    .big-score {
+      font-size: 42px;
+      line-height: 1;
+      font-weight: 900;
+      margin-top: 10px;
+    }
+
+    .report-grid,
+    .materials-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .material-card {
+      border-top: 1px solid var(--line);
+      padding-top: 10px;
+      margin-top: 10px;
+    }
+
+    .error {
+      color: var(--red);
+      font-weight: 800;
+    }
+
+    @media (max-width: 860px) {
+      .topbar,
+      .hero,
+      .app-grid,
+      .report-grid,
+      .materials-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell" data-reading-app>
+    <header class="topbar">
+      <div class="brand">
+        <strong>Reading Level Check</strong>
+        <span>Parent Reading Guide for Grade 6-8</span>
+      </div>
+      <nav class="steps" aria-label="Progress">
+        <span class="step active" data-step="start">Start</span>
+        <span class="step" data-step="reading">Reading</span>
+        <span class="step" data-step="report">Report</span>
+        <span class="step" data-step="materials">Materials</span>
+      </nav>
+    </header>
+
+    <section class="view active" id="start-view">
+      <div class="hero">
+        <div class="card">
+          <h1>Find books your child can grow with.</h1>
+          <p>This internal reading check estimates a Lexile-like practice range. It helps parents choose daily reading materials that are not too easy and not too frustrating.</p>
+          <div class="field-row">
+            <label>
+              Student ID
+              <input id="student-id" value="demo_student" autocomplete="off">
+            </label>
+            <label>
+              Grade
+              <select id="grade-level">
+                <option value="6">Grade 6</option>
+                <option value="7">Grade 7</option>
+                <option value="8">Grade 8</option>
+              </select>
+            </label>
+          </div>
+          <div class="actions">
+            <button class="btn" id="start-button">Start assessment</button>
+          </div>
+          <p class="error" id="start-error" role="alert"></p>
+        </div>
+        <aside class="card">
+          <h2>What parents get</h2>
+          <p>A reading range, ZPD-style practice zone, skill profile, and material buckets for confidence reading, daily reading, supported challenge, and too-hard-now texts.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="view" id="reading-view">
+      <div class="app-grid">
+        <article class="card">
+          <div id="passage-meta"></div>
+          <h2 id="passage-title"></h2>
+          <p class="passage" id="passage-body"></p>
+        </article>
+        <aside class="card">
+          <h2>Questions</h2>
+          <form id="question-form"></form>
+          <div class="actions">
+            <button class="btn" id="submit-passage-button" type="button">Submit passage</button>
+          </div>
+          <p class="error" id="reading-error" role="alert"></p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="view" id="report-view">
+      <div class="report-grid">
+        <section class="card">
+          <h2>Reading Report</h2>
+          <p>Estimated Lexile-like Range</p>
+          <div class="big-score" id="estimated-range">-</div>
+          <p><strong>Practice Range:</strong> <span id="practice-range">-</span></p>
+          <p><strong>ZPD / 最近发展阅读区间:</strong> <span id="zpd-range">-</span></p>
+          <p><strong>Confidence:</strong> <span id="confidence-label">-</span></p>
+        </section>
+        <section class="card">
+          <h2>Domain Scores</h2>
+          <div id="domain-scores"></div>
+          <div class="actions">
+            <button class="btn" id="show-materials-button">Choose reading materials</button>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <section class="view" id="materials-view">
+      <section class="card">
+        <h2>Parent Material Selector</h2>
+        <p>Pick most weekly reading from the daily growth zone. Use easier texts for confidence and harder texts when an adult can help.</p>
+      </section>
+      <div class="materials-grid" id="materials-grid"></div>
+    </section>
+  </main>
+
+  <script>
+    const state = {
+      assessmentId: null,
+      currentPassage: null,
+      passagesCompleted: 0,
+      startedAt: null,
+      report: null,
+      materials: null
+    };
+
+    const views = {
+      start: document.getElementById("start-view"),
+      reading: document.getElementById("reading-view"),
+      report: document.getElementById("report-view"),
+      materials: document.getElementById("materials-view")
+    };
+
+    function showView(name) {
+      Object.entries(views).forEach(([key, view]) => view.classList.toggle("active", key === name));
+      document.querySelectorAll("[data-step]").forEach((step) => step.classList.toggle("active", step.dataset.step === name));
+    }
+
+    async function api(path, options = {}) {
+      const response = await fetch(path, {
+        headers: {"Content-Type": "application/json"},
+        ...options
+      });
+      const payload = await response.json();
+      if (!response.ok) {
+        const message = payload.error?.message || `Request failed: ${response.status}`;
+        throw new Error(message);
+      }
+      return payload;
+    }
+
+    async function startAssessment() {
+      document.getElementById("start-error").textContent = "";
+      try {
+        const studentId = document.getElementById("student-id").value.trim() || "demo_student";
+        const gradeLevel = Number(document.getElementById("grade-level").value);
+        const created = await api("/api/v1/reading/assessments", {
+          method: "POST",
+          body: JSON.stringify({student_id: studentId, grade_level: gradeLevel})
+        });
+        state.assessmentId = created.assessment_id;
+        state.passagesCompleted = 0;
+        state.startedAt = Date.now();
+        await loadNextPassage();
+      } catch (error) {
+        document.getElementById("start-error").textContent = error.message;
+      }
+    }
+
+    async function loadNextPassage() {
+      const payload = await api(`/api/v1/reading/assessments/${state.assessmentId}/next`);
+      state.currentPassage = payload;
+      renderPassage(payload);
+      showView("reading");
+    }
+
+    function renderPassage(payload) {
+      document.getElementById("passage-meta").innerHTML = `
+        <span class="pill">Passage ${state.passagesCompleted + 1}</span>
+        <span class="pill">Anchor ${payload.passage.anchor_lexile}L</span>
+      `;
+      document.getElementById("passage-title").textContent = payload.passage.title;
+      document.getElementById("passage-body").textContent = payload.passage.body_text;
+      const form = document.getElementById("question-form");
+      form.innerHTML = "";
+      payload.items.forEach((item, index) => {
+        const fieldset = document.createElement("fieldset");
+        fieldset.className = "card";
+        fieldset.innerHTML = `<legend><strong>${index + 1}. ${item.question_text}</strong></legend>`;
+        Object.entries(item.choices).forEach(([choice, text]) => {
+          const id = `${item.item_id}-${choice}`;
+          const label = document.createElement("label");
+          label.className = "choice";
+          label.innerHTML = `<input type="radio" name="${item.item_id}" value="${choice}" id="${id}"> ${choice}. ${text}`;
+          label.addEventListener("click", () => {
+            fieldset.querySelectorAll(".choice").forEach((choiceLabel) => choiceLabel.classList.remove("selected"));
+            label.classList.add("selected");
+          });
+          fieldset.appendChild(label);
+        });
+        form.appendChild(fieldset);
+      });
+    }
+
+    async function submitPassage() {
+      document.getElementById("reading-error").textContent = "";
+      const responses = state.currentPassage.items.map((item) => {
+        const selected = document.querySelector(`input[name="${item.item_id}"]:checked`);
+        return selected ? {
+          item_id: item.item_id,
+          selected_choice: selected.value,
+          time_spent_sec: 30
+        } : null;
+      });
+      if (responses.some((response) => response === null)) {
+        document.getElementById("reading-error").textContent = "Please answer every question before continuing.";
+        return;
+      }
+      const elapsed = Math.max(60, Math.round((Date.now() - state.startedAt) / 1000));
+      const result = await api(`/api/v1/reading/assessments/${state.assessmentId}/responses`, {
+        method: "POST",
+        body: JSON.stringify({
+          passage_id: state.currentPassage.passage.passage_id,
+          time_spent_sec: elapsed,
+          responses
+        })
+      });
+      state.passagesCompleted = result.passages_completed;
+      state.startedAt = Date.now();
+      if (result.status === "ready_to_complete") {
+        await completeAssessment();
+      } else {
+        await loadNextPassage();
+      }
+    }
+
+    async function completeAssessment() {
+      state.report = await api(`/api/v1/reading/assessments/${state.assessmentId}/complete`, {method: "POST"});
+      renderReport(state.report);
+      showView("report");
+    }
+
+    function renderReport(report) {
+      document.getElementById("estimated-range").textContent = report.estimated_range;
+      document.getElementById("practice-range").textContent = report.practice_range;
+      document.getElementById("zpd-range").textContent = `${report.zpd_like.grade_range} (${report.zpd_like.lexile_range})`;
+      document.getElementById("confidence-label").textContent = report.confidence;
+      document.getElementById("domain-scores").innerHTML = Object.entries(report.domain_scores)
+        .map(([skill, score]) => `<p><strong>${skill.replaceAll("_", " ")}:</strong> ${score}</p>`)
+        .join("");
+    }
+
+    async function showMaterials() {
+      state.materials = await api(`/api/v1/reading/assessments/${state.assessmentId}/materials`);
+      renderMaterials(state.materials);
+      showView("materials");
+    }
+
+    function renderMaterials(materials) {
+      const grid = document.getElementById("materials-grid");
+      grid.innerHTML = Object.entries(materials.buckets).map(([key, bucket]) => `
+        <section class="card">
+          <h3>${bucket.label}</h3>
+          <p><strong>${bucket.range}</strong></p>
+          <p>${bucket.parent_action}</p>
+          ${bucket.materials.map((material) => `
+            <article class="material-card">
+              <strong>${material.title}</strong>
+              <p>${material.lexile} · ${material.format} · ${material.topic}</p>
+              <small>${material.why_this_fits}</small>
+            </article>
+          `).join("")}
+        </section>
+      `).join("");
+    }
+
+    document.getElementById("start-button").addEventListener("click", startAssessment);
+    document.getElementById("submit-passage-button").addEventListener("click", submitPassage);
+    document.getElementById("show-materials-button").addEventListener("click", showMaterials);
+  </script>
+</body>
+</html>

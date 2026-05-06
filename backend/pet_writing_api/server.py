@@ -6,6 +6,7 @@ import json
 import sys
 from http import HTTPStatus
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
+from pathlib import Path
 from typing import Any, Callable
 from urllib.parse import parse_qs, urlparse
 
@@ -16,10 +17,22 @@ from .service import ServiceError, WritingService
 from .storage import Storage
 
 
+READING_APP_PATH = Path(__file__).resolve().parents[1] / "pet_reading_api" / "static" / "reading_app.html"
+
+
 def json_response(handler: BaseHTTPRequestHandler, status: int, payload: dict[str, Any]) -> None:
     data = json.dumps(payload, ensure_ascii=True).encode("utf-8")
     handler.send_response(status)
     handler.send_header("Content-Type", "application/json; charset=utf-8")
+    handler.send_header("Content-Length", str(len(data)))
+    handler.end_headers()
+    handler.wfile.write(data)
+
+
+def html_response(handler: BaseHTTPRequestHandler, status: int, html: str) -> None:
+    data = html.encode("utf-8")
+    handler.send_response(status)
+    handler.send_header("Content-Type", "text/html; charset=utf-8")
     handler.send_header("Content-Length", str(len(data)))
     handler.end_headers()
     handler.wfile.write(data)
@@ -46,6 +59,9 @@ def make_handler(service: WritingService, reading_service: ReadingService) -> ty
             try:
                 if method == "GET" and path == "/api/v1/health":
                     json_response(self, 200, {"status": "ok"})
+                    return
+                if method == "GET" and path == "/app/reading":
+                    html_response(self, 200, READING_APP_PATH.read_text(encoding="utf-8"))
                     return
                 if method == "POST" and path == "/api/v1/reading/assessments":
                     body = read_json_body(self)
