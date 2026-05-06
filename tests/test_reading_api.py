@@ -161,6 +161,17 @@ class ReadingApiFlowTest(unittest.TestCase):
         self.assertEqual(report["testing_scope"]["passages_completed"], 3)
         self.assertIn("official_star_scaled_score", report["testing_scope"]["official_terms_requiring_external_norms"])
         self.assertEqual(report["test_fidelity"]["status"], "valid")
+        parent_guidance = report["reading_recommendation"]["parent_material_guidance"]
+        self.assertEqual(
+            set(parent_guidance),
+            {
+                "confidence_or_warmup",
+                "best_fit_daily_reading",
+                "supported_challenge",
+                "frustration_risk",
+            },
+        )
+        self.assertIn("parents", parent_guidance["best_fit_daily_reading"]["use"])
         self.assertEqual(
             set(report["report_term_coverage"]),
             {

@@ -194,7 +194,7 @@ The reading report intentionally mirrors the main Star Reading report slots whil
 - `grade_equivalent_like`: rough internal GE-style projection.
 - `instructional_reading_level_like`: rough internal IRL-style projection from the practice range.
 - `official_domain_groups`: Literature, Informational Text, and Vocabulary groupings mapped from MVP skill domains.
-- `reading_recommendation`: independent reading range and supported-challenge range.
+- `reading_recommendation`: parent-facing material selection guidance, including independent reading range, supported-challenge range, easier confidence reading, and frustration-risk range.
 - `test_duration` and `test_fidelity`: elapsed time, passages completed, items answered, and validity cautions.
 - `report_metadata`: report type, target range, scale, benchmark type, and official-status disclaimer.
 - `zpd_like`: internal practice range used as a ZPD-like recommendation. It represents the growth practice zone: too low is not challenging, too high can be frustrating without support.

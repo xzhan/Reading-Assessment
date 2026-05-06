@@ -531,9 +531,28 @@ def _test_fidelity_payload(
 def _reading_recommendation_payload(estimate: dict[str, Any], zpd_like: dict[str, Any]) -> dict[str, Any]:
     practice_lower = estimate["practice_lower_lexile"]
     practice_upper = estimate["practice_upper_lexile"]
+    challenge_upper = min(1100, practice_upper + 100)
     return {
         "independent_reading": f"{practice_lower}L-{practice_upper}L",
-        "supported_challenge": f"{practice_upper}L-{min(1100, practice_upper + 100)}L",
+        "supported_challenge": f"{practice_upper}L-{challenge_upper}L",
+        "parent_material_guidance": {
+            "confidence_or_warmup": {
+                "range": f"below {practice_lower}L",
+                "use": "Good for confidence, review, or relaxed reading, but not the main growth target.",
+            },
+            "best_fit_daily_reading": {
+                "range": f"{practice_lower}L-{practice_upper}L",
+                "use": "Best range for parents to choose daily independent reading materials.",
+            },
+            "supported_challenge": {
+                "range": f"{practice_upper}L-{challenge_upper}L",
+                "use": "Use with parent or teacher support when the topic is interesting.",
+            },
+            "frustration_risk": {
+                "range": f"above {challenge_upper}L",
+                "use": "Likely too hard for routine reading unless there is strong support or special interest.",
+            },
+        },
         "zpd_like": zpd_like,
         "zpd_explanation": (
             "The ZPD-like range is the recommended practice zone: texts below it may be too easy, "
@@ -578,7 +597,7 @@ def _report_term_coverage() -> dict[str, dict[str, str]]:
         "reading_recommendation": {
             "field": "reading_recommendation",
             "status": "covered",
-            "note": "Provides independent and supported-challenge reading ranges.",
+            "note": "Provides parent-facing material selection guidance with independent and supported-challenge ranges.",
         },
         "test_duration_and_fidelity": {
             "field": "test_duration,test_fidelity",

@@ -382,6 +382,25 @@
       margin: 12px 0 2px;
     }
 
+    .guidance {
+      display: grid;
+      gap: 8px;
+      margin-top: 14px;
+    }
+
+    .guidance div {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      padding: 10px 12px;
+      color: var(--muted);
+      line-height: 1.35;
+    }
+
+    .guidance strong {
+      color: var(--ink);
+    }
+
     .domain-row {
       display: grid;
       grid-template-columns: 180px 1fr 44px;
@@ -452,7 +471,7 @@
       <div class="hero">
         <div>
           <h1>Find the right English reading level in 20-30 minutes.</h1>
-          <p>This internal assessment estimates a reading range, not an official Lexile score. The result helps teachers choose independent reading materials and supported challenge texts.</p>
+          <p>This internal assessment estimates a reading range, not an official Lexile score. The result helps parents choose books and reading materials that are challenging enough for growth but not so hard that children lose confidence.</p>
           <div class="actions">
             <button class="btn" data-view-target="test">Start assessment</button>
             <button class="btn secondary" data-view-target="report">Preview report</button>
@@ -563,7 +582,13 @@
             <div class="domain-group">Vocabulary</div>
             <div class="domain-row"><span>Vocabulary development</span><div class="bar"><i style="width:70%"></i></div><strong>70</strong></div>
           </div>
-          <p><strong>Reading Recommendation:</strong> Use the ZPD zone for daily growth practice. Read 650L-800L texts independently and use 800L-900L texts with teacher support.</p>
+          <p><strong>Parent Reading Guide:</strong> Use the ZPD zone to choose daily reading materials.</p>
+          <div class="guidance">
+            <div><strong>Below 650L:</strong> confidence reading or warm-up, not the main growth target.</div>
+            <div><strong>650L-800L:</strong> best fit for daily independent reading.</div>
+            <div><strong>800L-900L:</strong> good challenge with parent or teacher support.</div>
+            <div><strong>Above 900L:</strong> likely frustrating unless the topic is highly motivating.</div>
+          </div>
         </section>
       </div>
     </section>
