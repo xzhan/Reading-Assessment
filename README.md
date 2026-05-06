@@ -203,6 +203,7 @@ The reading report intentionally mirrors the main Star Reading report slots whil
 
 ### Reading assessment endpoints
 
+- `GET /app/reading`
 - `POST /api/v1/reading/assessments`
 - `GET /api/v1/reading/assessments/{assessment_id}/next`
 - `POST /api/v1/reading/assessments/{assessment_id}/responses`
@@ -210,13 +211,46 @@ The reading report intentionally mirrors the main Star Reading report slots whil
 - `GET /api/v1/reading/assessments/{assessment_id}/report`
 - `GET /api/v1/reading/assessments/{assessment_id}/materials`
 
+### Run the real reading app
+
+Start the backend:
+
+```bash
+python3 /Users/xzhan/vibcoding/EnglishTest/backend/app.py --host 127.0.0.1 --port 8000
+```
+
+Open:
+
+`http://127.0.0.1:8000/app/reading`
+
+The app is served by the Python backend and calls the reading API routes directly.
+
+### Generate candidate reading bank for review
+
+Generate review files:
+
+```bash
+python3 /Users/xzhan/vibcoding/EnglishTest/scripts/generate_reading_bank.py \
+  --count 4 \
+  --output-dir /Users/xzhan/vibcoding/EnglishTest/data/reading_review
+```
+
+Output:
+
+- `/Users/xzhan/vibcoding/EnglishTest/data/reading_review/candidates.jsonl`
+- `/Users/xzhan/vibcoding/EnglishTest/data/reading_review/candidates.csv`
+
+Candidate records are for human review only and are not imported into the live assessment bank automatically.
+
 ### Run reading tests
 
 ```bash
 python3 -m unittest \
   /Users/xzhan/vibcoding/EnglishTest/tests/test_reading_estimator.py \
   /Users/xzhan/vibcoding/EnglishTest/tests/test_reading_adaptive.py \
-  /Users/xzhan/vibcoding/EnglishTest/tests/test_reading_api.py
+  /Users/xzhan/vibcoding/EnglishTest/tests/test_reading_api.py \
+  /Users/xzhan/vibcoding/EnglishTest/tests/test_reading_app.py \
+  /Users/xzhan/vibcoding/EnglishTest/tests/test_reading_review_bank.py
 ```
 
 ### UI mockup
