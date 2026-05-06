@@ -95,6 +95,89 @@ class ReadingApiFlowTest(unittest.TestCase):
         self.assertEqual(report["assessment_id"], assessment_id)
         self.assertIn("summary", report)
         self.assertIn("official_domain_groups", report)
+        self.assertIn("benchmark", report)
+        self.assertIn("reading_recommendation", report)
+        self.assertIn("test_fidelity", report)
+        self.assertIn("report_metadata", report)
+        self.assertIn("testing_scope", report)
+
+    def test_report_covers_star_report_terms_with_internal_statuses(self) -> None:
+        status, created = self.request(
+            "POST",
+            "/api/v1/reading/assessments",
+            {"student_id": "stu_terms", "grade_level": 6},
+        )
+        self.assertEqual(status, 201)
+        assessment_id = created["assessment_id"]
+
+        for selected_choice in ("B", "B", "A"):
+            status, next_payload = self.request("GET", f"/api/v1/reading/assessments/{assessment_id}/next")
+            self.assertEqual(status, 200)
+            responses = [
+                {
+                    "item_id": item["item_id"],
+                    "selected_choice": selected_choice,
+                    "time_spent_sec": 42,
+                }
+                for item in next_payload["items"]
+            ]
+            status, _ = self.request(
+                "POST",
+                f"/api/v1/reading/assessments/{assessment_id}/responses",
+                {
+                    "passage_id": next_payload["passage"]["passage_id"],
+                    "time_spent_sec": 420,
+                    "responses": responses,
+                },
+            )
+            self.assertEqual(status, 200)
+
+        status, report = self.request("POST", f"/api/v1/reading/assessments/{assessment_id}/complete")
+        self.assertEqual(status, 200)
+
+        expected_terms = {
+            "scaled_score_like",
+            "percentile_rank",
+            "grade_equivalent_like",
+            "instructional_reading_level_like",
+            "zpd_like",
+            "benchmark",
+            "official_domain_groups",
+            "reading_recommendation",
+            "test_duration",
+            "test_fidelity",
+            "report_metadata",
+            "testing_scope",
+            "report_term_coverage",
+        }
+        self.assertTrue(expected_terms.issubset(report.keys()))
+        self.assertEqual(report["report_metadata"]["scale"], "Lexile-like Scale")
+        self.assertEqual(report["report_metadata"]["benchmark_type"], "Internal Grade Band")
+        self.assertEqual(report["percentile_rank"]["status"], "not_available")
+        self.assertEqual(report["benchmark"]["status"], "internal_estimate")
+        self.assertIn(report["benchmark"]["label"], {"urgent_intervention", "intervention", "on_watch", "at_or_above_benchmark"})
+        self.assertEqual(set(report["official_domain_groups"]), {"literature", "informational_text", "vocabulary"})
+        self.assertEqual(report["testing_scope"]["target_range"], "grades_6_8")
+        self.assertEqual(report["testing_scope"]["passages_completed"], 3)
+        self.assertIn("official_star_scaled_score", report["testing_scope"]["official_terms_requiring_external_norms"])
+        self.assertEqual(report["test_fidelity"]["status"], "valid")
+        self.assertEqual(
+            set(report["report_term_coverage"]),
+            {
+                "district_benchmark",
+                "scaled_score_ss",
+                "percentile_rank_pr",
+                "grade_equivalent_ge",
+                "instructional_reading_level_irl",
+                "domain_scores",
+                "reading_recommendation",
+                "test_duration_and_fidelity",
+                "diagnostic_report_metadata",
+                "zpd",
+            },
+        )
+        self.assertEqual(report["report_term_coverage"]["percentile_rank_pr"]["status"], "not_available")
+        self.assertEqual(report["report_term_coverage"]["district_benchmark"]["field"], "benchmark")
 
 
 if __name__ == "__main__":

@@ -322,21 +322,59 @@ class ReadingService:
         assessment_id = assessment["id"]
         duration_sec = int(assessment["duration_sec"])
         domain_scores = estimate["domain_scores"]
+        midpoint = _midpoint(estimate["estimated_lower_lexile"], estimate["estimated_upper_lexile"])
+        benchmark = _benchmark_payload(midpoint, assessment["grade_level"])
+        test_fidelity = _test_fidelity_payload(
+            duration_sec=duration_sec,
+            passages_completed=int(assessment["passages_completed"]),
+            items_answered=_items_answered(estimate),
+            validity_flags=estimate["validity_flags"],
+        )
+        zpd_like = {
+            "lexile_range": f"{estimate['practice_lower_lexile']}L-{estimate['practice_upper_lexile']}L",
+            "grade_range": (
+                f"{_grade_level_projection(estimate['practice_lower_lexile'])}-"
+                f"{_grade_level_projection(estimate['practice_upper_lexile'])}"
+            ),
+            "status": "practice_range_projection",
+        }
         return {
             "assessment_id": assessment_id,
             "student_id": assessment["student_id"],
             "grade_level": assessment["grade_level"],
+            "report_metadata": {
+                "report_type": "Reading Diagnostic Report",
+                "scale": "Lexile-like Scale",
+                "benchmark_type": "Internal Grade Band",
+                "target_range": assessment["target_range"],
+                "official_status": "not_official_star_or_lexile",
+            },
             "estimated_range": f"{estimate['estimated_lower_lexile']}L-{estimate['estimated_upper_lexile']}L",
             "practice_range": f"{estimate['practice_lower_lexile']}L-{estimate['practice_upper_lexile']}L",
             "cefr_estimate": estimate["cefr_estimate"],
             "confidence": estimate["confidence_label"],
             "range_status": estimate["range_status"],
-            "test_duration": {
-                "seconds": duration_sec,
-                "display": _duration_display(duration_sec),
+            "benchmark": benchmark,
+            "test_duration": {"seconds": duration_sec, "display": _duration_display(duration_sec)},
+            "test_fidelity": test_fidelity,
+            "testing_scope": {
+                "target_range": assessment["target_range"],
+                "target_grades": [6, 7, 8],
+                "difficulty_range": "500L-1100L",
+                "passages_completed": int(assessment["passages_completed"]),
+                "items_answered": _items_answered(estimate),
+                "skills_measured": list(domain_scores.keys()),
+                "unsupported_official_terms": ["percentile_rank"],
+                "official_terms_requiring_external_norms": [
+                    "official_star_scaled_score",
+                    "official_percentile_rank",
+                    "official_grade_equivalent",
+                    "official_instructional_reading_level",
+                    "official_district_benchmark_cutpoints",
+                ],
             },
             "scaled_score_like": {
-                "value": f"{_midpoint(estimate['estimated_lower_lexile'], estimate['estimated_upper_lexile'])}L",
+                "value": f"{midpoint}L",
                 "status": "internal_estimate",
             },
             "instructional_reading_level_like": {
@@ -346,23 +384,20 @@ class ReadingService:
                 "status": "rough_internal_projection",
             },
             "grade_equivalent_like": {
-                "value": _grade_level_projection(
-                    _midpoint(estimate["estimated_lower_lexile"], estimate["estimated_upper_lexile"])
-                ),
+                "value": _grade_level_projection(midpoint),
                 "status": "rough_internal_projection",
             },
-            "zpd_like": {
-                "lexile_range": f"{estimate['practice_lower_lexile']}L-{estimate['practice_upper_lexile']}L",
-                "grade_range": (
-                    f"{_grade_level_projection(estimate['practice_lower_lexile'])}-"
-                    f"{_grade_level_projection(estimate['practice_upper_lexile'])}"
-                ),
-                "status": "practice_range_projection",
-            },
+            "zpd_like": zpd_like,
             "summary": estimate["summary"],
             "domain_scores": domain_scores,
             "official_domain_groups": _official_domain_groups(domain_scores),
             "star_report_alignment": _star_report_alignment(estimate),
+            "percentile_rank": {
+                "status": "not_available",
+                "reason": "Requires a norm group and percentile calibration dataset.",
+            },
+            "reading_recommendation": _reading_recommendation_payload(estimate, zpd_like),
+            "report_term_coverage": _report_term_coverage(),
             "validity_flags": estimate["validity_flags"],
             "recommendations": estimate["recommendations"],
         }
@@ -397,6 +432,164 @@ def _official_domain_groups(domain_scores: dict[str, int]) -> dict[str, dict[str
         },
         "vocabulary": {
             "vocabulary_development": domain_scores["vocabulary_context"],
+        },
+    }
+
+
+def _items_answered(estimate: dict[str, Any]) -> int:
+    return sum(int(bucket["total"]) for bucket in estimate.get("bucket_summary", []))
+
+
+def _benchmark_payload(midpoint_lexile: int, grade_level: int | None) -> dict[str, Any]:
+    thresholds = _benchmark_thresholds(grade_level)
+    if midpoint_lexile < thresholds["urgent_end"]:
+        label = "urgent_intervention"
+    elif midpoint_lexile < thresholds["intervention_end"]:
+        label = "intervention"
+    elif midpoint_lexile < thresholds["on_watch_end"]:
+        label = "on_watch"
+    else:
+        label = "at_or_above_benchmark"
+    return {
+        "status": "internal_estimate",
+        "label": label,
+        "grade_level": grade_level,
+        "scale": "Lexile-like Scale",
+        "benchmark_type": "Internal Grade Band",
+        "value_lexile": midpoint_lexile,
+        "at_or_above_cut_lexile": thresholds["on_watch_end"],
+        "bands": [
+            {
+                "label": "urgent_intervention",
+                "min_lexile": 0,
+                "max_lexile": thresholds["urgent_end"] - 1,
+                "color": "red",
+            },
+            {
+                "label": "intervention",
+                "min_lexile": thresholds["urgent_end"],
+                "max_lexile": thresholds["intervention_end"] - 1,
+                "color": "yellow",
+            },
+            {
+                "label": "on_watch",
+                "min_lexile": thresholds["intervention_end"],
+                "max_lexile": thresholds["on_watch_end"] - 1,
+                "color": "blue",
+            },
+            {
+                "label": "at_or_above_benchmark",
+                "min_lexile": thresholds["on_watch_end"],
+                "max_lexile": 1500,
+                "color": "green",
+            },
+        ],
+    }
+
+
+def _benchmark_thresholds(grade_level: int | None) -> dict[str, int]:
+    grade = grade_level or 7
+    shift = max(0, grade - 6) * 100
+    return {
+        "urgent_end": 410 + shift,
+        "intervention_end": 695 + shift,
+        "on_watch_end": 870 + shift,
+    }
+
+
+def _test_fidelity_payload(
+    *,
+    duration_sec: int,
+    passages_completed: int,
+    items_answered: int,
+    validity_flags: list[str],
+) -> dict[str, Any]:
+    status = "valid"
+    notes: list[str] = []
+    if validity_flags:
+        status = "caution"
+        notes.append("Validity flags were generated by the estimator.")
+    if duration_sec < 600:
+        status = "caution"
+        notes.append("Testing time was shorter than the minimum valid target.")
+    if passages_completed < 3:
+        status = "caution"
+        notes.append("Fewer than 3 passages were completed.")
+    if not notes:
+        notes.append("Duration, passage count, and response pattern are acceptable for the MVP estimate.")
+    return {
+        "status": status,
+        "duration_seconds": duration_sec,
+        "duration_display": _duration_display(duration_sec),
+        "passages_completed": passages_completed,
+        "items_answered": items_answered,
+        "validity_flags": validity_flags,
+        "notes": notes,
+    }
+
+
+def _reading_recommendation_payload(estimate: dict[str, Any], zpd_like: dict[str, Any]) -> dict[str, Any]:
+    practice_lower = estimate["practice_lower_lexile"]
+    practice_upper = estimate["practice_upper_lexile"]
+    return {
+        "independent_reading": f"{practice_lower}L-{practice_upper}L",
+        "supported_challenge": f"{practice_upper}L-{min(1100, practice_upper + 100)}L",
+        "zpd_like": zpd_like,
+        "notes": estimate["recommendations"],
+    }
+
+
+def _report_term_coverage() -> dict[str, dict[str, str]]:
+    return {
+        "district_benchmark": {
+            "field": "benchmark",
+            "status": "internal_estimate",
+            "note": "Uses internal grade-band cut points, not Renaissance district benchmarks.",
+        },
+        "scaled_score_ss": {
+            "field": "scaled_score_like",
+            "status": "internal_estimate",
+            "note": "Shown as Lexile-like midpoint, not official Star SS.",
+        },
+        "percentile_rank_pr": {
+            "field": "percentile_rank",
+            "status": "not_available",
+            "note": "Needs a norm group and percentile calibration dataset.",
+        },
+        "grade_equivalent_ge": {
+            "field": "grade_equivalent_like",
+            "status": "rough_internal_projection",
+            "note": "A readability projection for teacher orientation, not a normed GE.",
+        },
+        "instructional_reading_level_irl": {
+            "field": "instructional_reading_level_like",
+            "status": "rough_internal_projection",
+            "note": "Derived from the practice range, not official IRL.",
+        },
+        "domain_scores": {
+            "field": "official_domain_groups",
+            "status": "covered_by_skill_domains",
+            "note": "Maps MVP skills to Literature, Informational Text, and Vocabulary groups.",
+        },
+        "reading_recommendation": {
+            "field": "reading_recommendation",
+            "status": "covered",
+            "note": "Provides independent and supported-challenge reading ranges.",
+        },
+        "test_duration_and_fidelity": {
+            "field": "test_duration,test_fidelity",
+            "status": "covered",
+            "note": "Includes elapsed time, item count, passage count, and validity cautions.",
+        },
+        "diagnostic_report_metadata": {
+            "field": "report_metadata",
+            "status": "covered",
+            "note": "Stores report type, scale, benchmark type, target range, and official-status disclaimer.",
+        },
+        "zpd": {
+            "field": "zpd_like",
+            "status": "practice_range_projection",
+            "note": "Uses the internal practice range as a ZPD-like recommendation.",
         },
     }
 

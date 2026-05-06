@@ -361,6 +361,27 @@
       margin-top: 4px;
     }
 
+    .report-meta {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-top: 12px;
+    }
+
+    .benchmark-note {
+      border-left: 4px solid var(--green);
+      padding: 8px 0 8px 12px;
+      margin-top: 12px;
+      color: var(--muted);
+      line-height: 1.45;
+    }
+
+    .domain-group {
+      color: var(--ink);
+      font-weight: 800;
+      margin: 12px 0 2px;
+    }
+
     .domain-row {
       display: grid;
       grid-template-columns: 180px 1fr 44px;
@@ -485,7 +506,13 @@
           <h2>Reading Report</h2>
           <p>Estimated Lexile-like Range</p>
           <div class="big-score">720L-860L</div>
+          <div class="report-meta">
+            <span class="pill">Grade 6</span>
+            <span class="pill">Scale: Lexile-like</span>
+            <span class="pill">Benchmark: Internal Grade Band</span>
+          </div>
           <div class="score-band"><div></div><div></div><div></div><div></div></div>
+          <p class="benchmark-note"><strong>District Benchmark-like:</strong> At/Above Benchmark, using internal cut points. This is not an official Renaissance district benchmark.</p>
           <p><strong>Practice Range:</strong> 650L-800L</p>
           <p><strong>CEFR:</strong> A2+</p>
           <p><strong>Confidence:</strong> Medium</p>
@@ -501,6 +528,11 @@
               <small>Requires a norm group.</small>
             </div>
             <div class="official-card">
+              <span>GE-like</span>
+              <strong>6.6</strong>
+              <small>Rough internal grade projection.</small>
+            </div>
+            <div class="official-card">
               <span>IRL-like</span>
               <strong>6.2</strong>
               <small>Projected from practice range.</small>
@@ -510,18 +542,28 @@
               <strong>650L-800L</strong>
               <small>Recommended independent practice range.</small>
             </div>
+            <div class="official-card">
+              <span>Duration & Fidelity</span>
+              <strong>24m 18s</strong>
+              <small>Valid: 3 passages, 15 items, no caution flags.</small>
+            </div>
           </div>
         </section>
         <section class="card">
-          <h2>Skill Profile</h2>
+          <h2>Domain Scores</h2>
           <div class="domains">
-            <div class="domain-row"><span>Main idea</span><div class="bar"><i style="width:82%"></i></div><strong>82</strong></div>
-            <div class="domain-row"><span>Detail</span><div class="bar"><i style="width:88%"></i></div><strong>88</strong></div>
-            <div class="domain-row"><span>Inference</span><div class="bar"><i style="width:61%"></i></div><strong>61</strong></div>
-            <div class="domain-row"><span>Vocabulary context</span><div class="bar"><i style="width:70%"></i></div><strong>70</strong></div>
-            <div class="domain-row"><span>Structure / purpose</span><div class="bar"><i style="width:66%"></i></div><strong>66</strong></div>
+            <div class="domain-group">Literature</div>
+            <div class="domain-row"><span>Elements and ideas</span><div class="bar"><i style="width:82%"></i></div><strong>82</strong></div>
+            <div class="domain-row"><span>Structure and craft</span><div class="bar"><i style="width:66%"></i></div><strong>66</strong></div>
+            <div class="domain-row"><span>Deep understanding</span><div class="bar"><i style="width:61%"></i></div><strong>61</strong></div>
+            <div class="domain-group">Informational Text</div>
+            <div class="domain-row"><span>Information and ideas</span><div class="bar"><i style="width:88%"></i></div><strong>88</strong></div>
+            <div class="domain-row"><span>Purpose and language</span><div class="bar"><i style="width:66%"></i></div><strong>66</strong></div>
+            <div class="domain-row"><span>Analysis and evaluation</span><div class="bar"><i style="width:61%"></i></div><strong>61</strong></div>
+            <div class="domain-group">Vocabulary</div>
+            <div class="domain-row"><span>Vocabulary development</span><div class="bar"><i style="width:70%"></i></div><strong>70</strong></div>
           </div>
-          <p><strong>Next step:</strong> Read 650L-800L texts independently. Use 800L-900L texts with teacher support.</p>
+          <p><strong>Reading Recommendation:</strong> Read 650L-800L texts independently. Use 800L-900L texts with teacher support.</p>
         </section>
       </div>
     </section>

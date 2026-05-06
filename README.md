@@ -184,6 +184,23 @@ The backend also supports a first Lexile-like reading assessment flow for Grade 
 
 This is an internal teaching estimate, not an official Lexile or Renaissance Star Reading score.
 
+### Report term coverage
+
+The reading report intentionally mirrors the main Star Reading report slots while labeling each non-official value.
+
+- `benchmark`: internal District Benchmark-like band with Urgent Intervention, Intervention, On Watch, and At/Above Benchmark labels.
+- `scaled_score_like`: internal Lexile-like midpoint for the SS display slot.
+- `percentile_rank`: marked `not_available` until a norm group and percentile calibration dataset exist.
+- `grade_equivalent_like`: rough internal GE-style projection.
+- `instructional_reading_level_like`: rough internal IRL-style projection from the practice range.
+- `official_domain_groups`: Literature, Informational Text, and Vocabulary groupings mapped from MVP skill domains.
+- `reading_recommendation`: independent reading range and supported-challenge range.
+- `test_duration` and `test_fidelity`: elapsed time, passages completed, items answered, and validity cautions.
+- `report_metadata`: report type, target range, scale, benchmark type, and official-status disclaimer.
+- `zpd_like`: internal practice range used as a ZPD-like recommendation.
+- `testing_scope`: target grades, difficulty range, passages completed, items answered, measured skills, and official terms that require external norm data.
+- `report_term_coverage`: machine-readable coverage map for every official-style report term above.
+
 ### Reading assessment endpoints
 
 - `POST /api/v1/reading/assessments`
