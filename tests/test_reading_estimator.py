@@ -22,7 +22,7 @@ class ReadingEstimatorTest(unittest.TestCase):
 
         estimate = estimate_reading_level(
             responses=responses,
-            passages_completed=4,
+            passages_completed=6,
             duration_seconds=1420,
         )
 
@@ -54,6 +54,21 @@ class ReadingEstimatorTest(unittest.TestCase):
         self.assertIn("TOO_FAST_OVERALL", estimate["validity_flags"])
         self.assertIn("MANY_RUSHED_ITEMS", estimate["validity_flags"])
 
+    def test_flags_fewer_than_six_passages(self) -> None:
+        responses = [
+            {"estimated_item_lexile": 850, "skill": "detail", "correct": True, "time_seconds": 45}
+            for _ in range(25)
+        ]
+
+        estimate = estimate_reading_level(
+            responses=responses,
+            passages_completed=5,
+            duration_seconds=1200,
+        )
+
+        self.assertEqual(estimate["confidence_label"], "Low")
+        self.assertIn("TOO_FEW_PASSAGES", estimate["validity_flags"])
+
     def test_marks_above_target_range(self) -> None:
         responses = [
             {"estimated_item_lexile": 950, "skill": "detail", "correct": True, "time_seconds": 45},
@@ -65,7 +80,7 @@ class ReadingEstimatorTest(unittest.TestCase):
 
         estimate = estimate_reading_level(
             responses=responses,
-            passages_completed=4,
+            passages_completed=6,
             duration_seconds=1500,
         )
 

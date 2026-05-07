@@ -242,6 +242,31 @@ Output:
 
 Candidate records are for human review only and are not imported into the live assessment bank automatically.
 
+Import reviewed Vocab Quest export files:
+
+```bash
+python3 /Users/xzhan/vibcoding/EnglishTest/scripts/import_vocab_quest_reading_bank.py \
+  /Users/xzhan/vibcoding/EnglishTest/data/reading_review/vocabquest_export.json \
+  --output-dir /Users/xzhan/vibcoding/EnglishTest/data/reading_review
+```
+
+Output:
+
+- `/Users/xzhan/vibcoding/EnglishTest/data/reading_review/vocabquest_reviewed_candidates.jsonl`
+- `/Users/xzhan/vibcoding/EnglishTest/data/reading_review/vocabquest_reviewed_candidates.csv`
+
+Imported Vocab Quest records keep reviewed questions intact and add `validation_flags` plus `diagnostic_ready`. Only records with `diagnostic_ready=true` are ready for the strict diagnostic five-skill coverage.
+
+Promote near-ready Vocab Quest candidates into the app reading bank:
+
+```bash
+python3 /Users/xzhan/vibcoding/EnglishTest/scripts/promote_vocab_quest_reading_bank.py
+```
+
+The promoter repairs only candidates that already have five items, complete answer keys, and exactly one missing required skill. The generated module is:
+
+- `/Users/xzhan/vibcoding/EnglishTest/backend/pet_reading_api/vocabquest_promoted.py`
+
 ### Run reading tests
 
 ```bash

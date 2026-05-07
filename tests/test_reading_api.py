@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import sqlite3
 import tempfile
 import threading
 import unittest
@@ -11,6 +12,9 @@ import urllib.request
 from pathlib import Path
 
 from backend.pet_writing_api.server import create_server
+
+
+VALID_SIX_PASSAGE_PATTERN = (True, True, False, True, True, False)
 
 
 class ReadingApiFlowTest(unittest.TestCase):
@@ -48,6 +52,68 @@ class ReadingApiFlowTest(unittest.TestCase):
         except urllib.error.HTTPError as exc:
             return exc.code, json.loads(exc.read().decode("utf-8"))
 
+    def submit_passage_with_correctness(self, assessment_id: str, *, correct: bool, time_spent_sec: int = 420) -> tuple[dict, dict]:
+        status, next_payload = self.request("GET", f"/api/v1/reading/assessments/{assessment_id}/next")
+        self.assertEqual(status, 200)
+        item_ids = [item["item_id"] for item in next_payload["items"]]
+        placeholders = ",".join("?" for _ in item_ids)
+        with sqlite3.connect(self.db_path) as conn:
+            correct_choices = dict(
+                conn.execute(
+                    f"select id, correct_choice from reading_items where id in ({placeholders})",
+                    item_ids,
+                ).fetchall()
+            )
+        responses = []
+        for item in next_payload["items"]:
+            correct_choice = correct_choices[item["item_id"]]
+            selected_choice = correct_choice
+            if not correct:
+                selected_choice = next(choice for choice in ("A", "B", "C", "D") if choice != correct_choice)
+            responses.append(
+                {
+                    "item_id": item["item_id"],
+                    "selected_choice": selected_choice,
+                    "time_spent_sec": 42,
+                }
+            )
+        status, result = self.request(
+            "POST",
+            f"/api/v1/reading/assessments/{assessment_id}/responses",
+            {
+                "passage_id": next_payload["passage"]["passage_id"],
+                "time_spent_sec": time_spent_sec,
+                "responses": responses,
+            },
+        )
+        self.assertEqual(status, 200)
+        return next_payload, result
+
+    def test_promoted_vocab_quest_passages_are_seeded_with_source_metadata(self) -> None:
+        with sqlite3.connect(self.db_path) as conn:
+            rows = conn.execute(
+                """
+                select id, metadata_json
+                from reading_passages
+                where id like 'rp_vq_%'
+                """
+            ).fetchall()
+
+        self.assertEqual(len(rows), 10)
+        metadata_by_id = {}
+        for passage_id, metadata_json in rows:
+            metadata = json.loads(metadata_json)
+            metadata_by_id[passage_id] = metadata
+            self.assertEqual(metadata["source"], "vocab_quest_promoted")
+        self.assertEqual(
+            metadata_by_id["rp_vq_253ea7923758"]["source_session_id"],
+            "253ea792-3758-4b20-8aff-2abee3d25213",
+        )
+        self.assertEqual(
+            metadata_by_id["rp_vq_3fcd767f3e99"]["source_session_id"],
+            "3fcd767f-3e99-4c34-92b8-954eae7ab9cf",
+        )
+
     def test_full_reading_flow(self) -> None:
         status, created = self.request(
             "POST",
@@ -58,7 +124,7 @@ class ReadingApiFlowTest(unittest.TestCase):
         assessment_id = created["assessment_id"]
         self.assertEqual(created["current_anchor_lexile"], 800)
 
-        for _ in range(3):
+        for passage_index in range(6):
             status, next_payload = self.request("GET", f"/api/v1/reading/assessments/{assessment_id}/next")
             self.assertEqual(status, 200)
             self.assertIn("passage", next_payload)
@@ -83,8 +149,9 @@ class ReadingApiFlowTest(unittest.TestCase):
                 },
             )
             self.assertEqual(status, 200)
-            self.assertIn(result["status"], {"continue", "ready_to_complete"})
-            self.assertGreaterEqual(result["passages_completed"], 1)
+            expected_status = "ready_to_complete" if passage_index == 5 else "continue"
+            self.assertEqual(result["status"], expected_status)
+            self.assertEqual(result["passages_completed"], passage_index + 1)
 
         status, completed = self.request("POST", f"/api/v1/reading/assessments/{assessment_id}/complete")
         self.assertEqual(status, 200)
@@ -117,27 +184,8 @@ class ReadingApiFlowTest(unittest.TestCase):
         self.assertEqual(status, 201)
         assessment_id = created["assessment_id"]
 
-        for selected_choice in ("B", "B", "A"):
-            status, next_payload = self.request("GET", f"/api/v1/reading/assessments/{assessment_id}/next")
-            self.assertEqual(status, 200)
-            responses = [
-                {
-                    "item_id": item["item_id"],
-                    "selected_choice": selected_choice,
-                    "time_spent_sec": 42,
-                }
-                for item in next_payload["items"]
-            ]
-            status, _ = self.request(
-                "POST",
-                f"/api/v1/reading/assessments/{assessment_id}/responses",
-                {
-                    "passage_id": next_payload["passage"]["passage_id"],
-                    "time_spent_sec": 420,
-                    "responses": responses,
-                },
-            )
-            self.assertEqual(status, 200)
+        for correct in VALID_SIX_PASSAGE_PATTERN:
+            self.submit_passage_with_correctness(assessment_id, correct=correct)
 
         status, report = self.request("POST", f"/api/v1/reading/assessments/{assessment_id}/complete")
         self.assertEqual(status, 200)
@@ -165,7 +213,9 @@ class ReadingApiFlowTest(unittest.TestCase):
         self.assertIn(report["benchmark"]["label"], {"urgent_intervention", "intervention", "on_watch", "at_or_above_benchmark"})
         self.assertEqual(set(report["official_domain_groups"]), {"literature", "informational_text", "vocabulary"})
         self.assertEqual(report["testing_scope"]["target_range"], "grades_6_8")
-        self.assertEqual(report["testing_scope"]["passages_completed"], 3)
+        self.assertEqual(report["testing_scope"]["target_passages"], 6)
+        self.assertEqual(report["testing_scope"]["target_items"], 30)
+        self.assertEqual(report["testing_scope"]["passages_completed"], 6)
         self.assertIn("official_star_scaled_score", report["testing_scope"]["official_terms_requiring_external_norms"])
         self.assertEqual(report["test_fidelity"]["status"], "valid")
         parent_guidance = report["reading_recommendation"]["parent_material_guidance"]
@@ -213,27 +263,8 @@ class ReadingApiFlowTest(unittest.TestCase):
         self.assertEqual(status, 404)
         self.assertEqual(not_ready["error"]["code"], "READING_REPORT_NOT_READY")
 
-        for selected_choice in ("B", "B", "A"):
-            status, next_payload = self.request("GET", f"/api/v1/reading/assessments/{assessment_id}/next")
-            self.assertEqual(status, 200)
-            responses = [
-                {
-                    "item_id": item["item_id"],
-                    "selected_choice": selected_choice,
-                    "time_spent_sec": 42,
-                }
-                for item in next_payload["items"]
-            ]
-            status, _ = self.request(
-                "POST",
-                f"/api/v1/reading/assessments/{assessment_id}/responses",
-                {
-                    "passage_id": next_payload["passage"]["passage_id"],
-                    "time_spent_sec": 420,
-                    "responses": responses,
-                },
-            )
-            self.assertEqual(status, 200)
+        for correct in VALID_SIX_PASSAGE_PATTERN:
+            self.submit_passage_with_correctness(assessment_id, correct=correct)
 
         status, report = self.request("POST", f"/api/v1/reading/assessments/{assessment_id}/complete")
         self.assertEqual(status, 200)

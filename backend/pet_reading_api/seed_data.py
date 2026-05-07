@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+from .vocabquest_promoted import VOCABQUEST_PROMOTED_PASSAGES
+
 
 READING_PASSAGES = [
     {
@@ -531,4 +533,4 @@ READING_PASSAGES = [
             },
         ],
     },
-]
+] + VOCABQUEST_PROMOTED_PASSAGES

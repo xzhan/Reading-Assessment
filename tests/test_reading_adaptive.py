@@ -38,6 +38,17 @@ class ReadingAdaptiveTest(unittest.TestCase):
             self.assertEqual(skills, required)
             self.assertEqual(len(passage["items"]), 5)
 
+    def test_seed_data_includes_promoted_vocab_quest_passages(self) -> None:
+        promoted = [passage for passage in READING_PASSAGES if passage["id"].startswith("rp_vq_")]
+
+        self.assertEqual(len(promoted), 10)
+        promoted_ids = {passage["id"] for passage in promoted}
+        self.assertIn("rp_vq_253ea7923758", promoted_ids)
+        self.assertIn("rp_vq_3fcd767f3e99", promoted_ids)
+        self.assertEqual({passage["band_label"] for passage in promoted}, {"VocabQuest"})
+        for passage in promoted:
+            self.assertEqual(passage["metadata"]["source"], "vocab_quest_promoted")
+
 
 if __name__ == "__main__":
     unittest.main()

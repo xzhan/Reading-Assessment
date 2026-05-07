@@ -13,6 +13,7 @@ SKILLS = (
     "vocabulary_context",
     "structure_author_purpose",
 )
+MIN_VALID_PASSAGES = 6
 
 
 def estimate_reading_level(
@@ -52,7 +53,7 @@ def estimate_reading_level(
 
 def _validity_flags(responses: list[dict[str, Any]], passages_completed: int, duration_seconds: int) -> list[str]:
     flags: list[str] = []
-    if passages_completed < 3:
+    if passages_completed < MIN_VALID_PASSAGES:
         flags.append("TOO_FEW_PASSAGES")
     if duration_seconds < 600:
         flags.append("TOO_FAST_OVERALL")

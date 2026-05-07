@@ -14,6 +14,9 @@ from .materials import build_parent_material_recommendations
 from .storage import ReadingStorage
 
 
+ASSESSMENT_TARGET_PASSAGES = 6
+
+
 def utc_now() -> str:
     return datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
 
@@ -186,7 +189,7 @@ class ReadingService:
             )
             conn.commit()
         return {
-            "status": "ready_to_complete" if completed >= 3 else "continue",
+            "status": "ready_to_complete" if completed >= ASSESSMENT_TARGET_PASSAGES else "continue",
             "passage_accuracy": round(accuracy, 3),
             "next_anchor_lexile": next_anchor,
             "passages_completed": completed,
@@ -372,6 +375,8 @@ class ReadingService:
                 "target_range": assessment["target_range"],
                 "target_grades": [6, 7, 8],
                 "difficulty_range": "500L-1100L",
+                "target_passages": ASSESSMENT_TARGET_PASSAGES,
+                "target_items": ASSESSMENT_TARGET_PASSAGES * 5,
                 "passages_completed": int(assessment["passages_completed"]),
                 "items_answered": _items_answered(estimate),
                 "skills_measured": list(domain_scores.keys()),
@@ -524,9 +529,9 @@ def _test_fidelity_payload(
     if duration_sec < 600:
         status = "caution"
         notes.append("Testing time was shorter than the minimum valid target.")
-    if passages_completed < 3:
+    if passages_completed < ASSESSMENT_TARGET_PASSAGES:
         status = "caution"
-        notes.append("Fewer than 3 passages were completed.")
+        notes.append(f"Fewer than {ASSESSMENT_TARGET_PASSAGES} passages were completed.")
     if not notes:
         notes.append("Duration, passage count, and response pattern are acceptable for the MVP estimate.")
     return {

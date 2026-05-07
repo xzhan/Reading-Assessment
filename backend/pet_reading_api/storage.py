@@ -145,7 +145,7 @@ class ReadingStorage:
                         passage["genre"],
                         passage["word_count"],
                         passage["topic"],
-                        self.dumps({"source": "seed"}),
+                        self.dumps(passage.get("metadata", {"source": "seed"})),
                         1,
                         now,
                         now,

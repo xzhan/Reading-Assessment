@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import csv
 import json
+import re
 from pathlib import Path
 from typing import Any
 
@@ -15,6 +16,18 @@ REQUIRED_SKILLS = (
     "vocabulary_context",
     "structure_author_purpose",
 )
+VALID_REVIEW_STATUSES = ("candidate", "reviewed_candidate")
+SKILL_ALIASES = {
+    "conclusion": "main_idea",
+    "author_purpose": "structure_author_purpose",
+    "structure": "structure_author_purpose",
+}
+LEVEL_DEFAULTS = {
+    "A2": (650, "500L-650L", "A2"),
+    "A2+": (750, "650L-800L", "A2+"),
+    "B1": (850, "800L-950L", "B1"),
+    "B1+": (980, "950L-1100L", "B1+"),
+}
 
 
 def sample_candidates(count: int = 4) -> list[dict[str, Any]]:
@@ -92,7 +105,7 @@ def sample_candidates(count: int = 4) -> list[dict[str, Any]]:
     return [_candidate_from_template(template) for template in templates[: max(0, count)]]
 
 
-def validate_candidate(candidate: dict[str, Any]) -> list[str]:
+def validate_candidate(candidate: dict[str, Any], *, strict_skill_coverage: bool = True) -> list[str]:
     """Return validation errors for a candidate record."""
 
     errors: list[str] = []
@@ -111,16 +124,20 @@ def validate_candidate(candidate: dict[str, Any]) -> list[str]:
             errors.append(f"missing field: {field}")
     if errors:
         return errors
-    if candidate["review_status"] != "candidate":
-        errors.append("review_status must be candidate")
+    if candidate["review_status"] not in VALID_REVIEW_STATUSES:
+        errors.append("review_status must be candidate or reviewed_candidate")
     if len(candidate["body_text"].split()) < 80:
         errors.append("body_text must contain at least 80 words")
     items = candidate["items"]
     if len(items) != 5:
         errors.append("candidate must include exactly 5 items")
     skills = {item.get("skill") for item in items}
-    if skills != set(REQUIRED_SKILLS):
+    if strict_skill_coverage and skills != set(REQUIRED_SKILLS):
         errors.append("items must cover the required skills exactly once")
+    if not strict_skill_coverage:
+        unsupported = sorted(skill for skill in skills if skill not in set(REQUIRED_SKILLS))
+        if unsupported:
+            errors.append(f"unsupported skills: {', '.join(unsupported)}")
     for index, item in enumerate(items, start=1):
         item_id = item.get("item_id", f"item {index}")
         choices = item.get("choices", {})
@@ -135,12 +152,39 @@ def validate_candidate(candidate: dict[str, Any]) -> list[str]:
     return errors
 
 
-def write_review_files(candidates: list[dict[str, Any]], output_dir: Path) -> dict[str, Path]:
+def candidates_from_vocab_quest_export(payload: dict[str, Any]) -> list[dict[str, Any]]:
+    """Normalize a Vocab Quest export into reviewed reading-bank candidates."""
+
+    if payload.get("exportType") != "quests":
+        raise ValueError("Vocab Quest exportType must be quests")
+    sessions = payload.get("sessions")
+    if not isinstance(sessions, list):
+        raise ValueError("Vocab Quest payload must contain a sessions list")
+    return [_candidate_from_vocab_quest_session(session) for session in sessions]
+
+
+def promote_vocab_quest_candidates(
+    candidates: list[dict[str, Any]],
+) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
+    """Promote reviewed Vocab Quest candidates into seed-compatible passages."""
+
+    promoted: list[dict[str, Any]] = []
+    skipped: list[dict[str, Any]] = []
+    for candidate in candidates:
+        passage, reason = _promote_vocab_quest_candidate(candidate)
+        if passage:
+            promoted.append(passage)
+        else:
+            skipped.append({"passage_id": candidate.get("passage_id", ""), "reason": reason})
+    return promoted, skipped
+
+
+def write_review_files(candidates: list[dict[str, Any]], output_dir: Path, *, basename: str = "candidates") -> dict[str, Path]:
     """Write candidate review files and return their paths."""
 
     output_dir.mkdir(parents=True, exist_ok=True)
-    jsonl_path = output_dir / "candidates.jsonl"
-    csv_path = output_dir / "candidates.csv"
+    jsonl_path = output_dir / f"{basename}.jsonl"
+    csv_path = output_dir / f"{basename}.csv"
     with jsonl_path.open("w", encoding="utf-8") as jsonl_file:
         for candidate in candidates:
             jsonl_file.write(json.dumps(candidate, ensure_ascii=False, sort_keys=True) + "\n")
@@ -159,6 +203,8 @@ def write_review_files(candidates: list[dict[str, Any]], output_dir: Path) -> di
                 "topic",
                 "word_count",
                 "item_count",
+                "diagnostic_ready",
+                "validation_flags",
             ],
         )
         writer.writeheader()
@@ -175,9 +221,318 @@ def write_review_files(candidates: list[dict[str, Any]], output_dir: Path) -> di
                     "topic": candidate["topic"],
                     "word_count": candidate["word_count"],
                     "item_count": len(candidate["items"]),
+                    "diagnostic_ready": candidate.get("diagnostic_ready", ""),
+                    "validation_flags": ";".join(candidate.get("validation_flags", [])),
                 }
             )
     return {"jsonl": jsonl_path, "csv": csv_path}
+
+
+def _promote_vocab_quest_candidate(candidate: dict[str, Any]) -> tuple[dict[str, Any] | None, str]:
+    if candidate.get("review_status") != "reviewed_candidate":
+        return None, "not_reviewed_candidate"
+    items = candidate.get("items", [])
+    if len(items) != 5:
+        return None, "item_count_not_5"
+    invalid_reason = _invalid_promotion_item_reason(items)
+    if invalid_reason:
+        return None, invalid_reason
+
+    first_by_skill: dict[str, dict[str, Any]] = {}
+    for item in items:
+        skill = item.get("skill")
+        if skill in REQUIRED_SKILLS and skill not in first_by_skill:
+            first_by_skill[skill] = item
+    missing = [skill for skill in REQUIRED_SKILLS if skill not in first_by_skill]
+    generated_missing_skill = ""
+    if not missing:
+        repaired_items = first_by_skill
+    elif len(missing) == 1:
+        missing_skill = missing[0]
+        if missing_skill not in {"main_idea", "structure_author_purpose"}:
+            return None, f"unsupported_missing_skill_{missing_skill}"
+        generated_missing_skill = missing_skill
+        repaired_items = {
+            **first_by_skill,
+            missing_skill: _generated_repair_item(candidate, missing_skill),
+        }
+    else:
+        return None, "missing_skill_count_not_1"
+    passage_id = str(candidate["passage_id"])
+    suffix = passage_id.removeprefix("vq_")
+    promoted_items = [
+        _seed_item_from_candidate_item(
+            passage_id=f"rp_vq_{suffix}",
+            item=repaired_items[skill],
+            skill=skill,
+            order=order,
+            anchor=int(candidate["anchor_lexile"]),
+        )
+        for order, skill in enumerate(REQUIRED_SKILLS, start=1)
+    ]
+    return (
+        {
+            "id": f"rp_vq_{suffix}",
+            "passage_code": f"VQ_{suffix.upper()}",
+            "title": candidate["title"],
+            "body_text": candidate["body_text"],
+            "band_label": "VocabQuest",
+            "anchor_lexile": int(candidate["anchor_lexile"]),
+            "cefr_level": candidate["cefr_level"],
+            "genre": candidate["genre"],
+            "word_count": int(candidate["word_count"]),
+            "topic": candidate["topic"],
+            "metadata": {
+                "source": "vocab_quest_promoted",
+                "source_candidate_id": passage_id,
+                "source_session_id": candidate.get("source_session_id", ""),
+                "generated_missing_skill": generated_missing_skill,
+            },
+            "items": promoted_items,
+        },
+        "",
+    )
+
+
+def _invalid_promotion_item_reason(items: list[dict[str, Any]]) -> str:
+    for index, item in enumerate(items, start=1):
+        choices = item.get("choices", {})
+        correct_choice = item.get("correct_choice")
+        if set(choices) != {"A", "B", "C", "D"}:
+            return f"item_{index}_choices_not_a_d"
+        if correct_choice not in choices:
+            return f"item_{index}_correct_choice_invalid"
+        rationales = item.get("rationales", {})
+        if not rationales.get(correct_choice):
+            return f"item_{index}_correct_rationale_missing"
+    return ""
+
+
+def _generated_repair_item(candidate: dict[str, Any], skill: str) -> dict[str, Any]:
+    if skill == "main_idea":
+        return {
+            "item_id": f"{candidate['passage_id']}_generated_main_idea",
+            "skill": "main_idea",
+            "difficulty_label": "medium",
+            "difficulty_offset": 0,
+            "estimated_item_lexile": int(candidate["anchor_lexile"]),
+            "question_text": "What is the passage mainly about?",
+            "choices": {
+                "A": f"The central situation in {candidate['title']}",
+                "B": "A list of unrelated facts",
+                "C": "A grammar lesson about one word",
+                "D": "A completely different event",
+            },
+            "correct_choice": "A",
+            "rationales": {
+                "A": "This choice best summarizes the whole passage.",
+                "B": "The details in the passage are connected, not unrelated.",
+                "C": "The passage is a reading text, not a grammar lesson.",
+                "D": "This choice does not match the passage.",
+            },
+        }
+    return {
+        "item_id": f"{candidate['passage_id']}_generated_structure_author_purpose",
+        "skill": "structure_author_purpose",
+        "difficulty_label": "medium",
+        "difficulty_offset": 0,
+        "estimated_item_lexile": int(candidate["anchor_lexile"]),
+        "question_text": "Why does the writer include several specific details in the passage?",
+        "choices": {
+            "A": "To show how the main idea develops through events or examples",
+            "B": "To list unrelated facts without a purpose",
+            "C": "To explain a grammar rule",
+            "D": "To introduce a different passage",
+        },
+        "correct_choice": "A",
+        "rationales": {
+            "A": "The details help connect the passage events and ideas.",
+            "B": "The details support the passage rather than being unrelated.",
+            "C": "The passage does not focus on a grammar rule.",
+            "D": "The details belong to this passage.",
+        },
+    }
+
+
+def _seed_item_from_candidate_item(
+    *,
+    passage_id: str,
+    item: dict[str, Any],
+    skill: str,
+    order: int,
+    anchor: int,
+) -> dict[str, Any]:
+    return {
+        "id": f"ri_{passage_id.removeprefix('rp_')}_{skill}",
+        "item_order": order,
+        "skill": skill,
+        "difficulty_label": item.get("difficulty_label", "medium"),
+        "difficulty_offset": int(item.get("difficulty_offset", 0)),
+        "estimated_item_lexile": int(item.get("estimated_item_lexile", anchor)),
+        "question_text": item["question_text"],
+        "choices": item["choices"],
+        "correct_choice": item["correct_choice"],
+        "rationales": item["rationales"],
+    }
+
+
+def _candidate_from_vocab_quest_session(session: dict[str, Any]) -> dict[str, Any]:
+    source_id = str(session.get("id") or session.get("title") or "untitled")
+    title = str(session.get("title") or "Untitled Reading Quest").strip()
+    body_text = _normalize_whitespace(str(session.get("passage") or ""))
+    level = str(session.get("targetLevel") or "B1").strip().upper()
+    anchor, target_band, cefr_level = LEVEL_DEFAULTS.get(level, LEVEL_DEFAULTS["B1"])
+    reading_type = _reading_type(session)
+    passage_id = f"vq_{_stable_code(source_id)}"
+    items, item_flags = _vocab_quest_items(
+        passage_id=passage_id,
+        questions=session.get("questions") or [],
+        anchor=anchor,
+    )
+    candidate: dict[str, Any] = {
+        "passage_id": passage_id,
+        "title": title,
+        "anchor_lexile": anchor,
+        "target_band": target_band,
+        "cefr_level": cefr_level,
+        "genre": _genre_from_reading_type(reading_type, title),
+        "topic": reading_type,
+        "body_text": body_text,
+        "word_count": len(body_text.split()),
+        "review_status": "reviewed_candidate",
+        "reviewer": "source_reviewed",
+        "review_notes": "Imported from reviewed Vocab Quest export; diagnostic readiness is computed separately.",
+        "source": "vocab_quest",
+        "source_session_id": source_id,
+        "source_title": title,
+        "source_category": session.get("category", ""),
+        "original_vocab": session.get("originalVocab") or [],
+        "items": items,
+    }
+    candidate["validation_flags"] = _vocab_quest_validation_flags(candidate, item_flags)
+    candidate["diagnostic_ready"] = not candidate["validation_flags"]
+    return candidate
+
+
+def _vocab_quest_items(
+    *,
+    passage_id: str,
+    questions: list[dict[str, Any]],
+    anchor: int,
+) -> tuple[list[dict[str, Any]], list[str]]:
+    items: list[dict[str, Any]] = []
+    flags: list[str] = []
+    for order, question in enumerate(questions, start=1):
+        options = [str(option) for option in question.get("options", [])]
+        choices = {letter: option for letter, option in zip(("A", "B", "C", "D"), options)}
+        correct_choice = _correct_choice_from_answer(options, str(question.get("correctAnswer") or ""))
+        if not correct_choice:
+            flags.append(f"item_{order}_correct_answer_not_found")
+        skill, skill_flag = _normalize_skill(question)
+        if skill_flag:
+            flags.append(f"item_{order}_{skill_flag}")
+        item_id = _normalize_whitespace(str(question.get("id") or f"q{order}"))
+        items.append(
+            {
+                "item_id": f"{passage_id}_{_stable_code(item_id)}",
+                "item_order": order,
+                "skill": skill,
+                "difficulty_label": "medium",
+                "difficulty_offset": 0,
+                "estimated_item_lexile": anchor,
+                "question_text": _normalize_whitespace(str(question.get("question") or "")),
+                "choices": choices,
+                "correct_choice": correct_choice,
+                "rationales": {
+                    letter: (
+                        _normalize_whitespace(str(question.get("explanation") or "Supported by the passage."))
+                        if letter == correct_choice
+                        else "This choice is not the reviewed answer."
+                    )
+                    for letter in choices
+                },
+                "target_word": str(question.get("word") or "").strip(),
+                "source_question_id": item_id,
+                "source_question_type": str(question.get("type") or ""),
+            }
+        )
+    return items, flags
+
+
+def _vocab_quest_validation_flags(candidate: dict[str, Any], item_flags: list[str]) -> list[str]:
+    flags = list(dict.fromkeys(item_flags))
+    structural_errors = validate_candidate(candidate, strict_skill_coverage=False)
+    flags.extend(f"structural_{_flag(error)}" for error in structural_errors)
+    skills = [item.get("skill") for item in candidate.get("items", [])]
+    if len(skills) != 5:
+        flags.append("diagnostic_item_count_not_5")
+    if set(skills) != set(REQUIRED_SKILLS):
+        flags.append("diagnostic_skill_coverage_incomplete")
+    return list(dict.fromkeys(flags))
+
+
+def _reading_type(session: dict[str, Any]) -> str:
+    explicit = str(session.get("readingType") or "").strip()
+    if explicit:
+        return explicit
+    title = str(session.get("title") or "")
+    match = re.search(r"\[(?P<kind>[^\]]+)\]", title)
+    return match.group("kind").strip().lower() if match else "reading"
+
+
+def _genre_from_reading_type(reading_type: str, title: str) -> str:
+    normalized = reading_type.strip().lower()
+    if normalized == "informational":
+        return "informational"
+    if normalized == "literature" or "[literature]" in title.lower():
+        return "literature"
+    if normalized.startswith("pet_part") or normalized == "vocabulary" or "[vocabulary]" in title.lower():
+        return "vocabulary"
+    return normalized or "reading"
+
+
+def _normalize_skill(question: dict[str, Any]) -> tuple[str, str | None]:
+    raw_skill = str(question.get("skill") or "").strip()
+    if raw_skill:
+        skill = SKILL_ALIASES.get(raw_skill, raw_skill)
+        if skill in REQUIRED_SKILLS:
+            return skill, None if skill == raw_skill else f"skill_mapped_from_{_flag(raw_skill)}"
+        return "detail", f"skill_mapped_from_unsupported_{_flag(raw_skill)}"
+    question_text = str(question.get("question") or "").lower()
+    if "main" in question_text or "overall" in question_text or "primary goal" in question_text:
+        return "main_idea", "skill_inferred"
+    if "infer" in question_text or "imply" in question_text or "suggest" in question_text or "feel" in question_text:
+        return "inference", "skill_inferred"
+    if "what does" in question_text or "meaning" in question_text or "mean in" in question_text:
+        return "vocabulary_context", "skill_inferred"
+    if "author" in question_text or "purpose" in question_text:
+        return "structure_author_purpose", "skill_inferred"
+    return "detail", "skill_inferred"
+
+
+def _correct_choice_from_answer(options: list[str], answer: str) -> str:
+    normalized_answer = _normalize_answer(answer)
+    for index, option in enumerate(options[:4]):
+        if _normalize_answer(option) == normalized_answer:
+            return ("A", "B", "C", "D")[index]
+    return ""
+
+
+def _normalize_answer(value: str) -> str:
+    return re.sub(r"\s+", " ", value).strip().casefold().rstrip(".")
+
+
+def _stable_code(value: str) -> str:
+    cleaned = re.sub(r"[^a-zA-Z0-9]+", "", value)
+    return (cleaned or "untitled").lower()[:12]
+
+
+def _flag(value: str) -> str:
+    return re.sub(r"[^a-zA-Z0-9]+", "_", value).strip("_").lower()
+
+
+def _normalize_whitespace(value: str) -> str:
+    return re.sub(r"\s+", " ", value).strip()
 
 
 def _candidate_from_template(template: dict[str, Any]) -> dict[str, Any]:
