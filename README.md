@@ -225,6 +225,43 @@ Open:
 
 The app is served by the Python backend and calls the reading API routes directly.
 
+### Run on another computer
+
+Clone the repository, enter the project folder, and start the backend:
+
+```bash
+git clone git@github.com:xzhan/Reading-Assessment.git
+cd Reading-Assessment
+python3 backend/app.py --host 127.0.0.1 --port 8000
+```
+
+If the new computer does not have a GitHub SSH key configured, use HTTPS instead:
+
+```bash
+git clone https://github.com/xzhan/Reading-Assessment.git
+cd Reading-Assessment
+python3 backend/app.py --host 127.0.0.1 --port 8000
+```
+
+Then open:
+
+`http://127.0.0.1:8000/app/reading`
+
+Requirements:
+
+- `git`
+- `python3`, preferably Python 3.10 or newer
+
+This MVP backend mainly uses the Python standard library, so no dependency install step is required for the current reading app. If port `8000` is already in use, start it on another port:
+
+```bash
+python3 backend/app.py --host 127.0.0.1 --port 8123
+```
+
+Then open `http://127.0.0.1:8123/app/reading`.
+
+Local test data is stored in `backend/data/pet_writing.db` by default. Copy that SQLite file only if you need to move existing local assessment records to the new computer.
+
 ### Generate candidate reading bank for review
 
 Generate review files:
